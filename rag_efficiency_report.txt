@@ -1,0 +1,63 @@
+RAG EFFICIENCY REPORT
+=====================
+
+Evaluation source: evaluation.json
+Evaluation results: rag_evaluation_results.json
+Number of evaluation questions: 50
+Successfully scored questions: 41
+Failed or unscored questions: 9
+
+SUMMARY OF SCORES
+-----------------
+Average overall score: 4.15 / 5 (82.9%)
+Average faithfulness: 4.22 / 5 (84.4%)
+Average relevance: 4.49 / 5 (89.8%)
+Average citation quality: 3.83 / 5 (76.6%)
+Average answerability handling: 4.49 / 5 (89.8%)
+Average source recall: 0.51 / 1 (50.8%)
+
+WHAT THESE NUMBERS MEAN
+-----------------------
+Overall score:
+The RAG system performed well overall on the questions that received a score. An average of 4.15 out of 5 means that responses were generally useful, relevant, and reasonably grounded, but they were not consistently excellent.
+
+Faithfulness:
+This measures whether the generated answer stays supported by the retrieved paper abstracts instead of inventing facts or relying on outside knowledge. A score of 4.22 is good, but the system still occasionally adds claims that are broader or more specific than the retrieved evidence supports.
+
+Relevance:
+This measures whether the answer directly addresses the user's question. A score of 4.49 is strong. The model usually understands the question and provides a related answer.
+
+Citation quality:
+This measures whether the answer identifies and cites the supporting papers clearly. A score of 3.83 is the weakest generation-quality score. The model often mentions paper titles, but citations may be incomplete, informal, or attached to claims that were not directly supported by the retrieved context.
+
+Answerability handling:
+This measures whether the RAG answers questions that the corpus can answer and abstains when the corpus does not contain enough information. A score of 4.49 is strong. The system generally handles answerable and unanswerable questions correctly, although it may still occasionally answer beyond the available evidence.
+
+Source recall:
+This measures retrieval quality: the percentage of expected relevant papers that appeared among the top five retrieved sources. A score of 50.8% means that the retriever found about half of the papers marked as relevant in the evaluation set. This is the clearest area for improvement. A good answer can still be produced when the right paper is retrieved, but missing relevant papers limits completeness and increases the risk of unsupported answers.
+
+FAILED OR UNSCORED QUESTIONS
+----------------------------
+Nine of the 50 questions did not receive valid scores. This reduces confidence in the averages. Before treating the scores as final, inspect the "error" entries in rag_evaluation_results.json and determine whether the failures came from API limits, malformed model output, or another runtime problem.
+
+OVERALL ASSESSMENT
+------------------
+The RAG system is promising and moderately strong for this evaluation set. Its generation quality is better than its retrieval quality:
+
+- The model usually answers the question well once useful context is retrieved.
+- Retrieval is finding only about half of the expected relevant papers.
+- Citation quality needs improvement.
+- The evaluation should be rerun after fixing the nine failed cases.
+
+RECOMMENDED NEXT STEPS
+----------------------
+1. Improve retrieval before changing the language model. Consider increasing top_k from 5 to 8 or 10, tuning the embedding model, and removing duplicate or unrelated papers.
+2. Add a reranking step so the most relevant papers appear first.
+3. Require citations in a consistent format, such as the exact retrieved paper title after each factual paragraph.
+4. Log failed questions separately and rerun them until all 50 questions are scored.
+5. Report answerable and unanswerable questions separately. A single overall average can hide poor abstention behavior or poor performance on one category.
+6. Compare future changes against these baseline values rather than judging the system from one response.
+
+IMPORTANT CAVEAT
+----------------
+These scores are evaluator-model judgments, not clinical accuracy measurements. They indicate how well this particular RAG pipeline performed on this benchmark and corpus. They do not demonstrate medical reliability or suitability for clinical decision-making.

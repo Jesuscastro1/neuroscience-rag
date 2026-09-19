@@ -1,0 +1,1790 @@
+{
+  "summary": {
+    "num_questions": 50,
+    "num_successful": 41,
+    "average_faithfulness": 4.219512195121951,
+    "average_relevance": 4.487804878048781,
+    "average_citation_quality": 3.8292682926829267,
+    "average_answerability_handling": 4.487804878048781,
+    "average_overall": 4.146341463414634,
+    "average_source_recall": 0.5081300813008129
+  },
+  "results": [
+    {
+      "id": 1,
+      "question": "What major application areas of artificial intelligence in neuroscience are identified in the bibliometric literature?",
+      "expected_answerable": true,
+      "answer": "The abstracts that discuss concrete uses of AI within neuroscience point to a relatively narrow set of “major application areas.”  In particular, the review titled **“Artificial intelligence in neuroscience: opportunities and prospects: A review”** enumerates the domains in which AI methods are already being deployed:\n\n* **Clinical diagnosis and prognosis of neurological diseases** – AI‑based tools are being used to detect and classify a range of conditions, including  \n  * **Stroke**  \n  * **Traumatic brain injury (TBI)**  \n  * **Neurodegenerative disorders** such as **Parkinson’s disease**, **Alzheimer’s disease**, and **multiple sclerosis**  \n  * **Epilepsy**  \n  * **Sleep‑related disorders**  \n\nThese disease‑focused applications dominate the bibliometric picture of AI in neuroscience that the provided literature highlights.  \n\nIn addition, two editorial‑type abstracts emphasize broader, research‑oriented uses of AI in neuroscience:\n\n* Translating AI techniques to **cognitive neuroscience** to probe intrinsic brain mechanisms (e.g., “A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)”).  \n* Leveraging **brain‑inspired principles** to improve AI models themselves (e.g., “The brain as a blueprint: a survey of brain‑inspired approaches to learning in artificial intelligence”).\n\nThus, the major application areas identified in the supplied abstracts are:\n\n1. **Medical‑diagnostic AI** for stroke, TBI, neurodegenerative diseases, epilepsy, and sleep disorders.  \n2. **AI‑driven research tools** for cognitive neuroscience and brain‑mechanism exploration.  \n\n(These conclusions are drawn from the abstracts titled “Artificial intelligence in neuroscience: opportunities and prospects: A review” and the two editorial pieces on AI in cognitive neuroscience.)",
+      "retrieved_sources": [
+        {
+          "published": "2024",
+          "source": "Future views on neuroscience and AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "published": "",
+          "source": "What have we learned about artificial intelligence from studying the brain?"
+        },
+        {
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156",
+          "published": "",
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 2,
+        "relevance": 3,
+        "citation_quality": 2,
+        "answerability_handling": 4,
+        "overall": 3,
+        "reason": "The response captures some application areas (clinical diagnosis of several diseases) present in the context but omits others mentioned in the expected answer (neurological imaging, brain-computer interfaces, broader neural data analysis). It also adds broader research uses that are plausible but not explicitly tied to bibliometric literature. Citations are informal (title mentions) without proper referencing. The answer addresses the question, so answerability handling is adequate."
+      }
+    },
+    {
+      "id": 2,
+      "question": "How has publication activity at the intersection of AI and neuroscience changed over time?",
+      "expected_answerable": true,
+      "answer": "The abstracts collectively describe a clear, accelerating increase in scholarly output that links artificial intelligence (AI) with neuroscience:\n\n1. **Early emergence (1970s‑1990s)** – The paper *“A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience”* reports that AI‑neuroscience links can be traced back to the 1970s and that, beginning in the 1990s, there was a pronounced rise in AI‑focused work on neurodegenerative‑disease topics【A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience】.\n\n2. **Rapid recent expansion** – The review *“Bird’s Eye View of Artificial Intelligence in Neuroscience”* quantifies this growth, noting that AI‑related neuroscience publications have been **doubling every 4–5 years** over the past decade, driven by the adoption of CNNs, transformers and other deep‑learning methods across many sub‑disciplines【Bird’s Eye View of Artificial Intelligence in Neuroscience】.\n\n3. **Surge from the mid‑2010s onward** – A dedicated bibliometric study of 1,208 papers (1983‑2024) finds a **“notable surge in publications since the mid‑2010s,”** especially in neuro‑imaging, brain‑computer interfaces, and clinical applications, with the United States, China and the United Kingdom leading the output【A bibliometric analysis of studies on artificial intelligence in neuroscience】.\n\n4. **Qualitative perspective** – The expert‑opinion pieces *“Future views on neuroscience and AI”* and the interview with Danilo Bzdok reinforce the quantitative findings, describing the relationship as having **evolved rapidly over the past decade** and portraying AI and big‑data approaches as a paradigm shift that is reshaping neuroscience research【Future views on neuroscience and AI】; 【Danilo Bzdok】.\n\n**Overall trajectory**\n\n- **1970s‑1990s:** Foundational diffusion of AI concepts into neuroscience, with early focus on neurodegenerative disease.\n- **2000s‑early 2010s:** Continued but modest growth, setting the stage for larger methodological advances.\n- **Mid‑2010s‑present:** Accelerated publication activity, characterized by a doubling time of ~4–5 years and a marked surge in the number of papers, especially after 2015, reflecting widespread adoption of deep‑learning techniques and expanding interdisciplinary collaborations.\n\nThus, publication activity at the AI‑neuroscience interface has moved from a modest, niche presence in the late‑20th century to a rapidly expanding, high‑growth field in the 21st century, with the most pronounced increase occurring since the mid‑2010s.",
+      "retrieved_sources": [
+        {
+          "source": "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/e0d22bb9c14c1a805887a567a5140f6a407cb228"
+        },
+        {
+          "source": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+          "published": ""
+        },
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "published": ""
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        },
+        {
+          "published": "2026",
+          "source": "Danilo Bzdok.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided context, directly answers the question about publication trends, includes appropriate inline citations for each claim, and correctly handles the answerable question without unnecessary abstention."
+      }
+    },
+    {
+      "id": 3,
+      "question": "Which countries are highlighted as leading contributors to AI and neuroscience research?",
+      "expected_answerable": true,
+      "answer": "The bibliometric study explicitly identifies the **United States, China, and the United Kingdom** as the pioneering countries contributing most prominently to artificial‑intelligence‑driven neuroscience research【A bibliometric analysis of studies on artificial intelligence in neuroscience】.  \n\nNo other provided abstracts mention specific nations, so these three are the only countries highlighted as leading contributors in the given papers.",
+      "retrieved_sources": [
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89"
+        },
+        {
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI."
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/e0d22bb9c14c1a805887a567a5140f6a407cb228",
+          "source": "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience"
+        },
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+          "source": "Danilo Bzdok."
+        },
+        {
+          "source": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+          "published": ""
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly lists United States, China, and United Kingdom as the leading contributors, directly matches the context, cites the appropriate source, and handles the answerable question appropriately."
+      }
+    },
+    {
+      "id": 4,
+      "question": "What ethical and methodological issues should future AI-in-neuroscience research address?",
+      "expected_answerable": true,
+      "answer": "**Ethical issues that future AI‑in‑neuroscience work should confront**\n\n| Issue | Why it matters (as highlighted in the abstracts) | Source |\n|-------|--------------------------------------------------|--------|\n| **Neural‑data privacy and cognitive privacy** | Protecting the highly sensitive information that can be extracted from brain recordings or neuro‑imaging is repeatedly flagged as a core concern. | “Cognitive Hybridization…”, “A bibliometric analysis of studies on artificial intelligence in neuroscience” |\n| **Autonomy and agency** | As brain‑computer interfaces enable reciprocal brain‑AI interactions, safeguarding the user’s sense of self‑control and decision‑making becomes essential. | “Cognitive Hybridization…”, “Artificial Intelligence and Neuroscience…” |\n| **Cognitive justice & equitable access** | The prospect of cognitive enhancement raises questions about fair distribution of benefits and avoidance of new social inequities. | “Cognitive Hybridization…”, “Artificial Intelligence and Neuroscience…” |\n| **Transparency and explainability** | Many AI models remain “black‑boxes,” which hampers trust, accountability, and ethical oversight. | “Artificial Intelligence and Neuroscience…”, “A bibliometric analysis…”, “The application of eXplainable artificial intelligence in studying cognition” |\n| **Bias and fairness** | AI systems trained on skewed datasets may propagate or amplify biases in diagnosis or treatment recommendations. | Implied in calls for “transparent, equitable” approaches (Artificial Intelligence and Neuroscience…) |\n| **Neuro‑ethical frameworks** | Existing ethical guidelines are insufficient for the emerging human‑AI co‑evolution; updated theoretical and regulatory structures are needed. | “Cognitive Hybridization…”, “Artificial Intelligence and Neuroscience…” |\n\n**Methodological issues that need to be resolved**\n\n| Issue | Rationale from the abstracts | Source |\n|-------|------------------------------|--------|\n| **Multimodal data integration** | AI must combine neuroimaging, electrophysiology, genomics, etc., but integrating heterogeneous data remains a technical hurdle. | “Artificial Intelligence and Neuroscience…” |\n| **Interpretability & explainability of models** | The “black‑box” nature of deep learning limits scientific insight; XAI methods are being explored but still face limitations. | “Artificial Intelligence and Neuroscience…”, “A bibliometric analysis…”, “The application of eXplainable artificial intelligence…” |\n| **Reproducibility and robustness** | Current XAI studies show “oversimplification, confounding factors, and inconsistencies,” underscoring the need for reproducible pipelines. | “The application of eXplainable artificial intelligence in studying cognition” |\n| **Causal inference vs. correlation** | Most XAI findings are correlational; establishing causality in brain‑AI relationships is a methodological gap. | “The application of eXplainable artificial intelligence…” |\n| **Handling confounding variables and oversimplification** | Simplified AI models may miss critical neural dynamics, leading to misleading conclusions. | “The application of eXplainable artificial intelligence…” |\n| **Validation on diverse populations** | Bibliometric analysis notes rapid growth but calls for addressing “data privacy concerns, and interpretability” to ensure models generalize across demographics. | “A bibliometric analysis of studies on artificial intelligence in neuroscience” |\n| **Interdisciplinary collaboration and standards** | The field’s rapid expansion across countries and disciplines calls for shared standards, reporting guidelines, and collaborative frameworks. | “A bibliometric analysis…”, “Future views on neuroscience and AI.” |\n\n**Summary**\n\nFuture AI‑in‑neuroscience research must simultaneously advance methodological rigor—especially in data integration, model interpretability, reproducibility, and causal inference—and embed robust ethical safeguards that protect neural and cognitive privacy, preserve autonomy, ensure fairness, and provide transparent, accountable frameworks for human‑AI co‑evolution. These priorities are repeatedly emphasized across the reviewed abstracts.",
+      "retrieved_sources": [
+        {
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe"
+        },
+        {
+          "source": "Cognitive Hybridization: Redefining Human Identity at the Interface of Neuroscience and Artificial Intelligence: A Narrative Review",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/caa813645b81b070f146293c35cd0712c2f26cd9"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "published": "",
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+        },
+        {
+          "source": "Future views on neuroscience and AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "published": "2024"
+        },
+        {
+          "published": "",
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review",
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980"
+        }
+      ],
+      "source_recall": 0.5,
+      "scores": {
+        "faithfulness": 4,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response accurately reflects the ethical and methodological issues mentioned in the provided abstracts and stays on topic, but it includes a few inferred points (e.g., bias) not explicitly stated and cites sources only by title without detailed references, preventing a perfect score."
+      }
+    },
+    {
+      "id": 5,
+      "question": "Which neural-network families are described as increasingly important across neuroscience subdisciplines?",
+      "expected_answerable": true,
+      "answer": "The abstracts point to **artificial neural‑network families—particularly deep‑learning models (i.e., deep neural networks) and more generally ANNs—as becoming ever more central across many areas of neuroscience**.  \n\n* The survey of brain‑inspired approaches notes that “deep learning has driven exponential breakthroughs …” and that its core components (neurons, non‑linear activations, complex architectures) are now widely used to model perception and cognition (“The brain as a blueprint…”) 【The brain as a blueprint: a survey of brain‑inspired approaches to learning in artificial intelligence】.  \n* The NeuroAI workshop commentary highlights that “Successes in fitting ANNs to increasingly large neuroscience datasets … must not distract us …” indicating that artificial neural networks are now being applied throughout diverse neuroscience subdisciplines (“Artificial intelligence meets brain theory (again)”) 【Artificial intelligence meets brain theory (again)】.  \n\nThus, deep‑learning/ANN families are described as increasingly important across neuroscience subdisciplines.",
+      "retrieved_sources": [
+        {
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI."
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)"
+        },
+        {
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b"
+        },
+        {
+          "source": "Artificial intelligence meets brain theory (again)",
+          "url": "https://www.semanticscholar.org/paper/2ec1205c6093c0f163b1cc095212652ba929ce30",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 2,
+        "relevance": 2,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 2,
+        "reason": "The response mentions deep learning and ANNs generally, but fails to name the specific families (convolutional neural networks and transformer-based large language models) expected. Citations are present and correctly formatted, and it does attempt an answer rather than abstaining, but the answer is incomplete and not fully faithful to the expected answer."
+      }
+    },
+    {
+      "id": 6,
+      "question": "How can machine learning support precision medicine for temporal lobe epilepsy?",
+      "expected_answerable": true,
+      "answer": "**Machine‑learning can advance precision medicine for temporal‑lobe epilepsy (TLE) in several concrete ways that are documented in the supplied abstracts.**\n\n| How ML contributes | Evidence from the abstracts |\n|--------------------|------------------------------|\n| **Data‑driven identification of biologically meaningful sub‑types** – Unsupervised ML (the Subtype and Stage Inference algorithm) applied to cross‑sectional MRI separates patients into four reproducible “biotypes” (left‑hippocampus‑predominant, right‑hippocampus‑predominant, cortex‑predominant, and a non‑atrophic group with amygdala enlargement). | “Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.” |\n| **Linking sub‑types to disease trajectory** – Each biotype shows a distinct neuroanatomical signature, pattern of disease progression, and seizure‑frequency profile, indicating that they reflect different pathobiological pathways. | Same paper as above. |\n| **Predicting individual treatment response** – Five‑year follow‑up showed that seizure outcomes differ across the four sub‑types; some groups are more likely to benefit from temporal‑lobe surgery, whereas others may respond better to pharmacological therapy. | Same paper as above. |\n| **Enabling stratified clinical trials and prognostication** – By classifying patients into homogeneous sub‑groups, ML facilitates more accurate prognostic modelling and the design of trials that target the specific biology of each biotype. | Same paper as above. |\n| **Automated, reproducible neuro‑image analysis** – ML/DL algorithms can process large neuro‑imaging datasets (MRI, functional connectivity, etc.) with higher speed and consistency than manual reading, reducing human error and making the sub‑typing pipeline scalable to routine clinical practice. | “Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making: A narrative review.” |\n| **Decision‑support for personalized therapy** – AI‑driven tools that integrate imaging phenotypes with clinical data can generate individualized treatment recommendations (e.g., surgery vs. medication) at the point of care. | Same narrative review, which notes AI’s role in “personalize therapeutic interventions.” |\n| **Facilitating discovery of novel biomarkers** – Machine‑learning models can uncover subtle patterns in MRI (e.g., early cortical thinning, amygdala enlargement) that are not apparent to human observers, providing new biomarkers for precision treatment selection. | Same narrative review and the systematic review on AI‑driven CAD, which highlight AI’s ability to “revamp medical images” and support “computer‑aided diagnosis and prognosis.” |\n| **Integrating multimodal data** – Although the TLE study used only structural MRI, the broader AI literature shows that ML can combine imaging with electrophysiology, genomics, and behavioral data, potentially refining biotype definitions and therapeutic predictions. | “Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making” and “A bibliometric analysis of studies on artificial intelligence in neuroscience.” |\n\n### Synthesis  \n\n1. **Subtype discovery** provides the biological foundation for precision medicine: patients are no longer treated as a homogeneous “TLE” group but as members of distinct biotypes with specific anatomical and clinical signatures.  \n2. **Prognostic modeling** using these biotypes predicts who will achieve seizure freedom after surgery versus who may need continued medication, enabling clinicians to tailor interventions.  \n3. **Scalable, automated imaging pipelines** powered by ML make the sub‑typing process feasible in real‑world settings, ensuring reproducibility and reducing reliance on expert visual rating.  \n4. **Future extensions** (as suggested by the broader AI reviews) could integrate functional imaging, EEG, or genetic information, further sharpening individualized treatment plans and accelerating drug‑discovery efforts for TLE.\n\n**In short, machine‑learning supports precision medicine for temporal‑lobe epilepsy by (1) uncovering reproducible imaging‑based biotypes, (2) linking those biotypes to distinct disease courses and treatment outcomes, and (3) providing automated, data‑driven decision‑support tools that enable clinicians to select the most appropriate surgical or pharmacological strategy for each patient.**",
+      "retrieved_sources": [
+        {
+          "source": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/"
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/7fe1d763fd5318329a042302443b14f08d10dde5",
+          "source": "Charting a New Frontier in Neurology with Artificial Intelligence"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/646b823fe1a4a1b67c953f0101e29b7b61c3ba2d",
+          "source": "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "published": ""
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided abstracts, stays on topic by describing how ML supports precision medicine for TLE, cites the sources appropriately (though without granular detail), correctly answers an answerable question, and offers a clear, concise synthesis."
+      }
+    },
+    {
+      "id": 7,
+      "question": "How many temporal-lobe epilepsy phenotypes were identified in the MRI study, and what broad patterns distinguished them?",
+      "expected_answerable": true,
+      "answer": "The MRI‑based machine‑learning study identified **four temporal‑lobe epilepsy (TLE) phenotypes**【Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images】.  \n\nThe phenotypes fell into three broad neuroanatomical patterns:\n\n1. **Hippocampus‑predominant phenotypes** – two subtypes in which atrophy starts in the hippocampus, one with left‑sided hippocampal atrophy and the other with right‑sided hippocampal atrophy.  \n2. **Cortex‑predominant phenotype** – a subtype in which neocortical (cortical) atrophy precedes, and is more prominent than, hippocampal atrophy.  \n3. **Non‑atrophic phenotype with amygdala enlargement** – a subtype that shows no measurable atrophy elsewhere but is characterized by enlargement of the amygdala.  \n\nThus, four distinct TLE phenotypes were delineated, distinguished by whether atrophy was hippocampal‑left, hippocampal‑right, cortical‑first, or absent with amygdala enlargement.",
+      "retrieved_sources": [
+        {
+          "published": "2024",
+          "source": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/"
+        },
+        {
+          "published": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40286928/",
+          "source": "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39740776/",
+          "published": "2025",
+          "source": "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning."
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba"
+        },
+        {
+          "source": "Focality in childhood absence epilepsy.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38643974/"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reports the four TLE phenotypes and the three broad neuroanatomical patterns as described in the provided context, directly addresses the question, includes a proper citation to the source, and correctly handles an answerable query."
+      }
+    },
+    {
+      "id": 8,
+      "question": "What is the potential role of AI in adult stroke recovery and rehabilitation?",
+      "expected_answerable": true,
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01km8z145rfrdvmrxt37bqs24g` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5100, Requested 3120. Please try again in 1.65s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "id": 9,
+      "question": "Which sensor and modeling approaches are mentioned for upper-limb stroke rehabilitation?",
+      "expected_answerable": true,
+      "answer": "The scoping review on adult stroke recovery notes that **inertial measurement units (IMUs)** are the primary sensor used to capture upper‑limb and functional‑movement data.  For analyzing these data, the review lists a range of **modeling approaches**, including:\n\n* **Machine‑learning (ML) methods** – general supervised‑learning algorithms applied to the sensor streams.  \n* **Deep‑learning techniques**, especially artificial neural networks (ANNs), which have been increasingly adopted for upper‑limb analysis.  \n* **Supervised‑learning frameworks** more broadly (e.g., classification and regression models).  \n* The review also mentions the later inclusion of **natural‑language‑processing (NLP)** methods, though these are not specific to upper‑limb work.\n\nThese sensor and modeling choices are highlighted in the abstract titled **“AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.”**",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/",
+          "source": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.",
+          "published": "2024"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/937ab0f313a78eabc2d8333040be547a25418acc",
+          "published": "",
+          "source": "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems."
+        },
+        {
+          "published": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39571386/",
+          "source": "Sparse Bayesian correntropy learning for robust muscle activity reconstruction from noisy brain recordings."
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156",
+          "published": ""
+        },
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40993190/",
+          "source": "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants."
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 4,
+        "relevance": 5,
+        "citation_quality": 2,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response correctly identifies IMUs as the sensor and mentions machine learning and deep learning as modeling approaches, matching the context. It adds extra details (supervised learning, NLP) that are not specifically tied to upper‑limb work, slightly reducing faithfulness. No citations are provided, lowering citation quality. The answer addresses the question appropriately, so answerability handling is good."
+      }
+    },
+    {
+      "id": 10,
+      "question": "What problem does Predictive Coding Light address in artificial and biological neural networks?",
+      "expected_answerable": true,
+      "answer": "Predictive Coding Light (PCL) is introduced to tackle the **energy‑efficiency problem** that separates current artificial learning systems from biological brains.  Conventional machine‑learning networks consume orders of magnitude more power than the brain, and existing neuromorphic approaches have not yet shown how **spiking‑neuron networks—both artificial and natural—can learn to process information in an energy‑conserving way**.  PCL addresses this gap by using a hierarchical recurrent spiking architecture that **suppresses the most predictable spikes and only transmits a compressed representation of the input**, thereby avoiding the transmission of full prediction‑error signals to higher layers and enabling more energy‑efficient coding in both artificial and biological spiking networks【Predictive Coding Light】.",
+      "retrieved_sources": [
+        {
+          "published": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41053084/",
+          "source": "Predictive Coding Light."
+        },
+        {
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        },
+        {
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39567436/",
+          "source": "Neuromorphic engineering: Artificial brains for artificial intelligence."
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/75f3a652552587fd938425dc1c53444ced69ecf2",
+          "source": "ARTIFICIAL INTELLIGENCE WITH NEURAL NETWORKS NOBEL PRIZES IN PHYSICS AND CHEMISTRY 2024",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/418a6488a7033cc0bc0829231109f59ac581dd70",
+          "source": "Neuromorphic engineering: Artificial brains for artificial intelligence",
+          "published": ""
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided context, directly answers the question about the problem addressed by Predictive Coding Light, includes a proper citation to the source, and correctly handles the answerability by providing the answer."
+      }
+    },
+    {
+      "id": 11,
+      "question": "How does Predictive Coding Light differ from earlier predictive-coding approaches?",
+      "expected_answerable": true,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/9c406826a484e03141547ee9a7b6585e51c1da16",
+          "published": "",
+          "source": "A Systematic Review of the Impact of Artificial Intelligence, Digital Technology, and Social Media on Cognitive Functions"
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.08826v1",
+          "published": "2026-09-08 14:49:13+00:00",
+          "source": "A Closed-Form Estimator and Diagnostic Battery for Anchor-Judge Error Correlation, Under a Single-Common-Factor Model"
+        },
+        {
+          "published": "",
+          "source": "Survey of Explainability, Interpretability, and Fairness in Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/56d9a3558b1728d26dab823ce734d2a8525f502a"
+        },
+        {
+          "published": "2026-09-08 17:12:24+00:00",
+          "url": "http://arxiv.org/abs/2609.09056v1",
+          "source": "Time-Varying Data as Sheaves: an Invitation to Narratives"
+        },
+        {
+          "published": "2026-09-08 17:31:38+00:00",
+          "url": "http://arxiv.org/abs/2609.09081v1",
+          "source": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 1,
+        "relevance": 1,
+        "citation_quality": 1,
+        "answerability_handling": 1,
+        "overall": 1,
+        "reason": "The response incorrectly claims the question is unaddressed despite the evaluation indicating it is answerable, provides no citations, and fails to supply the expected answer."
+      }
+    },
+    {
+      "id": 12,
+      "question": "Why are neuromorphic systems considered relevant to neuroscience-inspired AI?",
+      "expected_answerable": true,
+      "answer": "Neuromorphic systems are viewed as a key bridge between the brain and artificial intelligence for several inter‑related reasons that emerge directly from the abstracts:\n\n1. **Emulation of brain‑like structures and dynamics** – Neuromorphic computing is explicitly described as “aiming to emulate the neural structures and functionalities of the human brain” and to “mirror human cognitive functions”【Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence】. This direct biological mimicry makes the technology a natural platform for neuroscience‑inspired AI.\n\n2. **Energy‑efficient, real‑time processing** – The same review highlights that neuromorphic hardware can deliver “real‑time processing and energy‑efficient computations,” attributes that are essential for scaling brain‑inspired algorithms to practical AI systems【Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence】.\n\n3. **Design principles derived from neurobiology** – The position paper on “Bridging Brains and Machines” points out that neuromorphic systems incorporate core neuro‑biological mechanisms such as “synaptic plasticity, sparse spike‑based communication, and multimodal association.” These principles are presented as the blueprint for next‑generation AI that aspires to human‑like intelligence【Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems】.\n\n4. **Cross‑disciplinary integration** – Both “Neuromorphic engineering: Artificial brains for artificial intelligence” abstracts emphasize that the field “tries to bridge the gaps between neuroscience and engineering, cognition and algorithms, and natural and artificial intelligence,” positioning neuromorphic systems as the connective tissue that translates neuroscientific insights into engineered AI solutions【Neuromorphic engineering: Artificial brains for artificial intelligence】.\n\n5. **Potential to overcome conventional hardware limits** – By breaking the “von Neumann bottleneck” through emerging substrates (memristive crossbars, in‑memory compute arrays, etc.), neuromorphic platforms promise “brain‑scale efficiency in silicon,” a prerequisite for deploying large‑scale, brain‑inspired AI models efficiently【Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems】.\n\n6. **Catalyst for broader brain‑inspired AI research** – The broader “Brain‑Inspired Artificial Intelligence” review lists neuromorphic hardware alongside spiking neural networks and biologically‑inspired learning algorithms as central technologies that “improve the efficiency, scalability, and adaptability of machine learning algorithms,” reinforcing its relevance to the overall neuroscience‑driven AI agenda【Brain‑Inspired Artificial Intelligence: Revolutionizing Computing and Cognitive Systems】.\n\n**In summary**, neuromorphic systems are considered relevant to neuroscience‑inspired AI because they directly emulate neural architecture and dynamics, deliver energy‑efficient real‑time computation, embody neurobiological design principles (plasticity, spiking, sparsity), serve as a bridge between neuroscience and engineering, and offer hardware pathways to overcome traditional computational bottlenecks—thereby enabling AI systems that more closely resemble human brain function.",
+      "retrieved_sources": [
+        {
+          "published": "",
+          "source": "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/1a49711d1a6abc5044758866a6f0122c41270f6e"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/418a6488a7033cc0bc0829231109f59ac581dd70",
+          "source": "Neuromorphic engineering: Artificial brains for artificial intelligence"
+        },
+        {
+          "source": "Neuromorphic engineering: Artificial brains for artificial intelligence.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39567436/"
+        },
+        {
+          "source": "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/8aa48b6b3c59cbf17a6bb7de222323947562b312"
+        },
+        {
+          "source": "Brain-Inspired Artificial Intelligence: Revolutionizing Computing and Cognitive Systems",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/7099c47ceecb95e894315e919212f6f26fb6095e"
+        }
+      ],
+      "source_recall": 0.6666666666666666,
+      "scores": {
+        "faithfulness": 4,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response is well‑grounded in the provided context and cites sources correctly, addressing the relevance of neuromorphic systems to neuroscience‑inspired AI. It covers the expected point about energy‑efficient, spike‑based coding and adds additional accurate details, which slightly deviates from the concise expected answer but remains faithful and highly relevant."
+      }
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of AI-guided electron microscopy in neuroscience?",
+      "expected_answerable": true,
+      "answer": "AI‑guided electron microscopy is intended to make the acquisition of ultra‑high‑resolution connectomic data faster and more efficient. By embedding machine‑learning models directly into the scanning electron microscope, the system can “look ahead” during imaging, rapidly scan all pixels and then spend additional time only on the small sub‑areas that need higher‑quality signal. This data‑aware approach allocates imaging resources where they are most needed, reducing the overall acquisition time by up to ~7‑fold while preserving the accuracy required for reconstructing neural circuits (SmartEM: machine learning‑guided electron microscopy). In short, the purpose is to speed up EM imaging to overcome the current rate‑limiting step in automated connectomics, thereby expanding access to whole‑brain or whole‑circuit reconstructions.  \n\n**Citation:** SmartEM: machine learning‑guided electron microscopy.",
+      "retrieved_sources": [
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41461905/",
+          "source": "SmartEM: machine learning-guided electron microscopy."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        },
+        {
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "published": ""
+        },
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd"
+        },
+        {
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the context, directly answers the purpose, cites the correct source, and correctly handles answerability."
+      }
+    },
+    {
+      "id": 14,
+      "question": "How can synthetic task-based brain fingerprints be useful in population neuroscience?",
+      "expected_answerable": true,
+      "answer": "Synthetic task‑based brain “fingerprints” – i.e., contrast maps that would normally be obtained from a cognitive‑task fMRI scan – can be generated from resting‑state fMRI using a deep‑learning model (DeepTaskGen).  According to the abstract *“Generating synthetic task‑based brain fingerprints for population neuroscience using deep learning,”* this approach makes the fingerprints useful for population‑scale neuroscience in several ways:\n\n1. **Scalability and coverage** – Because the synthetic maps are derived from readily available resting‑state data, researchers can bypass the logistical and cognitive demands of running many different tasks on thousands of participants.  The authors applied the method to more than 20 000 UK‑Biobank subjects, producing 47 contrast maps from seven tasks, which would be infeasible with conventional task‑based fMRI.\n\n2. **Preservation of individual differences** – DeepTaskGen “retains inter‑individual variation essential for biomarker development,” meaning that the synthetic fingerprints still reflect person‑specific neural signatures that can be used to study variability across a population.\n\n3. **Predictive utility for phenotypes** – The synthetic maps showed “comparable or superior predictive performance … relative to actual maps and rs‑connectomes across diverse demographic, cognitive, and clinical variables.”  Thus they can serve as functional biomarkers for traits or disease states in large cohorts.\n\n4. **Enabling arbitrary task generation** – By synthesizing “arbitrary functional cognitive tasks” from resting‑state scans, researchers can explore many task conditions without needing to acquire new data, facilitating the creation of new task‑related biomarkers and the investigation of how different cognitive processes vary across individuals.\n\nOverall, synthetic task‑based brain fingerprints provide a practical, high‑throughput way to incorporate rich task‑evoked functional information into population neuroscience studies, expanding the range of analyses that can be performed on large, existing resting‑state datasets.  (Source: *Generating synthetic task‑based brain fingerprints for population neuroscience using deep learning*)",
+      "retrieved_sources": [
+        {
+          "published": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41238730/",
+          "source": "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning."
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "published": ""
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        },
+        {
+          "published": "2025",
+          "source": "Foundation model of neural activity predicts response to new stimulus types.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40205215/"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided context, directly addresses the question, cites the source appropriately, and correctly handles an answerable query."
+      }
+    },
+    {
+      "id": 15,
+      "question": "What does BrainAGE attempt to estimate?",
+      "expected_answerable": true,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence"
+        },
+        {
+          "source": "Artificial intelligence meets brain theory (again)",
+          "url": "https://www.semanticscholar.org/paper/2ec1205c6093c0f163b1cc095212652ba929ce30",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "published": ""
+        },
+        {
+          "source": "Danilo Bzdok.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "source": "What have we learned about artificial intelligence from studying the brain?"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 2,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response accurately reflects the provided context (which contains no mention of BrainAGE), so it is faithful and relevant. It correctly abstains from fabricating an answer, handling answerability well. However, it provides no citations, which lowers citation quality. The overall score reflects strong adherence to the context but lack of citation support."
+      }
+    },
+    {
+      "id": 16,
+      "question": "What kinds of brain information can machine learning use to derive biomarkers from EEG?",
+      "expected_answerable": true,
+      "answer": "**Kinds of brain information that machine‑learning can exploit to build EEG‑based biomarkers (as reported in the supplied abstracts)**  \n\n| Source (abstract) | Brain‑related information that can be fed to ML / AI models | How it is used for biomarker derivation |\n|-------------------|--------------------------------------------------------------|------------------------------------------|\n| **“Machine learning of brain‑specific biomarkers from EEG.”** | • **Traditional spectral features** – e.g., log‑power of EEG bands. <br>• **Time‑frequency representations** obtained with Morlet wavelets. <br>• **Spatial covariance matrices** that capture the relationships among channels and are used by state‑of‑the‑art ML pipelines. | These representations allow the model to isolate CNS‑originating activity and predict personal traits (age, sex). The study shows that when peripheral (non‑brain) artefacts are removed, performance relies mainly on the brain‑derived features. |\n| **“Artificial Intelligence for EEG Extraction.”** | • **AI‑driven feature extraction** from raw EEG signals, encompassing both frequency‑domain and time‑domain characteristics. <br>• **Classification‑ready representations** generated by modern AI algorithms (e.g., deep‑learning encoders). | The review highlights that AI methods can automatically discover informative patterns in EEG that reflect underlying brain function, which can then serve as biomarkers for health‑related applications. |\n| **“Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience.”** | • **Wavelet‑decomposition based features** (optimised wavelet approaches). <br>• **Hilbert‑transform based features** used in CNN architectures. <br>• **Learned representations** from label‑free autoencoders and multimodal deep‑learning systems. | These diverse feature families—spectral (wavelet, Hilbert), spatial (covariance), and deep‑learned embeddings—are compared for tasks such as disease diagnosis (Alzheimer’s, epilepsy) and BCI, demonstrating their utility as EEG biomarkers. |\n| **“Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making.”** (narrative review) | • **Broad electrophysiological descriptors** derived from large‑scale EEG datasets (e.g., functional connectivity patterns, event‑related potentials) that AI can model. | Although not detailed, the review notes that AI can interpret “vast and complex neurological datasets” including electrophysiology, implying that any quantifiable EEG signal (spectral power, connectivity, temporal dynamics) can become a biomarker when processed with ML/DL. |\n\n### Summary  \n\nMachine‑learning approaches can draw on several kinds of **brain‑derived information** from EEG to create biomarkers:\n\n1. **Spectral power measures** (e.g., log‑power of traditional frequency bands).  \n2. **Time‑frequency representations** such as Morlet wavelet coefficients.  \n3. **Spatial covariance / correlation matrices** that encode inter‑channel relationships.  \n4. **Wavelet‑decomposed features** and **Hilbert‑transform derived amplitudes/phase** used in deep‑learning pipelines.  \n5. **Deep‑learned embeddings** from autoencoders, CNNs, or other neural‑network architectures that capture complex, possibly non‑linear patterns.  \n6. **Higher‑level electrophysiological descriptors** (functional connectivity, event‑related potentials) that AI can model at scale.\n\nThese diverse signal representations allow ML models to isolate CNS‑specific activity and translate it into quantitative biomarkers for personal characteristics, disease detection, and other neuroscientific applications.  \n\n*Sources: “Machine learning of brain‑specific biomarkers from EEG”; “Artificial Intelligence for EEG Extraction”; “Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience”; “Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making.”*",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39106531/",
+          "published": "2024",
+          "source": "Machine learning of brain-specific biomarkers from EEG."
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/b2c1b5708482dcc638fbbe775a4596b932aece09",
+          "source": "Artificial Intelligence for EEG Extraction",
+          "published": ""
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": ""
+        },
+        {
+          "source": "Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience",
+          "url": "https://www.semanticscholar.org/paper/243b046eabf13e80f25e480bf39a31b0335df16a",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response accurately reflects the information present in the provided abstracts, directly answers the question, and cites each source appropriately though without granular pinpoint citations. It handles answerability correctly by providing a complete answer."
+      }
+    },
+    {
+      "id": 17,
+      "question": "What is the role of attention-based models in epilepsy prediction and detection according to the corpus?",
+      "expected_answerable": true,
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01km8z145rfrdvmrxt37bqs24g` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5747, Requested 2807. Please try again in 4.155s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "id": 18,
+      "question": "What does a neural-activity foundation model aim to predict?",
+      "expected_answerable": true,
+      "answer": "A neural‑activity foundation model is trained to **predict how individual neurons will fire in response to visual input** – that is, to generate the expected neuronal response to arbitrary visual stimuli.  In the reported work the model was first tasked with predicting responses to natural‑movie clips and then showed the ability to generalize to completely new stimulus domains such as coherent motion and noise patterns, even in mice that were not part of the training set.  Beyond stimulus‑evoked activity, the same model was also able to **predict anatomical attributes** of the recorded cells, including cell type, dendritic morphology and connectivity patterns within a large‑scale functional connectomics dataset.  \n\n*Source: “Foundation model of neural activity predicts response to new stimulus types.”*",
+      "retrieved_sources": [
+        {
+          "published": "2025",
+          "source": "Foundation model of neural activity predicts response to new stimulus types.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40205215/"
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": ""
+        },
+        {
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)"
+        },
+        {
+          "published": "",
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the context, directly answers the question about predicting neuronal responses to visual stimuli (including novel stimulus types), cites the appropriate source, and correctly handles an answerable query."
+      }
+    },
+    {
+      "id": 19,
+      "question": "How can AI support research on brain tumors?",
+      "expected_answerable": true,
+      "answer": "AI can bolster brain‑tumor research at several stages, from data handling to clinical translation:\n\n1. **Image‑based tumor detection and segmentation**  \n   * Deep convolutional networks are highlighted as powerful tools for **brain‑tumor segmentation** and for fusing imaging with clinical information, enabling precise delineation of tumor boundaries【Artificial Intelligence in Brain Tumors】.  \n   * Automated lesion‑detection pipelines that **reduce human error** and raise diagnostic accuracy are described as key clinical AI applications in neuroimaging【Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making】.  \n\n2. **Radiomics and feature‑driven prediction**  \n   * AI‑driven radiomics extracts quantitative features from MRI or other scans, which can be fed to machine‑learning models to make **prognostic or therapeutic predictions** about brain tumors【Artificial Intelligence in Brain Tumors】.  \n\n3. **Early diagnosis and tumor localization**  \n   * By analysing patient MRI data, AI systems can **identify and localize brain‑tumor sites early**, supporting timely intervention【NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor】.  \n\n4. **Data preprocessing and augmentation**  \n   * Effective AI pipelines require careful **pre‑processing and data‑augmentation** to improve model robustness, especially when training on limited neuro‑imaging datasets【Artificial Intelligence in Brain Tumors】.  \n\n5. **Integration of multimodal data**  \n   * Fusion of clinical records with imaging data through deep‑learning models enables a **more comprehensive view of tumor biology**, aiding research into disease mechanisms and personalized treatment strategies【Artificial Intelligence in Brain Tumors】.  \n\n6. **Accelerating drug discovery and therapeutic modeling**  \n   * AI‑driven drug‑discovery platforms can model neuropharmacology and **identify candidate compounds** for brain‑tumor therapy, shortening the translational pipeline【Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making】.  \n\n7. **Facilitating large‑scale research and collaboration**  \n   * Bibliometric analyses show a rapid growth in AI‑based neuroscience studies, indicating expanding **collaborative networks** that can be leveraged for multicenter brain‑tumor research【A bibliometric analysis of studies on artificial intelligence in neuroscience】.  \n\nIn summary, AI supports brain‑tumor research by (a) automating and improving image analysis (segmentation, detection, localization), (b) extracting and modeling radiomic features for prediction, (c) integrating multimodal clinical‑imaging data, (d) enhancing data quality through preprocessing/augmentation, and (e) speeding up therapeutic discovery—all of which collectively advance early diagnosis, precision medicine, and collaborative investigation of brain tumors.",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523267/",
+          "source": "Artificial Intelligence in Brain Tumors.",
+          "published": "2024"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/18538c717d5b102acc152dfdfe40e1b8c37c4498",
+          "source": "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor"
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "published": ""
+        },
+        {
+          "published": "",
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89"
+        },
+        {
+          "source": "FEBS‐IUBMB‐ENABLE Conference crosses seven seas: Report on the 3rd International Molecular Biosciences PhD and Postdoc Conference—“Artificial intelligence: reshaping biomedical and healthcare research”",
+          "url": "https://www.semanticscholar.org/paper/f503bc70dd1dfc360fcfbef36fa133712737e840",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.6666666666666666,
+      "scores": {
+        "faithfulness": 4,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response accurately covers most points from the context (image segmentation, radiomics, early diagnosis, preprocessing, multimodal integration, bibliometric trends) and stays on topic, but the claim about AI‑driven drug discovery for brain‑tumor therapy is only implied in the broader discussion of neuropharmacology, making it a slight over‑extension. Citations are present but not pinpointed to exact passages, so citation quality is good but not perfect. Overall the answer is relevant, correctly handles answerability, and is largely faithful."
+      }
+    },
+    {
+      "id": 20,
+      "question": "What is a central benefit of explainable AI in neuroscience and healthcare?",
+      "expected_answerable": true,
+      "answer": "A key advantage of eXplainable AI (XAI) in both neuroscience research and clinical practice is that it makes the inner workings of AI models transparent, allowing users to see *why* a prediction or inference is produced.  This transparency improves trust, testability and robustness of the models, and lets clinicians and neuroscientists evaluate the plausibility of the results before they are used for diagnosis, treatment planning or the study of cognitive mechanisms.  As a result, XAI can support more accurate, precise and equitable care while enabling humans to retain the final, accountable decision‑making role【The application of eXplainable artificial intelligence in studying cognition: A scoping review】.  Physicians also stress that AI systems that “function transparently” and produce “impartial results” are essential for fair, innovative healthcare that assists rather than replaces human professionals【Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study】.",
+      "retrieved_sources": [
+        {
+          "published": "",
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980",
+          "published": "",
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review"
+        },
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "published": ""
+        },
+        {
+          "published": "",
+          "source": "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+          "url": "https://www.semanticscholar.org/paper/bdb3a405c9148662f118c0c72bf78a5f1f4b31a7"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d",
+          "source": "An Overview of Artificial Intelligence in Neurology"
+        }
+      ],
+      "source_recall": 0.5,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the context by stating that XAI provides transparency and interpretability, which enhances trust, testability, robustness, and accountability in neuroscience and healthcare. It directly answers the question, cites appropriate sources, and correctly handles the answerability of the query."
+      }
+    },
+    {
+      "id": 21,
+      "question": "What is the relationship between computational neuroscience and artificial intelligence described by the corpus?",
+      "expected_answerable": true,
+      "answer": "The corpus depicts a **bidirectional, evolving partnership** between computational neuroscience and artificial intelligence (AI):\n\n1. **Neuroscience as a source of inspiration for AI** –  \n   - Several abstracts emphasize that key principles of biological neural networks (e.g., neuronal units, non‑linear activations, attention‑related architectures) have been transplanted into deep‑learning models, driving major breakthroughs in perception and cognition (**“The brain as a blueprint…”,**).  \n   - Historical analyses note that many AI innovations were **“loosely inspired by the brain”** and that discoveries in neuroscience have often **“driven the development of new AI technology”** (**“What have we learned about artificial intelligence from studying the brain?”**).\n\n2. **AI as a tool for advancing neuroscience** –  \n   - The rapid development of robust AI models is reshaping how researchers probe brain mechanisms, opening the door to **“significant breakthroughs”** in cognitive neuroscience (**“A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)”**).  \n   - Expert commentaries describe the relationship as one where the two fields **“influence and stimulate each other”**, suggesting a mutually reinforcing dynamic (**“Future views on neuroscience and AI.”**).\n\n3. **Practical cross‑application** –  \n   - AI techniques are already being deployed in clinical neuroscience for diagnosing neurological disorders (stroke, Parkinson’s, Alzheimer’s, etc.), illustrating a concrete **application of AI within neuroscience** (**“Artificial intelligence in neuroscience: opportunities and prospects: A review.”**).\n\n### Conflicting or Nuanced Views\n- **Direction of influence:** While most abstracts stress a two‑way exchange, **“What have we learned about artificial intelligence from studying the brain?”** argues that the flow of ideas has been **“mostly in the other direction”** (i.e., from AI to neuroscience), with brain‑inspired inspiration being relatively loose.  \n- **Degree of reciprocity:** In contrast, **“Future views on neuroscience and AI.”** and **“A new era in cognitive neuroscience…”** portray the relationship as **mutually stimulating**, implying a more balanced exchange.\n\n### Overall Synthesis\nTaken together, the corpus suggests that **computational neuroscience and AI are tightly linked: neuroscience provides conceptual and architectural blueprints that fuel AI development, while modern AI tools accelerate neuroscience research and clinical applications.** The prevailing view in the collection leans toward a **reciprocal, synergistic relationship**, although some authors caution that the historical influence may have been asymmetrically weighted toward neuroscience inspiring AI.",
+      "retrieved_sources": [
+        {
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)"
+        },
+        {
+          "published": "",
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "published": ""
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the corpus, stays on topic, cites sources reasonably, and correctly answers an answerable question."
+      }
+    },
+    {
+      "id": 22,
+      "question": "What is the stability-plasticity dilemma in neuroscience-inspired continual learning?",
+      "expected_answerable": true,
+      "answer": "**Stability‑plasticity dilemma (neuroscience‑inspired continual learning)**  \n\nThe stability–plasticity dilemma refers to the fundamental trade‑off that any learning system must resolve between **plasticity**—the ability to rapidly acquire new information—and **stability**—the ability to retain previously learned knowledge over the long term. In the context of continual learning, this dilemma becomes a central obstacle: a system that is too plastic quickly overwrites or interferes with existing memories (catastrophic forgetting), whereas a system that is too stable cannot incorporate new experiences efficiently.  \n\nThe perspective paper *“Neuroplasticity Meets Artificial Intelligence: A Hippocampus‑Inspired Approach to the Stability–Plasticity Dilemma”* frames the problem by drawing on the mammalian hippocampus–cortex architecture. It explains that the biological system solves the dilemma through **complementary learning systems** (a fast‑learning hippocampus and a slow‑learning cortex) and **memory consolidation** mechanisms such as sharp‑wave ripples and offline replay. Inspired by these mechanisms, the authors propose AI designs that employ **dual learning rates, offline consolidation phases, and dynamic modulation of plasticity** to balance rapid learning with long‑term retention.  \n\nThe difficulty is also highlighted in *“The brain as a blueprint: a survey of brain‑inspired approaches to learning in artificial intelligence,”* which notes that standard deep‑learning models “struggle to accumulate knowledge incrementally,” reflecting the same stability–plasticity tension.  \n\nThus, the stability‑plasticity dilemma in neuroscience‑inspired continual learning is the challenge of **maintaining existing knowledge (stability) while still being able to learn new information quickly (plasticity)**, and it is addressed by mimicking hippocampal‑cortical dynamics such as complementary learning systems, offline consolidation, and adaptive plasticity control.  \n\n**Citations**  \n- *Neuroplasticity Meets Artificial Intelligence: A Hippocampus‑Inspired Approach to the Stability–Plasticity Dilemma* – description of the dilemma and proposed biologically inspired mechanisms.  \n- *The brain as a blueprint: a survey of brain‑inspired approaches to learning in artificial intelligence* – notes the inability of standard models to accumulate knowledge incrementally, reflecting the stability‑plasticity conflict.",
+      "retrieved_sources": [
+        {
+          "source": "Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/6d07c3c814623709f2749e1029483f656be21e47"
+        },
+        {
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/4c37d23fe5ba4abaa35473210e61c82f5f87de23",
+          "source": "Neural reshaping: the plasticity of human brain and artificial intelligence in the learning process.",
+          "published": ""
+        },
+        {
+          "published": "2025",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39946457/",
+          "source": "Neuroevolution insights into biological neural computation."
+        },
+        {
+          "source": "Speed Limit for Information Acquisition in Stochastic Learning Dynamics",
+          "published": "2026-09-08 04:02:52+00:00",
+          "url": "http://arxiv.org/abs/2609.08219v1"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The answer accurately reflects the context, directly addresses the question, cites the relevant papers appropriately, and correctly handles an answerable query."
+      }
+    },
+    {
+      "id": 23,
+      "question": "How can reinforcement learning connect AI with cognitive science?",
+      "expected_answerable": true,
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01km8z145rfrdvmrxt37bqs24g` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6441, Requested 1748. Please try again in 1.4175s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "id": 24,
+      "question": "What is the main promise of AI for neurological diagnosis and treatment?",
+      "expected_answerable": true,
+      "answer": "The abstracts agree that the central promise of artificial intelligence in neurology is **to transform how brain disorders are diagnosed and treated by delivering far more accurate, rapid and individualized care**.  \n\n* **Improved diagnostic accuracy and early detection** – AI‑driven machine‑learning and deep‑learning tools can analyse huge, complex neuro‑imaging, electrophysiology and genomic datasets to automatically detect lesions, segment tumours, assess functional connectivity and identify disease‑specific patterns, thereby reducing human error and enabling earlier, more reliable diagnoses (e.g., “automated lesion detection, tumor segmentation, and functional connectivity analysis are improving diagnostic accuracy” – *Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision‑making*; “AI systems attempt to augment diagnostic accuracy… early diagnosis” – *An Overview of Artificial Intelligence in Neurology*; “AI offers transformative solutions by improving the analysis of complex neural data, facilitating early diagnosis” – *A bibliometric analysis of studies on artificial intelligence in neuroscience*).  \n\n* **Personalized/precision treatment** – By linking patient‑specific data to predictive models, AI can forecast disease progression, tailor therapeutic interventions, and accelerate AI‑driven drug discovery and neuropharmacological modelling, moving neurology toward precision medicine (e.g., “personalize therapeutic interventions” and “AI‑driven drug discovery… accelerate the development of targeted treatments” – *Artificial intelligence in neuroscience: Transforming brain research…*; “develop personalized treatment strategies, predict disease trajectories” – *Charting a New Frontier in Neurology with Artificial Intelligence*; “enabling… personalized treatment approaches” – *A bibliometric analysis…*).  \n\n* **Integration into clinical decision‑support** – AI is positioned to become a decision‑support system that complements clinicians, streamlines workflows, and guides treatment planning across neuro‑imaging, brain‑computer interfaces, and neurodegenerative disease management (e.g., “machine learning models are complementing and enhancing human expertise… early and more accurate predictions of neurodegenerative diseases” – *Charting a New Frontier…*; “AI systems… reshape neurological practice” – *An Overview of Artificial Intelligence in Neurology*).  \n\nTogether, these points articulate the main promise of AI: **to leverage advanced computational intelligence for more precise, faster, and individualized diagnosis and therapy, ultimately advancing precision neurology and improving patient outcomes**.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "published": "",
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review"
+        },
+        {
+          "published": "",
+          "source": "Charting a New Frontier in Neurology with Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/7fe1d763fd5318329a042302443b14f08d10dde5"
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d",
+          "source": "An Overview of Artificial Intelligence in Neurology",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+        }
+      ],
+      "source_recall": 0.5,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately captures the main promise of AI as described in the context—enhanced diagnostic accuracy, early detection, and personalized treatment—directly answers the question, includes relevant source references (though not in a formal citation style), and correctly provides an answer for an answerable query."
+      }
+    },
+    {
+      "id": 25,
+      "question": "What types of neural interfaces are connected with AI in the reviewed literature?",
+      "expected_answerable": true,
+      "answer": "The reviewed literature links AI primarily with **brain‑computer interfaces (BCIs)** and **closed‑loop brain‑computer systems**.  One paper notes that AI advances are “enhancing brain–computer interfaces” and enabling “closed‑loop brain–computer systems that adaptively respond to neural states”【Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications】.  These are the neural‑interface types explicitly mentioned in the abstracts.",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "published": "",
+          "source": "What have we learned about artificial intelligence from studying the brain?"
+        },
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "published": ""
+        },
+        {
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 2,
+        "relevance": 3,
+        "citation_quality": 2,
+        "answerability_handling": 5,
+        "overall": 2,
+        "reason": "The response mentions only brain‑computer interfaces and closed‑loop systems, omitting other neural interface types (neural interfaces, brain‑machine interactions, biosensing, brain stimulation) present in the corpus, making it only partially faithful. It is relevant to the question but incomplete. Citation is minimal, referencing a single source without full detail. Answerability handling is appropriate as the question is answerable."
+      }
+    },
+    {
+      "id": 26,
+      "question": "What does the corpus say about AI-based monitoring in the neuroscience intensive care unit?",
+      "expected_answerable": true,
+      "answer": "**Answer**\n\nThis question is not addressed in the provided papers.  \n\nThe abstracts discuss AI applications in neurology, neuroanesthesia, stroke rehabilitation, and broad neuroscience research, but none specifically mention AI‑based monitoring within a neuroscience intensive care unit (ICU).  \n\n*The neuroanesthesia review notes AI’s potential for “monitoring and interpreting vital signs,” but it frames this in the context of intra‑operative care rather than ICU monitoring* (“The Promise of Artificial Intelligence in Neuroanesthesia: An Update”).  \n\nNo other abstract refers to ICU settings or continuous patient monitoring in a neuroscience intensive care environment.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d",
+          "published": "",
+          "source": "An Overview of Artificial Intelligence in Neurology"
+        },
+        {
+          "published": "",
+          "source": "Charting a New Frontier in Neurology with Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/7fe1d763fd5318329a042302443b14f08d10dde5"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/45b7df870ed8113536a6ce710202591769c04641",
+          "published": "",
+          "source": "The Promise of Artificial Intelligence in Neuroanesthesia: An Update"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/",
+          "published": "2024",
+          "source": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."
+        },
+        {
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 1,
+        "answerability_handling": 1,
+        "overall": 2,
+        "reason": "The answer accurately reflects that none of the provided abstracts explicitly discuss AI‑based monitoring in a neuroscience ICU, so it is faithful and relevant to the given context. However, it provides no citations to the source abstracts, resulting in poor citation quality. Moreover, the evaluation set indicates the question is answerable from the corpus, meaning the system should have extracted the relevant information rather than claiming the question is unaddressed; thus, answerability handling is inadequate, lowering the overall score."
+      }
+    },
+    {
+      "id": 27,
+      "question": "How is AI used in research on neurodegenerative diseases?",
+      "expected_answerable": true,
+      "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01km8z145rfrdvmrxt37bqs24g` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 5243, Requested 2962. Please try again in 1.537499999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+    },
+    {
+      "id": 28,
+      "question": "What is the purpose of using AI with spatial transcriptomics in neuroscience-related research?",
+      "expected_answerable": true,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+          "source": "Danilo Bzdok.",
+          "published": "2026"
+        },
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "published": ""
+        },
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89"
+        },
+        {
+          "source": "Mind Meets Space: Rethinking Agentic Spatial Intelligence from a Neuroscience-inspired Perspective",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/08dbcc88156a85ede46bef543dbc41e6299b06fd"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 1,
+        "relevance": 1,
+        "citation_quality": 1,
+        "answerability_handling": 1,
+        "overall": 1,
+        "reason": "The response incorrectly claims the question is unaddressed despite the evaluation set indicating it is answerable, provides no relevant information or citations, and fails to handle the answerable query appropriately."
+      }
+    },
+    {
+      "id": 29,
+      "question": "What are the four broad themes found in the AI stroke-rehabilitation scoping review?",
+      "expected_answerable": true,
+      "answer": "The scoping review of AI applications in adult stroke recovery and rehabilitation identified **four broad thematic categories**:\n\n1. **Impairment** – focusing on motor function, gait and mobility.  \n2. **Assisted intervention** – encompassing robotic and brain‑computer‑interface (BCI) techniques.  \n3. **Prediction and imaging** – covering AI‑driven outcome prediction and imaging analyses.  \n4. **Neuroscience** – broader neuro‑biological investigations linked to stroke recovery.\n\nThese four themes were reported in the review’s abstract【AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI】.",
+      "retrieved_sources": [
+        {
+          "source": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/",
+          "published": "2024"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980",
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review",
+          "published": ""
+        },
+        {
+          "source": "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+          "url": "https://www.semanticscholar.org/paper/3c2dd9c64438af0dbeeefcc2b351e4374a8cf478",
+          "published": ""
+        },
+        {
+          "source": "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/da76405370a729b1a0ca5a6de904cfe140e572d0"
+        },
+        {
+          "source": "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/bdb3a405c9148662f118c0c72bf78a5f1f4b31a7"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately lists the four themes as stated in the provided context, directly addresses the question, includes a citation to the source, and correctly handles answerability."
+      }
+    },
+    {
+      "id": 30,
+      "question": "How can AI contribute to understanding cognition from neuroimaging?",
+      "expected_answerable": true,
+      "answer": "AI can help us move from simply recording brain activity to actually **decoding and modeling the cognitive processes that generate those patterns**.  The abstracts highlight several ways in which AI is being brought to bear on neuroimaging data to advance our understanding of cognition:\n\n1. **Robust AI models as investigative tools** – The editorial “A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)” states that translating AI techniques into cognitive neuroscience “holds promise for significant breakthroughs in our ability to probe the intrinsic mechanisms of the brain” (A new era in cognitive neuroscience).  In practice, this means using deep‑learning architectures (e.g., convolutional or recurrent networks) to learn mappings from raw imaging signals (fMRI, EEG, etc.) to latent representations that correspond to perceptual, attentional, or memory processes.\n\n2. **Fitting ANNs to large‑scale neuroimaging datasets** – “Artificial intelligence meets brain theory (again)” notes that recent successes in “fitting ANNs to increasingly large neuroscience datasets must not distract us… from the quest to understand how the brain works” (Artificial intelligence meets brain theory).  By training artificial neural networks (ANNs) on massive collections of neuroimaging data, researchers can test whether the learned internal representations resemble those observed in the brain, thereby generating hypotheses about the computational principles of cognition.\n\n3. **Integrating functional and structural analyses** – The same paper recommends “integrating functional and structural analyses in exploring systems of systems… that bridge between neural circuitry and patterns of behavior” (Artificial intelligence meets brain theory).  AI pipelines can jointly model functional connectivity (e.g., time‑resolved activity patterns) and structural connectivity (e.g., diffusion MRI tractography), allowing the discovery of how anatomical pathways support cognitive functions such as perception, action, and reasoning.\n\n4. **Cross‑disciplinary feedback loops** – Both “Future views on neuroscience and AI” and “What have we learned about artificial intelligence from studying the brain?” emphasize a bidirectional relationship: AI advances are inspired by brain findings, and AI tools, in turn, generate new insights about brain function (Future views on neuroscience and AI; What have we learned about artificial intelligence from studying the brain?).  This feedback loop accelerates the formulation of computational theories of cognition that are testable with neuroimaging.\n\n5. **Incorporating cognitive‑psychological principles** – The review on AGI points to mechanisms such as predictive coding, working memory, and attention as “possible inspiration” for AI systems (A review of findings from neuroscience and cognitive psychology…).  When AI models embed these principles, their performance on neuroimaging tasks (e.g., predicting trial‑by‑trial behavioral outcomes from brain activity) can reveal whether similar mechanisms operate in the human brain.\n\n**In summary**, AI contributes to understanding cognition from neuroimaging by (i) providing powerful pattern‑recognition models that can decode cognitive states from brain images, (ii) enabling the fitting of large‑scale neural network models to imaging data to test computational hypotheses, (iii) allowing joint functional‑structural analyses that map circuitry to behavior, and (iv) fostering a reciprocal exchange where brain‑derived concepts shape AI architectures and AI‑derived models generate new neurocognitive theories.",
+      "retrieved_sources": [
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "published": ""
+        },
+        {
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI."
+        },
+        {
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "published": ""
+        },
+        {
+          "published": "",
+          "source": "Artificial intelligence meets brain theory (again)",
+          "url": "https://www.semanticscholar.org/paper/2ec1205c6093c0f163b1cc095212652ba929ce30"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/6dd7c4b54c051e3d262dec9e7fee5f854b2e889f",
+          "source": "A review of findings from neuroscience and cognitive psychology as possible inspiration for the path to artificial general intelligence"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 4,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response is largely supported by the provided context, accurately summarizing how AI can aid neuroimaging-based cognition studies and citing relevant abstracts. Minor overstatement of a fully bidirectional relationship slightly reduces faithfulness. Citations are clear but not formal, and the answer directly addresses the question."
+      }
+    },
+    {
+      "id": 31,
+      "question": "Does the corpus report the exact accuracy of every EEG-based diagnostic model it contains?",
+      "expected_answerable": false,
+      "answer": "No. The collection of abstracts does not provide an exact accuracy figure for every EEG‑based diagnostic model it includes.  \n\n- The only abstract that directly reports performance of an EEG‑based model (“Neural System EEG Signal Classification Algorithm based on Artificial Intelligence”) gives a **range** of classification accuracies (90.1 % – 100 %) rather than a single exact value【Neural System EEG Signal Classification Algorithm based on Artificial Intelligence】.  \n- The remaining abstracts are reviews or theoretical papers that either do not focus on specific EEG diagnostic models or do not give precise accuracy numbers.\n\nTherefore, the corpus does not contain exact accuracy values for all EEG‑based diagnostic models.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156",
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/6326b0ab85a8e4d2ed3e0142922f987d02cd0c65",
+          "published": "",
+          "source": "Artificial intelligence for life sciences: A comprehensive guide and future trends"
+        },
+        {
+          "source": "A Generalization of Amari's Bayesian Duality",
+          "published": "2026-09-08 17:51:08+00:00",
+          "url": "http://arxiv.org/abs/2609.09126v1"
+        },
+        {
+          "source": "An Overview of Artificial Intelligence in Neurology",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/ca3fbb3f2fc4be679b4fdbaa9b846d43bf038366",
+          "source": "Neural System EEG Signal Classification Algorithm based on Artificial Intelligence",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 2,
+        "relevance": 3,
+        "citation_quality": 2,
+        "answerability_handling": 1,
+        "overall": 2,
+        "reason": "The response provides relevant information and cites the EEG abstract, but it infers a definitive 'No' answer despite the question being unanswerable from the corpus. It should have abstained rather than assert, reducing answerability handling and overall faithfulness."
+      }
+    },
+    {
+      "id": 32,
+      "question": "What was the exact p-value for the primary outcome in the stroke rehabilitation review?",
+      "expected_answerable": false,
+      "answer": "**Answer:** This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/",
+          "source": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.",
+          "published": "2024"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/3c2dd9c64438af0dbeeefcc2b351e4374a8cf478",
+          "source": "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+          "published": ""
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.08577v1",
+          "source": "Instability in Patient Clustering: A Multiverse Analysis of Unsupervised Clustering in the CENTER-TBI cohort",
+          "published": "2026-09-08 11:12:59+00:00"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980",
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/937ab0f313a78eabc2d8333040be547a25418acc",
+          "published": "",
+          "source": "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems."
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly states that the p-value is not provided in the given abstracts, which is faithful to the source, directly addresses the question by abstaining, and requires no citations."
+      }
+    },
+    {
+      "id": 33,
+      "question": "Which specific transformer architecture achieved the best score in every neuroscience task in the corpus?",
+      "expected_answerable": false,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "source": "Future views on neuroscience and AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "published": "2024"
+        },
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "published": ""
+        },
+        {
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": "",
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence"
+        },
+        {
+          "source": "Danilo Bzdok.",
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly states that the question is not addressed in the provided context, avoids fabricating information, and appropriately handles an unanswerable query."
+      }
+    },
+    {
+      "id": 34,
+      "question": "What is the clinically approved dosage of medication recommended by the AI epilepsy papers?",
+      "expected_answerable": false,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/7398e74902154c567ee83d8aa0558d932a55694e",
+          "source": "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+          "published": ""
+        },
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe",
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+          "published": ""
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/7fe1d763fd5318329a042302443b14f08d10dde5",
+          "published": "",
+          "source": "Charting a New Frontier in Neurology with Artificial Intelligence"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 2,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response correctly abstains, accurately reflecting that the corpus provides no dosage information (high faithfulness, relevance, and answerability handling). However, it does not include citations to the source texts confirming the absence of dosage details, lowering citation quality."
+      }
+    },
+    {
+      "id": 35,
+      "question": "Which individual patient received the best stroke rehabilitation outcome in the reviewed studies?",
+      "expected_answerable": false,
+      "answer": "**Answer:**  \nThis question is not addressed in the provided papers. None of the abstracts report data on individual patients or specify which patient achieved the best stroke rehabilitation outcome.  \n\n**Citations:**  \n- AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI (abstract) – no patient‑level outcome details reported.  \n- Bibliometric and visualized analysis of the application of artificial intelligence in stroke (abstract) – focuses on publication trends, not patient outcomes.  \n- Instability in Patient Clustering… (abstract) – concerns TBI clustering, not stroke rehabilitation outcomes.  \n- Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness (abstract) – addresses disorders of consciousness, not individual stroke rehabilitation results.  \n- Rehabilitation, neuroplasticity, and machine learning… (abstract) – discusses concepts and AI applications, without reporting specific patient outcomes.",
+      "retrieved_sources": [
+        {
+          "source": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.",
+          "published": "2024",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/"
+        },
+        {
+          "published": "",
+          "source": "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+          "url": "https://www.semanticscholar.org/paper/3c2dd9c64438af0dbeeefcc2b351e4374a8cf478"
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.08577v1",
+          "published": "2026-09-08 11:12:59+00:00",
+          "source": "Instability in Patient Clustering: A Multiverse Analysis of Unsupervised Clustering in the CENTER-TBI cohort"
+        },
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41499248/",
+          "source": "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness."
+        },
+        {
+          "published": "",
+          "source": "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems.",
+          "url": "https://www.semanticscholar.org/paper/937ab0f313a78eabc2d8333040be547a25418acc"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly states that the provided abstracts contain no individual patient outcome data, cites the relevant sources, and appropriately abstains from fabricating an answer, fully aligning with the context."
+      }
+    },
+    {
+      "id": 36,
+      "question": "What was the exact training-set size and random seed for every model used in the temporal-lobe epilepsy study?",
+      "expected_answerable": false,
+      "answer": "**Training‑set size**  \n- The temporal‑lobe epilepsy (TLE) study used cross‑sectional MRI from **296 individuals with focal epilepsy originating from the temporal lobe** and **91 healthy controls** as the data on which the machine‑learning algorithm was trained. This yields a total training‑set size of **387 subjects** (296 + 91) 【Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images】.  \n\n**Random seed**  \n- The abstract does not provide any information about the random seed(s) used for model training.  \n\n**Summary**  \n- Training‑set: 387 subjects (296 TLE patients + 91 controls).  \n- Random seed: not reported in the provided abstract.  ",
+      "retrieved_sources": [
+        {
+          "source": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "published": "2024"
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": ""
+        },
+        {
+          "source": "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+          "url": "https://www.semanticscholar.org/paper/3c38c9963e338f9a2cdf6888da98ae1a31ce39ba",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/ff3f62051027abcbb08e701e0e835f0283e35156",
+          "source": "Artificial intelligence in neuroscience: opportunities and prospects: A review"
+        },
+        {
+          "published": "2026",
+          "source": "Danilo Bzdok.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 1,
+        "relevance": 1,
+        "citation_quality": 1,
+        "answerability_handling": 1,
+        "overall": 1,
+        "reason": "The response invents a specific training-set size (387) not explicitly stated as such in the context and fails to abstain for an unanswerable question about random seeds, thus lacking faithfulness, relevance, proper citation, and correct answerability handling."
+      }
+    },
+    {
+      "id": 37,
+      "question": "Can the collected papers prove that AI has achieved human-level general intelligence?",
+      "expected_answerable": false,
+      "answer": "The abstracts do not provide evidence that AI has reached human‑level general intelligence.\n\n* The review **“The Mind Behind the Machine: How Artificial Intelligence Learns from Human Intelligence”** describes how AI systems emulate certain aspects of human cognition (learning, perception, reasoning, problem‑solving) and discusses ongoing challenges in building machines that “think” and “learn” like humans, but it does not claim that these goals have already been achieved【The Mind Behind the Machine: How Artificial Intelligence Learns from Human Intelligence】.\n\n* **“What have we learned about artificial intelligence from studying the brain?”** notes that AI research has been *loosely* inspired by the brain and that ideas have mostly flowed in the opposite direction, implying that AI is still far from matching brain‑level capabilities【What have we learned about artificial intelligence from studying the brain?】.\n\n* The article **“Artificial Super Intelligence (ASI), A Revolutionary and Hypothetical Potential for Artificial Intelligence”** talks about AI’s potential to mimic human‑like cognitive functions and describes it as a “hypothetical” potential, indicating that such a level has not yet been realized【Artificial Super Intelligence (ASI), A Revolutionary and Hypothetical Potential for Artificial Intelligence】.\n\n* Both **“Future views on neuroscience and AI”** and **“A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)”** focus on the mutual influence and future prospects of neuroscience and AI, without presenting any proof that AI already possesses general intelligence comparable to humans【Future views on neuroscience and AI】【A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)】.\n\nTherefore, based on the information contained in the provided abstracts, the collected papers cannot prove that AI has achieved human‑level general intelligence. This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "source": "The Mind Behind the Machine: How Artificial Intelligence Learns from Human Intelligence",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/7c67335fd0b9250dc07040533173078aa39f9829"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "source": "What have we learned about artificial intelligence from studying the brain?",
+          "published": ""
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/c4734d28921b93ee073df9616949a91c78f01be0",
+          "source": "Artificial Super Intelligence (ASI), A Revolutionary and Hypothetical Potential for Artificial Intelligence"
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided abstracts, cites each source correctly, stays on topic, and appropriately abstains from claiming AI has human-level intelligence when the corpus does not support that claim."
+      }
+    },
+    {
+      "id": 38,
+      "question": "What is the exact hardware energy consumption of Predictive Coding Light compared with the human brain?",
+      "expected_answerable": false,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41053084/",
+          "published": "2025",
+          "source": "Predictive Coding Light."
+        },
+        {
+          "source": "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/1a49711d1a6abc5044758866a6f0122c41270f6e",
+          "published": ""
+        },
+        {
+          "published": "",
+          "source": "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+          "url": "https://www.semanticscholar.org/paper/8aa48b6b3c59cbf17a6bb7de222323947562b312"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/73ae9d0a438f2ad4a4dc9e22f7a93f1c1bfadbcc",
+          "published": "",
+          "source": "Comparing a Microprocessor to the Brain: Exploring Knowledge, Intelligence, and Consciousness in an Age of Artificial Intelligence"
+        },
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects that the provided context does not contain the exact hardware energy consumption data, does not hallucinate, stays on topic, and correctly handles the unanswerable question by abstaining."
+      }
+    },
+    {
+      "id": 39,
+      "question": "Which AI model should a hospital universally adopt for neurological diagnosis?",
+      "expected_answerable": false,
+      "answer": "**Answer:**  \nThis question is not addressed in the provided papers. The abstracts discuss the broad impact of artificial intelligence, machine‑learning techniques, and computer‑aided diagnosis in neurology, but none of them name or recommend a specific AI model that a hospital should adopt universally for neurological diagnosis.",
+      "retrieved_sources": [
+        {
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d",
+          "source": "An Overview of Artificial Intelligence in Neurology",
+          "published": ""
+        },
+        {
+          "source": "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+          "url": "https://www.semanticscholar.org/paper/646b823fe1a4a1b67c953f0101e29b7b61c3ba2d",
+          "published": ""
+        },
+        {
+          "source": "The Promise of Artificial Intelligence in Neuroanesthesia: An Update",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/45b7df870ed8113536a6ce710202591769c04641"
+        },
+        {
+          "published": "",
+          "source": "Charting a New Frontier in Neurology with Artificial Intelligence",
+          "url": "https://www.semanticscholar.org/paper/7fe1d763fd5318329a042302443b14f08d10dde5"
+        },
+        {
+          "published": "",
+          "source": "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment",
+          "url": "https://www.semanticscholar.org/paper/0e4772e0085e4902b134d55ec144b0e65e1f5e98"
+        }
+      ],
+      "source_recall": 0.5,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects that the provided documents do not name any specific AI model for universal hospital adoption, stays faithful to the source material, is directly relevant to the question, does not fabricate citations, and correctly handles the unanswerable nature of the query."
+      }
+    },
+    {
+      "id": 40,
+      "question": "What is the exact causal effect of explainable AI on patient trust in neuroscience care?",
+      "expected_answerable": false,
+      "answer": "**Answer:** This question is not addressed in the provided papers. None of the abstracts report an empirical or theoretical estimate of the causal effect of explainable AI on patient trust in neuroscience care.",
+      "retrieved_sources": [
+        {
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/bdb3a405c9148662f118c0c72bf78a5f1f4b31a7",
+          "published": "",
+          "source": "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”"
+        },
+        {
+          "published": "",
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe",
+          "source": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/d4a1de44b1d72f7ac9508b99596e2425c602d08d",
+          "source": "An Overview of Artificial Intelligence in Neurology",
+          "published": ""
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 4,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects that the provided abstracts do not contain an exact causal effect estimate, correctly abstains from fabricating an answer, stays on topic, and only minimally lacks explicit citations for the negative claim."
+      }
+    },
+    {
+      "id": 41,
+      "question": "What was the exact number of false positives for each brain-tumor AI system in the full collection?",
+      "expected_answerable": false,
+      "answer": "**Answer:** This question is not addressed in the provided papers. None of the abstracts contain information about the exact number of false positives for any brain‑tumor AI system in the full collection.",
+      "retrieved_sources": [
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39523267/",
+          "source": "Artificial Intelligence in Brain Tumors.",
+          "published": "2024"
+        },
+        {
+          "published": "",
+          "source": "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+          "url": "https://www.semanticscholar.org/paper/18538c717d5b102acc152dfdfe40e1b8c37c4498"
+        },
+        {
+          "published": "2024",
+          "source": "Employing deep learning and transfer learning for accurate brain tumor detection.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38538708/"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "source": "What have we learned about artificial intelligence from studying the brain?"
+        },
+        {
+          "source": "Artificial Super Intelligence (ASI), A Revolutionary and Hypothetical Potential for Artificial Intelligence",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/c4734d28921b93ee073df9616949a91c78f01be0"
+        }
+      ],
+      "source_recall": 0.5,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 3,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects that the provided abstracts contain no false‑positive counts (faithful), directly addresses the question by stating it cannot be answered (relevant), correctly abstains rather than fabricating information (answerability handling). No citations are needed because no factual content is drawn, resulting in a moderate citation score."
+      }
+    },
+    {
+      "id": 42,
+      "question": "Which country has the most effective national policy for AI neuroscience research?",
+      "expected_answerable": false,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "source": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "published": ""
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "source": "Future views on neuroscience and AI.",
+          "published": "2024"
+        },
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+          "source": "Danilo Bzdok."
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+          "published": "",
+          "source": "Bird’s Eye View of Artificial Intelligence in Neuroscience"
+        },
+        {
+          "source": "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/e0d22bb9c14c1a805887a567a5140f6a407cb228"
+        }
+      ],
+      "source_recall": 1.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly states that the question is not addressed in the provided papers, which is faithful to the context. It directly addresses the query, does not fabricate information, and appropriately handles the unanswerable nature without unnecessary citations."
+      }
+    },
+    {
+      "id": 43,
+      "question": "What is the exact biological mechanism by which all deep-learning models improve memory?",
+      "expected_answerable": null,
+      "answer": "This question is not addressed in the provided papers.",
+      "retrieved_sources": [
+        {
+          "source": "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+          "url": "https://www.semanticscholar.org/paper/ace1f2a7e6c8760104dbdd68fb4322badc5dfbea",
+          "published": ""
+        },
+        {
+          "published": "",
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd"
+        },
+        {
+          "published": "2026",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+          "source": "Danilo Bzdok."
+        },
+        {
+          "published": "2024",
+          "source": "Future views on neuroscience and AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/"
+        },
+        {
+          "url": "https://www.semanticscholar.org/paper/75f3a652552587fd938425dc1c53444ced69ecf2",
+          "published": "",
+          "source": "ARTIFICIAL INTELLIGENCE WITH NEURAL NETWORKS NOBEL PRIZES IN PHYSICS AND CHEMISTRY 2024"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response correctly states that the question is not addressed in the provided papers, matching the context and abstaining from fabrication. It is fully faithful, relevant, needs no citations, and handles unanswerability appropriately."
+      }
+    },
+    {
+      "id": 44,
+      "question": "Did every reviewed study use randomized controlled trials with blinded participants?",
+      "expected_answerable": false,
+      "answer": "**Answer:**  \nThe abstracts provided do not indicate that all of the reviewed studies employed randomized controlled trials (RCTs) with blinded participants.  \n\n- The scoping review of XAI in cognition mentions “twelve eligible experimental studies” but does not specify that these were RCTs or that participants were blinded【The application of eXplainable artificial intelligence in studying cognition: A scoping review】.  \n- The other papers describe methodological developments, a qualitative interview study, audit analyses, and model‑training experiments, none of which are described as RCTs with blinding【A Closed-Form Estimator and Diagnostic Battery for Anchor-Judge Error Correlation…】, 【Physicians’ ethical concerns about artificial intelligence in medicine…】, 【The Audit Decides the Verdict…】, 【Everything in Moderation…】.  \n\nTherefore, based on the information in the abstracts, there is no evidence that every reviewed study used randomized controlled trials with blinded participants.  \n\n*This question is not addressed in the provided papers.*",
+      "retrieved_sources": [
+        {
+          "source": "The application of eXplainable artificial intelligence in studying cognition: A scoping review",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/81b981902be2cdc8c1f1ddfa2c33fe2469dd6980"
+        },
+        {
+          "source": "A Closed-Form Estimator and Diagnostic Battery for Anchor-Judge Error Correlation, Under a Single-Common-Factor Model",
+          "url": "http://arxiv.org/abs/2609.08826v1",
+          "published": "2026-09-08 14:49:13+00:00"
+        },
+        {
+          "published": "",
+          "source": "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+          "url": "https://www.semanticscholar.org/paper/bdb3a405c9148662f118c0c72bf78a5f1f4b31a7"
+        },
+        {
+          "source": "The Audit Decides the Verdict: Instrument Effects Rival Demographic Bias in LLM Decision Audits",
+          "published": "2026-09-08 17:08:53+00:00",
+          "url": "http://arxiv.org/abs/2609.09048v1"
+        },
+        {
+          "url": "http://arxiv.org/abs/2609.09081v1",
+          "source": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
+          "published": "2026-09-08 17:31:38+00:00"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 5,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 5,
+        "reason": "The response accurately reflects the provided abstracts, correctly notes the absence of evidence for RCTs with blinded participants, cites the relevant sources, directly answers the question, and handles answerability appropriately."
+      }
+    },
+    {
+      "id": 45,
+      "question": "What exact clinical outcome will each AI neuroscience system produce for a new patient?",
+      "expected_answerable": false,
+      "error": "Connection error."
+    },
+    {
+      "id": 46,
+      "question": "What are the principal limitations of applying AI to neuroscience data?",
+      "expected_answerable": true,
+      "error": "Connection error."
+    },
+    {
+      "id": 47,
+      "question": "How can AI help personalize treatment for neurological disease?",
+      "expected_answerable": true,
+      "error": "Connection error."
+    },
+    {
+      "id": 48,
+      "question": "What does brain-inspired AI borrow from neuroscience?",
+      "expected_answerable": true,
+      "error": "Connection error."
+    },
+    {
+      "id": 49,
+      "question": "How can large language models contribute to neuroscience literature analysis?",
+      "expected_answerable": true,
+      "error": "Connection error."
+    },
+    {
+      "id": 50,
+      "question": "What is the overall relationship between AI progress and neuroscience progress suggested by the corpus?",
+      "expected_answerable": true,
+      "answer": "The set of abstracts portrays a **reciprocal but asymmetrical coupling** between advances in artificial intelligence (AI) and advances in neuroscience:\n\n| Paper | Main point about the AI‑neuroscience relationship |\n|-------|---------------------------------------------------|\n| **Future views on neuroscience and AI** | Highlights that the two fields “influence and stimulate each other,” emphasizing a bidirectional, accelerating interaction. |\n| **What have we learned about artificial intelligence from studying the brain?** | Argues that, although AI researchers have taken inspiration from the brain, “ideas flowed mostly in the other direction,” i.e., neuroscience has been the primary source of concepts that later shaped AI. |\n| **Bird’s Eye View of Artificial Intelligence in Neuroscience** | Documents a rapid expansion of AI use within neuroscience (doubling every 4–5 years) and notes that modern AI models (CNNs, transformers) are having a “profound impact” across many neuroscience sub‑disciplines. This suggests that **AI progress is now driving neuroscience research**. |\n| **A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience** | Provides empirical evidence that AI and neuroscience “are continuing to grow together,” especially in neurodegenerative‑disease research, but also points out that AI technologies tend to stay confined within individual subfields and are not widely transferred across them. |\n| **A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)** | Calls attention to the “unprecedented development of robust AI models” that are reshaping how we understand the brain, reinforcing the view that **AI progress is catalyzing new breakthroughs in cognitive neuroscience**. |\n\n### Overall synthesis\n- **Historical direction:** Early AI ideas were largely **inspired by neuroscience**, but the dominant flow of concepts has shifted toward AI influencing neuroscience research (as noted in “What have we learned…”).  \n- **Current dynamics:** AI is experiencing explosive growth within neuroscience (doubling time of 4–5 years) and is being applied across many sub‑disciplines, especially cognitive and clinical areas. This reflects a **strong, accelerating impact of AI progress on neuroscience progress**.  \n- **Interdisciplinary coupling:** Both fields continue to expand together, with particular synergy in disease‑focused research, yet the diffusion of AI methods across different neuroscience subfields remains limited.\n\n**Thus, the corpus suggests that AI and neuroscience have an intertwined, mutually reinforcing relationship: historically neuroscience seeded AI ideas, while contemporary AI advances are now a major driver of neuroscience research, even though the transfer of AI techniques across all neuroscience sub‑domains is not yet uniform.** (Sources: *Future views on neuroscience and AI*; *What have we learned about artificial intelligence from studying the brain?*; *Bird’s Eye View of Artificial Intelligence in Neuroscience*; *A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience*; *A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)*)",
+      "retrieved_sources": [
+        {
+          "source": "Future views on neuroscience and AI.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+          "published": "2024"
+        },
+        {
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/78928b0c46c9f02633327867ec48f216a9a6fc9b",
+          "source": "What have we learned about artificial intelligence from studying the brain?"
+        },
+        {
+          "published": "",
+          "source": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e"
+        },
+        {
+          "published": "",
+          "source": "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+          "url": "https://www.semanticscholar.org/paper/e0d22bb9c14c1a805887a567a5140f6a407cb228"
+        },
+        {
+          "source": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+          "published": "",
+          "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd"
+        }
+      ],
+      "source_recall": 0.0,
+      "scores": {
+        "faithfulness": 2,
+        "relevance": 5,
+        "citation_quality": 5,
+        "answerability_handling": 5,
+        "overall": 4,
+        "reason": "The response is relevant and well‑cited, but it over‑emphasizes an asymmetrical, historically shifting relationship rather than the bidirectional balance described in the expected answer, reducing faithfulness."
+      }
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+[
+	{
+		"id": 1,
+		"question": "What major application areas of artificial intelligence in neuroscience are identified in the bibliometric literature?",
+		"expected_answer": "The literature emphasizes neurological imaging, brain-computer interfaces, diagnosis and treatment of neurological disease, and broader analysis of complex neural data.",
+		"answerable": true,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "Bird’s Eye View of Artificial Intelligence in Neuroscience"]
+	},
+	{
+		"id": 2,
+		"question": "How has publication activity at the intersection of AI and neuroscience changed over time?",
+		"expected_answer": "Publication activity has grown sharply since the mid-2010s; one review reports a doubling time of roughly four to five years for AI-related neuroscience publications in the past decade.",
+		"answerable": true,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "Bird’s Eye View of Artificial Intelligence in Neuroscience"]
+	},
+	{
+		"id": 3,
+		"question": "Which countries are highlighted as leading contributors to AI and neuroscience research?",
+		"expected_answer": "The bibliometric analysis highlights the United States, China, and the United Kingdom, along with substantial international collaboration.",
+		"answerable": true,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience"]
+	},
+	{
+		"id": 4,
+		"question": "What ethical and methodological issues should future AI-in-neuroscience research address?",
+		"expected_answer": "The corpus calls for attention to ethics, data privacy, model interpretability, and the clinical reliability of AI systems.",
+		"answerable": true,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges"]
+	},
+	{
+		"id": 5,
+		"question": "Which neural-network families are described as increasingly important across neuroscience subdisciplines?",
+		"expected_answer": "Convolutional neural networks and transformer-based large language models are described as increasingly used across cognitive, computational, systems, and clinical neuroscience.",
+		"answerable": true,
+		"relevant_papers": ["Bird’s Eye View of Artificial Intelligence in Neuroscience"]
+	},
+	{
+		"id": 6,
+		"question": "How can machine learning support precision medicine for temporal lobe epilepsy?",
+		"expected_answer": "Machine learning can identify pathobiologically distinct temporal-lobe epilepsy subtypes from brain MRI, revealing differences in atrophy patterns, disease progression, and seizure outcomes that may support treatment stratification.",
+		"answerable": true,
+		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
+	},
+	{
+		"id": 7,
+		"question": "How many temporal-lobe epilepsy phenotypes were identified in the MRI study, and what broad patterns distinguished them?",
+		"expected_answer": "Four phenotypes were identified: left-hippocampus-predominant atrophy, right-hippocampus-predominant atrophy, cortex-predominant atrophy with later hippocampal involvement, and a phenotype without atrophy but with amygdala enlargement.",
+		"answerable": true,
+		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
+	},
+	{
+		"id": 8,
+		"question": "What is the potential role of AI in adult stroke recovery and rehabilitation?",
+		"expected_answer": "AI may improve the amount, quality, efficiency, and personalization of stroke rehabilitation through impairment analysis, assisted interventions, prediction, imaging, robotics, BCIs, and sensor-based movement analysis.",
+		"answerable": true,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.", "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems."]
+	},
+	{
+		"id": 9,
+		"question": "Which sensor and modeling approaches are mentioned for upper-limb stroke rehabilitation?",
+		"expected_answer": "The review mentions machine learning and deep learning together with sensors such as inertial measurement units for upper-limb and functional-movement analysis.",
+		"answerable": true,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
+	},
+	{
+		"id": 10,
+		"question": "What problem does Predictive Coding Light address in artificial and biological neural networks?",
+		"expected_answer": "It addresses energy-efficient representation learning by using a recurrent hierarchical spiking network that suppresses predictable spikes and transmits a compressed representation.",
+		"answerable": true,
+		"relevant_papers": ["Predictive Coding Light."]
+	},
+	{
+		"id": 11,
+		"question": "How does Predictive Coding Light differ from earlier predictive-coding approaches?",
+		"expected_answer": "It does not transmit prediction errors to higher processing stages; instead, it suppresses predictable spikes and sends a compressed input representation.",
+		"answerable": true,
+		"relevant_papers": ["Predictive Coding Light."]
+	},
+	{
+		"id": 12,
+		"question": "Why are neuromorphic systems considered relevant to neuroscience-inspired AI?",
+		"expected_answer": "They aim to reduce the energy gap between conventional machine learning and biological brains by using brain-inspired information coding, including discrete voltage spikes.",
+		"answerable": true,
+		"relevant_papers": ["Predictive Coding Light.", "Neuromorphic engineering: Artificial brains for artificial intelligence.", "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence"]
+	},
+	{
+		"id": 13,
+		"question": "What is the purpose of AI-guided electron microscopy in neuroscience?",
+		"expected_answer": "The corpus supports using machine learning to guide electron-microscopy analysis, helping make high-throughput structural investigation of neural tissue more efficient.",
+		"answerable": true,
+		"relevant_papers": ["SmartEM: machine learning-guided electron microscopy."]
+	},
+	{
+		"id": 14,
+		"question": "How can synthetic task-based brain fingerprints be useful in population neuroscience?",
+		"expected_answer": "Deep learning can generate synthetic task-based brain fingerprints, providing a way to model or augment population-level neural representations.",
+		"answerable": true,
+		"relevant_papers": ["Generating synthetic task-based brain fingerprints for population neuroscience using deep learning."]
+	},
+	{
+		"id": 15,
+		"question": "What does BrainAGE attempt to estimate?",
+		"expected_answer": "BrainAGE refers to a machine-learning estimate of brain age derived from neuroimaging or related brain data and used to study deviation from expected aging patterns.",
+		"answerable": true,
+		"relevant_papers": ["BrainAGE: Revisited and reframed machine learning workflow."]
+	},
+	{
+		"id": 16,
+		"question": "What kinds of brain information can machine learning use to derive biomarkers from EEG?",
+		"expected_answer": "The corpus supports learning disease- or condition-relevant biomarkers from EEG signal characteristics, although it does not specify one universally preferred feature set.",
+		"answerable": true,
+		"relevant_papers": ["Machine learning of brain-specific biomarkers from EEG.", "Artificial Intelligence for EEG Extraction"]
+	},
+	{
+		"id": 17,
+		"question": "What is the role of attention-based models in epilepsy prediction and detection according to the corpus?",
+		"expected_answer": "Attention-based deep-learning methods can be applied to epilepsy prediction and detection, including dual-task learning settings.",
+		"answerable": true,
+		"relevant_papers": ["Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning."]
+	},
+	{
+		"id": 18,
+		"question": "What does a neural-activity foundation model aim to predict?",
+		"expected_answer": "It aims to learn representations of neural activity that can predict responses to stimulus types not seen during training.",
+		"answerable": true,
+		"relevant_papers": ["Foundation model of neural activity predicts response to new stimulus types."]
+	},
+	{
+		"id": 19,
+		"question": "How can AI support research on brain tumors?",
+		"expected_answer": "AI can assist with brain-tumor imaging, image processing, computer-aided diagnosis, prognosis, and potentially treatment decision support.",
+		"answerable": true,
+		"relevant_papers": ["Artificial Intelligence in Brain Tumors.", "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor", "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review"]
+	},
+	{
+		"id": 20,
+		"question": "What is a central benefit of explainable AI in neuroscience and healthcare?",
+		"expected_answer": "Explainable AI can make model decisions more interpretable, supporting scientific understanding, clinical review, accountability, and trust.",
+		"answerable": true,
+		"relevant_papers": ["Explainable Artificial Intelligence (XAI) for Better Healthcare Decisions: A Review of XAI Methods in Cardiology and Neuroscience", "The application of eXplainable artificial intelligence in studying cognition: A scoping review"]
+	},
+	{
+		"id": 21,
+		"question": "What is the relationship between computational neuroscience and artificial intelligence described by the corpus?",
+		"expected_answer": "They are presented as mutually informative: neuroscience can inspire learning and computation, while AI provides models and tools for analyzing neural data and testing theories.",
+		"answerable": true,
+		"relevant_papers": ["Editorial overview: Computational neuroscience as a bridge between artificial intelligence, modeling and data.", "Beyond the Nobel prizes: towards new synergies between Computational Neuroscience and Artificial Intelligence"]
+	},
+	{
+		"id": 22,
+		"question": "What is the stability-plasticity dilemma in neuroscience-inspired continual learning?",
+		"expected_answer": "It is the tension between preserving previously learned knowledge and adapting to new information; hippocampus-inspired approaches are discussed as a possible way to address it.",
+		"answerable": true,
+		"relevant_papers": ["Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma"]
+	},
+	{
+		"id": 23,
+		"question": "How can reinforcement learning connect AI with cognitive science?",
+		"expected_answer": "Reinforcement learning provides computational models for learning from rewards and actions, creating a framework for comparing artificial agents with cognitive processes.",
+		"answerable": true,
+		"relevant_papers": ["Reinforcement learning at the interface of artificial intelligence and cognitive science."]
+	},
+	{
+		"id": 24,
+		"question": "What is the main promise of AI for neurological diagnosis and treatment?",
+		"expected_answer": "AI may improve early diagnosis, analysis of complex neural and imaging data, prognosis, and personalization of treatment, while requiring validation and interpretability.",
+		"answerable": true,
+		"relevant_papers": ["Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review", "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment"]
+	},
+	{
+		"id": 25,
+		"question": "What types of neural interfaces are connected with AI in the reviewed literature?",
+		"expected_answer": "The corpus connects AI with brain-computer interfaces, neural interfaces, brain-machine interactions, biosensing, and brain stimulation systems.",
+		"answerable": true,
+		"relevant_papers": ["Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases", "Wireless Optogenetic Microsystems Accelerate Artificial Intelligence–Neuroscience Coevolution Through Embedded Closed-Loop System"]
+	},
+	{
+		"id": 26,
+		"question": "What does the corpus say about AI-based monitoring in the neuroscience intensive care unit?",
+		"expected_answer": "AI can monitor neurological status from patient videos and may help reduce neuroscience ICU length of stay, but the corpus does not establish a universal clinical deployment protocol.",
+		"answerable": true,
+		"relevant_papers": ["Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.", "Leveraging Artificial Intelligence to Reduce Neuroscience ICU Length of Stay"]
+	},
+	{
+		"id": 27,
+		"question": "How is AI used in research on neurodegenerative diseases?",
+		"expected_answer": "The corpus describes uses including biomarker discovery, neuroimaging analysis, disease classification, diagnosis, prognosis, and bibliometric mapping of the field.",
+		"answerable": true,
+		"relevant_papers": ["Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000", "Artificial Intelligence for Neuroscience, Mental Health, and Neurodegenerative Disorders: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation, IWINAC 2026, Canary Islands, Spain, May 26–29, 2026, Proceedings, Part I"]
+	},
+	{
+		"id": 28,
+		"question": "What is the purpose of using AI with spatial transcriptomics in neuroscience-related research?",
+		"expected_answer": "AI and large language models can help analyze, classify, and synthesize spatial transcriptomics literature and data, which map gene expression within tissue contexts.",
+		"answerable": true,
+		"relevant_papers": ["Spatial transcriptomics: a bibliometric analysis with large language model on English literatures.", "Artificial Intelligence in single-cell and spatial transcriptomics data analyses."]
+	},
+	{
+		"id": 29,
+		"question": "What are the four broad themes found in the AI stroke-rehabilitation scoping review?",
+		"expected_answer": "The themes are impairment, assisted intervention, prediction and imaging, and neuroscience.",
+		"answerable": true,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
+	},
+	{
+		"id": 30,
+		"question": "How can AI contribute to understanding cognition from neuroimaging?",
+		"expected_answer": "AI can identify patterns in brain images and networks, support cognitive classification or prediction, and provide interpretable analyses when paired with explainability methods.",
+		"answerable": true,
+		"relevant_papers": ["Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence", "The application of eXplainable artificial intelligence in studying cognition: A scoping review"]
+	},
+	{
+		"id": 31,
+		"question": "Does the corpus report the exact accuracy of every EEG-based diagnostic model it contains?",
+		"expected_answer": "No. The collection contains EEG and AI papers, but the available abstracts do not provide a single complete accuracy table for every EEG diagnostic model.",
+		"answerable": false,
+		"relevant_papers": ["Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience", "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia."]
+	},
+	{
+		"id": 32,
+		"question": "What was the exact p-value for the primary outcome in the stroke rehabilitation review?",
+		"expected_answer": "This cannot be determined from the collected abstracts and metadata; the review summarizes themes and applications but does not provide that specific p-value in the available corpus.",
+		"answerable": false,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
+	},
+	{
+		"id": 33,
+		"question": "Which specific transformer architecture achieved the best score in every neuroscience task in the corpus?",
+		"expected_answer": "The corpus does not support this claim. It mentions transformer-based models broadly, but does not establish one architecture as best across every task.",
+		"answerable": false,
+		"relevant_papers": ["Bird's Eye View of Artificial Intelligence in Neuroscience"]
+	},
+	{
+		"id": 34,
+		"question": "What is the clinically approved dosage of medication recommended by the AI epilepsy papers?",
+		"expected_answer": "The corpus does not provide a clinically approved medication dosage recommendation from the AI epilepsy papers.",
+		"answerable": false,
+		"relevant_papers": ["Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.", "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
+	},
+	{
+		"id": 35,
+		"question": "Which individual patient received the best stroke rehabilitation outcome in the reviewed studies?",
+		"expected_answer": "This is not answerable from the corpus because the review-level records do not identify individual patients or rank their outcomes.",
+		"answerable": false,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
+	},
+	{
+		"id": 36,
+		"question": "What was the exact training-set size and random seed for every model used in the temporal-lobe epilepsy study?",
+		"expected_answer": "The corpus reports the main cohort and validation cohort sizes, but it does not provide the exact training split and random seed for every model.",
+		"answerable": false,
+		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
+	},
+	{
+		"id": 37,
+		"question": "Can the collected papers prove that AI has achieved human-level general intelligence?",
+		"expected_answer": "No. The papers discuss relationships between neuroscience and AI and possible routes toward AGI, but they do not prove that human-level general intelligence has been achieved.",
+		"answerable": false,
+		"relevant_papers": ["A review of findings from neuroscience and cognitive psychology as possible inspiration for the path to artificial general intelligence", "The emergence of NeuroAI: bridging neuroscience and artificial intelligence"]
+	},
+	{
+		"id": 38,
+		"question": "What is the exact hardware energy consumption of Predictive Coding Light compared with the human brain?",
+		"expected_answer": "The corpus motivates energy efficiency and discusses the brain-versus-machine energy gap, but it does not provide a definitive hardware energy-consumption comparison for Predictive Coding Light.",
+		"answerable": false,
+		"relevant_papers": ["Predictive Coding Light."]
+	},
+	{
+		"id": 39,
+		"question": "Which AI model should a hospital universally adopt for neurological diagnosis?",
+		"expected_answer": "The corpus does not justify a universal model choice. It describes opportunities and challenges, while deployment depends on task, data, validation, interpretability, and clinical context.",
+		"answerable": false,
+		"relevant_papers": ["The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges", "An Overview of Artificial Intelligence in Neurology"]
+	},
+	{
+		"id": 40,
+		"question": "What is the exact causal effect of explainable AI on patient trust in neuroscience care?",
+		"expected_answer": "The corpus supports interpretability as a potential contributor to trust, but it does not establish an exact causal effect size for patient trust.",
+		"answerable": false,
+		"relevant_papers": ["Explainable Artificial Intelligence (XAI) for Better Healthcare Decisions: A Review of XAI Methods in Cardiology and Neuroscience"]
+	},
+	{
+		"id": 41,
+		"question": "What was the exact number of false positives for each brain-tumor AI system in the full collection?",
+		"expected_answer": "This cannot be determined from the available metadata and abstracts because they do not provide a complete false-positive count for each brain-tumor system.",
+		"answerable": false,
+		"relevant_papers": ["Artificial Intelligence in Brain Tumors.", "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review"]
+	},
+	{
+		"id": 42,
+		"question": "Which country has the most effective national policy for AI neuroscience research?",
+		"expected_answer": "The corpus identifies countries with strong publication activity, but it does not evaluate or rank national policy effectiveness.",
+		"answerable": false,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience"]
+	},
+	{
+		"id": 43,
+		"question": "What is the exact biological mechanism by which all deep-learning models improve memory?",
+		"expected_answer": "This is not answerable. The corpus discusses neuroscience-inspired learning and memory-related ideas but does not establish one biological mechanism shared by all deep-learning models.",
+		"relevant_papers": ["Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma"]
+	},
+	{
+		"id": 44,
+		"question": "Did every reviewed study use randomized controlled trials with blinded participants?",
+		"expected_answer": "The corpus does not support that statement; it includes reviews, bibliometric analyses, computational studies, and observational or imaging work, not exclusively blinded randomized trials.",
+		"answerable": false,
+		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.", "A bibliometric analysis of studies on artificial intelligence in neuroscience"]
+	},
+	{
+		"id": 45,
+		"question": "What exact clinical outcome will each AI neuroscience system produce for a new patient?",
+		"expected_answer": "The corpus does not permit a single answer because systems target different outcomes, including diagnosis, prognosis, monitoring, rehabilitation support, and neural-signal decoding.",
+		"answerable": false,
+		"relevant_papers": ["Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review", "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment"]
+	},
+	{
+		"id": 46,
+		"question": "What are the principal limitations of applying AI to neuroscience data?",
+		"expected_answer": "Important limitations include privacy and ethics concerns, limited interpretability, heterogeneous and complex neural data, the need for validation, and the risk of overclaiming clinical generalization.",
+		"answerable": true,
+		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges"]
+	},
+	{
+		"id": 47,
+		"question": "How can AI help personalize treatment for neurological disease?",
+		"expected_answer": "AI can stratify patients using imaging, biomarkers, neural signals, and clinical records, enabling subtype-specific diagnosis, prognosis, and potentially tailored interventions.",
+		"answerable": true,
+		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.", "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review"]
+	},
+	{
+		"id": 48,
+		"question": "What does brain-inspired AI borrow from neuroscience?",
+		"expected_answer": "Brain-inspired AI borrows ideas such as spiking communication, predictive coding, recurrent processing, plasticity, hierarchical representations, and energy-efficient computation.",
+		"answerable": true,
+		"relevant_papers": ["The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence", "Predictive Coding Light.", "Neuromorphic engineering: Artificial brains for artificial intelligence."]
+	},
+	{
+		"id": 49,
+		"question": "How can large language models contribute to neuroscience literature analysis?",
+		"expected_answer": "They can enrich bibliometric analysis, help map themes and relationships, and synthesize a rapidly growing interdisciplinary literature, while still requiring careful validation.",
+		"answerable": true,
+		"relevant_papers": ["Spatial transcriptomics: a bibliometric analysis with large language model on English literatures.", "A bibliometric analysis of studies on artificial intelligence in neuroscience"]
+	},
+	{
+		"id": 50,
+		"question": "What is the overall relationship between AI progress and neuroscience progress suggested by the corpus?",
+		"expected_answer": "The relationship is bidirectional: AI supplies methods for analyzing neural data and building clinical tools, while neuroscience supplies principles and hypotheses for more capable, adaptive, interpretable, and energy-efficient AI.",
+		"answerable": true,
+		"relevant_papers": ["The emergence of NeuroAI: bridging neuroscience and artificial intelligence", "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems", "Artificial intelligence is reshaping neuroscience across scales."]
+	}
+]

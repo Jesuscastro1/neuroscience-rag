@@ -1,0 +1,908 @@
+[
+  {
+    "title": "Danilo Bzdok.",
+    "abstract": "In this interview with Neuron, Danilo Bzdok argues that artificial intelligence and big data herald a paradigm shift in neuroscience. Leveraging large language models, researchers can overcome traditional, intuition-driven taxonomies, bridge disciplinary silos, and reconcile today's fragmented knowledge into a unified vision of brain function.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+    "published": "2026",
+    "authors": [
+      "Bzdok D"
+    ]
+  },
+  {
+    "title": "AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.",
+    "abstract": "Stroke is a leading cause of long-term disability worldwide. With the advancements in sensor technologies and data availability, artificial intelligence (AI) holds the promise of improving the amount, quality and efficiency of care and enhancing the precision of stroke rehabilitation. We aimed to identify and characterize the existing research on AI applications in stroke recovery and rehabilitation of adults, including categories of application and progression of technologies over time. Data were collected from peer-reviewed articles across various electronic databases up to January 2024. Insights were extracted using AI-enhanced multi-method, data-driven techniques, including clustering of themes and topics. This scoping review summarizes outcomes from 704 studies. Four common themes (impairment, assisted intervention, prediction and imaging, and neuroscience) were identified, in which time-linked patterns emerged. The impairment theme revealed a focus on motor function, gait and mobility, while the assisted intervention theme included applications of robotic and brain-computer interface (BCI) techniques. AI applications progressed over time, starting from conceptualization and then expanding to a broader range of techniques in supervised learning, artificial neural networks (ANN), natural language processing (NLP) and more. Applications focused on upper limb rehabilitation were reviewed in more detail, with machine learning (ML), deep learning techniques and sensors such as inertial measurement units (IMU) used for upper limb and functional movement analysis. AI applications have potential to facilitate tailored therapeutic delivery, thereby contributing to the optimization of rehabilitation outcomes and promoting sustained recovery from rehabilitation to real-world settings.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39460066/",
+    "published": "2024",
+    "authors": [
+      "Senadheera I",
+      "Hettiarachchi P",
+      "Haslam B",
+      "Nawaratne R",
+      "Sheehan J",
+      "Lockwood KJ",
+      "Alahakoon D",
+      "Carey LM"
+    ]
+  },
+  {
+    "title": "Predictive Coding Light.",
+    "abstract": "Current machine learning systems consume vastly more energy than biological brains. Neuromorphic systems aim to overcome this difference by mimicking the brain's information coding via discrete voltage spikes. However, it remains unclear how both artificial and natural networks of spiking neurons can learn energy-efficient information processing strategies. Here we propose Predictive Coding Light (PCL), a recurrent hierarchical spiking neural network for unsupervised representation learning. In contrast to previous predictive coding approaches, PCL does not transmit prediction errors to higher processing stages. Instead it suppresses the most predictable spikes and transmits a compressed representation of the input. Using only biologically plausible spike-timing based learning rules, PCL reproduces a wealth of findings on information processing in visual cortex and permits strong performance in downstream classification tasks. Overall, PCL offers a new approach to predictive coding and its implementation in natural and artificial spiking neural networks.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41053084/",
+    "published": "2025",
+    "authors": [
+      "N'dri AW",
+      "Barbier T",
+      "Teuli\u00e8re C",
+      "Triesch J"
+    ]
+  },
+  {
+    "title": "Spatial transcriptomics: a bibliometric analysis with large language model on English literatures.",
+    "abstract": "Spatial transcriptomics (ST) integrates spatial data with transcriptomic information, providing high-resolution maps of gene expression within tissue contexts. It has revolutionized studies on cellular function and disease mechanisms, particularly in cancer and immunology. We conducted a bibliometric analysis of 1197 publications from the Web of Science (2015-24), focusing on publication trends, journal distribution, and keyword analysis to identify key research areas in ST. ST publications surged from 2021, with 500 papers in 2023. Five of the top 10 journals are from the Nature Publishing Group. Keyword analysis identified emerging trends like \"tumor microenvironment,\" \"immune infiltration,\" and \"biomarker,\" highlighting ST's expanding role in cancer and immunology. International collaboration among multidisciplinary teams is crucial for maximizing ST's potential, and understanding its trends will guide its future impact. Large language models can further enrich the results of bibliometric research, making the findings of bibliometrics more comprehensive and specific.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41139313/",
+    "published": "2025",
+    "authors": [
+      "Li H",
+      "Wu H",
+      "Ma W",
+      "Li S",
+      "Cai J",
+      "Lin Y",
+      "Zhang J",
+      "Wang Y",
+      "Zhang C"
+    ]
+  },
+  {
+    "title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+    "abstract": "Artificial intelligence provides an opportunity to try to redefine disease subtypes based on similar pathobiology. Using a machine-learning algorithm (Subtype and Stage Inference) with cross-sectional MRI from 296 individuals with focal epilepsy originating from the temporal lobe (TLE) and 91 healthy controls, we show phenotypic heterogeneity in the pathophysiological progression of TLE. This study was registered in the Chinese Clinical Trials Registry (number: ChiCTR2200062562). We identify two hippocampus-predominant phenotypes, characterized by atrophy beginning in the left or right hippocampus; a third cortex-predominant phenotype, characterized by hippocampus atrophy after the neocortex; and a fourth phenotype without atrophy but amygdala enlargement. These four subtypes are replicated in the independent validation cohort (109 individuals). These subtypes show differences in neuroanatomical signature, disease progression and epilepsy characteristics. Five-year follow-up observations of these individuals reveal differential seizure outcomes among subtypes, indicating that specific subtypes may benefit from temporal surgery or pharmacological treatment. These findings suggest a diverse pathobiological basis underlying focal epilepsy that potentially yields to stratification and prognostication - a necessary step for precise medicine.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+    "published": "2024",
+    "authors": [
+      "Jiang Y",
+      "Li W",
+      "Li J",
+      "Li X",
+      "Zhang H",
+      "Sima X",
+      "Li L",
+      "Wang K",
+      "Li Q",
+      "Fang J",
+      "Jin L",
+      "Gong Q",
+      "Yao D",
+      "Zhou D",
+      "Luo C",
+      "An D"
+    ]
+  },
+  {
+    "title": "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+    "abstract": "Task-based functional magnetic resonance imaging (fMRI) reveals individual differences in neural correlates of cognition but faces scalability challenges due to cognitive demands, protocol variability, and limited task coverage in large datasets. Here, we propose DeepTaskGen, a deep-learning approach that synthesizes non-acquired task-based contrast maps from resting-state (rs-) fMRI. We validate this approach using the Human Connectome Project lifespan data, then generate 47 contrast maps from 7 different cognitive tasks for over 20,000 individuals from UK Biobank. DeepTaskGen outperforms several benchmarks in generating synthetic task-contrast maps, achieving superior reconstruction performance while retaining inter-individual variation essential for biomarker development. We further show comparable or superior predictive performance of synthetic maps relative to actual maps and rs-connectomes across diverse demographic, cognitive, and clinical variables. This approach facilitates the study of individual differences and the generation of task-related biomarkers by enabling the generation of arbitrary functional cognitive tasks from readily available rs-fMRI data.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41238730/",
+    "published": "2025",
+    "authors": [
+      "Serin E",
+      "Ritter K",
+      "Schumann G",
+      "Banaschewski T",
+      "Marquand A",
+      "Walter H",
+      "environMENTAL consortium"
+    ]
+  },
+  {
+    "title": "SmartEM: machine learning-guided electron microscopy.",
+    "abstract": "Connectomics provides nanometer-resolution, synapse-level maps of neural circuits to understand brain activity and behavior. However, few researchers have access to the high-throughput electron microscopes necessary to generate enough data for whole-brain or even whole-circuit reconstruction. To date, machine learning methods have been used after the collection of images by electron microscopy (EM) to accelerate and improve neuronal segmentation, synapse reconstruction and other data analysis. With the continual computational improvements in processing EM images, acquiring EM images will become the rate-limiting step in automated connectomics. Here, in order to speed up EM imaging, we integrate machine learning into real-time image acquisition in a single-beam scanning electron microscope. This SmartEM approach allows an electron microscope to perform data-aware imaging of specimens. SmartEM saves time by allocating the proper imaging time for each region of interest-first scanning all pixels rapidly and then rescanning more slowly only the small subareas where a higher quality signal is required. We demonstrate that SmartEM achieves up to an ~7-fold acceleration of image acquisition time for connectomic samples using a commercial single-beam SEM in samples from nematodes, mice and human brain. We apply this fast imaging method to reconstruct a portion of mouse cerebral cortex with an accuracy comparable to traditional electron microscopy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41461905/",
+    "published": "2026",
+    "authors": [
+      "Meirovitch Y",
+      "Chandok IS",
+      "Park CF",
+      "Potocek P",
+      "Mi L",
+      "Sawmya S",
+      "Li Y",
+      "Athey TL",
+      "Susoy V",
+      "Karlupia N",
+      "Wu Y",
+      "Berger DR",
+      "Schalek R",
+      "Bishop CA",
+      "Xenes D",
+      "Martinez H",
+      "Matelsky J",
+      "Wester BA",
+      "Pfister H",
+      "Schoenmakers R",
+      "Peemen M",
+      "Lichtman JW",
+      "Samuel ADT",
+      "Shavit N"
+    ]
+  },
+  {
+    "title": "AI-driven reclassification of multiple sclerosis progression.",
+    "abstract": "Multiple sclerosis (MS) affects 2.9 million people. Traditional classification of MS into distinct subtypes poorly reflects its pathobiology and has limited value for prognosticating disease evolution and treatment response, thereby hampering drug discovery. Here we report a data-driven classification of MS disease evolution by analyzing a large clinical trial database (approximately 8,000 patients, 118,000 patient visits and more than 35,000 magnetic resonance imaging scans) using probabilistic machine learning. Four dimensions define MS disease states: physical disability, brain damage, relapse and subclinical disease activity. Early/mild/evolving (EME) MS and advanced MS represent two poles of a disease severity spectrum. Patients with EME MS show limited clinical impairment and minor brain damage. Transitions to advanced MS occur via brain damage accumulation through inflammatory states, with or without accompanying symptoms. Advanced MS is characterized by moderate to high disability levels, radiological disease burden and risk of disease progression independent of relapses, with little probability of returning to earlier MS states. We validated these results in an independent clinical trial database and a real-world cohort, totaling more than 4,000 patients with MS. Our findings support viewing MS as a disease continuum. We propose a streamlined disease classification to offer a unifying understanding of the disease, improve patient management and enhance drug discovery efficiency and precision.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40835969/",
+    "published": "2025",
+    "authors": [
+      "Ganjgahi H",
+      "H\u00e4ring DA",
+      "Aarden P",
+      "Graham G",
+      "Sun Y",
+      "Gardiner S",
+      "Su W",
+      "Berge C",
+      "Bischof A",
+      "Fisher E",
+      "Gaetano L",
+      "Thoma SP",
+      "Kieseier BC",
+      "Nichols TE",
+      "Thompson AJ",
+      "Montalban X",
+      "Lublin FD",
+      "Kappos L",
+      "Arnold DL",
+      "Bermel RA",
+      "Wiendl H",
+      "Holmes CC"
+    ]
+  },
+  {
+    "title": "High throughput spatial immune mapping reveals an innate immune scar in post-COVID-19 brains.",
+    "abstract": "The underlying pathogenesis of neurological sequelae in post-COVID-19 patients remains unclear. Here, we used multidimensional spatial immune phenotyping and machine learning methods on brains from initial COVID-19 survivors to identify the biological correlate associated with previous SARS-CoV-2 challenge. Compared to healthy controls, individuals with post-COVID-19 revealed a high percentage of TMEM119+P2RY12+CD68+Iba1+HLA-DR+CD11c+SCAMP2+ microglia assembled in prototypical cellular nodules. In contrast to acute SARS-CoV-2 cases, the frequency of CD8+ parenchymal T cells was reduced, suggesting an immune shift toward innate immune activation that may contribute to neurological alterations in post-COVID-19 patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39060438/",
+    "published": "2024",
+    "authors": [
+      "Schwabenland M",
+      "Hasavci D",
+      "Frase S",
+      "Wolf K",
+      "Deigendesch N",
+      "Buescher JM",
+      "Mertz KD",
+      "Ondruschka B",
+      "Altmeppen H",
+      "Matschke J",
+      "Glatzel M",
+      "Frank S",
+      "Thimme R",
+      "Beck J",
+      "Hosp JA",
+      "Blank T",
+      "Bengsch B",
+      "Prinz M"
+    ]
+  },
+  {
+    "title": "Decoding the Narcissistic Brain.",
+    "abstract": "There is a substantial knowledge gap in the narcissism literature: <1 % of the nearly 12,000 articles on narcissism have addressed its neural basis. To help fill this gap, we asked whether the multifacetedness of narcissism could be decoded from spontaneous neural oscillations. We attempted to do so by applying a machine learning approach (multivariate pattern analysis) to the resting-state EEG data of 162 participants who also completed a comprehensive battery of narcissism scales assessing agentic, admirative, rivalrous, communal, and vulnerable forms. Consistent with the agency-communion model of narcissism, agentic and communal forms of grandiose narcissism were reflected in distinct, non-overlapping patterns of spontaneous neural oscillations. Furthermore, consistent with a narcissistic admiration and rivalry concept model of narcissism, we observed largely non-overlapping patterns of spontaneous neural oscillations for admirative and rivalrous forms of narcissism. Vulnerable narcissism was negatively associated with power across fast and slow wave frequency bands. Taken together, the results suggest that the diverse forms of narcissism can be reliably predicted from spontaneous neural oscillations. The findings contribute to the burgeoning field of personality neuroscience.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40403942/",
+    "published": "2025",
+    "authors": [
+      "Zhou Z",
+      "Huang C",
+      "Robins EM",
+      "Angus DJ",
+      "Sedikides C",
+      "Kelley NJ"
+    ]
+  },
+  {
+    "title": "Detection and analysis of complex structural variation in human genomes across populations and in brains of donors with psychiatric disorders.",
+    "abstract": "Complex structural variations (cxSVs) are often overlooked in genome analyses due to detection challenges. We developed ARC-SV, a probabilistic and machine-learning-based method that enables accurate detection and reconstruction of cxSVs from standard datasets. By applying ARC-SV across 4,262 genomes representing all continental populations, we identified cxSVs as a significant source of natural human genetic variation. Rare cxSVs have a propensity to occur in neural genes and loci that underwent rapid human-specific evolution, including those regulating corticogenesis. By performing single-nucleus multiomics in postmortem brains, we discovered cxSVs associated with differential gene expression and chromatin accessibility across various brain regions and cell types. Additionally, cxSVs detected in brains of psychiatric cases are enriched for linkage with psychiatric GWAS risk alleles detected in the same brains. Furthermore, our analysis revealed significantly decreased brain-region- and cell-type-specific expression of cxSV genes, specifically for psychiatric cases, implicating cxSVs in the molecular etiology of major neuropsychiatric disorders.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39353437/",
+    "published": "2024",
+    "authors": [
+      "Zhou B",
+      "Arthur JG",
+      "Guo H",
+      "Kim T",
+      "Huang Y",
+      "Pattni R",
+      "Wang T",
+      "Kundu S",
+      "Luo JXJ",
+      "Lee H",
+      "Nachun DC",
+      "Purmann C",
+      "Monte EM",
+      "Weimer AK",
+      "Qu PP",
+      "Shi M",
+      "Jiang L",
+      "Yang X",
+      "Fullard JF",
+      "Bendl J",
+      "Girdhar K",
+      "Kim M",
+      "Chen X",
+      "PsychENCODE Consortium",
+      "Greenleaf WJ",
+      "Duncan L",
+      "Ji HP",
+      "Zhu X",
+      "Song G",
+      "Montgomery SB",
+      "Palejev D",
+      "Zu Dohna H",
+      "Roussos P",
+      "Kundaje A",
+      "Hallmayer JF",
+      "Snyder MP",
+      "Wong WH",
+      "Urban AE"
+    ]
+  },
+  {
+    "title": "Focality in childhood absence epilepsy.",
+    "abstract": "BACKGROUND AND PURPOSE: Childhood absence epilepsy (CAE) has a typical electroencephalography (EEG) pattern of generalized 3\u2009Hz spike and wave discharges (SWD). Focal interictal discharges were also documented in a small number of documents. The aim was to investigate the amplitudes of interictal 3\u2009Hz SWD within the 1st second in drug-na\u00efve CAE patients. In this way, areas with maximal electronegativity at the beginning of clinically generalized discharges will be documented.\nMETHODS: The EEG records of children with drug-na\u00efve CAE were evaluated retrospectively by two child neurologists first for 3\u2009Hz SWD. Then, a machine-learning model evaluated the amplitudes of 3\u2009Hz in the 1st second of SWD. Maximum electronegativity areas were documented and classified as focal, bilateral, and generalized.\nRESULTS: One hundred and twelve 3\u2009Hz SWD were evaluated in 11 patients. Among discharges within the 1st second, maximum electronegativity areas were documented as focal for 44 (39.2%), bilateral for 8 (7.1%), generalized for 60 (53.5%). Among focal electronegativity areas, mostly right central, left occipital and midline parietal areas were documented in 12 (10.7%), 7 (6.2%), and 6 (5.3%), respectively. Eight (7.1%) of the maximum electronegativity areas were detected bilaterally, of which 7 (6.2%) originated from the frontopolar areas.\nCONCLUSIONS: Focal maximal electronegativity areas were frequently observed in drug-na\u00efve CAE patients, comprising approximately half of non-generalized discharges. Focal discharges might be misleading in diagnosis. Focal areas within the brain may be responsible for and contribute to absence seizures that appear bilaterally symmetrical and generalized clinically. Although its clinical implication is unknown, this warrants further study.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38643974/",
+    "published": "2024",
+    "authors": [
+      "Yay\u0131c\u0131 K\u00f6ken \u00d6",
+      "\u015eekero\u011flu B",
+      "\u015eanl\u0131da\u011f B",
+      "Sar\u0131 Yanarta\u015f M",
+      "Y\u0131lmaz A"
+    ]
+  },
+  {
+    "title": "Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.",
+    "abstract": "Epilepsy is a group of neurological disorders characterized by epileptic seizures, and it affects tens of millions of people worldwide. Currently, the most effective diagnostic method employs the monitoring of brain activity through electroencephalogram (EEG). However, it is critical to predict epileptic seizures in patients prior to their onset, allowing for the administration of preventive medications before the seizure occurs. As a pivotal application of artificial intelligence in medical treatment, learning the features of EEGs for epilepsy prediction and detection remains a challenging problem, primarily due to the presence of intra-class and inter-class variations in EEG signals. In this study, we propose the spatio-temporal EEGNet, which integrates contractive slab and spike convolutional deep belief network (CssCDBN) with a self-attention architecture, augmented by dual-task learning to address this issue. Initially, our model was designed to extract high-order and deep representations from EEG spectrum images, enabling the simultaneous capture of spatial and temporal information. Furthermore, EEG-based verification aids in reducing intra-class variation by considering the time correlation of the EEG during the fine-tuning stage, resulting in easier inference and training. The results demonstrate the notable efficacy of our proposed method. Our method achieved a sensitivity of 98.5%, a false-positive rate (FPR) of 0.041, a prediction time of 50.92 min during the epilepsy prediction task, and an accuracy of 94.1% during the epilepsy detection task, demonstrating significant improvements over current state-of-the-art methods.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39796842/",
+    "published": "2024",
+    "authors": [
+      "Qiao W",
+      "Bi X",
+      "Han L",
+      "Zhang Y"
+    ]
+  },
+  {
+    "title": "Foundation model of neural activity predicts response to new stimulus types.",
+    "abstract": "The complexity of neural circuits makes it challenging to decipher the brain's algorithms of intelligence. Recent breakthroughs in deep learning have produced models that accurately simulate brain activity, enhancing our understanding of the brain's computational objectives and neural coding. However, it is difficult for such models to generalize beyond their training distribution, limiting their utility. The emergence of foundation models1 trained on vast datasets has introduced a new artificial intelligence paradigm with remarkable generalization capabilities. Here we collected large amounts of neural activity from visual cortices of multiple mice and trained a foundation model to accurately predict neuronal responses to arbitrary natural videos. This model generalized to new mice with minimal training and successfully predicted responses across various new stimulus domains, such as coherent motion and noise patterns. Beyond neural response prediction, the model also accurately predicted anatomical cell types, dendritic features and neuronal connectivity within the MICrONS functional connectomics dataset2. Our work is a crucial step towards building foundation models of the brain. As neuroscience accumulates larger, multimodal datasets, foundation models will reveal statistical regularities, enable rapid adaptation to new tasks and accelerate research.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40205215/",
+    "published": "2025",
+    "authors": [
+      "Wang EY",
+      "Fahey PG",
+      "Ding Z",
+      "Papadopoulos S",
+      "Ponder K",
+      "Weis MA",
+      "Chang A",
+      "Muhammad T",
+      "Patel S",
+      "Ding Z",
+      "Tran D",
+      "Fu J",
+      "Schneider-Mizell CM",
+      "MICrONS Consortium",
+      "Reid RC",
+      "Collman F",
+      "da Costa NM",
+      "Franke K",
+      "Ecker AS",
+      "Reimer J",
+      "Pitkow X",
+      "Sinz FH",
+      "Tolias AS"
+    ]
+  },
+  {
+    "title": "BrainAGE: Revisited and reframed machine learning workflow.",
+    "abstract": "Since the introduction of the BrainAGE method, novel machine learning methods for brain age prediction have continued to emerge. The idea of estimating the chronological age from magnetic resonance images proved to be an interesting field of research due to the relative simplicity of its interpretation and its potential use as a biomarker of brain health. We revised our previous BrainAGE approach, originally utilising relevance vector regression (RVR), and substituted it with Gaussian process regression (GPR), which enables more stable processing of larger datasets, such as the UK Biobank (UKB). In addition, we extended the global BrainAGE approach to regional BrainAGE, providing spatially specific scores for five brain lobes per hemisphere. We tested the performance of the new algorithms under several different conditions and investigated their validity on the ADNI and schizophrenia samples, as well as on a synthetic dataset of neocortical thinning. The results show an improved performance of the reframed global model on the UKB sample with a mean absolute error (MAE) of less than 2\u2009years and a significant difference in BrainAGE between healthy participants and patients with Alzheimer's disease and schizophrenia. Moreover, the workings of the algorithm show meaningful effects for a simulated neocortical atrophy dataset. The regional BrainAGE model performed well on two clinical samples, showing disease-specific patterns for different levels of impairment. The results demonstrate that the new improved algorithms provide reliable and valid brain age estimations.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38379519/",
+    "published": "2024",
+    "authors": [
+      "Kalc P",
+      "Dahnke R",
+      "Hoffstaedter F",
+      "Gaser C",
+      "Alzheimer's Disease Neuroimaging Initiative"
+    ]
+  },
+  {
+    "title": "Machine learning of brain-specific biomarkers from EEG.",
+    "abstract": "BACKGROUND: Electroencephalography (EEG) has a long history as a clinical tool to study brain function, and its potential to derive biomarkers for various applications is far from exhausted. Machine learning (ML) can guide future innovation by harnessing the wealth of complex EEG signals to isolate relevant brain activity. Yet, ML studies in EEG tend to ignore physiological artefacts, which may cause problems for deriving biomarkers specific to the central nervous system (CNS).\nMETHODS: We present a framework for conceptualising machine learning from CNS versus peripheral signals measured with EEG. A signal representation based on Morlet wavelets allowed us to define traditional brain activity features (e.g. log power) and alternative inputs used by state-of-the-art ML approaches based on covariance matrices. Using more than 2600 EEG recordings from large public databases (TUAB, TDBRAIN), we studied the impact of peripheral signals and artefact removal techniques on ML models in age and sex prediction analyses.\nFINDINGS: Across benchmarks, basic artefact rejection improved model performance, whereas further removal of peripheral signals using ICA decreased performance. Our analyses revealed that peripheral signals enable age and sex prediction. However, they explained only a fraction of the performance provided by brain signals.\nINTERPRETATION: We show that brain signals and body signals, both present in the EEG, allow for prediction of personal characteristics. While these results may depend on specific applications, our work suggests that great care is needed to separate these signals when the goal is to develop CNS-specific biomarkers using ML.\nFUNDING: All authors have been working for F. Hoffmann-La Roche Ltd.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39106531/",
+    "published": "2024",
+    "authors": [
+      "Bomatter P",
+      "Paillard J",
+      "Garces P",
+      "Hipp J",
+      "Engemann DA"
+    ]
+  },
+  {
+    "title": "Neuromorphic engineering: Artificial brains for artificial intelligence.",
+    "abstract": "Neuromorphic engineering is a research discipline that tries to bridge the gaps between neuroscience and engineering, cognition and algorithms, and natural and artificial intelligence. Neuromorphic engineering promises revolutionary breakthroughs that could rapidly advance our understanding of the brain and pave the way toward more human-like and sustainable artificial intelligence. But first, it will have to find its way out of the laboratory.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39567436/",
+    "published": "2024",
+    "authors": [
+      "Leugering J"
+    ]
+  },
+  {
+    "title": "Machine learning reveals correlations between brain age and mechanics.",
+    "abstract": "Our brain undergoes significant micro- and macroscopic changes throughout its life cycle. It is therefore crucial to understand the effect of aging on the mechanical properties of the brain in order to develop accurate personalized simulations and diagnostic tools. Here we systematically probed the mechanical behavior of n=439 brain tissue samples in tension and compression, in different anatomical regions, for different axon orientations, across five age groups. We used Bayesian statistics to characterize the relation between brain age and mechanical properties and quantify uncertainties. Our results, based on our experimental data and material parameters for the isotropic Ogden and the anisotropic Gasser-Ogden-Holzapfel models, reveal a non-linear relationship between age and mechanics across the life cycle of the porcine brain. Both tensile and compressive shear moduli reached peak values ranging from 0.4-1.0 kPa in tension to 0.16-0.32 kPa in compression at three years of age. Anisotropy was most pronounced at six months, and then decreased. These results represent an important step in understanding age-dependent changes in the mechanical properties of brain tissue and provide the scientific basis for more accurate and realistic computational brain simulations. STATEMENT OF SIGNIFICANCE: In this paper, we investigate the age-dependent mechanical properties of brain tissue based on different deformation modes, anatomical regions, and axon orientations. Hierarchical Bayesian modeling was used to identify isotropic and anisotropic material parameters. The study reveals a nonlinear relationship between shear modulus, degree of anisotropy, and tension-compression asymmetry over the life cycle of the brain. By demonstrating the non-linearity of these relationships, the study fills a significant knowledge gap in current research. This work is a fundamental step in accurately characterizing the complex relationship between brain aging and mechanical properties.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39490463/",
+    "published": "2024",
+    "authors": [
+      "Hoppst\u00e4dter M",
+      "Linka K",
+      "Kuhl E",
+      "Schmicke M",
+      "B\u00f6l M"
+    ]
+  },
+  {
+    "title": "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+    "abstract": "We present open-source tools for three-dimensional (3D) analysis of photographs of dissected slices of human brains, which are routinely acquired in brain banks but seldom used for quantitative analysis. Our tools can: (1) 3D reconstruct a volume from the photographs and, optionally, a surface scan; and (2) produce a high-resolution 3D segmentation into 11 brain regions per hemisphere (22 in total), independently of the slice thickness. Our tools can be used as a substitute for ex vivo magnetic resonance imaging (MRI), which requires access to an MRI scanner, ex vivo scanning expertise, and considerable \ufb01nancial resources. We tested our tools on synthetic and real data from two NIH Alzheimer's Disease Research Centers. The results show that our methodology yields accurate 3D reconstructions, segmentations, and volumetric measurements that are highly correlated to those from MRI. Our method also detects expected di\ufb00erences between post mortem con\ufb01rmed Alzheimer's disease cases and controls. The tools are available in our widespread neuroimaging suite 'FreeSurfer' (https://surfer.nmr.mgh.harvard.edu/fswiki/PhotoTools).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38896568/",
+    "published": "2024",
+    "authors": [
+      "Gazula H",
+      "Tregidgo HFJ",
+      "Billot B",
+      "Balbastre Y",
+      "Williams-Ramirez J",
+      "Herisse R",
+      "Deden-Binder LJ",
+      "Casamitjana A",
+      "Melief EJ",
+      "Latimer CS",
+      "Kilgore MD",
+      "Montine M",
+      "Robinson E",
+      "Blackburn E",
+      "Marshall MS",
+      "Connors TR",
+      "Oakley DH",
+      "Frosch MP",
+      "Young SI",
+      "Van Leemput K",
+      "Dalca AV",
+      "Fischl B",
+      "MacDonald CL",
+      "Keene CD",
+      "Hyman BT",
+      "Iglesias JE"
+    ]
+  },
+  {
+    "title": "Artificial Intelligence in Brain Tumors.",
+    "abstract": "The introduction of \"intelligent machines\" goes back to Alan Turing in the 1940s. Artificial intelligence (AI) is a broad umbrella covering different methodologies, such as machine learning and deep learning. Deep learning, characterized by multilayered computational models, has revolutionized data representation across various abstraction levels. Deep learning can unravel complex structures within extensive datasets by guiding computer algorithms to adjust internal parameters for successive data representation layers.Specifically, deep convolutional networks have advanced image, video, and audio data analysis, while recurrent networks have offered insights into sequential data, notably in medical imaging. Radiomics involves extraction and quantification of features from medical images and has emerged as an important field of research. Interesting predictions can be made with the help of radiomics features and machine learning algorithms. This chapter reviews the applications of AI methodologies in brain tumors. We highlight the significance of data preprocessing and augmentation and explore deep learning models for brain tumor segmentation and the fusion of clinical and imaging data.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39523267/",
+    "published": "2024",
+    "authors": [
+      "Suero Molina E",
+      "Azemi G",
+      "Russo C",
+      "Liu S",
+      "Di Ieva A"
+    ]
+  },
+  {
+    "title": "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+    "abstract": "Comorbid cardiovascular and metabolic risk factors (CVM) differentially impact brain structure and increase dementia risk, but their specific magnetic resonance imaging signatures (MRI) remain poorly characterized. To address this, we developed and validated machine learning models to quantify the distinct spatial patterns of atrophy and white matter hyperintensities related to hypertension, hyperlipidemia, smoking, obesity, and type-2 diabetes mellitus at the patient level. Using harmonized MRI data from 37,096 participants (45-85 years) in a large multinational dataset of 10 cohort studies, we generated five in silico severity markers that: i) outperformed conventional structural MRI markers with a ten-fold increase in effect sizes, ii) captured subtle patterns at sub-clinical CVM stages, iii) were most sensitive in mid-life (45-64 years), iv) were associated with brain beta-amyloid status, and v) showed stronger associations with cognitive performance than diagnostic CVM status. Integrating personalized measurements of CVM-specific brain signatures into phenotypic frameworks could guide early risk detection and stratification in clinical studies.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40108173/",
+    "published": "2025",
+    "authors": [
+      "Govindarajan ST",
+      "Mamourian E",
+      "Erus G",
+      "Abdulkadir A",
+      "Melhem R",
+      "Doshi J",
+      "Pomponio R",
+      "Tosun D",
+      "Bilgel M",
+      "An Y",
+      "Sotiras A",
+      "Marcus DS",
+      "LaMontagne P",
+      "Benzinger TLS",
+      "Espeland MA",
+      "Masters CL",
+      "Maruff P",
+      "Launer LJ",
+      "Fripp J",
+      "Johnson SC",
+      "Morris JC",
+      "Albert MS",
+      "Bryan RN",
+      "Resnick SM",
+      "Habes M",
+      "Shou H",
+      "Wolk DA",
+      "Nasrallah IM",
+      "Davatzikos C"
+    ]
+  },
+  {
+    "title": "Future views on neuroscience and AI.",
+    "abstract": "The relationship between neuroscience and artificial intelligence (AI) has evolved rapidly over the past decade. These two areas of study influence and stimulate each other. We invited experts to share their perspectives on this exciting intersection, focusing on current achievements, unsolved questions, and future directions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39423800/",
+    "published": "2024",
+    "authors": [
+      "Witten I",
+      "Yamins DLK",
+      "Clopath C",
+      "Bethge M",
+      "Zeng Y",
+      "Kennedy A",
+      "Birhane A",
+      "Tsao D",
+      "Kim B",
+      "Fiete I"
+    ]
+  },
+  {
+    "title": "Neuroevolution insights into biological neural computation.",
+    "abstract": "This article reviews existing work and future opportunities in neuroevolution, an area of machine learning in which evolutionary optimization methods such as genetic algorithms are used to construct neural networks to achieve desired behavior. The article takes a neuroscience perspective, identifying where neuroevolution can lead to insights about the structure, function, and developmental and evolutionary origins of biological neural circuitry that can be studied in further neuroscience experiments. It proposes optimization under environmental constraints as a unifying theme and suggests the evolution of language as a grand challenge whose time may have come.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39946457/",
+    "published": "2025",
+    "authors": [
+      "Miikkulainen R"
+    ]
+  },
+  {
+    "title": "Cell death-associated genes as novel diagnostic biomarkers for autism spectrum disorder.",
+    "abstract": "Autism spectrum disorder (ASD) involves neuroinflammation and dysregulated neuronal death but lacks objective diagnostic biomarkers. This study investigated whether cell death could serve as a molecular basis for ASD diagnosis. We identified cell death-associated genes (CDGs) in peripheral blood mononuclear cells between ASD and control groups and performed functional enrichment, protein-protein interaction, immune characteristics, and non-negative matrix factorization clustering analyses. Key genes were further selected using 6 machine learning algorithms and weighted gene co-expression network analysis to construct a diagnostic model, which was subsequently validated using external human blood samples and mice prefrontal cortex samples. We explored microRNAs (miRNAs), transcription factors (TFs), and drugs potentially interacted with the key genes. Fourteen CDGs and 4 out of 22 types of immune cells were differentially expressed between ASD and controls in GSE18123. These genes were enriched in pathways such as neuron apoptosis and RAGE receptor binding. Among 6 machine learning models, K-Nearest Neighbors (KNN) model exhibited the best performance. Six key genes were selected as the most important hub genes and used to construct the diagnostic model. The model showed AUCs of 0.722 in GSE42133, 0.781 in our local samples, and 0.889 in mice prefrontal cortex samples. A total of 172 miRNAs, 111 TFs, and 98 drugs were found to interact with these key genes. The expression patterns of CDGs in the peripheral blood of children with ASD demonstrate potential diagnostic value. Further studies are warranted to validate their diagnostic performance in real-world settings and to elucidate the role of cell death dysregulation in ASD.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41518421/",
+    "published": "2026",
+    "authors": [
+      "Li C",
+      "Wei L",
+      "Chen W",
+      "Ran G",
+      "Liu L",
+      "Li Z",
+      "Song A",
+      "Liu M",
+      "Huang D",
+      "Tang K",
+      "Zeng X",
+      "Wang L"
+    ]
+  },
+  {
+    "title": "Early detection of Alzheimer's disease using deep learning methods.",
+    "abstract": "INTRODUCTION: Alzheimer's disease (AD), a leading cause of dementia, requires early detection for effective intervention. This study employs AI to analyze multimodal datasets, including clinical, biomarker, and neuroimaging data, using hybrid deep learning frameworks to improve predictive accuracy.\nMETHODS: A novel framework was developed, including trained models for structured data and magnetic resonance images. The structured data model used a long short-term memory (LSTM) for temporal dependencies and a feedforward neural network (FNN) for static patterns. The MRI-based model employed ResNet50 and MobileNetV2 to extract spatial features. Models were applied on National Alzheimer's Coordinating Centre (NACC) and Alzheimer's Disease Neuroimaging Initiative (ADNI) datasets and compared to previous works.\nRESULTS: The MRI-based model achieved 96.19% accuracy on the ADNI dataset, while the hybrid model attained 99.82% accuracy on NACC dataset.\nDISCUSSION: This study highlights hybrid AI models' potential in AD detection, enabling earlier interventions and improved detection outcomes.\nHIGHLIGHTS: AI models were explored for early AD detection using NACC and ADNI datasets. Achieved high accuracy with LSTM on NACC data, showing potential for early AD diagnosis. Evaluated transfer learning models (MobileNetV2, ResNet-50) to address data limitations. A method is proposed for the careful validation of transfer learning models in medical brain diagnostics.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40356024/",
+    "published": "2025",
+    "authors": [
+      "Mmadumbu AC",
+      "Saeed F",
+      "Ghaleb F",
+      "Qasem SN"
+    ]
+  },
+  {
+    "title": "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+    "abstract": "Severely brain-injured patients may enter a spectrum of conditions collectively known as disorders of consciousness. This spectrum includes clinical conditions such as unresponsive wakefulness syndrome or minimally conscious state, where the behavioural assessment of consciousness can often be deceptive. To bridge this dissociation, neuroimaging techniques are employed to identify the residual brain functions. Each neuroimaging modality imperfectly captures distinct aspects of brain preservation-functional, anatomical, or both. In this study, we adopt a comprehensive approach by integrating the neurophysiology and neuroimaging modalities available from the standard and advanced clinical assessments through interpretable machine learning. The electrophysiological modalities included high-density EEG (resting state and task), whereas neuroimaging modalities included anatomical and resting-state functional MRI, diffusion MRI and 18F-fluorodeoxyglucose PET. Our investigation reveals that specific modalities, such as functional assessments, provide comprehensive insights into the currently evaluated state of consciousness, the diagnosis of the patients. Conversely, structural modalities offer valuable information about the patient's evolution within the consciousness spectrum. We validate the proposed analysis with data coming from other centres with different acquisition parameters. Importantly, we demonstrate that model performance improves with an increase in the number of modalities. We observe a higher inter-modality disagreement for minimally conscious state patients and those patients who improve. Lastly, we observe a difference in feature importances between diagnosis and prognosis, with an interaction between modality and anatomical structures: some subcortical markers tend to contribute more to prognosis, while other cortical markers are more informative for diagnosis. This integrative multimodal and machine learning methodology presents a promising avenue for a more nuanced understanding of disorders of consciousness, contributing to enhanced diagnostic precision, prognostic capabilities and the personalization of rehabilitative strategies in clinical practice.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41499248/",
+    "published": "2026",
+    "authors": [
+      "Manasova D",
+      "Belloli LML",
+      "Rosenfelder MJ",
+      "Willacker L",
+      "Fl\u00f3 Rama E",
+      "Valota C",
+      "Hermann B",
+      "Kaufmann BC",
+      "Pirastru A",
+      "Derchi CC",
+      "Raiser T",
+      "Valente M",
+      "Sangare A",
+      "T\u00fcrker B",
+      "Pyatigorskaya N",
+      "B\u00e9ranger B",
+      "Colombo M",
+      "Munoz-Musat E",
+      "Escrichs A",
+      "Atzori T",
+      "Baglio F",
+      "Lapa C",
+      "Berlis A",
+      "Kr\u00fcger K",
+      "Luther T",
+      "Perlbarg V",
+      "Deco G",
+      "Sanz-Perl Y",
+      "Tagliazucchi E",
+      "Puybasset L",
+      "Rohaut B",
+      "Naccache L",
+      "Comanducci A",
+      "Arzi A",
+      "Rosanova M",
+      "Bender A",
+      "Sitt JD"
+    ]
+  },
+  {
+    "title": "Employing deep learning and transfer learning for accurate brain tumor detection.",
+    "abstract": "Artificial intelligence-powered deep learning methods are being used to diagnose brain tumors with high accuracy, owing to their ability to process large amounts of data. Magnetic resonance imaging stands as the gold standard for brain tumor diagnosis using machine vision, surpassing computed tomography, ultrasound, and X-ray imaging in its effectiveness. Despite this, brain tumor diagnosis remains a challenging endeavour due to the intricate structure of the brain. This study delves into the potential of deep transfer learning architectures to elevate the accuracy of brain tumor diagnosis. Transfer learning is a machine learning technique that allows us to repurpose pre-trained models on new tasks. This can be particularly useful for medical imaging tasks, where labelled data is often scarce. Four distinct transfer learning architectures were assessed in this study: ResNet152, VGG19, DenseNet169, and MobileNetv3. The models were trained and validated on a dataset from benchmark database: Kaggle. Five-fold cross validation was adopted for training and testing. To enhance the balance of the dataset and improve the performance of the models, image enhancement techniques were applied to the data for the four categories: pituitary, normal, meningioma, and glioma. MobileNetv3 achieved the highest accuracy of 99.75%, significantly outperforming other existing methods. This demonstrates the potential of deep transfer learning architectures to revolutionize the field of brain tumor diagnosis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38538708/",
+    "published": "2024",
+    "authors": [
+      "Mathivanan SK",
+      "Sonaimuthu S",
+      "Murugesan S",
+      "Rajadurai H",
+      "Shivahare BD",
+      "Shah MA"
+    ]
+  },
+  {
+    "title": "A Replicable and Generalizable Neuroimaging-Based Indicator of Pain Sensitivity Across Individuals.",
+    "abstract": "Revealing the neural underpinnings of pain sensitivity is crucial for understanding how the brain encodes individual differences in pain and advancing personalized pain treatments. Here, six large and diverse functional magnetic resonance imaging (fMRI) datasets (total N = 1046) are leveraged to uncover the neural mechanisms of pain sensitivity. Replicable and generalizable correlations are found between nociceptive-evoked fMRI responses and pain sensitivity for laser heat, contact heat, and mechanical pains. These fMRI responses correlate more strongly with pain sensitivity than with tactile, auditory, and visual sensitivity. Moreover, a machine learning model is developed that accurately predicts not only pain sensitivity (r = 0.20\u223c0.56, ps < 0.05) but also analgesic effects of different treatments in healthy individuals (r = 0.17\u223c0.25, ps < 0.05). Notably, these findings are influenced considerably by sample sizes, requiring >200 for univariate whole brain correlation analysis and >150 for multivariate machine learning modeling. Altogether, this study demonstrates that fMRI activations encode pain sensitivity across various types of pain, thus facilitating interpretations of subjective pain reports and promoting more mechanistically informed investigations into pain physiology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40911184/",
+    "published": "2025",
+    "authors": [
+      "Zhang LB",
+      "Lu XJ",
+      "Zhang HJ",
+      "Wei ZX",
+      "Kong YZ",
+      "Tu YH",
+      "Iannetti GD",
+      "Hu L"
+    ]
+  },
+  {
+    "title": "Biological computation through recurrence.",
+    "abstract": "One of the defining features of living systems is their adaptability to changing environmental conditions. This requires organisms to extract temporal and spatial features of their environment, and use that information to compute the appropriate response. In the last two decades, a growing body of work, mainly coming from the machine learning and computational neuroscience fields, has shown that such complex information processing can be performed by recurrent networks. Temporal computations arise in these networks through the interplay between the external stimuli and the network's internal state. In this article we review our current understanding of how recurrent networks can be used by biological systems, from cells to brains, for complex information processing. Rather than focusing on sophisticated, artificial recurrent architectures such as long short-term memory (LSTM) networks, here we concentrate on simpler network structures and learning algorithms that can be expected to have been found by evolution. We also review studies showing evidence of naturally occurring recurrent networks in living organisms. Lastly, we discuss some relevant evolutionary aspects concerning the emergence of this natural computation paradigm.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38971000/",
+    "published": "2024",
+    "authors": [
+      "Vidal-Saez MS",
+      "Vilarroya O",
+      "Garcia-Ojalvo J"
+    ]
+  },
+  {
+    "title": "Neuroprognostication via Radiomics and Machine Learning Following Neonatal Hypoxic-Ischemic Insult.",
+    "abstract": "OBJECTIVE: To produce objective predictions of neurodevelopmental outcomes after perinatal hypoxic-ischemic insult for the full spectrum of severity of hypoxic-ischemic encephalopathy (HIE) using a machine learning model incorporating only magnetic resonance imaging (MRI)-based radiomic measures.\nSTUDY DESIGN: This was a retrospective cohort study of infants born between January 2018 and January 2022 who experienced HIE. Neonates with a gestational age of \u226535 weeks and a diagnosis of neonatal encephalopathy were treated with therapeutic hypothermia, after which post-rewarming brain MRIs were acquired. At 18 months of age, developmental outcomes were assessed with the Bayley Scales of Infant and Toddler Development. The MRI data were preprocessed, and radiomic measures were extracted from labels covering the entire brain. The radiomic measures together with the outcome measures were provided to an elastic-net penalized linear regression model to predict the outcomes within a 10-fold cross-validation framework.\nRESULTS: A total of 167 neonates were included. Across cognitive, language, and motor domains, the mean correlation between the predicted outcomes and the observed outcomes was 0.94, and the mean predictive R-square was 0.87.\nCONCLUSIONS: A machine learning model using only MRI-based radiomic measures from infants with HIE can reliably predict their 18-month developmental outcomes with high accuracy across motor, cognitive, and language domains, regardless of the severity of their brain injury. In addition, our approach allowed us to produce atlases of the brain regions responsible for the developmental impairments, which may prove useful in the search for novel interventions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41692231/",
+    "published": "2026",
+    "authors": [
+      "Lewis JD",
+      "Miran AA",
+      "Stoopler M",
+      "Branson HM",
+      "Danguecan A",
+      "Raghu K",
+      "Ly LG",
+      "Cizmeci MN",
+      "Kalish BT"
+    ]
+  },
+  {
+    "title": "Brain-inspired synaptic transistors for in-situ spiking reinforcement learning with eligibility trace.",
+    "abstract": "Brain-inspired reinforcement learning is pivotal for artificial general intelligence, yet current artificial neural network-based hardware lacks critical biological mechanisms like third-terminal modulated eligibility traces and dynamic reward signaling. Emerging materials address these challenges by efficiently mimicking complex reinforcement learning dynamics. Here, we demonstrate a brain-inspired spiking neural network-based reinforcement learning computing architecture using \u03b1-In<sub>2</sub>Se<sub>3</sub> ferroelectric semiconductor field-effect transistor. By leveraging the intrinsic in-plane and out-of-plane polarization coupling of \u03b1-In<sub>2</sub>Se<sub>3</sub>, the multi-terminal conductance modulation in the device enables reward signal modulation of reinforcement learning. The ferroelectric relaxation is utilized to implement biological eligibility trace decay, thereby enhancing the algorithm's processing capability. autonomous driving tasks are then demonstrated with an RL neural network constructed by the \u03b1-In<sub>2</sub>Se<sub>3</sub> transistor array, where in-situ reward-based weight updates and eligibility trace decay are performed without any external memory or computing units. Our solution enables a fully functional, energy-efficient, and low-overhead spiking-based reinforcement learning architecture.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41723182/",
+    "published": "2026",
+    "authors": [
+      "Wang Y",
+      "Xiong W",
+      "Yan J",
+      "Zhou Y",
+      "Zhu C",
+      "Miao X",
+      "He Y",
+      "Chai Y"
+    ]
+  },
+  {
+    "title": "Machine learning based metabolomic and genetic profiles for predicting multiple brain phenotypes.",
+    "abstract": "BACKGROUND: It is unclear regarding the association between metabolomic state/genetic risk score(GRS) and brain volumes and how much of variance of brain volumes is attributable to metabolomic state or GRS.\nMETHODS: Our analysis included 8635 participants (52.5% females) aged 40-70 years at baseline from the UK Biobank. Metabolomic profiles were assessed using nuclear magnetic resonance at baseline (between 2006 and 2010). Brain volumes were measured using magnetic resonance imaging between 2014 and 2019. Machine learning was used to generate metabolomic state and GRS for each of 21 brain phenotypes.\nRESULTS: Individuals in the top 20% of metabolomic state had 2.4-35.7% larger volumes of 21 individual brain phenotypes compared to those in the bottom 20% while the corresponding number for GRS ranged from 1.5 to 32.8%. The proportion of variance of brain volumes (R [2]) explained by the corresponding metabolomic state ranged from 2.2 to 19.4%, and the corresponding number for GRS ranged from 0.8 to 8.7%. Metabolomic state provided no or minimal additional prediction values of brain volumes to age and sex while GRS provided moderate additional prediction values (ranging from 0.8 to 8.8%). No significant interplay between metabolomic state and GRS was observed, but the association between metabolomic state and some regional brain volumes was stronger in men or younger individuals. Individual metabolomic profiles including lipids and fatty acids were strong predictors of brain volumes.\nCONCLUSIONS: In conclusion, metabolomic state is strongly associated with multiple brain volumes but provides minimal additional prediction value of brain volumes to age\u2009+\u2009sex. Although GRS is a weaker contributor to brain volumes than metabolomic state, it provides moderate additional prediction value of brain volumes to age\u2009+\u2009sex. Our findings suggest metabolomic state and GRS are important predictors for multiple brain phenotypes.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39627804/",
+    "published": "2024",
+    "authors": [
+      "Zhang X",
+      "Huang Y",
+      "Liu S",
+      "Ma S",
+      "Li M",
+      "Zhu Z",
+      "Wang W",
+      "Zhang X",
+      "Liu J",
+      "Tang S",
+      "Hu Y",
+      "Ge Z",
+      "Yu H",
+      "He M",
+      "Shang X"
+    ]
+  },
+  {
+    "title": "Machine learning and deep learning for classifying the justification of brain CT referrals.",
+    "abstract": "OBJECTIVES: To train the machine and deep\u00a0learning models to automate the justification analysis of radiology referrals in accordance with iGuide categorisation, and to determine if prediction models can generalise across multiple clinical sites and outperform human experts.\nMETHODS: Adult brain computed tomography (CT) referrals from scans performed in three CT centres in Ireland in 2020 and 2021 were retrospectively collected. Two radiographers analysed the justification of 3000 randomly selected referrals using iGuide, with two consultant radiologists analysing the referrals with disagreement. Insufficient or duplicate referrals were discarded. The inter-rater agreement among radiographers and consultants was computed. A random split (4:1) was performed to apply machine learning (ML) and deep\u00a0learning (DL) techniques to unstructured clinical indications to automate retrospective justification auditing with multi-class classification. The accuracy and macro-averaged F1 score of the best-performing classifier of each type on the training set were computed on the test set.\nRESULTS: 42 referrals were ignored. 1909 (64.5%) referrals were justified, 811 (27.4%) were potentially justified, and 238 (8.1%) were unjustified. The agreement between radiographers (\u03ba\u2009=\u20090.268) was lower than radiologists (\u03ba\u2009=\u20090.460). The best-performing ML model was the bag-of-words-based gradient-boosting classifier achieving a 94.4% accuracy and a macro F1 of 0.94. DL models were inferior, with bi-directional long short-term memory achieving 92.3% accuracy, a macro F1 of 0.92, and outperforming multilayer perceptrons.\nCONCLUSION: Interpreting unstructured clinical indications is challenging necessitating clinical decision support. ML and DL can generalise across multiple clinical sites, outperform human experts, and be used as an artificial intelligence-based iGuide interpreter when retrospectively vetting radiology referrals.\nCLINICAL RELEVANCE STATEMENT: Healthcare vendors and clinical sites should consider developing and utilising artificial intelligence-enabled systems for justifying medical exposures. This would enable better implementation of imaging referral guidelines in clinical practices and reduce population dose burden, CT waiting lists, and wasteful use of resources.\nKEY POINTS: Significant variations exist among human experts in interpreting unstructured clinical indications/patient presentations. Machine and deep learning can automate the justification analysis of radiology referrals according to iGuide categorisation. Machine and deep learning can improve retrospective and prospective justification auditing\u00a0for better implementation of imaging referral guidelines.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38913244/",
+    "published": "2024",
+    "authors": [
+      "Poto\u010dnik J",
+      "Thomas E",
+      "Lawlor A",
+      "Kearney D",
+      "Heffernan EJ",
+      "Killeen RP",
+      "Foley SJ"
+    ]
+  },
+  {
+    "title": "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+    "abstract": "BACKGROUND: Subjective cognitive decline (SCD) has been recognized as a preclinical stage of Alzheimer's disease. However, the identification of early functional brain changes remains challenging. This study investigated the functional brain changes in SCD using longitudinal EEG and evaluate the feasibility of EEG features as scalable biomarkers for identifying amyloid burden and cognitive decline using an interpretable machine learning framework.\nMETHODS: We analyzed 120 individuals with SCD enrolled in a multicenter prospective cohort (the CoSCo study) at baseline and after a 2-year follow-up. Participants were classified as amyloid-positive (A\u2009+\u2009SCD) or amyloid-negative (A\u2009-\u2009SCD). Spectral power and graph theory-based network analyses were conducted. Also, we trained machine learning classifiers to distinguish between the groups and interpreted the predictions of classifiers using SHAP.\nRESULTS: At both baseline and follow-up, the A\u2009+\u2009SCD group exhibited elevated low-frequency (delta and theta) activity and reduced alpha activity compared to the A\u2009-\u2009SCD group. The EEG-based classifiers distinguished A\u2009+\u2009SCD from A-SCD individuals with high performance, outperforming a classifier based on demographic data. The results of SHAP analysis confirmed the importance and relative contribution of selected EEG features.\nCONCLUSIONS: Longitudinal EEG, when combined with interpretable machine learning, can detect and track the functional alterations of brain related to amyloid pathology in preclinical AD. Our findings support the feasibility of EEG as a non-invasive, scalable, and sensitive biomarker for risk stratification, before overt cognitive impairment emerges.\nTRIAL REGISTRATION: This study was registered at the Clinical Research Information Service (CRIS) (cris.nih.go.kr/cris; # KCT0003397, Registration Date: December 21, 2018).",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41462345/",
+    "published": "2025",
+    "authors": [
+      "Ryoo N",
+      "Park JY",
+      "Lee C",
+      "Ho S",
+      "Hong YJ",
+      "Jeong JH",
+      "Park KH",
+      "Wang MJ",
+      "Choi SH",
+      "Kim S",
+      "Youn YC",
+      "Kim E",
+      "Kim S",
+      "Yang DW"
+    ]
+  },
+  {
+    "title": "Machine learning decoding of single neurons in the thalamus for speech brain-machine interfaces.",
+    "abstract": "Objective. Our goal is to decode firing patterns of single neurons in the left ventralis intermediate nucleus (Vim) of the thalamus, related to speech production, perception, and imagery. For realistic speech brain-machine interfaces (BMIs), we aim to characterize the amount of thalamic neurons necessary for high accuracy decoding.Approach. We intraoperatively recorded single neuron activity in the left Vim of eight neurosurgical patients undergoing implantation of deep brain stimulator or RF lesioning during production, perception and imagery of the five monophthongal vowel sounds. We utilized the Spade decoder, a machine learning algorithm that dynamically learns specific features of firing patterns and is based on sparse decomposition of the high dimensional feature space.Main results. Spade outperformed all algorithms compared with, for all three aspects of speech: production, perception and imagery, and obtained accuracies of 100%, 96%, and 92%, respectively (chance level: 20%) based on pooling together neurons across all patients. The accuracy was logarithmic in the amount of neurons for all three aspects of speech. Regardless of the amount of units employed, production gained highest accuracies, whereas perception and imagery equated with each other.Significance. Our research renders single neuron activity in the left Vim a promising source of inputs to BMIs for restoration of speech faculties for locked-in patients or patients with anarthria or dysarthria to allow them to communicate again. Our characterization of how many neurons are necessary to achieve a certain decoding accuracy is of utmost importance for planning BMI implantation.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38648783/",
+    "published": "2024",
+    "authors": [
+      "Tankus A",
+      "Rosenberg N",
+      "Ben-Hamo O",
+      "Stern E",
+      "Strauss I"
+    ]
+  },
+  {
+    "title": "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+    "abstract": "Health is very important for human life. In particular, the health of the brain, which is the executive of the vital resource, is very important. Diagnosis for human health is provided by magnetic resonance imaging (MRI) devices, which help health decision makers in critical organs such as brain health. Images from these devices are a source of big data for artificial intelligence. This big data enables high performance in image processing classification problems, which is a subfield of artificial intelligence. In this study, we aim to classify brain tumors such as glioma, meningioma, and pituitary tumor from brain MR images. Convolutional Neural Network (CNN) and CNN-based inception-V3, EfficientNetB4, VGG19, transfer learning methods were used for classification. F-score, recall, imprinting and accuracy were used to evaluate these models. The best accuracy result was obtained with VGG16 with 98%, while the F-score value of the same transfer learning model was 97%, the Area Under the Curve (AUC) value was 99%, the recall value was 98%, and the precision value was 98%. CNN architecture and CNN-based transfer learning models are very important for human health in early diagnosis and rapid treatment of such diseases.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38302604/",
+    "published": "2024",
+    "authors": [
+      "Khaliki MZ",
+      "Ba\u015farslan MS"
+    ]
+  },
+  {
+    "title": "Bridging Neuroscience and Machine Learning: A Gender-Based Electroencephalogram Framework for Guilt Emotion Identification.",
+    "abstract": "This study explores the link between the emotion \"guilt\" and human EEG data, and investigates the influence of gender differences on the expression of guilt and neutral emotions in response to visual stimuli. Additionally, the stimuli used in the study were developed to ignite guilt and neutral emotions. Two emotions, \"guilt\" and \"neutral\", were recorded from 16 participants after these emotions were induced using storyboards as pictorial stimuli. These storyboards were developed based on various guilt-provoking events shared by another group of participants. In the pre-processing step, collected data were de-noised using bandpass filters and ICA, then segmented into smaller sections for further analysis. Two approaches were used to feed these data to the SVM classifier. First, the novel approach employed involved feeding the data to SVM classifier without computing any features. This method provided an average accuracy of 83%. In the second approach, data were divided into Alpha, Beta, Gamma, Theta and Delta frequency bands using Discrete Wavelet Decomposition. Afterward, the computed features, including entropy, Hjorth parameters and Band Power, were fed to SVM classifiers. This approach achieved an average accuracy of 63%. The findings of both classification methodologies indicate that females are more expressive in response to depicted stimuli and that their brain cells exhibit higher feature values. Moreover, females displayed higher accuracy than males in all bands except the Delta band.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40006451/",
+    "published": "2025",
+    "authors": [
+      "Zaidi SR",
+      "Khan NA",
+      "Hasan MA"
+    ]
+  },
+  {
+    "title": "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast.",
+    "abstract": "Unsupervised image-to-image translation, which synthesizes new images from existing ones, has become a prominent research topic in computer vision. This technique is particularly valuable in the magnetic resonance (MR) imaging domain, where acquiring multi-contrast images is often challenging. In this study, we propose an unsupervised MR image-to-image translation method that synthesizes new contrast images from acquired images. The proposed method is based on style transfer and exploits the characteristics of multi-contrast MR images, which share identical anatomical structures but differ in contrast. Our network comprises an encoder that disentangles anatomical features and contrast representations, a generator that synthesizes target contrast images, and a discriminator that distinguishes real from synthesized images. The network is trained using novel loss functions to achieve MR image synthesis without distortion. The loss functions are specifically designed to preserve anatomical structure and enable accurate contrast translation. Quantitative and qualitative evaluations demonstrate that our method outperforms existing image-to-image translation approaches. Furthermore, our experiments demonstrate that the proposed method is generalized across various anatomical regions and contrast types.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40701023/",
+    "published": "2025",
+    "authors": [
+      "Jang H",
+      "Kim H",
+      "Kim S",
+      "Hwang D"
+    ]
+  },
+  {
+    "title": "Connectome-based schizophrenia prediction using structural connectivity - Deep Graph Neural Network(sc-DGNN).",
+    "abstract": "BACKGROUND: Connectome is understanding the complex organization of the human brain's structural and functional connectivity is essential for gaining insights into cognitive processes and disorders.\nOBJECTIVE: To improve the prediction accuracy of brain disorder issues, the current study investigates dysconnected subnetworks and graph structures associated with schizophrenia.\nMETHOD: By using the proposed structural connectivity-deep graph neural network (sc-DGNN) model and compared with machine learning (ML) and deep learning (DL) models.This work attempts to focus on eighty-eight subjects of diffusion magnetic resonance imaging (dMRI), three classical ML, and five DL models.\nRESULT: The structural connectivity-deep graph neural network (sc-DGNN) model is proposed to effectively predict dysconnectedness associated with schizophrenia and exhibits superior performance compared to traditional ML and DL (GNNs) methods in terms of accuracy, sensitivity, specificity, precision, F1-score, and Area under receiver operating characteristic (AUC).\nCONCLUSION: The classification task on schizophrenia using structural connectivity matrices and experimental results showed that linear discriminant analysis (LDA) performed 72% accuracy rate in ML models and sc-DGNN performed at a 93% accuracy rate in DL models to distinguish between schizophrenia and healthy patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38820060/",
+    "published": "2024",
+    "authors": [
+      "Udayakumar P",
+      "Subhashini R"
+    ]
+  },
+  {
+    "title": "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+    "abstract": "PURPOSE: The neurobiological heterogeneity present in schizophrenia remains poorly understood. This likely contributes to the limited success of existing treatments and the observed variability in treatment responses. Our objective was to employ magnetic resonance imaging (MRI) and machine learning (ML) algorithms to improve the classification of schizophrenia and its subtypes.\nMETHOD: We utilized a public dataset provided by the UCLA (University of California, Los Angeles) Consortium for Neuropsychiatric Research, containing structural MRI and resting-state fMRI (rsfMRI) data. We integrated all individuals within the dataset diagnosed with schizophrenia (N\u00a0=\u00a050), along with age- and gender-matched healthy individuals (N\u00a0=\u00a050). We extracted volumetrics of 66 subcortical and thickness of 72 cortical regions. Additionally, we obtained four graph-based measures for 116 intracranial regions from rsfMRI data, including degree, betweenness centrality, participation coefficient, and local efficiency. Employing conventional ML methods, we sought to distinguish the patients with schizophrenia from healthy individuals. Furthermore, we applied the methods for discriminating subtypes of schizophrenia. To streamline the feature set, various feature selection techniques were applied. Moreover, a validation phase involved employing the model on a dataset domestically acquired using the same imaging assessments (N\u00a0=\u00a013). Finally, we explored the correlation between neuroimaging features and behavioral assessments.\nFINDING: The classification accuracy reached as high as 79% in distinguishing schizophrenia patients from healthy in the UCLA dataset. This result was achieved by the k-nearest neighbor algorithm, utilizing 12 brain neuroimaging features, selected by the feature selection method of minimum redundancy maximum relevance (MRMR). The model demonstrated effectiveness (72% accuracy) in estimating the patient's label for a new dataset acquired domestically. Using a linear support vector machine (SVM) on 62 features obtained from MRMR, patients with schizophrenic subtypes were classified with an accuracy of 64%. The highest Spearman correlation coefficient between the neuroimaging features and behavioral assessments was observed between the degree of the postcentral gyrus and mean reaction time in the verbal capacity task (r\u00a0=\u00a00.49, p\u00a0=\u00a00.001).\nCONCLUSION: The findings of this study underscore the utility of MRI and ML algorithms in enhancing the diagnostic process for schizophrenia. Furthermore, these methods hold promise for detecting both brain-related abnormalities and cognitive impairments associated with this disorder.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39740776/",
+    "published": "2025",
+    "authors": [
+      "Tavakoli H",
+      "Rostami R",
+      "Shalbaf R",
+      "Nazem-Zadeh MR"
+    ]
+  },
+  {
+    "title": "Sparse Bayesian correntropy learning for robust muscle activity reconstruction from noisy brain recordings.",
+    "abstract": "Sparse Bayesian learning has promoted many effective frameworks of brain activity decoding for the brain-computer interface, including the direct reconstruction of muscle activity using brain recordings. However, existing sparse Bayesian learning algorithms mainly use Gaussian distribution as error assumption in the reconstruction task, which is not necessarily the truth in the real-world application. On the other hand, brain recording is known to be highly noisy and contains many non-Gaussian noises, which could lead to large performance degradation for sparse Bayesian learning algorithms. The goal of this paper is to propose a novel robust implementation of sparse Bayesian learning so that robustness and sparseness can be realized simultaneously. Motivated by the exceptional robustness of maximum correntropy criterion (MCC), we proposed integrating MCC to the sparse Bayesian learning regime. To be specific, we derived the explicit error assumption inherent in the MCC, and then leveraged it for the likelihood function. Meanwhile, we utilized the automatic relevance determination technique as the sparse prior distribution. To fully evaluate the proposed method, a synthetic example and a real-world muscle activity reconstruction task with two different brain modalities were leveraged. Experimental results showed, our proposed sparse Bayesian correntropy learning framework significantly improves the robustness for the noisy regression tasks. Our proposed algorithm could realize higher correlation coefficients and lower root mean squared errors for the real-world muscle activity reconstruction scenario. Sparse Bayesian correntropy learning provides a powerful approach for brain activity decoding which will promote the development of brain-computer interface technology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39571386/",
+    "published": "2025",
+    "authors": [
+      "Li Y",
+      "Chen B",
+      "Yoshimura N",
+      "Koike Y",
+      "Yamashita O"
+    ]
+  },
+  {
+    "title": "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+    "abstract": "Brain-computer interface research can inspire closed-loop neuromodulation therapies, promising spatiotemporal precision for the treatment of brain disorders. Decoding dynamic patient states from brain signals with machine learning is required to leverage this precision, but a standardized framework for invasive brain signal decoding from neural implants does not exist. Here we develop a platform that integrates brain signal decoding with magnetic resonance imaging connectomics and demonstrate its use across 123\u2009h of invasively recorded brain data from 73 neurosurgical patients treated with brain implants for movement disorders, depression and epilepsy. We introduce connectomics-informed movement decoders that generalize across cohorts with Parkinson's disease and epilepsy from the United States, Europe and China. We reveal network targets for emotion decoding in left prefrontal and cingulate circuits in deep brain stimulation patients with major depression. Finally, we showcase opportunities to improve seizure detection in responsive neurostimulation for epilepsy. Our study highlights the clinical use of brain signal decoding for deep brain stimulation and provides methods that allow for rapid, high-accuracy decoding for precision medicine approaches that can dynamically adapt neurotherapies in response to the individual needs of patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40993190/",
+    "published": "2026",
+    "authors": [
+      "Merk T",
+      "K\u00f6hler RM",
+      "Brotons TM",
+      "Vossberg SR",
+      "Peterson V",
+      "Lyra LF",
+      "Vanhoecke J",
+      "Chikermane M",
+      "Binns TS",
+      "Li N",
+      "Walton A",
+      "Neudorfer C",
+      "Bush A",
+      "Sisterson N",
+      "Busch J",
+      "Lofredi R",
+      "Habets J",
+      "Huebl J",
+      "Zhu G",
+      "Yin Z",
+      "Zhao B",
+      "Merkl A",
+      "Bajbouj M",
+      "Krause P",
+      "Faust K",
+      "Schneider GH",
+      "Horn A",
+      "Zhang J",
+      "K\u00fchn AA",
+      "Mark Richardson R",
+      "Neumann WJ"
+    ]
+  },
+  {
+    "title": "Classification of psychedelics and psychoactive drugs based on brain-wide imaging of cellular c-Fos expression.",
+    "abstract": "Psilocybin, ketamine, and MDMA are psychoactive compounds that exert behavioral effects with distinguishable but also overlapping features. The growing interest in using these compounds as therapeutics necessitates preclinical assays that can accurately screen psychedelics and related analogs. We posit that a promising approach may be to measure drug action on markers of neural plasticity in native brain tissues. We therefore developed a pipeline for drug classification using light sheet fluorescence microscopy of immediate early gene expression at cellular resolution followed by machine learning. We tested male and female mice with a panel of drugs, including psilocybin, ketamine, 5-MeO-DMT, 6-fluoro-DET, MDMA, acute fluoxetine, chronic fluoxetine, and vehicle. In one-versus-rest classification, the exact drug was identified with 67% accuracy, significantly above the chance level of 12.5%. In one-versus-one classifications, psilocybin was discriminated from 5-MeO-DMT, ketamine, MDMA, or acute fluoxetine with >95% accuracy. We used Shapley additive explanation to pinpoint the brain regions driving the machine learning predictions. Our results suggest a unique approach for characterizing and validating psychoactive drugs with psychedelic properties.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39939591/",
+    "published": "2025",
+    "authors": [
+      "Aboharb F",
+      "Davoudian PA",
+      "Shao LX",
+      "Liao C",
+      "Rzepka GN",
+      "Wojtasiewicz C",
+      "Indajang J",
+      "Dibbs M",
+      "Rondeau J",
+      "Sherwood AM",
+      "Kaye AP",
+      "Kwan AC"
+    ]
+  },
+  {
+    "title": "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+    "abstract": "The hippocampus is a small, yet intricate seahorse-shaped tiny structure located deep within the brain's medial temporal lobe. It is a crucial component of the limbic system, which is responsible for regulating emotions, memory, and spatial navigation. This research focuses on automatic hippocampus segmentation from Magnetic Resonance (MR) images of a human head with high accuracy and fewer false positive and false negative rates. This segmentation technique is significantly faster than the manual segmentation methods used in clinics. Unlike the existing approaches such as UNet and Convolutional Neural Networks (CNN), the proposed algorithm generates an image that is similar to a real image by learning the distribution much more quickly by the semi-supervised iterative learning algorithm of the Deep Neuro-Fuzzy (DNF) technique. To assess its effectiveness, the proposed segmentation technique was evaluated on a large dataset of 18,900 images from Kaggle, and the results were compared with those of existing methods. Based on the analysis of results reported in the experimental section, the proposed scheme in the Semi-Supervised Deep Neuro-Fuzzy Iterative Learning System (SS-DNFIL) achieved a 0.97 Dice coefficient, a 0.93 Jaccard coefficient, a 0.95 sensitivity (true positive rate), a 0.97 specificity (true negative rate), a false positive value of 0.09 and a 0.08 false negative value when compared to existing approaches. Thus, the proposed segmentation techniques outperform the existing techniques and produce the desired result so that an accurate diagnosis is made at the earliest stage to save human lives and to increase their life span.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39807055/",
+    "published": "2024",
+    "authors": [
+      "Nisha M",
+      "Kannan T",
+      "Sivasankari K"
+    ]
+  },
+  {
+    "title": "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+    "abstract": "BACKGROUND: Cortical morphological abnormalities in schizophrenia (SCZ), major depressive disorder (MDD), and bipolar disorder (BD) have been identified in past research. However, their potential as objective biomarkers to differentiate these disorders remains uncertain. Machine learning models may offer a novel diagnostic tool.\nMETHODS: Structural MRI (sMRI) of 220 SCZ, 220 MDD, 220 BD, and 220 healthy controls were obtained using a 3T scanner. Volume, thickness, surface area, and mean curvature of 68 cerebral cortices were extracted using FreeSurfer. 272 features underwent 3 feature selection techniques to isolate important variables for model construction. These features were incorporated into 3 classifiers for classification. After model evaluation and hyperparameter tuning, the best-performing model was identified, along with the most significant brain measures.\nRESULTS: The univariate feature selection-Naive Bayes model achieved the best performance, with an accuracy of 0.66, macro-average AUC of 0.86, and sensitivities and specificities ranging from 0.58-0.86 to 0.81-0.93, respectively. Key features included thickness of right isthmus-cingulate cortex, area of left inferior temporal gyrus, thickness of right superior temporal gyrus, mean curvature of right pars orbitalis, thickness of left transverse temporal cortex, volume of left caudal anterior-cingulate cortex, area of right banks superior temporal sulcus, and thickness of right temporal pole.\nCONCLUSION: The machine learning model based on sMRI data shows promise for aiding in the differential diagnosis of SCZ, MDD, and BD. Cortical features from the cingulate and temporal lobes may highlight distinct biological mechanisms underlying each disorder.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40286928/",
+    "published": "2025",
+    "authors": [
+      "Cao P",
+      "Li R",
+      "Li Y",
+      "Dong Y",
+      "Tang Y",
+      "Xu G",
+      "Si Q",
+      "Chen C",
+      "Chen L",
+      "Liu W",
+      "Yao Y",
+      "Sui Y",
+      "Zhang J"
+    ]
+  },
+  {
+    "title": "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+    "abstract": "BACKGROUND: Graph representational learning can detect topological patterns by leveraging both the network structure as well as nodal features. The basis of our exploration involves the application of graph neural network architectures and machine learning to resting-state functional Magnetic Resonance Imaging (rs-fMRI) data for the purpose of detecting schizophrenia. Our study uses single-site data to avoid the shortcomings in generalizability of neuroimaging data obtained from multiple sites.\nRESULTS: The performance of our graph neural network models is on par with that of our machine learning models, each of which is trained using 69 graph-theoretical measures computed from functional correlations between various regions of interest (ROI) in a brain graph. Our deep graph convolutional neural network (DGCNN) demonstrates a promising average accuracy score of 0.82 and a sensitivity score of 0.84.\nCONCLUSIONS: This study provides insights into the role of advanced graph theoretical methods and machine learning on fMRI data to detect schizophrenia by harnessing changes in brain functional connectivity. The results of this study demonstrate the capabilities of using both traditional ML techniques as well as graph neural network-based methods to detect schizophrenia using features extracted from fMRI data. The study also proposes two methods to obtain potential biomarkers for the disease, many of which are corroborated by research in this area and can further help in the understanding of schizophrenia as a mental disorder.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38166747/",
+    "published": "2024",
+    "authors": [
+      "Sunil G",
+      "Gowtham S",
+      "Bose A",
+      "Harish S",
+      "Srinivasa G"
+    ]
+  },
+  {
+    "title": "Neuroinformatics Applications of Data Science and Artificial Intelligence.",
+    "abstract": "Leveraging vast neuroimaging and electrophysiological datasets, AI algorithms are uncovering patterns that offer unprecedented insights into brain structure and function. Neuroinformatics, the fusion of neuroscience and AI, is advancing technologies like brain-computer interfaces, AI-driven cognitive enhancement, and personalized neuromodulation for treating neurological disorders. These developments hold potential to improve cognitive functions, restore motor abilities, and create human-machine collaborative systems. Looking ahead, the convergence of neuroscience and AI is set to transform cognitive modeling, decision-making, and mental health interventions. This fusion mirrors the quest for nuclear fusion energy, both driven by the need to unlock profound sources of understanding. As STEM disciplines continue to drive core developments of foundational models of the brain, neuroinformatics promises to lead innovations in augmented intelligence, personalized healthcare, and effective decision-making systems.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39316274/",
+    "published": "2024",
+    "authors": [
+      "Dinov ID"
+    ]
+  },
+  {
+    "title": "Regularized multi-task learning with individual-feature-based task correlations for Alzheimer's cognitive score prediction.",
+    "abstract": "BACKGROUND AND OBJECTIVE: Predicting multiple cognitive scores from brain features for Alzheimer's disease (AD) patients can aid in early intervention treatments and enhance disease management. Regularized multi-task sparse learning has become an important approach since it can predict multiple cognitive scores and identify biomarkers in one process. However, existing methods often assign the same correlation coefficient for a pair of tasks on all features, even though their relationships at different features are usually different. Introducing inaccurate task correlations into multi-task learning can hinder the improvement of models' prediction performance. This study overcomes the above limitation by introducing a novel multi-task learning framework that captures task correlations at a fine-grained, feature-specific level.\nMETHODS: We propose a novel individual-feature-based task correlation matrices guided multi-task learning (IFTMTL) method. The method constructs a non-smooth convex objective function that jointly learns regression models for multiple cognitive scores. This objective function integrates task and feature correlations to enhance predictive performance. Specifically, the fine-grained inter-task correlations are modeled at the feature level using a set of task correlation matrices, while feature correlations are captured via the Pearson coefficient. An iterative optimization algorithm is developed to jointly update the task correlation structures and model parameters.\nRESULTS: The proposed IFTMTL significantly outperforms the 11 competitive methods in the normalized mean squared error (nMSE) and correlation coefficient (CC) metrics. Specifically, IFTMTL improves the nMSE metric of the Multi-Task Feature Learning method by 4.09%, and the CC metric by 1.68%. Furthermore, IFTMTL identifies the most severely affected brain regions in AD, including the left hippocampus, left middle temporal, and right entorhinal.\nCONCLUSION: IFTMTL improves AD prediction performance by effectively incorporating unequal task correlations at the feature level, enabling better knowledge transfer across tasks. The method outperforms existing approaches in predicting cognitive scores and identifying significant biomarkers, such as the hippocampus and middle temporal regions, which are crucial for AD prediction and clinical analysis.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40701038/",
+    "published": "2025",
+    "authors": [
+      "Tang S",
+      "Chen Q",
+      "Xue B",
+      "Huang M",
+      "Zhang M"
+    ]
+  },
+  {
+    "title": "Prediction of CSF Intervention in Fetal Ventriculomegaly via Artificial Intelligence-Powered Normative Modeling.",
+    "abstract": "BACKGROUND AND PURPOSE: Fetal ventriculomegaly (VM) is common and largely benign when isolated. However, it can occasionally progress to hydrocephalus, a more severe condition associated with increased mortality and neurodevelopmental delay that may require surgical postnatal intervention. Accurate differentiation between VM and hydrocephalus is essential but remains challenging, relying on subjective assessment and limited 2D measurements. Deep learning-based segmentation offers a promising solution for objective and reproducible volumetric analysis. This work presents an artificial intelligence-powered method for segmentation, volume quantification, and classification of the ventricles in fetal brain MRI to predict the need for postnatal intervention.\nMATERIALS AND METHODS: This retrospective study included 222 patients with singleton pregnancies. An nnUNet was trained to segment the fetal ventricles on 20 manually segmented, institutional fetal brain MRIs combined with 80 studies from a publicly available data set. The validated model was then applied to 138 normal fetal brain MRIs to generate a normative reference range across a range of gestational ages (18-36\u2009weeks). Finally, it was applied to 64 fetal brains with VM (14 of which required postnatal intervention). Receiver operating characteristic curves and area under curve (AUC) to predict VM and a need for postnatal intervention were calculated.\nRESULTS: The nnUNet predicted segmentation of the fetal ventricles in the reference data set were of high quality and accurate (median Dice score: 0.96; interquartile range: 0.93-0.99). A normative reference range of ventricular volumes across gestational ages was developed by using automated segmentation volumes. The optimal threshold for identifying VM was 2 SD from normal with a sensitivity of 92% and a specificity of 93% (AUC 0.97; 95% CI: 0.91-0.98). When normalized to intracranial volume, fetal ventricular volume was higher and subarachnoid volume lower among those who required postnatal intervention (P &lt; .001, P = .003). The optimal threshold for identifying the need for postnatal intervention was 11 SD from normal, with a sensitivity of 86% and a specificity of 100% (AUC: 0.97; 95% CI: 0.86-1.00).\nCONCLUSIONS: This work introduces a deep learning-based method for fast and accurate quantification of ventricular volumes in fetal brain MRI. A normative reference standard derived by using this method can predict VM and a need for postnatal CSF intervention. Increased ventricular volume is a strong predictor of postnatal intervention.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40957691/",
+    "published": "2026",
+    "authors": [
+      "Zhou M",
+      "Rajan SA",
+      "Nedelec P",
+      "Bayona JB",
+      "Glenn O",
+      "Gupta N",
+      "Gano D",
+      "George E",
+      "Rauschecker AM"
+    ]
+  },
+  {
+    "title": "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models.",
+    "abstract": "This work illustrates the use of normative models in a longitudinal neuroimaging study of children aged 6-17\u2009years and demonstrates how such models can be used to make meaningful comparisons in longitudinal studies, even when individuals are scanned with different scanners across successive study waves. More specifically, we first estimated a large-scale reference normative model using Hierarchical Bayesian Regression from N\u2009=\u200942,993 individuals across the lifespan and from dozens of sites. We then transfer these models to a longitudinal developmental cohort (N\u2009=\u20096285) with three measurement waves acquired on two different scanners that were unseen during estimation of the reference models. We show that the use of normative models provides individual deviation scores that are independent of scanner effects and efficiently accommodate inter-site variations. Moreover, we provide empirical evidence to guide the optimization of sample size for the transfer of prior knowledge about the distribution of regional cortical thicknesses. We show that a transfer set containing as few as 25 samples per site can lead to good performance metrics on the test set. Finally, we demonstrate the clinical utility of this approach by showing that deviation scores obtained from the transferred normative models are able to detect and chart morphological heterogeneity in individuals born preterm.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38339954/",
+    "published": "2024",
+    "authors": [
+      "Gaiser C",
+      "Berthet P",
+      "Kia SM",
+      "Frens MA",
+      "Beckmann CF",
+      "Muetzel RL",
+      "Marquand AF"
+    ]
+  }
+]
