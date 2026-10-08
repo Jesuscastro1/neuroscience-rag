@@ -12,3 +12,6 @@ data/embedding_cache.json
 data/paper_archive.sqlite3*
 data/evaluation_history/
 evaluation_run.log
+chunked.json
+embeddings.json
+text_of_chunks.json

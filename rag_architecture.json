@@ -13,7 +13,7 @@
       "name": "Collect and preserve paper records",
       "sources": ["Semantic Scholar", "arXiv", "PubMed"],
       "implementation": "Notebook fetch functions and paper_archive.py",
-      "behavior": "Commit each fetched record to SQLite before further processing. Preserve distinct payload versions and repeated observations. Import legacy JSON snapshots once per content hash. Record retrieval evidence and PubMed fetch attempts.",
+      "behavior": "Commit each fetched record to SQLite before further processing. Preserve distinct payload versions and repeated observations. Restore from data/raw/<source>.json and data/merged_papers.json once per content hash. Record retrieval evidence and PubMed fetch attempts.",
       "refresh_setting": "REFRESH_PAPERS=False uses the saved corpus; True adds newly fetched records.",
       "storage": ["data/paper_archive.sqlite3", "data/raw/<source>.json", "data/merged_papers.json"],
       "durability": "SQLite transactions preserve committed records through interruptions. JSON snapshots use temporary files followed by atomic replacement. A later run can rebuild the local archive from committed snapshots."
@@ -26,7 +26,7 @@
       "index_filter": "Require a nonempty title and abstract. Records failing this filter remain in the archive.",
       "paper_id": "First 16 hex characters of SHA-256 of the normalized title.",
       "metadata": ["paper_id", "source paper title", "url", "published"],
-      "output": "chunked.json"
+      "output": "chunked.json (generated locally and excluded from Git)"
     },
     {
       "step": 3,
@@ -100,7 +100,7 @@
     "evaluation": "python run_rag_evaluation.py",
     "retrieval_only": "python run_rag_evaluation.py --retrieval-only",
     "model_cache": "The command-line runner forces Hugging Face offline mode. On a fresh machine, download the embedding model before using the runner, for example by executing the model-loading notebook cell with network access.",
-    "version_control": "Commit source code, paper JSON snapshots, evaluation fixtures, final results, and documentation. Local environments, Chroma indexes, SQLite runtime archives, embedding caches, run logs, and intermediate evaluation history are excluded."
+    "version_control": "Commit source code, canonical paper JSON snapshots, evaluation fixtures, final results, and documentation. Local environments, Chroma indexes, SQLite runtime archives, generated chunks, embedding caches, run logs, and intermediate evaluation history are excluded. Superseded corpus copies and outdated evaluation reports have been removed."
   },
   "limitations_and_next_steps": [
     "The generator has not been fine-tuned; improvements come from corpus handling, retrieval, prompting, and evaluation.",
