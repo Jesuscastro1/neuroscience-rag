@@ -1,351 +1,757 @@
-[
-	{
-		"id": 1,
-		"question": "What major application areas of artificial intelligence in neuroscience are identified in the bibliometric literature?",
-		"expected_answer": "The literature emphasizes neurological imaging, brain-computer interfaces, diagnosis and treatment of neurological disease, and broader analysis of complex neural data.",
-		"answerable": true,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "Bird’s Eye View of Artificial Intelligence in Neuroscience"]
-	},
-	{
-		"id": 2,
-		"question": "How has publication activity at the intersection of AI and neuroscience changed over time?",
-		"expected_answer": "Publication activity has grown sharply since the mid-2010s; one review reports a doubling time of roughly four to five years for AI-related neuroscience publications in the past decade.",
-		"answerable": true,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "Bird’s Eye View of Artificial Intelligence in Neuroscience"]
-	},
-	{
-		"id": 3,
-		"question": "Which countries are highlighted as leading contributors to AI and neuroscience research?",
-		"expected_answer": "The bibliometric analysis highlights the United States, China, and the United Kingdom, along with substantial international collaboration.",
-		"answerable": true,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience"]
-	},
-	{
-		"id": 4,
-		"question": "What ethical and methodological issues should future AI-in-neuroscience research address?",
-		"expected_answer": "The corpus calls for attention to ethics, data privacy, model interpretability, and the clinical reliability of AI systems.",
-		"answerable": true,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges"]
-	},
-	{
-		"id": 5,
-		"question": "Which neural-network families are described as increasingly important across neuroscience subdisciplines?",
-		"expected_answer": "Convolutional neural networks and transformer-based large language models are described as increasingly used across cognitive, computational, systems, and clinical neuroscience.",
-		"answerable": true,
-		"relevant_papers": ["Bird’s Eye View of Artificial Intelligence in Neuroscience"]
-	},
-	{
-		"id": 6,
-		"question": "How can machine learning support precision medicine for temporal lobe epilepsy?",
-		"expected_answer": "Machine learning can identify pathobiologically distinct temporal-lobe epilepsy subtypes from brain MRI, revealing differences in atrophy patterns, disease progression, and seizure outcomes that may support treatment stratification.",
-		"answerable": true,
-		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
-	},
-	{
-		"id": 7,
-		"question": "How many temporal-lobe epilepsy phenotypes were identified in the MRI study, and what broad patterns distinguished them?",
-		"expected_answer": "Four phenotypes were identified: left-hippocampus-predominant atrophy, right-hippocampus-predominant atrophy, cortex-predominant atrophy with later hippocampal involvement, and a phenotype without atrophy but with amygdala enlargement.",
-		"answerable": true,
-		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
-	},
-	{
-		"id": 8,
-		"question": "What is the potential role of AI in adult stroke recovery and rehabilitation?",
-		"expected_answer": "AI may improve the amount, quality, efficiency, and personalization of stroke rehabilitation through impairment analysis, assisted interventions, prediction, imaging, robotics, BCIs, and sensor-based movement analysis.",
-		"answerable": true,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.", "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems."]
-	},
-	{
-		"id": 9,
-		"question": "Which sensor and modeling approaches are mentioned for upper-limb stroke rehabilitation?",
-		"expected_answer": "The review mentions machine learning and deep learning together with sensors such as inertial measurement units for upper-limb and functional-movement analysis.",
-		"answerable": true,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
-	},
-	{
-		"id": 10,
-		"question": "What problem does Predictive Coding Light address in artificial and biological neural networks?",
-		"expected_answer": "It addresses energy-efficient representation learning by using a recurrent hierarchical spiking network that suppresses predictable spikes and transmits a compressed representation.",
-		"answerable": true,
-		"relevant_papers": ["Predictive Coding Light."]
-	},
-	{
-		"id": 11,
-		"question": "How does Predictive Coding Light differ from earlier predictive-coding approaches?",
-		"expected_answer": "It does not transmit prediction errors to higher processing stages; instead, it suppresses predictable spikes and sends a compressed input representation.",
-		"answerable": true,
-		"relevant_papers": ["Predictive Coding Light."]
-	},
-	{
-		"id": 12,
-		"question": "Why are neuromorphic systems considered relevant to neuroscience-inspired AI?",
-		"expected_answer": "They aim to reduce the energy gap between conventional machine learning and biological brains by using brain-inspired information coding, including discrete voltage spikes.",
-		"answerable": true,
-		"relevant_papers": ["Predictive Coding Light.", "Neuromorphic engineering: Artificial brains for artificial intelligence.", "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence"]
-	},
-	{
-		"id": 13,
-		"question": "What is the purpose of AI-guided electron microscopy in neuroscience?",
-		"expected_answer": "The corpus supports using machine learning to guide electron-microscopy analysis, helping make high-throughput structural investigation of neural tissue more efficient.",
-		"answerable": true,
-		"relevant_papers": ["SmartEM: machine learning-guided electron microscopy."]
-	},
-	{
-		"id": 14,
-		"question": "How can synthetic task-based brain fingerprints be useful in population neuroscience?",
-		"expected_answer": "Deep learning can generate synthetic task-based brain fingerprints, providing a way to model or augment population-level neural representations.",
-		"answerable": true,
-		"relevant_papers": ["Generating synthetic task-based brain fingerprints for population neuroscience using deep learning."]
-	},
-	{
-		"id": 15,
-		"question": "What does BrainAGE attempt to estimate?",
-		"expected_answer": "BrainAGE refers to a machine-learning estimate of brain age derived from neuroimaging or related brain data and used to study deviation from expected aging patterns.",
-		"answerable": true,
-		"relevant_papers": ["BrainAGE: Revisited and reframed machine learning workflow."]
-	},
-	{
-		"id": 16,
-		"question": "What kinds of brain information can machine learning use to derive biomarkers from EEG?",
-		"expected_answer": "The corpus supports learning disease- or condition-relevant biomarkers from EEG signal characteristics, although it does not specify one universally preferred feature set.",
-		"answerable": true,
-		"relevant_papers": ["Machine learning of brain-specific biomarkers from EEG.", "Artificial Intelligence for EEG Extraction"]
-	},
-	{
-		"id": 17,
-		"question": "What is the role of attention-based models in epilepsy prediction and detection according to the corpus?",
-		"expected_answer": "Attention-based deep-learning methods can be applied to epilepsy prediction and detection, including dual-task learning settings.",
-		"answerable": true,
-		"relevant_papers": ["Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning."]
-	},
-	{
-		"id": 18,
-		"question": "What does a neural-activity foundation model aim to predict?",
-		"expected_answer": "It aims to learn representations of neural activity that can predict responses to stimulus types not seen during training.",
-		"answerable": true,
-		"relevant_papers": ["Foundation model of neural activity predicts response to new stimulus types."]
-	},
-	{
-		"id": 19,
-		"question": "How can AI support research on brain tumors?",
-		"expected_answer": "AI can assist with brain-tumor imaging, image processing, computer-aided diagnosis, prognosis, and potentially treatment decision support.",
-		"answerable": true,
-		"relevant_papers": ["Artificial Intelligence in Brain Tumors.", "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor", "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review"]
-	},
-	{
-		"id": 20,
-		"question": "What is a central benefit of explainable AI in neuroscience and healthcare?",
-		"expected_answer": "Explainable AI can make model decisions more interpretable, supporting scientific understanding, clinical review, accountability, and trust.",
-		"answerable": true,
-		"relevant_papers": ["Explainable Artificial Intelligence (XAI) for Better Healthcare Decisions: A Review of XAI Methods in Cardiology and Neuroscience", "The application of eXplainable artificial intelligence in studying cognition: A scoping review"]
-	},
-	{
-		"id": 21,
-		"question": "What is the relationship between computational neuroscience and artificial intelligence described by the corpus?",
-		"expected_answer": "They are presented as mutually informative: neuroscience can inspire learning and computation, while AI provides models and tools for analyzing neural data and testing theories.",
-		"answerable": true,
-		"relevant_papers": ["Editorial overview: Computational neuroscience as a bridge between artificial intelligence, modeling and data.", "Beyond the Nobel prizes: towards new synergies between Computational Neuroscience and Artificial Intelligence"]
-	},
-	{
-		"id": 22,
-		"question": "What is the stability-plasticity dilemma in neuroscience-inspired continual learning?",
-		"expected_answer": "It is the tension between preserving previously learned knowledge and adapting to new information; hippocampus-inspired approaches are discussed as a possible way to address it.",
-		"answerable": true,
-		"relevant_papers": ["Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma"]
-	},
-	{
-		"id": 23,
-		"question": "How can reinforcement learning connect AI with cognitive science?",
-		"expected_answer": "Reinforcement learning provides computational models for learning from rewards and actions, creating a framework for comparing artificial agents with cognitive processes.",
-		"answerable": true,
-		"relevant_papers": ["Reinforcement learning at the interface of artificial intelligence and cognitive science."]
-	},
-	{
-		"id": 24,
-		"question": "What is the main promise of AI for neurological diagnosis and treatment?",
-		"expected_answer": "AI may improve early diagnosis, analysis of complex neural and imaging data, prognosis, and personalization of treatment, while requiring validation and interpretability.",
-		"answerable": true,
-		"relevant_papers": ["Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review", "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment"]
-	},
-	{
-		"id": 25,
-		"question": "What types of neural interfaces are connected with AI in the reviewed literature?",
-		"expected_answer": "The corpus connects AI with brain-computer interfaces, neural interfaces, brain-machine interactions, biosensing, and brain stimulation systems.",
-		"answerable": true,
-		"relevant_papers": ["Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases", "Wireless Optogenetic Microsystems Accelerate Artificial Intelligence–Neuroscience Coevolution Through Embedded Closed-Loop System"]
-	},
-	{
-		"id": 26,
-		"question": "What does the corpus say about AI-based monitoring in the neuroscience intensive care unit?",
-		"expected_answer": "AI can monitor neurological status from patient videos and may help reduce neuroscience ICU length of stay, but the corpus does not establish a universal clinical deployment protocol.",
-		"answerable": true,
-		"relevant_papers": ["Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.", "Leveraging Artificial Intelligence to Reduce Neuroscience ICU Length of Stay"]
-	},
-	{
-		"id": 27,
-		"question": "How is AI used in research on neurodegenerative diseases?",
-		"expected_answer": "The corpus describes uses including biomarker discovery, neuroimaging analysis, disease classification, diagnosis, prognosis, and bibliometric mapping of the field.",
-		"answerable": true,
-		"relevant_papers": ["Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000", "Artificial Intelligence for Neuroscience, Mental Health, and Neurodegenerative Disorders: 11th International Work-Conference on the Interplay Between Natural and Artificial Computation, IWINAC 2026, Canary Islands, Spain, May 26–29, 2026, Proceedings, Part I"]
-	},
-	{
-		"id": 28,
-		"question": "What is the purpose of using AI with spatial transcriptomics in neuroscience-related research?",
-		"expected_answer": "AI and large language models can help analyze, classify, and synthesize spatial transcriptomics literature and data, which map gene expression within tissue contexts.",
-		"answerable": true,
-		"relevant_papers": ["Spatial transcriptomics: a bibliometric analysis with large language model on English literatures.", "Artificial Intelligence in single-cell and spatial transcriptomics data analyses."]
-	},
-	{
-		"id": 29,
-		"question": "What are the four broad themes found in the AI stroke-rehabilitation scoping review?",
-		"expected_answer": "The themes are impairment, assisted intervention, prediction and imaging, and neuroscience.",
-		"answerable": true,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
-	},
-	{
-		"id": 30,
-		"question": "How can AI contribute to understanding cognition from neuroimaging?",
-		"expected_answer": "AI can identify patterns in brain images and networks, support cognitive classification or prediction, and provide interpretable analyses when paired with explainability methods.",
-		"answerable": true,
-		"relevant_papers": ["Brain Networks in Neuroscience: Personalization Unveiled Via Artificial Intelligence", "The application of eXplainable artificial intelligence in studying cognition: A scoping review"]
-	},
-	{
-		"id": 31,
-		"question": "Does the corpus report the exact accuracy of every EEG-based diagnostic model it contains?",
-		"expected_answer": "No. The collection contains EEG and AI papers, but the available abstracts do not provide a single complete accuracy table for every EEG diagnostic model.",
-		"answerable": false,
-		"relevant_papers": ["Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience", "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia."]
-	},
-	{
-		"id": 32,
-		"question": "What was the exact p-value for the primary outcome in the stroke rehabilitation review?",
-		"expected_answer": "This cannot be determined from the collected abstracts and metadata; the review summarizes themes and applications but does not provide that specific p-value in the available corpus.",
-		"answerable": false,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
-	},
-	{
-		"id": 33,
-		"question": "Which specific transformer architecture achieved the best score in every neuroscience task in the corpus?",
-		"expected_answer": "The corpus does not support this claim. It mentions transformer-based models broadly, but does not establish one architecture as best across every task.",
-		"answerable": false,
-		"relevant_papers": ["Bird's Eye View of Artificial Intelligence in Neuroscience"]
-	},
-	{
-		"id": 34,
-		"question": "What is the clinically approved dosage of medication recommended by the AI epilepsy papers?",
-		"expected_answer": "The corpus does not provide a clinically approved medication dosage recommendation from the AI epilepsy papers.",
-		"answerable": false,
-		"relevant_papers": ["Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.", "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
-	},
-	{
-		"id": 35,
-		"question": "Which individual patient received the best stroke rehabilitation outcome in the reviewed studies?",
-		"expected_answer": "This is not answerable from the corpus because the review-level records do not identify individual patients or rank their outcomes.",
-		"answerable": false,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI."]
-	},
-	{
-		"id": 36,
-		"question": "What was the exact training-set size and random seed for every model used in the temporal-lobe epilepsy study?",
-		"expected_answer": "The corpus reports the main cohort and validation cohort sizes, but it does not provide the exact training split and random seed for every model.",
-		"answerable": false,
-		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."]
-	},
-	{
-		"id": 37,
-		"question": "Can the collected papers prove that AI has achieved human-level general intelligence?",
-		"expected_answer": "No. The papers discuss relationships between neuroscience and AI and possible routes toward AGI, but they do not prove that human-level general intelligence has been achieved.",
-		"answerable": false,
-		"relevant_papers": ["A review of findings from neuroscience and cognitive psychology as possible inspiration for the path to artificial general intelligence", "The emergence of NeuroAI: bridging neuroscience and artificial intelligence"]
-	},
-	{
-		"id": 38,
-		"question": "What is the exact hardware energy consumption of Predictive Coding Light compared with the human brain?",
-		"expected_answer": "The corpus motivates energy efficiency and discusses the brain-versus-machine energy gap, but it does not provide a definitive hardware energy-consumption comparison for Predictive Coding Light.",
-		"answerable": false,
-		"relevant_papers": ["Predictive Coding Light."]
-	},
-	{
-		"id": 39,
-		"question": "Which AI model should a hospital universally adopt for neurological diagnosis?",
-		"expected_answer": "The corpus does not justify a universal model choice. It describes opportunities and challenges, while deployment depends on task, data, validation, interpretability, and clinical context.",
-		"answerable": false,
-		"relevant_papers": ["The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges", "An Overview of Artificial Intelligence in Neurology"]
-	},
-	{
-		"id": 40,
-		"question": "What is the exact causal effect of explainable AI on patient trust in neuroscience care?",
-		"expected_answer": "The corpus supports interpretability as a potential contributor to trust, but it does not establish an exact causal effect size for patient trust.",
-		"answerable": false,
-		"relevant_papers": ["Explainable Artificial Intelligence (XAI) for Better Healthcare Decisions: A Review of XAI Methods in Cardiology and Neuroscience"]
-	},
-	{
-		"id": 41,
-		"question": "What was the exact number of false positives for each brain-tumor AI system in the full collection?",
-		"expected_answer": "This cannot be determined from the available metadata and abstracts because they do not provide a complete false-positive count for each brain-tumor system.",
-		"answerable": false,
-		"relevant_papers": ["Artificial Intelligence in Brain Tumors.", "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review"]
-	},
-	{
-		"id": 42,
-		"question": "Which country has the most effective national policy for AI neuroscience research?",
-		"expected_answer": "The corpus identifies countries with strong publication activity, but it does not evaluate or rank national policy effectiveness.",
-		"answerable": false,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience"]
-	},
-	{
-		"id": 43,
-		"question": "What is the exact biological mechanism by which all deep-learning models improve memory?",
-		"expected_answer": "This is not answerable. The corpus discusses neuroscience-inspired learning and memory-related ideas but does not establish one biological mechanism shared by all deep-learning models.",
-		"relevant_papers": ["Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma"]
-	},
-	{
-		"id": 44,
-		"question": "Did every reviewed study use randomized controlled trials with blinded participants?",
-		"expected_answer": "The corpus does not support that statement; it includes reviews, bibliometric analyses, computational studies, and observational or imaging work, not exclusively blinded randomized trials.",
-		"answerable": false,
-		"relevant_papers": ["AI Applications in Adult Stroke Recovery and Rehabilitation: A Scoping Review Using AI.", "A bibliometric analysis of studies on artificial intelligence in neuroscience"]
-	},
-	{
-		"id": 45,
-		"question": "What exact clinical outcome will each AI neuroscience system produce for a new patient?",
-		"expected_answer": "The corpus does not permit a single answer because systems target different outcomes, including diagnosis, prognosis, monitoring, rehabilitation support, and neural-signal decoding.",
-		"answerable": false,
-		"relevant_papers": ["Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review", "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment"]
-	},
-	{
-		"id": 46,
-		"question": "What are the principal limitations of applying AI to neuroscience data?",
-		"expected_answer": "Important limitations include privacy and ethics concerns, limited interpretability, heterogeneous and complex neural data, the need for validation, and the risk of overclaiming clinical generalization.",
-		"answerable": true,
-		"relevant_papers": ["A bibliometric analysis of studies on artificial intelligence in neuroscience", "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges"]
-	},
-	{
-		"id": 47,
-		"question": "How can AI help personalize treatment for neurological disease?",
-		"expected_answer": "AI can stratify patients using imaging, biomarkers, neural signals, and clinical records, enabling subtype-specific diagnosis, prognosis, and potentially tailored interventions.",
-		"answerable": true,
-		"relevant_papers": ["Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.", "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review"]
-	},
-	{
-		"id": 48,
-		"question": "What does brain-inspired AI borrow from neuroscience?",
-		"expected_answer": "Brain-inspired AI borrows ideas such as spiking communication, predictive coding, recurrent processing, plasticity, hierarchical representations, and energy-efficient computation.",
-		"answerable": true,
-		"relevant_papers": ["The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence", "Predictive Coding Light.", "Neuromorphic engineering: Artificial brains for artificial intelligence."]
-	},
-	{
-		"id": 49,
-		"question": "How can large language models contribute to neuroscience literature analysis?",
-		"expected_answer": "They can enrich bibliometric analysis, help map themes and relationships, and synthesize a rapidly growing interdisciplinary literature, while still requiring careful validation.",
-		"answerable": true,
-		"relevant_papers": ["Spatial transcriptomics: a bibliometric analysis with large language model on English literatures.", "A bibliometric analysis of studies on artificial intelligence in neuroscience"]
-	},
-	{
-		"id": 50,
-		"question": "What is the overall relationship between AI progress and neuroscience progress suggested by the corpus?",
-		"expected_answer": "The relationship is bidirectional: AI supplies methods for analyzing neural data and building clinical tools, while neuroscience supplies principles and hypotheses for more capable, adaptive, interpretable, and energy-efficient AI.",
-		"answerable": true,
-		"relevant_papers": ["The emergence of NeuroAI: bridging neuroscience and artificial intelligence", "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems", "Artificial intelligence is reshaping neuroscience across scales."]
-	}
-]
+{
+  "schema_version": 2,
+  "description": "Manually authored abstract-grounded RAG evaluation; development set, not an independent held-out benchmark.",
+  "corpus_path": "data/merged_papers.json",
+  "corpus_sha256": "17cc2868cb0de3a35721ce906fdae053808b0c8358efe721777c8f28d646a458",
+  "scope": "Saved abstracts only; no unsupported full-text or clinical claims.",
+  "labeling_notes": "relevant_papers lists designated supporting sources, not an exhaustive relevance judgment over all papers. Unanswerable items target information absent from the saved abstracts.",
+  "questions": [
+    {
+      "id": "q001",
+      "category": "numerical",
+      "question": "How large was the bibliometric survey of AI in neuroscience, which years did it cover, and which database supplied its studies?",
+      "expected_answer": "It examined 1,208 studies published between 1983 and 2024 from the Web of Science database.",
+      "answerable": true,
+      "relevant_papers": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "quote": "examining 1,208 studies published between 1983 and 2024 from the Web of Science database",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "abstract_sha256": "fda5be017eb826968eed246d09042207254bc15a98d3be97377dfe91abbce093"
+        }
+      ]
+    },
+    {
+      "id": "q002",
+      "category": "factual",
+      "question": "Which countries were highlighted as pioneering contributors in the bibliometric survey of AI applications to neuroscience?",
+      "expected_answer": "The United States, China, and the United Kingdom were highlighted, alongside widespread international collaboration.",
+      "answerable": true,
+      "relevant_papers": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+          "quote": "countries such as the United States, China, and the United Kingdom",
+          "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+          "abstract_sha256": "fda5be017eb826968eed246d09042207254bc15a98d3be97377dfe91abbce093"
+        }
+      ]
+    },
+    {
+      "id": "q003",
+      "category": "numerical",
+      "question": "Approximately how quickly did AI-related neuroscience publications double over the decade examined by the citation-pattern review?",
+      "expected_answer": "The reported publication doubling time was 4 to 5 years.",
+      "answerable": true,
+      "relevant_papers": [
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+          "quote": "a doubling time of 4 to 5 years",
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+          "abstract_sha256": "bed2423400d68b40b339ce95a06069e1be1ee9410bf9ffbab8d56fdbfeacab02"
+        }
+      ]
+    },
+    {
+      "id": "q004",
+      "category": "method",
+      "question": "How did the citation-pattern review construct networks of related AI and neuroscience publications?",
+      "expected_answer": "It used bibliographic coupling to construct related-publication networks from peer-reviewed research and review articles containing AI and neuroscience elements.",
+      "answerable": true,
+      "relevant_papers": [
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+          "quote": "Networks of related publications were constructed using bibliographic coupling",
+          "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+          "abstract_sha256": "bed2423400d68b40b339ce95a06069e1be1ee9410bf9ffbab8d56fdbfeacab02"
+        }
+      ]
+    },
+    {
+      "id": "q005",
+      "category": "limitations",
+      "question": "Why does the introductory review of machine learning in neuroscience insist on external validation of findings?",
+      "expected_answer": "Machine learning tends to optimize solutions for its input data, so findings require external validation before being treated as more than a hypothesis.",
+      "answerable": true,
+      "relevant_papers": [
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+          "quote": "their tendency to optimise solutions for the input data means it is of crucial importance to externally validate any findings",
+          "url": "https://www.semanticscholar.org/paper/2e019fbc4c979424d28745d9031e625605fa625e",
+          "abstract_sha256": "113861805ffb4a8ba2aa36added9edebe60e66b9d5ffd17a95ad8a4c0c11053a"
+        }
+      ]
+    },
+    {
+      "id": "q006",
+      "category": "ethics",
+      "question": "What role should physicians have when clinical AI prediction tools are introduced into medical workflows?",
+      "expected_answer": "Physicians should participate in tool selection, implementation, and ongoing monitoring, and understand performance in routine and exceptional situations.",
+      "answerable": true,
+      "relevant_papers": [
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+          "quote": "Physicians must be involved in all aspects of the selection, implementation, and ongoing product monitoring",
+          "url": "https://www.semanticscholar.org/paper/62fc7c3301ef3d3e24993280c2a2fef1382eccdb",
+          "abstract_sha256": "dc340d6f5eaca3bec7755ba5096d1b6b7ca9b42854e1f6a1a28efc78e6bbb6fc"
+        }
+      ]
+    },
+    {
+      "id": "q007",
+      "category": "limitations",
+      "question": "What four challenges does the survey connecting neuroscience, AGI, and neuromorphic hardware identify?",
+      "expected_answer": "Integrating spiking dynamics with foundation models; maintaining lifelong plasticity without catastrophic forgetting; unifying language and sensorimotor learning in embodied agents; and enforcing ethical safeguards.",
+      "answerable": true,
+      "relevant_papers": [
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+          "quote": "There are four critical challenges at this intersection: 1) integrating spiking dynamics with foundation models, 2) maintaining lifelong plasticity without catastrophic forgetting, 3) unifying language with sensorimotor learning in embodied agents, and 4) enforcing ethical safeguards",
+          "url": "https://www.semanticscholar.org/paper/8aa48b6b3c59cbf17a6bb7de222323947562b312",
+          "abstract_sha256": "41b114879593ea3a86096b5bae258c4ae719ccb159005d42cb6f116ced815666"
+        }
+      ]
+    },
+    {
+      "id": "q008",
+      "category": "numerical",
+      "question": "Which algorithm and feature combination performed best for EEG classification of Alzheimer's disease, frontotemporal dementia, and healthy controls, and what accuracies were reported?",
+      "expected_answer": "Light gradient boosting machine (LGBM) with the wavelet transform feature performed best: over 95% for the binary classifications and over 93% for AD/FTD/control multiclass classification.",
+      "answerable": true,
+      "relevant_papers": [
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+          "quote": "accuracy>95% have been obtained with the help of the light gradient boosting machine (LGBM) method applying the wavelet transform feature.",
+          "url": "https://www.semanticscholar.org/paper/9c452b2164ab16a08595c2a1bcfb1a4d27fb8119",
+          "abstract_sha256": "775205ff5a5cb7fd2d519c42db33678b844b465515851fef09df24f0d3fe1f31"
+        },
+        {
+          "paper_title": "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+          "quote": "accuracy>93%",
+          "url": "https://www.semanticscholar.org/paper/9c452b2164ab16a08595c2a1bcfb1a4d27fb8119",
+          "abstract_sha256": "775205ff5a5cb7fd2d519c42db33678b844b465515851fef09df24f0d3fe1f31"
+        }
+      ]
+    },
+    {
+      "id": "q009",
+      "category": "method",
+      "question": "What morphological measurements does BrAIn extract while tracking brain organoid development?",
+      "expected_answer": "It quantifies area, Feret diameter, perimeter, roundness, and circularity while tracking development from embryoid bodies.",
+      "answerable": true,
+      "relevant_papers": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+          "quote": "area, Feret diameter, perimeter, roundness, and circularity",
+          "url": "https://www.semanticscholar.org/paper/ebfad07badd30acd1bf35a3247a693da270a0fcf",
+          "abstract_sha256": "b7539ecb11e652fa211261559b3f43598a1b486c1be39d586c7cebaa10d2c7ba"
+        }
+      ]
+    },
+    {
+      "id": "q010",
+      "category": "comparison",
+      "question": "How did orbital shaker and microfluidic chip cultures differ from static culture in the BrAIn organoid study?",
+      "expected_answer": "Orbital shaker cultures produced the largest organoids; chip-based systems produced more homogeneous growth. Both produced greater morphological complexity than static culture.",
+      "answerable": true,
+      "relevant_papers": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience"
+      ],
+      "evidence": [
+        {
+          "paper_title": "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+          "quote": "Orbital shaker cultures resulted in the largest organoids, while chip-based systems achieved more homogeneous growth. Both conditions produced organoids with greater morphological complexity compared to static culture.",
+          "url": "https://www.semanticscholar.org/paper/ebfad07badd30acd1bf35a3247a693da270a0fcf",
+          "abstract_sha256": "b7539ecb11e652fa211261559b3f43598a1b486c1be39d586c7cebaa10d2c7ba"
+        }
+      ]
+    },
+    {
+      "id": "q011",
+      "category": "dataset",
+      "question": "What did participants do during collection of the Natural Scenes Dataset, and which additional imaging data does it contain?",
+      "expected_answer": "Participants performed a continuous recognition task while viewing richly annotated natural scenes. The dataset also contains resting-state and diffusion data.",
+      "answerable": true,
+      "relevant_papers": [
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence"
+      ],
+      "evidence": [
+        {
+          "paper_title": "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+          "quote": "participants performed a continuous recognition task",
+          "url": "https://www.semanticscholar.org/paper/139e90776bde3e2657497d5bb759f2514da1b53f",
+          "abstract_sha256": "fa420f6ea3fe0e6ea3c6377b65fd367fef0e878b54784ed48def5b3d9a9c75e3"
+        },
+        {
+          "paper_title": "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+          "quote": "NSD also includes substantial resting-state and diffusion data",
+          "url": "https://www.semanticscholar.org/paper/139e90776bde3e2657497d5bb759f2514da1b53f",
+          "abstract_sha256": "fa420f6ea3fe0e6ea3c6377b65fd367fef0e878b54784ed48def5b3d9a9c75e3"
+        }
+      ]
+    },
+    {
+      "id": "q012",
+      "category": "limitations",
+      "question": "Does improving a neural network's vision-benchmark accuracy guarantee a better model of primate perception, according to the biological-vision perspective?",
+      "expected_answer": "No. Alignment with primate perception is plateauing and sometimes worsening as networks reach human or superhuman benchmark accuracy; biologically grounded algorithms are advocated.",
+      "answerable": true,
+      "relevant_papers": [
+        "Better artificial intelligence does not mean better models of biology"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Better artificial intelligence does not mean better models of biology",
+          "quote": "this alignment is now plateauing - and in some cases worsening",
+          "url": "https://www.semanticscholar.org/paper/d9df15ca7de173965094a911f697a725059a4f85",
+          "abstract_sha256": "9e77d9d2285be14e2dfd5450c021b5827f78ca3b03ab9dbe5f990f7640e7ce96"
+        }
+      ]
+    },
+    {
+      "id": "q013",
+      "category": "numerical",
+      "question": "How many cortical areas per hemisphere did the Human Connectome Project multimodal parcellation identify, and how many were new?",
+      "expected_answer": "It delineated 180 areas per hemisphere, including 97 new areas and 83 previously reported areas.",
+      "answerable": true,
+      "relevant_papers": [
+        "A multi-modal parcellation of human cerebral cortex."
+      ],
+      "evidence": [
+        {
+          "paper_title": "A multi-modal parcellation of human cerebral cortex.",
+          "quote": "We characterized 97 new areas and 83 areas previously reported",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27437579/",
+          "abstract_sha256": "640c70b31e10b7d5fd8d9daa1562f6a5d1356339af811bf7ffc1f54ed57d54e1"
+        },
+        {
+          "paper_title": "A multi-modal parcellation of human cerebral cortex.",
+          "quote": "180 areas per hemisphere",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/27437579/",
+          "abstract_sha256": "640c70b31e10b7d5fd8d9daa1562f6a5d1356339af811bf7ffc1f54ed57d54e1"
+        }
+      ]
+    },
+    {
+      "id": "q014",
+      "category": "method",
+      "question": "How were machine-learning models trained to decode visual imagery during the sleep-onset period?",
+      "expected_answer": "Models were trained on stimulus-induced activity in visual cortical areas and linked fMRI patterns with verbal reports using lexical and image databases to predict sleep-onset visual contents.",
+      "answerable": true,
+      "relevant_papers": [
+        "Neural decoding of visual imagery during sleep."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Neural decoding of visual imagery during sleep.",
+          "quote": "Decoding models trained on stimulus-induced brain activity in visual cortical areas",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23558170/",
+          "abstract_sha256": "b9d6d7fd8297e9b3473f58766cafa2bbbab1395a8b542d21450b5e72babc850f"
+        }
+      ]
+    },
+    {
+      "id": "q015",
+      "category": "dataset",
+      "question": "Which algorithm, imaging modality, and participant counts were used to identify temporal-lobe epilepsy biotypes?",
+      "expected_answer": "Subtype and Stage Inference was applied to cross-sectional MRI from 296 people with temporal-lobe epilepsy and 91 healthy controls; the four subtypes were replicated in an independent cohort of 109 individuals.",
+      "answerable": true,
+      "relevant_papers": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "quote": "Subtype and Stage Inference) with cross-sectional MRI from 296 individuals",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "abstract_sha256": "4a6318489377ec95c54cc48a1e207c1e1cd9ceb029c2422488569d8d5b8118f7"
+        },
+        {
+          "paper_title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "quote": "91 healthy controls",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "abstract_sha256": "4a6318489377ec95c54cc48a1e207c1e1cd9ceb029c2422488569d8d5b8118f7"
+        },
+        {
+          "paper_title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "quote": "independent validation cohort (109 individuals)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "abstract_sha256": "4a6318489377ec95c54cc48a1e207c1e1cd9ceb029c2422488569d8d5b8118f7"
+        }
+      ]
+    },
+    {
+      "id": "q016",
+      "category": "factual",
+      "question": "What four neuroanatomical subtypes were identified in the temporal-lobe epilepsy MRI study?",
+      "expected_answer": "Two hippocampus-predominant subtypes with atrophy beginning in the left or right hippocampus; one cortex-predominant subtype with hippocampal atrophy after neocortical atrophy; and one subtype without atrophy but with amygdala enlargement.",
+      "answerable": true,
+      "relevant_papers": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "quote": "two hippocampus-predominant phenotypes, characterized by atrophy beginning in the left or right hippocampus; a third cortex-predominant phenotype, characterized by hippocampus atrophy after the neocortex; and a fourth phenotype without atrophy but amygdala enlargement",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "abstract_sha256": "4a6318489377ec95c54cc48a1e207c1e1cd9ceb029c2422488569d8d5b8118f7"
+        }
+      ]
+    },
+    {
+      "id": "q017",
+      "category": "numerical",
+      "question": "What does DeepTaskGen generate from resting-state fMRI, and at what scale was it applied to UK Biobank?",
+      "expected_answer": "It synthesizes non-acquired task-based contrast maps; the study generated 47 contrast maps from 7 cognitive tasks for more than 20,000 UK Biobank participants.",
+      "answerable": true,
+      "relevant_papers": [
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+          "quote": "generate 47 contrast maps from 7 different cognitive tasks for over 20,000 individuals from UK Biobank",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41238730/",
+          "abstract_sha256": "5f5ee6889ee98fbe0221fe1dcf08bbcb6fce4ba8a276329f10671ea5fb9fae0a"
+        }
+      ]
+    },
+    {
+      "id": "q018",
+      "category": "method",
+      "question": "How does SmartEM accelerate connectomic image acquisition, and what speedup does its abstract report?",
+      "expected_answer": "It first scans all pixels rapidly, then rescans only small areas requiring better signal more slowly, achieving up to approximately sevenfold acceleration.",
+      "answerable": true,
+      "relevant_papers": [
+        "SmartEM: machine learning-guided electron microscopy."
+      ],
+      "evidence": [
+        {
+          "paper_title": "SmartEM: machine learning-guided electron microscopy.",
+          "quote": "first scanning all pixels rapidly and then rescanning more slowly only the small subareas where a higher quality signal is required",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41461905/",
+          "abstract_sha256": "7b733a37337660907da00851126546e6c6145bc1fdde2702cc37d7058bf0bf22"
+        },
+        {
+          "paper_title": "SmartEM: machine learning-guided electron microscopy.",
+          "quote": "~7-fold acceleration",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41461905/",
+          "abstract_sha256": "7b733a37337660907da00851126546e6c6145bc1fdde2702cc37d7058bf0bf22"
+        }
+      ]
+    },
+    {
+      "id": "q019",
+      "category": "factual",
+      "question": "What four dimensions define disease states in the data-driven multiple sclerosis reclassification study?",
+      "expected_answer": "Physical disability, brain damage, relapse, and subclinical disease activity.",
+      "answerable": true,
+      "relevant_papers": [
+        "AI-driven reclassification of multiple sclerosis progression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "AI-driven reclassification of multiple sclerosis progression.",
+          "quote": "Four dimensions define MS disease states: physical disability, brain damage, relapse and subclinical disease activity.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40835969/",
+          "abstract_sha256": "48cf189fad19ba4428f38b579b32ec849dd7dd8f4585de4ab675c455f865dd36"
+        }
+      ]
+    },
+    {
+      "id": "q020",
+      "category": "generalization",
+      "question": "What did the neural-activity foundation model learn to predict, and how did it generalize beyond its training mice and stimuli?",
+      "expected_answer": "It predicted neuronal responses to natural videos using visual-cortex activity from multiple mice, adapted to new mice with minimal training, and predicted responses in new domains including coherent motion and noise patterns.",
+      "answerable": true,
+      "relevant_papers": [
+        "Foundation model of neural activity predicts response to new stimulus types."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Foundation model of neural activity predicts response to new stimulus types.",
+          "quote": "This model generalized to new mice with minimal training and successfully predicted responses across various new stimulus domains, such as coherent motion and noise patterns.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40205215/",
+          "abstract_sha256": "c599775d55e4d1b7cad17ce5c533219eb8ff0e7ed347df18c19d27f77a9422a1"
+        }
+      ]
+    },
+    {
+      "id": "q021",
+      "category": "comparison",
+      "question": "Which regression method replaced the original BrainAGE method, and what error was reported on UK Biobank?",
+      "expected_answer": "Gaussian process regression replaced relevance vector regression; the revised global model achieved a mean absolute error below two years on UK Biobank.",
+      "answerable": true,
+      "relevant_papers": [
+        "BrainAGE: Revisited and reframed machine learning workflow."
+      ],
+      "evidence": [
+        {
+          "paper_title": "BrainAGE: Revisited and reframed machine learning workflow.",
+          "quote": "substituted it with Gaussian process regression (GPR)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38379519/",
+          "abstract_sha256": "1804eeb92a8515e7dce2aa7d09fcb84ca51f9b6f96f941483d15beafc1bb9490"
+        },
+        {
+          "paper_title": "BrainAGE: Revisited and reframed machine learning workflow.",
+          "quote": "relevance vector regression (RVR)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38379519/",
+          "abstract_sha256": "1804eeb92a8515e7dce2aa7d09fcb84ca51f9b6f96f941483d15beafc1bb9490"
+        },
+        {
+          "paper_title": "BrainAGE: Revisited and reframed machine learning workflow.",
+          "quote": "mean absolute error (MAE) of less than 2",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38379519/",
+          "abstract_sha256": "1804eeb92a8515e7dce2aa7d09fcb84ca51f9b6f96f941483d15beafc1bb9490"
+        }
+      ]
+    },
+    {
+      "id": "q022",
+      "category": "method",
+      "question": "How can dissection photographs be used for quantitative three-dimensional neuropathology without an ex vivo MRI scan?",
+      "expected_answer": "The tools reconstruct a 3D volume from slice photographs with an optional surface scan, segment it into 11 regions per hemisphere, and are available in FreeSurfer.",
+      "answerable": true,
+      "relevant_papers": [
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+          "quote": "3D reconstruct a volume from the photographs and, optionally, a surface scan",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38896568/",
+          "abstract_sha256": "b29084da54438e9ca784d28bef1c88d037af99ee5ed7d1d4c53f94d8837f3e72"
+        },
+        {
+          "paper_title": "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+          "quote": "11 brain regions per hemisphere (22 in total)",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38896568/",
+          "abstract_sha256": "b29084da54438e9ca784d28bef1c88d037af99ee5ed7d1d4c53f94d8837f3e72"
+        },
+        {
+          "paper_title": "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+          "quote": "FreeSurfer",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38896568/",
+          "abstract_sha256": "b29084da54438e9ca784d28bef1c88d037af99ee5ed7d1d4c53f94d8837f3e72"
+        }
+      ]
+    },
+    {
+      "id": "q023",
+      "category": "comparison",
+      "question": "How do functional and structural measurements differ in their value for diagnosis versus prognosis in disorders of consciousness?",
+      "expected_answer": "Functional assessments are informative about the current state of consciousness and diagnosis, whereas structural modalities help characterize subsequent evolution and prognosis. Combining modalities improves performance.",
+      "answerable": true,
+      "relevant_papers": [
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+          "quote": "functional assessments, provide comprehensive insights into the currently evaluated state of consciousness, the diagnosis of the patients. Conversely, structural modalities offer valuable information about the patient's evolution",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41499248/",
+          "abstract_sha256": "dbe331de76913fe423c771e6ec945d6bae5bc9b6366783db20e47d92bf4d4561"
+        }
+      ]
+    },
+    {
+      "id": "q024",
+      "category": "method",
+      "question": "How does MinT synthesize new MR image contrasts while preserving anatomy?",
+      "expected_answer": "An encoder separates anatomical features from contrast representations; a generator produces target contrasts and a discriminator distinguishes real from synthetic images. Its loss functions preserve anatomical structure.",
+      "answerable": true,
+      "relevant_papers": [
+        "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast."
+      ],
+      "evidence": [
+        {
+          "paper_title": "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast.",
+          "quote": "an encoder that disentangles anatomical features and contrast representations, a generator that synthesizes target contrast images, and a discriminator",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40701023/",
+          "abstract_sha256": "6ed39ec8096ceec6257c4baeba82919c5e7f62c924d4a423866b56b16024aaa1"
+        }
+      ]
+    },
+    {
+      "id": "q025",
+      "category": "numerical",
+      "question": "How many transfer samples per site were sufficient for good test performance in the cortical-thickness normative-model study?",
+      "expected_answer": "A transfer set with as few as 25 samples per site could produce good test performance when adapting the normative model to unseen scanners.",
+      "answerable": true,
+      "relevant_papers": [
+        "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models.",
+          "quote": "as few as 25 samples per site",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38339954/",
+          "abstract_sha256": "c8211bc0f49aa6ae8bc3919f33499d6edbde247b80ae86a2bd6a0353993ea0b3"
+        }
+      ]
+    },
+    {
+      "id": "q026",
+      "category": "method",
+      "question": "How does QF3 restrict critic-gradient updates when training flow policies?",
+      "expected_answer": "It applies the critic gradient only to action dimensions that remain close to the replay action, where critic estimates and the one-step flow prediction are reliable.",
+      "answerable": true,
+      "relevant_papers": [
+        "QF3: Fast Flow RL with Filtered Q-Gradients"
+      ],
+      "evidence": [
+        {
+          "paper_title": "QF3: Fast Flow RL with Filtered Q-Gradients",
+          "quote": "applies the critic gradient only to action dimensions that stay near the replay action",
+          "url": "http://arxiv.org/abs/2610.08789v1",
+          "abstract_sha256": "d082439f981d16b57294f0ef4062bd4d0c875ce954abaaace2baf7e925f83644"
+        }
+      ]
+    },
+    {
+      "id": "q027",
+      "category": "comparison",
+      "question": "Why does DepthWorld add depth supervision to a video world model for robot manipulation?",
+      "expected_answer": "RGB-only rollouts may look correct frame by frame without forming consistent 3D geometry. Joint RGB and depth prediction improves geometric reasoning, and depth supervision improved RGB prediction by 1.48 dB PSNR over the comparable RGB-only baseline.",
+      "answerable": true,
+      "relevant_papers": [
+        "DepthWorld: 3D World Model for Robot Manipulation"
+      ],
+      "evidence": [
+        {
+          "paper_title": "DepthWorld: 3D World Model for Robot Manipulation",
+          "quote": "Depth supervision improves RGB prediction itself by +1.48 dB PSNR",
+          "url": "http://arxiv.org/abs/2610.08780v1",
+          "abstract_sha256": "6ed54ab38c4123b4e77bf474f44e5f5288d680c954768c27c54d0c002b850497"
+        }
+      ]
+    },
+    {
+      "id": "q028",
+      "category": "limitations",
+      "question": "What distinguishes spurious forgetting from catastrophic forgetting during language-model fine-tuning?",
+      "expected_answer": "Spurious forgetting is a shared reversible loss of access to stored facts caused by a common representational shift; catastrophic forgetting is slower erosion of individual facts.",
+      "answerable": true,
+      "relevant_papers": [
+        "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting"
+      ],
+      "evidence": [
+        {
+          "paper_title": "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
+          "quote": "a shared, reversible loss of access with a slow erosion of individual facts, and only the second is catastrophic",
+          "url": "http://arxiv.org/abs/2610.08718v1",
+          "abstract_sha256": "53251e655ebc8f03983af299e1b2e5154416bd5986a17e5263792d9ee2d47d72"
+        }
+      ]
+    },
+    {
+      "id": "q029",
+      "category": "numerical",
+      "question": "What is GeneICL's parameter count, how many clinical prediction tasks were used in evaluation, and does inference require gradient updates?",
+      "expected_answer": "GeneICL has 4.2 million parameters, was evaluated on 80 classification, regression, and survival tasks, and requires no gradient updates at inference.",
+      "answerable": true,
+      "relevant_papers": [
+        "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics"
+      ],
+      "evidence": [
+        {
+          "paper_title": "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics",
+          "quote": "a 4.2M-parameter tabular foundation model",
+          "url": "http://arxiv.org/abs/2610.08694v1",
+          "abstract_sha256": "e54184f48cb79d4097446978584c3d0e95cde565e9ba59137005cc00d1a6bb30"
+        },
+        {
+          "paper_title": "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics",
+          "quote": "80 clinical outcome-prediction tasks",
+          "url": "http://arxiv.org/abs/2610.08694v1",
+          "abstract_sha256": "e54184f48cb79d4097446978584c3d0e95cde565e9ba59137005cc00d1a6bb30"
+        },
+        {
+          "paper_title": "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics",
+          "quote": "no gradient updates at inference",
+          "url": "http://arxiv.org/abs/2610.08694v1",
+          "abstract_sha256": "e54184f48cb79d4097446978584c3d0e95cde565e9ba59137005cc00d1a6bb30"
+        }
+      ]
+    },
+    {
+      "id": "q030",
+      "category": "multi_paper",
+      "question": "How do the temporal-lobe epilepsy and multiple sclerosis studies use data-driven disease characterization differently?",
+      "expected_answer": "The epilepsy study identifies four MRI-based biotypes with distinct patterns of atrophy or amygdala enlargement and seizure outcomes. The MS study uses probabilistic machine learning to describe a continuum defined by disability, brain damage, relapse, and subclinical activity, rather than fixed conventional subtypes.",
+      "answerable": true,
+      "relevant_papers": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "AI-driven reclassification of multiple sclerosis progression."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+          "quote": "These four subtypes are replicated",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+          "abstract_sha256": "4a6318489377ec95c54cc48a1e207c1e1cd9ceb029c2422488569d8d5b8118f7"
+        },
+        {
+          "paper_title": "AI-driven reclassification of multiple sclerosis progression.",
+          "quote": "Our findings support viewing MS as a disease continuum.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40835969/",
+          "abstract_sha256": "48cf189fad19ba4428f38b579b32ec849dd7dd8f4585de4ab675c455f865dd36"
+        }
+      ]
+    },
+    {
+      "id": "q031",
+      "category": "multi_paper",
+      "question": "How can success of a neural-activity foundation model coexist with the warning that better AI benchmarks do not necessarily yield better biological models?",
+      "expected_answer": "The foundation model demonstrates generalization of neural response prediction to new mice and stimulus domains, while the vision perspective warns that higher generic benchmark accuracy can plateau or worsen alignment with primate perception. Task-specific neural validation therefore matters; benchmark success alone is insufficient.",
+      "answerable": true,
+      "relevant_papers": [
+        "Better artificial intelligence does not mean better models of biology",
+        "Foundation model of neural activity predicts response to new stimulus types."
+      ],
+      "evidence": [
+        {
+          "paper_title": "Better artificial intelligence does not mean better models of biology",
+          "quote": "this alignment is now plateauing - and in some cases worsening",
+          "url": "https://www.semanticscholar.org/paper/d9df15ca7de173965094a911f697a725059a4f85",
+          "abstract_sha256": "9e77d9d2285be14e2dfd5450c021b5827f78ca3b03ab9dbe5f990f7640e7ce96"
+        },
+        {
+          "paper_title": "Foundation model of neural activity predicts response to new stimulus types.",
+          "quote": "This model generalized to new mice with minimal training",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/40205215/",
+          "abstract_sha256": "c599775d55e4d1b7cad17ce5c533219eb8ff0e7ed347df18c19d27f77a9422a1"
+        }
+      ]
+    },
+    {
+      "id": "q032",
+      "category": "multi_paper",
+      "question": "What complementary safeguards do the ML primer and the clinical-AI implementation review recommend before relying on AI predictions?",
+      "expected_answer": "The primer stresses external validation and concerns about black-box decisions; the implementation review emphasizes physician involvement in selection, implementation, and continuing monitoring, with understanding of routine and exceptional behavior.",
+      "answerable": true,
+      "relevant_papers": [
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review"
+      ],
+      "evidence": [
+        {
+          "paper_title": "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+          "quote": "externally validate any findings",
+          "url": "https://www.semanticscholar.org/paper/2e019fbc4c979424d28745d9031e625605fa625e",
+          "abstract_sha256": "113861805ffb4a8ba2aa36added9edebe60e66b9d5ffd17a95ad8a4c0c11053a"
+        },
+        {
+          "paper_title": "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+          "quote": "Physicians must be involved in all aspects of the selection, implementation, and ongoing product monitoring",
+          "url": "https://www.semanticscholar.org/paper/62fc7c3301ef3d3e24993280c2a2fef1382eccdb",
+          "abstract_sha256": "dc340d6f5eaca3bec7755ba5096d1b6b7ca9b42854e1f6a1a28efc78e6bbb6fc"
+        }
+      ]
+    },
+    {
+      "id": "q033",
+      "category": "unanswerable",
+      "question": "What exact learning rate, optimizer beta values, and number of training epochs were used for the LGBM and wavelet EEG classifier?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia."
+      ],
+      "unanswerable_reason": "The abstract reports features and classification accuracy but not these training hyperparameters."
+    },
+    {
+      "id": "q034",
+      "category": "unanswerable",
+      "question": "What is the exact monetary cost per specimen in US dollars for the SmartEM acquisition procedure?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "SmartEM: machine learning-guided electron microscopy."
+      ],
+      "unanswerable_reason": "The abstract describes acquisition speed and accuracy but does not state a per-specimen monetary cost."
+    },
+    {
+      "id": "q035",
+      "category": "unanswerable",
+      "question": "Which FDA approval number authorizes BrAIn to replace clinicians in diagnosis of Alzheimer's disease?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience"
+      ],
+      "unanswerable_reason": "BrAIn is described as an organoid morphology tool; no such regulatory approval or clinical replacement is reported."
+    },
+    {
+      "id": "q036",
+      "category": "unanswerable",
+      "question": "What randomized controlled trial proves that the neural-activity foundation model cures human Alzheimer's disease?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "Foundation model of neural activity predicts response to new stimulus types."
+      ],
+      "unanswerable_reason": "The abstract concerns mouse visual-cortex response prediction, not a human treatment or cure trial."
+    },
+    {
+      "id": "q037",
+      "category": "unanswerable",
+      "question": "What is the exact sensitivity and specificity for sleep-onset dream decoding in the saved abstract?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "Neural decoding of visual imagery during sleep."
+      ],
+      "unanswerable_reason": "The abstract describes accurate decoding but supplies no numerical sensitivity or specificity."
+    },
+    {
+      "id": "q038",
+      "category": "unanswerable",
+      "question": "What are the exact names and patient-level MRI measurements of the 296 participants in the temporal-lobe epilepsy study?",
+      "expected_answer": "This question is not addressed in the provided papers.",
+      "answerable": false,
+      "relevant_papers": [],
+      "evidence": [],
+      "related_papers": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ],
+      "unanswerable_reason": "The abstract supplies aggregate cohort information, not participant identities or individual measurements."
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "project": "neuroscience-rag",
+  "description": "A notebook-based retrieval-augmented generation system answering neuroscience questions from saved paper abstracts, with durable collection and resumable evaluation.",
+  "entry_points": {
+    "notebook": "rag.ipynb",
+    "evaluation_runner": "run_rag_evaluation.py",
+    "report_builder": "build_evaluation_report.py"
+  },
+  "pipeline": [
+    {
+      "step": 1,
+      "name": "Collect and preserve paper records",
+      "sources": ["Semantic Scholar", "arXiv", "PubMed"],
+      "implementation": "Notebook fetch functions and paper_archive.py",
+      "behavior": "Commit each fetched record to SQLite before further processing. Preserve distinct payload versions and repeated observations. Import legacy JSON snapshots once per content hash. Record retrieval evidence and PubMed fetch attempts.",
+      "refresh_setting": "REFRESH_PAPERS=False uses the saved corpus; True adds newly fetched records.",
+      "storage": ["data/paper_archive.sqlite3", "data/raw/<source>.json", "data/merged_papers.json"],
+      "durability": "SQLite transactions preserve committed records through interruptions. JSON snapshots use temporary files followed by atomic replacement. A later run can rebuild the local archive from committed snapshots."
+    },
+    {
+      "step": 2,
+      "name": "Prepare the retrieval corpus",
+      "deduplication": "Normalize titles with Unicode NFKC, case folding, and alphanumeric filtering. For matching titles, choose the record with the longest abstract. All record versions remain archived.",
+      "chunking": "One complete abstract per retrieval unit, prefixed by its title; no full-text PDF ingestion or overlapping passage splitting.",
+      "index_filter": "Require a nonempty title and abstract. Records failing this filter remain in the archive.",
+      "paper_id": "First 16 hex characters of SHA-256 of the normalized title.",
+      "metadata": ["paper_id", "source paper title", "url", "published"],
+      "output": "chunked.json"
+    },
+    {
+      "step": 3,
+      "name": "Embed and index abstracts",
+      "embedding_model": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+      "embedding_dimensions": 768,
+      "normalization": "L2-normalized document and query vectors.",
+      "cache": "data/embedding_cache.json",
+      "cache_validation": "SHA-256 fingerprint includes the selected embedding model and complete chunk records.",
+      "vector_store": "Persistent Chroma at my_chroma_db/ using cosine distance.",
+      "collection_name": "documents_<first 16 characters of index fingerprint>",
+      "index_behavior": "A changed corpus or embedding model gets a separate collection. Validate unique IDs and matching document, metadata, and vector counts before indexing."
+    },
+    {
+      "step": 4,
+      "name": "Retrieve evidence for a question",
+      "behavior": "Embed the question with the same model, retrieve the nearest abstracts from Chroma, and save the returned evidence before calling the answer model.",
+      "default_top_k": 5,
+      "ranking": "Dense vector similarity only; no reranking or keyword-search fusion is currently configured."
+    },
+    {
+      "step": 5,
+      "name": "Generate a grounded answer",
+      "provider": "Groq",
+      "model": "openai/gpt-oss-120b",
+      "temperature": 0,
+      "reasoning_effort": "low",
+      "max_tokens": 1500,
+      "evidence": "Retrieved titles, abstracts, and source metadata only. Prior assistant responses are not supplied as evidence.",
+      "instructions": "Answer concisely, cite paper titles for factual claims, and abstain when the retrieved abstracts do not support an answer.",
+      "canonical_abstention": "This question is not addressed in the provided papers.",
+      "retry_policy": "Retry short-term 429 rate limits with bounded attempts. Daily token limits and other API failures stop the run; completed evaluation work remains checkpointed."
+    },
+    {
+      "step": 6,
+      "name": "Evaluate retrieval and answers",
+      "dataset": "evaluation.json",
+      "reference_validation": "Check question IDs, source titles, supporting quotations, and abstract hashes against the saved corpus.",
+      "execution_order": ["Prepare index", "Validate evaluation evidence", "Measure retrieval", "Generate and checkpoint answers", "Judge saved answers", "Apply abstention checks", "Build combined report"],
+      "retrieval_cutoffs": [5, 10, 20],
+      "retrieval_metrics": ["corpus coverage", "recall at k", "hit rate at k", "nDCG at k", "MRR"],
+      "judge_provider": "Groq",
+      "judge_model": "openai/gpt-oss-20b",
+      "judge_output": "Strict JSON schema with six integer scores from 1 to 5, abstention and unsupported-claim flags, and a reason.",
+      "scores": ["faithfulness", "relevance", "citation_quality", "answerability_handling", "correctness", "overall"],
+      "grading_separation": "Faithfulness is judged against actual retrieved evidence. The reference answer is supplied separately for correctness and is not treated as retrieved evidence.",
+      "abstention_checks": "Canonical abstention on a full-corpus answerable question receives correctness 1 and overall at most 2. Canonical abstention on an unsupported question receives correctness 5. Raw judge grades are retained.",
+      "resume_behavior": "Checkpoint each completed answer and judgment. Fingerprints prevent mixing different datasets, indexes, models, retrieval budgets, or rubric versions. A grader change can reuse matching generated answers while invalidating old judgments.",
+      "outputs": ["retrieval_evaluation_results.json", "rag_evaluation_results.json", "evaluation_report.json"]
+    }
+  ],
+  "completed_development_run": {
+    "archived_record_versions": 589,
+    "indexed_abstracts": 510,
+    "questions": 38,
+    "answerable_questions": 32,
+    "unsupported_questions": 6,
+    "answer_retrieval_top_k": 5,
+    "recall_at_5": 0.9375,
+    "recall_at_10": 1.0,
+    "mean_correctness_out_of_5": 4.7894736842105265,
+    "mean_faithfulness_out_of_5": 5.0,
+    "unsupported_question_abstention_rate": 1.0,
+    "answerable_question_abstention_rate": 0.0625,
+    "interpretation": "All 38 answers were generated and judged. Two answerable questions received abstentions. Three questions lacked at least one designated supporting paper within the top five results. Top ten retrieval recovered all designated sources, but answer generation at top ten has not yet been evaluated."
+  },
+  "setup": {
+    "dependencies": "requirements.txt pins direct dependencies to the installed environment used for this run; it is not a complete transitive lockfile.",
+    "environment_variables": {"GROQ_API_KEY": "Required for answer generation and judging; keep in a local .env file or environment variable."},
+    "tests": "python -m unittest test_paper_archive test_rag_eval",
+    "evaluation": "python run_rag_evaluation.py",
+    "retrieval_only": "python run_rag_evaluation.py --retrieval-only",
+    "model_cache": "The command-line runner forces Hugging Face offline mode. On a fresh machine, download the embedding model before using the runner, for example by executing the model-loading notebook cell with network access.",
+    "version_control": "Commit source code, paper JSON snapshots, evaluation fixtures, final results, and documentation. Local environments, Chroma indexes, SQLite runtime archives, embedding caches, run logs, and intermediate evaluation history are excluded."
+  },
+  "limitations_and_next_steps": [
+    "The generator has not been fine-tuned; improvements come from corpus handling, retrieval, prompting, and evaluation.",
+    "The corpus contains abstracts and metadata, not complete paper texts. Detailed methods may require full-text ingestion.",
+    "Title-based deduplication can conflate distinct papers with the same normalized title.",
+    "Automated grades on corpus-derived development questions require human review and an independent held-out test set before general performance claims.",
+    "Evaluate answer quality with top_k=10 before adopting it as the default.",
+    "Checkpointing supports manual resumption; it does not schedule automatic restarts after quota resets."
+  ]
+}

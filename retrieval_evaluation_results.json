@@ -1,0 +1,1701 @@
+{
+  "summary": {
+    "questions_with_gold_sources": 32,
+    "unanswerable_questions_excluded": 6,
+    "mean_corpus_coverage": 1.0,
+    "mrr_at_max_k": 0.9357638888888888,
+    "recall_at_k": {
+      "5": 0.9375,
+      "10": 1.0,
+      "20": 1.0
+    },
+    "hit_at_k": {
+      "5": 0.96875,
+      "10": 1.0,
+      "20": 1.0
+    },
+    "ndcg_at_k": {
+      "5": 0.9174132543469492,
+      "10": 0.9387461193480903,
+      "20": 0.9387461193480903
+    },
+    "conditional_recall_at_k": {
+      "5": 0.9375,
+      "10": 1.0,
+      "20": 1.0
+    }
+  },
+  "per_question": [
+    {
+      "id": "q001",
+      "question": "How large was the bibliometric survey of AI in neuroscience, which years did it cover, and which database supplied its studies?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Artificial Intelligence in Accessible Museums",
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+        "An Overview of Artificial Intelligence in Neurology",
+        "Artificial Intelligence in Neuroscience and Systems Biology: Lessons Learnt, Open Problems, and the Road Ahead",
+        "Evaluating the Combined Use of Artificial Intelligence and Virtual Reality in Higher Education: A Bibliometric and Systematic Analysis",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "Reimagining Tourism Research through Neuroscience and Artificial Intelligence a Dual-Model Perspective",
+        "AI, Brain, and Child: navigating the intersection of artificial intelligence, neuroscience, and child development",
+        "Artificial Intelligence's Novel \"Mind-Reading\" Capabilities through Neuroscience: A Challenge for Mind-Body Dualism?",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "Natural and Artificial Intelligence: A brief introduction to the interplay between AI and neuroscience research",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+        "The Role of Artificial Intelligence and Neuroscience in Business Ethics: A Human Resources Perspective"
+      ],
+      "expected_sources": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+      ]
+    },
+    {
+      "id": "q002",
+      "question": "Which countries were highlighted as pioneering contributors in the bibliometric survey of AI applications to neuroscience?",
+      "category": "factual",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Artificial Intelligence in Accessible Museums",
+        "Artificial Intelligence in Neuroscience and Systems Biology: Lessons Learnt, Open Problems, and the Road Ahead",
+        "The Impact of Artificial Intelligence (AI) and Digitalisation in Tourism Vocational Education",
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+        "The Role of Artificial Intelligence and Neuroscience in Business Ethics: A Human Resources Perspective",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+        "Artificial intelligence in ADHD: a global perspective on research hotspots, trends and clinical applications",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "Reimagining Tourism Research through Neuroscience and Artificial Intelligence a Dual-Model Perspective",
+        "An Overview of Artificial Intelligence in Neurology",
+        "Neuroscience-Inspired Artificial Intelligence.",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "The Neuroscience of Human and Artificial Intelligence Presence.",
+        "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges"
+      ],
+      "expected_sources": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience"
+      ]
+    },
+    {
+      "id": "q003",
+      "question": "Approximately how quickly did AI-related neuroscience publications double over the decade examined by the citation-pattern review?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 0.5,
+        "10": 0.5,
+        "20": 0.5
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 0.3333333333333333,
+      "ranked_sources": [
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+        "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "Artificial intelligence in ADHD: a global perspective on research hotspots, trends and clinical applications",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "An Overview of Artificial Intelligence in Neurology",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "RECENT TRENDS IN EMOTIONAL INTELLIGENCE: MEASUREMENT, NEUROSCIENCE, ARTIFICIAL INTELLIGENCE, AND THE GLOBAL EMOTIONAL RECESSION",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Artificial Intelligence in Accessible Museums",
+        "Reimagining Tourism Research through Neuroscience and Artificial Intelligence a Dual-Model Perspective",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "The Neuroscience of Human and Artificial Intelligence Presence.",
+        "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+        "The synergy of neuromarketing and artificial intelligence: A comprehensive literature review in the last decade"
+      ],
+      "expected_sources": [
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience"
+      ]
+    },
+    {
+      "id": "q004",
+      "question": "How did the citation-pattern review construct networks of related AI and neuroscience publications?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 0.6309297535714575,
+        "10": 0.6309297535714575,
+        "20": 0.6309297535714575
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 0.5,
+      "ranked_sources": [
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "The synergy of neuromarketing and artificial intelligence: A comprehensive literature review in the last decade",
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+        "A Review of Findings from Neuroscience and Cognitive Psychology as Possible Inspiration for the Path to Artificial General Intelligence",
+        "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "The mutual inspirations of machine learning and neuroscience.",
+        "Natural and Artificial Intelligence: A brief introduction to the interplay between AI and neuroscience research",
+        "Reimagining Tourism Research through Neuroscience and Artificial Intelligence a Dual-Model Perspective",
+        "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "AI, Brain, and Child: navigating the intersection of artificial intelligence, neuroscience, and child development",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+        "An Overview of Artificial Intelligence in Neurology",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "Charting a New Frontier in Neurology with Artificial Intelligence"
+      ],
+      "expected_sources": [
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience"
+      ]
+    },
+    {
+      "id": "q005",
+      "question": "Why does the introductory review of machine learning in neuroscience insist on external validation of findings?",
+      "category": "limitations",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 0.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": false,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 0.0,
+        "10": 0.3010299956639812,
+        "20": 0.3010299956639812
+      },
+      "conditional_recall_at_k": {
+        "5": 0.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 0.1111111111111111,
+      "ranked_sources": [
+        "Machine learning and deep learning for classifying the justification of brain CT referrals.",
+        "A Review of Findings from Neuroscience and Cognitive Psychology as Possible Inspiration for the Path to Artificial General Intelligence",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Neuroscience Backed Learning in the Age of Artificial Intelligence and Hybrid Education",
+        "Challenging Cognitive Load Theory: The Role of Educational Neuroscience and Artificial Intelligence in Redefining Learning Efficacy",
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+        "Neuroscience-Based Education in The Era of Artificial Intelligence: Enhancing Cognitive Development Through Adaptive Learning Technologies",
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+        "The mutual inspirations of machine learning and neuroscience.",
+        "The application of eXplainable artificial intelligence in studying cognition: A scoping review",
+        "A Case Study in Assuring AI-Written Software",
+        "The Role of Artificial Intelligence and Neuroscience in Business Ethics: A Human Resources Perspective",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Neuroevolution insights into biological neural computation.",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "An Overview of Artificial Intelligence in Neurology",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+        "Forms of explanation and understanding for neuroscience and artificial intelligence."
+      ],
+      "expected_sources": [
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers."
+      ]
+    },
+    {
+      "id": "q006",
+      "question": "What role should physicians have when clinical AI prediction tools are introduced into medical workflows?",
+      "category": "ethics",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+        "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+        "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges",
+        "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment",
+        "The Potential of Artificial Intelligence in Unveiling Healthcare's Future",
+        "Past, Present and Future Perspective of Artificial Intelligence in Healthcare and Nanotechnology: A Communication",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "The Promise of Artificial Intelligence in Neuroanesthesia: An Update",
+        "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges",
+        "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+        "An East Coast Perspective on Artificial Intelligence and Machine Learning: Part 2: Ischemic Stroke Imaging and Triage.",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "Machine learning and clinical neurophysiology.",
+        "The Role of Artificial Intelligence in Bariatric Surgery: Perspectives and Modern Applications",
+        "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+        "The Role of Neuroprediction and Artificial Intelligence in the Future of Criminal Procedure Support Science: A New Era in Neuroscience and Criminal Justice",
+        "Artificial Intelligence in Urology: New Technologies with Major Potential",
+        "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges",
+        "Artificial intelligence technologies for enhancing neurofunctionalities: a comprehensive review with applications in Alzheimer’s disease research"
+      ],
+      "expected_sources": [
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review"
+      ]
+    },
+    {
+      "id": "q007",
+      "question": "What four challenges does the survey connecting neuroscience, AGI, and neuromorphic hardware identify?",
+      "category": "limitations",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+        "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges",
+        "Challenging Cognitive Load Theory: The Role of Educational Neuroscience and Artificial Intelligence in Redefining Learning Efficacy",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+        "Artificial intelligence is reshaping neuroscience across scales.",
+        "An Overview of Artificial Intelligence in Neurology",
+        "Artificial Intelligence's Novel \"Mind-Reading\" Capabilities through Neuroscience: A Challenge for Mind-Body Dualism?",
+        "Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma",
+        "Neuroscience-Based Education in The Era of Artificial Intelligence: Enhancing Cognitive Development Through Adaptive Learning Technologies",
+        "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment",
+        "Enhancement of modern defense capabilities by convergence of cognitive neuroscience and artificial intelligence",
+        "Affective neuroscience theory and attitudes towards artificial intelligence",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning."
+      ],
+      "expected_sources": [
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems"
+      ]
+    },
+    {
+      "id": "q008",
+      "question": "Which algorithm and feature combination performed best for EEG classification of Alzheimer's disease, frontotemporal dementia, and healthy controls, and what accuracies were reported?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Neural System EEG Signal Classification Algorithm based on Artificial Intelligence",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Comparison of Artificial Intelligence Applications of EEG Signals in Neuroscience",
+        "Emergence of artificial intelligence in electroencephalogram analysis",
+        "Machine learning of brain-specific biomarkers from EEG.",
+        "Early detection of Alzheimer's disease using deep learning methods.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "Artificial intelligence for brain disease diagnosis using electroencephalogram signals.",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Brain imaging-based machine learning in autism spectrum disorder: methods and applications.",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "Artificial Intelligence for EEG Extraction",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions.",
+        "Regularized multi-task learning with individual-feature-based task correlations for Alzheimer's cognitive score prediction.",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning."
+      ],
+      "expected_sources": [
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia."
+      ]
+    },
+    {
+      "id": "q009",
+      "question": "What morphological measurements does BrAIn extract while tracking brain organoid development?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "Bridging Biology and Computation: The Rise of Organoid Intelligence in Sustainable Computing and Neuroscience",
+        "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods.",
+        "Machine learning of brain-specific biomarkers from EEG.",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline"
+      ],
+      "expected_sources": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience"
+      ]
+    },
+    {
+      "id": "q010",
+      "question": "How did orbital shaker and microfluidic chip cultures differ from static culture in the BrAIn organoid study?",
+      "category": "comparison",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+        "Bridging Biology and Computation: The Rise of Organoid Intelligence in Sustainable Computing and Neuroscience",
+        "Neuroplasticity Meets Artificial Intelligence: A Hippocampus-Inspired Approach to the Stability–Plasticity Dilemma",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "A multi-modal parcellation of human cerebral cortex.",
+        "A multiscale brain emulation-based artificial intelligence framework for dynamic environments",
+        "Artificial Intelligence in Oral and Maxillofacial Oncology: AI-Driven Histopathological, Imaging, and Surgical Insights into Oral Squamous Cell Carcinoma",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "Machine learning of brain-specific biomarkers from EEG.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Mind Meets Space: Rethinking Agentic Spatial Intelligence from a Neuroscience-inspired Perspective",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory",
+        "From Traditional Medical Patterns to Artificial Intelligence: The Applicability of Digital Biomarkers in Reinventing Personalised Nutrition",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation"
+      ],
+      "expected_sources": [
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience"
+      ]
+    },
+    {
+      "id": "q011",
+      "question": "What did participants do during collection of the Natural Scenes Dataset, and which additional imaging data does it contain?",
+      "category": "dataset",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Dream2Image : An Open Multimodal EEG Dataset for Decoding and Visualizing Dreams with Artificial Intelligence",
+        "Neural decoding of visual imagery during sleep.",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "Foundation model of neural activity predicts response to new stimulus types.",
+        "Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics",
+        "Reimagining Tourism Research through Neuroscience and Artificial Intelligence a Dual-Model Perspective",
+        "AN APPLIED RESEARCH ON THE USE OF ARTIFICIAL INTELLIGENCE TECHNOLOGIES IN MOVING IMAGE PRODUCTION",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+        "Image thinking after artificial intelligence",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast.",
+        "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+        "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+        "LEBGen: An LLM-Enhanced Bayesian Network Framework for Few-Shot Travel Survey Data Generation",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations"
+      ],
+      "expected_sources": [
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence"
+      ]
+    },
+    {
+      "id": "q012",
+      "question": "Does improving a neural network's vision-benchmark accuracy guarantee a better model of primate perception, according to the biological-vision perspective?",
+      "category": "limitations",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Better artificial intelligence does not mean better models of biology",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+        "Integrating Vision: From Neuroscience to Artificial Intelligence",
+        "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+        "A functional contextual, observer-centric, quantum mechanical, and neuro-symbolic approach to solving the alignment problem of artificial general intelligence: safe AI through intersecting computational psychological neuroscience and LLM architecture for emergent theory of mind",
+        "Interpretability of artificial neural network models in artificial intelligence versus neuroscience",
+        "Artificial Intelligence and Neuroeducation: Enhancing Education for Students or Patients with Albinism",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+        "Leveraging insights from neuroscience to build adaptive artificial intelligence",
+        "Engineering a Less Artificial Intelligence.",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Neuroevolution insights into biological neural computation.",
+        "Neuroscience-Based Education in The Era of Artificial Intelligence: Enhancing Cognitive Development Through Adaptive Learning Technologies",
+        "Machine learning of brain-specific biomarkers from EEG.",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "The mutual inspirations of machine learning and neuroscience.",
+        "Method for assessing visual saliency in children with cerebral/cortical visual impairment using generative artificial intelligence",
+        "Harnessing Artificial Intelligence and Precision Diets for Brain Health and Cognitive Resilience.",
+        "The Role of Artificial Intelligence and Neuroscience in Business Ethics: A Human Resources Perspective"
+      ],
+      "expected_sources": [
+        "Better artificial intelligence does not mean better models of biology"
+      ]
+    },
+    {
+      "id": "q013",
+      "question": "How many cortical areas per hemisphere did the Human Connectome Project multimodal parcellation identify, and how many were new?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "A multi-modal parcellation of human cerebral cortex.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "High throughput spatial immune mapping reveals an innate immune scar in post-COVID-19 brains.",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "Evaluation Principles for MRI-MRA Registration in Trigeminal Neuralgia: An ROI-Centered Neurovascular Benchmark",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "FEBS‐IUBMB‐ENABLE Conference crosses seven seas: Report on the 3rd International Molecular Biosciences PhD and Postdoc Conference—“Artificial intelligence: reshaping biomedical and healthcare research”",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models.",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Connectome-based schizophrenia prediction using structural connectivity - Deep Graph Neural Network(sc-DGNN).",
+        "A Replicable and Generalizable Neuroimaging-Based Indicator of Pain Sensitivity Across Individuals.",
+        "Instability in Patient Clustering: A Multiverse Analysis of Unsupervised Clustering in the CENTER-TBI cohort"
+      ],
+      "expected_sources": [
+        "A multi-modal parcellation of human cerebral cortex."
+      ]
+    },
+    {
+      "id": "q014",
+      "question": "How were machine-learning models trained to decode visual imagery during the sleep-onset period?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Neural decoding of visual imagery during sleep.",
+        "Dream2Image : An Open Multimodal EEG Dataset for Decoding and Visualizing Dreams with Artificial Intelligence",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Early detection of Alzheimer's disease using deep learning methods.",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Foundation model of neural activity predicts response to new stimulus types.",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Method for assessing visual saliency in children with cerebral/cortical visual impairment using generative artificial intelligence",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+        "Machine learning decoding of single neurons in the thalamus for speech brain-machine interfaces.",
+        "Integrating Vision: From Neuroscience to Artificial Intelligence",
+        "Neural System EEG Signal Classification Algorithm based on Artificial Intelligence",
+        "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Decoding Consciousness in Artificial Intelligence",
+        "Brain imaging-based machine learning in autism spectrum disorder: methods and applications."
+      ],
+      "expected_sources": [
+        "Neural decoding of visual imagery during sleep."
+      ]
+    },
+    {
+      "id": "q015",
+      "question": "Which algorithm, imaging modality, and participant counts were used to identify temporal-lobe epilepsy biotypes?",
+      "category": "dataset",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.",
+        "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Focality in childhood absence epilepsy.",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "The identification of cognitive impairment in Parkinson’s disease using biofluids, neuroimaging, and artificial intelligence",
+        "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods.",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Brain imaging-based machine learning in autism spectrum disorder: methods and applications.",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "Machine learning of brain-specific biomarkers from EEG."
+      ],
+      "expected_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ]
+    },
+    {
+      "id": "q016",
+      "question": "What four neuroanatomical subtypes were identified in the temporal-lobe epilepsy MRI study?",
+      "category": "factual",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Focality in childhood absence epilepsy.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods.",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "Neuroprognostication via Radiomics and Machine Learning Following Neonatal Hypoxic-Ischemic Insult.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "A multi-modal parcellation of human cerebral cortex.",
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+        "Machine learning decoding of single neurons in the thalamus for speech brain-machine interfaces.",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases"
+      ],
+      "expected_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ]
+    },
+    {
+      "id": "q017",
+      "question": "What does DeepTaskGen generate from resting-state fMRI, and at what scale was it applied to UK Biobank?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Early detection of Alzheimer's disease using deep learning methods.",
+        "Physics-Informed Deep Learning for False Ventricular Tachycardia Alarm Reduction in the ICU",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+        "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
+        "Employing deep learning and transfer learning for accurate brain tumor detection.",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Deep neural networks in psychiatry.",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Machine Learning-Based Radiomics in Neuro-Oncology.",
+        "Prediction of CSF Intervention in Fetal Ventriculomegaly via Artificial Intelligence-Powered Normative Modeling.",
+        "Dream2Image : An Open Multimodal EEG Dataset for Decoding and Visualizing Dreams with Artificial Intelligence",
+        "FEBS‐IUBMB‐ENABLE Conference crosses seven seas: Report on the 3rd International Molecular Biosciences PhD and Postdoc Conference—“Artificial intelligence: reshaping biomedical and healthcare research”"
+      ],
+      "expected_sources": [
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning."
+      ]
+    },
+    {
+      "id": "q018",
+      "question": "How does SmartEM accelerate connectomic image acquisition, and what speedup does its abstract report?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "SmartEM: machine learning-guided electron microscopy.",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "FastE: Readout-Triggered Token Compression for LLM Embedding Inference",
+        "Connectome-based schizophrenia prediction using structural connectivity - Deep Graph Neural Network(sc-DGNN).",
+        "Wireless Optogenetic Microsystems Accelerate Artificial Intelligence–Neuroscience Coevolution Through Embedded Closed-Loop System",
+        "High throughput spatial immune mapping reveals an innate immune scar in post-COVID-19 brains.",
+        "BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+        "Harnessing Artificial Intelligence and Precision Diets for Brain Health and Cognitive Resilience.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "Leveraging Artificial Intelligence to Reduce Neuroscience ICU Length of Stay",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "MemForest: Efficient Agent Memory Management via EventTree Partitioning and Progressive Merging"
+      ],
+      "expected_sources": [
+        "SmartEM: machine learning-guided electron microscopy."
+      ]
+    },
+    {
+      "id": "q019",
+      "question": "What four dimensions define disease states in the data-driven multiple sclerosis reclassification study?",
+      "category": "factual",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "AI-driven reclassification of multiple sclerosis progression.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Editorial: Advancing personalized diagnosis and treatment in Parkinson's disease: integrating biomarkers, neuroimaging, and artificial intelligence",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "The identification of cognitive impairment in Parkinson’s disease using biofluids, neuroimaging, and artificial intelligence",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "A Three-Tier Persona Vector for Controllable User Simulation in Agentic Evaluation",
+        "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions.",
+        "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+        "Target-Independent Micro-Interventions for Predicting Training Response Across Language-Model Families",
+        "Cell death-associated genes as novel diagnostic biomarkers for autism spectrum disorder.",
+        "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods."
+      ],
+      "expected_sources": [
+        "AI-driven reclassification of multiple sclerosis progression."
+      ]
+    },
+    {
+      "id": "q020",
+      "question": "What did the neural-activity foundation model learn to predict, and how did it generalize beyond its training mice and stimuli?",
+      "category": "generalization",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Foundation model of neural activity predicts response to new stimulus types.",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "Neuroscience-Based Education in The Era of Artificial Intelligence: Enhancing Cognitive Development Through Adaptive Learning Technologies",
+        "Continual task learning in natural and artificial agents.",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "A multiscale brain emulation-based artificial intelligence framework for dynamic environments",
+        "The mutual inspirations of machine learning and neuroscience.",
+        "Early detection of Alzheimer's disease using deep learning methods.",
+        "Emulating future neurotechnology using magic.",
+        "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+        "Research on Artificial Intelligence Neural Model Based on Human Neuroscience Simulation: A Case Study of Orthopedic Medical Robots and Economic Discussion",
+        "Natural and Artificial Intelligence: A brief introduction to the interplay between AI and neuroscience research",
+        "Neuroscience Backed Learning in the Age of Artificial Intelligence and Hybrid Education",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "Leveraging insights from neuroscience to build adaptive artificial intelligence",
+        "What have we learned about artificial intelligence from studying the brain?",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Artificial intelligence technologies for enhancing neurofunctionalities: a comprehensive review with applications in Alzheimer’s disease research"
+      ],
+      "expected_sources": [
+        "Foundation model of neural activity predicts response to new stimulus types."
+      ]
+    },
+    {
+      "id": "q021",
+      "question": "Which regression method replaced the original BrainAGE method, and what error was reported on UK Biobank?",
+      "category": "comparison",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Neuroprognostication via Radiomics and Machine Learning Following Neonatal Hypoxic-Ischemic Insult.",
+        "Artificial Intelligence in Neuroscience and Systems Biology: Lessons Learnt, Open Problems, and the Road Ahead",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "NERVE Attacks: Breaking AI-Powered Brain-Computer Interfaces",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Machine learning of brain-specific biomarkers from EEG.",
+        "Artificial intelligence and machine learning driven nanorobotics for targeted brain delivery: Redefining blood-brain barrier navigation.",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+        "The Cerebral Frontier: Artificial Intelligence and the Evolution of Neurology and Psychiatry",
+        "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)"
+      ],
+      "expected_sources": [
+        "BrainAGE: Revisited and reframed machine learning workflow."
+      ]
+    },
+    {
+      "id": "q022",
+      "question": "How can dissection photographs be used for quantitative three-dimensional neuropathology without an ex vivo MRI scan?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Invasive neurophysiology and whole brain connectomics for neural decoding in patients with brain implants.",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast.",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Employing deep learning and transfer learning for accurate brain tumor detection.",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "SmartEM: machine learning-guided electron microscopy.",
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images."
+      ],
+      "expected_sources": [
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology."
+      ]
+    },
+    {
+      "id": "q023",
+      "question": "How do functional and structural measurements differ in their value for diagnosis versus prognosis in disorders of consciousness?",
+      "category": "comparison",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Detection and analysis of complex structural variation in human genomes across populations and in brains of donors with psychiatric disorders.",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "EEG-based detection of early functional brain changes in subjective cognitive decline: a prospective cohort study.",
+        "Graph neural network and machine learning analysis of functional neuroimaging for understanding schizophrenia.",
+        "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Connectome-based schizophrenia prediction using structural connectivity - Deep Graph Neural Network(sc-DGNN).",
+        "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+        "Brain tumor detection from images and comparison with transfer learning methods and 3-layer CNN.",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "The identification of cognitive impairment in Parkinson’s disease using biofluids, neuroimaging, and artificial intelligence",
+        "Classification of psychedelics and psychoactive drugs based on brain-wide imaging of cellular c-Fos expression.",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "Method for assessing visual saliency in children with cerebral/cortical visual impairment using generative artificial intelligence"
+      ],
+      "expected_sources": [
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness."
+      ]
+    },
+    {
+      "id": "q024",
+      "question": "How does MinT synthesize new MR image contrasts while preserving anatomy?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast.",
+        "SynthRCT: Scalable Conditional Deformation Synthesis for Synthetic Repeat CT Generation",
+        "Hi-M imaging of chromatin architecture in adult Drosophila brain cryosections",
+        "Machine learning of dissection photographs and surface scanning for quantitative 3D neuropathology.",
+        "Generating synthetic task-based brain fingerprints for population neuroscience using deep learning.",
+        "Bridging Artificial Intelligence and Neurological Signals (BRAINS): A Novel Framework for Electroencephalogram-Based Image Generation",
+        "Image thinking after artificial intelligence",
+        "Evaluation Principles for MRI-MRA Registration in Trigeminal Neuralgia: An ROI-Centered Neurovascular Benchmark",
+        "SmartEM: machine learning-guided electron microscopy.",
+        "Bridging the Semantic-Utility Gap in Multimodal RAG via Generator-in-the-Loop Alignment",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "EMBLEM: Enhancing Multi-script Table Detection through Masking",
+        "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Method for assessing visual saliency in children with cerebral/cortical visual impairment using generative artificial intelligence",
+        "Reducing Gadolinium Contrast With Artificial Intelligence.",
+        "High throughput spatial immune mapping reveals an innate immune scar in post-COVID-19 brains.",
+        "Personalizing LLM Agent Memory Using Biometrics",
+        "Charts Are Beyond Pixels: Probing for Layer-Wise Chart Understanding and Editing",
+        "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction"
+      ],
+      "expected_sources": [
+        "MinT: Magnetic resonance image unsupervised translation via decoupling anatomical structure and contrast."
+      ]
+    },
+    {
+      "id": "q025",
+      "question": "How many transfer samples per site were sufficient for good test performance in the cortical-thickness normative-model study?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models.",
+        "Inclusive electron-nucleus cross section models from domain adaptation",
+        "Evaluation Principles for MRI-MRA Registration in Trigeminal Neuralgia: An ROI-Centered Neurovascular Benchmark",
+        "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "In vivo quantification of superficial cortical veins on susceptibility-weighted imaging with artificial intelligence image segmentation and the potential mechanism of human cognitive decline",
+        "Employing deep learning and transfer learning for accurate brain tumor detection.",
+        "Hyperparameter Scaling Laws Across MoE Sparsity",
+        "Leveraging Artificial Intelligence to Reduce Neuroscience ICU Length of Stay",
+        "A multi-modal parcellation of human cerebral cortex.",
+        "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+        "HygieneRoboBench: Benchmarking Hygiene-Aware Planning for Household Robots",
+        "Temporal State Transport in Video Generation: Diagnosing and Correcting Spectral Imbalance",
+        "Selective Transfer of RL Updates for Visual Reasoning",
+        "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
+        "Instability in Patient Clustering: A Multiverse Analysis of Unsupervised Clustering in the CENTER-TBI cohort",
+        "High throughput spatial immune mapping reveals an innate immune scar in post-COVID-19 brains.",
+        "A Measurement Study of LLM Inference Trade-offs Across Edge Continuum Hardware",
+        "Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack",
+        "Distribution-free inference on the number of changepoints"
+      ],
+      "expected_sources": [
+        "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models."
+      ]
+    },
+    {
+      "id": "q026",
+      "question": "How does QF3 restrict critic-gradient updates when training flow policies?",
+      "category": "method",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "QF3: Fast Flow RL with Filtered Q-Gradients",
+        "Co-Evolving Paths and Flows via Path-Flow Alignment",
+        "TV-Regulated OPD: Direction Matters in On-Policy Distillation",
+        "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+        "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
+        "Eliciting Weak-to-Strong Generalization with On-Policy Reverse Distillation",
+        "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+        "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
+        "Not All Variables Agree: Reliability-Aware Variable-Wise Gradient Surgery for Multivariate Time-Series Forecasting",
+        "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
+        "Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks",
+        "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
+        "Entropy-Regularized Rank-Masked Policy Optimization for Test-Time Reinforcement Learning in Code Generation",
+        "Selective Transfer of RL Updates for Visual Reasoning",
+        "Principled Under Pressure: Post-Training Decides Whether LLMs Act on Their Own Moral Judgment",
+        "Environments as Scaffold: Enriching Feedback to Bootstrap Self-Evolving Agents in Long-Horizon Tasks",
+        "ActionSplice: In-Flight Action Editing for Interactive World Models",
+        "Adaptively Incorporating Directional Hints into Zeroth-Order Optimization",
+        "ThinkPrior: Zero-Rollout Difficulty Priors for Cold-Start Prompt Selection in RLVR",
+        "Bridging the Semantic-Utility Gap in Multimodal RAG via Generator-in-the-Loop Alignment"
+      ],
+      "expected_sources": [
+        "QF3: Fast Flow RL with Filtered Q-Gradients"
+      ]
+    },
+    {
+      "id": "q027",
+      "question": "Why does DepthWorld add depth supervision to a video world model for robot manipulation?",
+      "category": "comparison",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "DepthWorld: 3D World Model for Robot Manipulation",
+        "WSPolypNet: Weakly Supervised Polyp Localization in Colonoscopy Videos",
+        "Parallel Predictive World Models for Accurate and Efficient Long-Horizon Planning",
+        "Protocol for artificial intelligence-guided neural control using deep reinforcement learning and infrared neural stimulation",
+        "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
+        "WorldSonus: Bringing Sound to Worlds",
+        "MemFLoRA: Memory-Floor LoRA for CNN Adaptation at the Edge",
+        "CausalChapter: Improving Long-Video Chaptering with Interventional Dependency Modeling",
+        "3DWay: Generalizing Robot Manipulation via 3D Consistent Waypoints",
+        "Multi-Label Perceptual Bug Detection in Video Games using Deep Learning on Gameplay Footage",
+        "A semi-supervised deep neuro-fuzzy iterative learning system for automatic segmentation of hippocampus brain MRI.",
+        "Estimating cortical thickness trajectories in children across different scanners using transfer learning from normative models.",
+        "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+        "Network model with internal complexity bridges artificial intelligence and neuroscience",
+        "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
+        "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+        "Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems",
+        "Kairos: A Dataset for Fine-Grained Video-Language Modeling over Space, Time, and Dynamics",
+        "MoEMB: Scaling Universal Multimodal Embeddings with Efficient Mixture-of-Experts Models",
+        "ActionSplice: In-Flight Action Editing for Interactive World Models"
+      ],
+      "expected_sources": [
+        "DepthWorld: 3D World Model for Robot Manipulation"
+      ]
+    },
+    {
+      "id": "q028",
+      "question": "What distinguishes spurious forgetting from catastrophic forgetting during language-model fine-tuning?",
+      "category": "limitations",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting",
+        "The BatchNorm Illusion: Diagnosing Normalization Artifacts in Machine Unlearning Evaluation",
+        "What Eviction Destroys: A Restore-Counterfactual Audit of Forgetting in Agent Memory",
+        "Good Pretraining, Bad SFT: Checkpoint Quality Across the Training Stack",
+        "MINDSET: Energy-based Schema Evolution for Long Conversational Agent Memory",
+        "Closing the Consistency Gap: Self-Evolving Agents That Learn to Stay on Course",
+        "When Does Scale-Invariant Optimization Become Unstable? An Exact Schedule Law with Weight Decay",
+        "CUNO: Curriculum and Preference Optimization for Stable Graph Unlearning under Mass Deletion",
+        "A Systematic Study of Small Language Models on Abstract Reasoning Tasks",
+        "Does Deeper Reasoning Compromise Alignment? Revealing and Mitigating of Alignment Collapse in Large Reasoning Models",
+        "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+        "On the Computational Tractability of Robust Bandits",
+        "Do Reviewers Still Reward Lexical Complexity? A Frozen-Rater Study of Preference Drift in 124K ICLR Reviews",
+        "Revoked but Still Authoritative: An Empirical Study of Revocation Enforcement in Agent-Memory Systems",
+        "Let It Go or Learn to Self-Correct: Continuous Diffusion for Constrained Discrete Tasks",
+        "Vision: Data-Centric Anchoring for Robust and Interpretable Agentic AI",
+        "Semantic Behavioral Watermarking: Paraphrase-Robust and Forgery-Resistant Provenance for LLM Agents",
+        "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+        "Engineering a Less Artificial Intelligence.",
+        "BrainAGE: Revisited and reframed machine learning workflow."
+      ],
+      "expected_sources": [
+        "When Forgetting is not Catastrophic: On the Mechanics of Spurious Forgetting"
+      ]
+    },
+    {
+      "id": "q029",
+      "question": "What is GeneICL's parameter count, how many clinical prediction tasks were used in evaluation, and does inference require gradient updates?",
+      "category": "numerical",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics",
+        "Performance of Clinical AI System and Physicians and Frontier Language Models in primary care diagnostics",
+        "BrainAGE: Revisited and reframed machine learning workflow.",
+        "Neuroevolution insights into biological neural computation.",
+        "The Accuracy of Artificial Intelligence to Support Multimodal Management and Prediction of Gestational Diabetes",
+        "AgentGrad: Intervention-guided Prompt Optimization for Multi Agent Systems",
+        "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions.",
+        "It's All in the Way You Say It: The Role of Information Representation in LLM-Based Glycemic-Event Prediction",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "A Dynamical Cartography of the Epistemic Diffusion of Artificial Intelligence in Neuroscience",
+        "Artificial Intelligence Monitoring of Neurological Status From Patient Videos in the Neuroscience Intensive Care Unit.",
+        "EvolveScaler: Synthesizing Information-Evolution Contexts via Executable State Machines and Natural-Language Rendering",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "The Cerebral Frontier: Artificial Intelligence and the Evolution of Neurology and Psychiatry",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Feyospace-v1: How the Cyber Mercury Seven Trained Frontier Cyber Models",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Leveraging Artificial Intelligence to Reduce Neuroscience ICU Length of Stay"
+      ],
+      "expected_sources": [
+        "GeneICL: A Tabular Foundation Model for Bulk Transcriptomics"
+      ]
+    },
+    {
+      "id": "q030",
+      "question": "How do the temporal-lobe epilepsy and multiple sclerosis studies use data-driven disease characterization differently?",
+      "category": "multi_paper",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 0.5,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 0.6131471927654584,
+        "10": 0.7903864795495061,
+        "20": 0.7903864795495061
+      },
+      "conditional_recall_at_k": {
+        "5": 0.5,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "Machine learning based differential diagnosis of schizophrenia, major depression disorder and bipolar disorder using structural magnetic resonance imaging.",
+        "Multimodal multicentre investigation of diagnostic and prognostic markers in disorders of consciousness.",
+        "Epilepsy Prediction and Detection Using Attention-CssCDBN with Dual-Task Learning.",
+        "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges",
+        "Frontotemporal dementia: a systematic review of artificial intelligence approaches in differential diagnosis",
+        "Textural analysis and artificial intelligence as decision support tools in the diagnosis of multiple sclerosis – a systematic review",
+        "Diagnosis of Schizophrenia and Its Subtypes Using MRI and Machine Learning.",
+        "The identification of cognitive impairment in Parkinson’s disease using biofluids, neuroimaging, and artificial intelligence",
+        "AI-driven reclassification of multiple sclerosis progression.",
+        "Machine learning applications in epilepsy.",
+        "Brain imaging-based machine learning in autism spectrum disorder: methods and applications.",
+        "Focality in childhood absence epilepsy.",
+        "Machine learning reveals distinct neuroanatomical signatures of cardiovascular and metabolic diseases in cognitively unimpaired individuals.",
+        "Editorial: Advancing personalized diagnosis and treatment in Parkinson's disease: integrating biomarkers, neuroimaging, and artificial intelligence",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+        "Knowledge map of artificial intelligence in neurodegenerative diseases: a decade-long bibliometric and visualization study",
+        "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+        "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions."
+      ],
+      "expected_sources": [
+        "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+        "AI-driven reclassification of multiple sclerosis progression."
+      ]
+    },
+    {
+      "id": "q031",
+      "question": "How can success of a neural-activity foundation model coexist with the warning that better AI benchmarks do not necessarily yield better biological models?",
+      "category": "multi_paper",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 0.5,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 0.6131471927654584,
+        "10": 0.8175295903539445,
+        "20": 0.8175295903539445
+      },
+      "conditional_recall_at_k": {
+        "5": 0.5,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Better artificial intelligence does not mean better models of biology",
+        "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+        "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "The Role of Artificial Intelligence and Neuroscience in Business Ethics: A Human Resources Perspective",
+        "Harnessing Artificial Intelligence and Precision Diets for Brain Health and Cognitive Resilience.",
+        "Foundation model of neural activity predicts response to new stimulus types.",
+        "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+        "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges",
+        "Leveraging insights from neuroscience to build adaptive artificial intelligence",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Engineering a Less Artificial Intelligence.",
+        "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+        "Neuroscience-Inspired Artificial Intelligence.",
+        "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+        "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+        "Artificial intelligence technologies for enhancing neurofunctionalities: a comprehensive review with applications in Alzheimer’s disease research",
+        "The brain as a blueprint: a survey of brain-inspired approaches to learning in artificial intelligence"
+      ],
+      "expected_sources": [
+        "Better artificial intelligence does not mean better models of biology",
+        "Foundation model of neural activity predicts response to new stimulus types."
+      ]
+    },
+    {
+      "id": "q032",
+      "question": "What complementary safeguards do the ML primer and the clinical-AI implementation review recommend before relying on AI predictions?",
+      "category": "multi_paper",
+      "corpus_coverage": 1.0,
+      "recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "hit_at_k": {
+        "5": true,
+        "10": true,
+        "20": true
+      },
+      "ndcg_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "conditional_recall_at_k": {
+        "5": 1.0,
+        "10": 1.0,
+        "20": 1.0
+      },
+      "reciprocal_rank": 1.0,
+      "ranked_sources": [
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+        "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+        "Guidelines From the American Society of Pain and Neuroscience for Using Artificial Intelligence in Interventional Spine and Nerve Treatment",
+        "Artificial intelligence in preclinical epilepsy research: Current state, potential, and challenges",
+        "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+        "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges",
+        "The Promise of Artificial Intelligence in Neuroanesthesia: An Update",
+        "Artificial intelligence in neuroscience: Transforming brain research, diagnostics, and clinical decision-making: A narrative review",
+        "Artificial Intelligence Perspective on MRI-Driven Computer-Aided Diagnosis and Prognosis of the Brain: A Systematic Review",
+        "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment",
+        "The Role of Artificial Intelligence in Neurology: A Balanced Perspective on Opportunities and Challenges",
+        "Machine learning and deep learning for classifying the justification of brain CT referrals.",
+        "An Overview of Artificial Intelligence in Neurology",
+        "The Potential of Artificial Intelligence in Unveiling Healthcare's Future",
+        "Artificial intelligence in neuroscience: opportunities and prospects: A review",
+        "Artificial intelligence technologies for enhancing neurofunctionalities: a comprehensive review with applications in Alzheimer’s disease research",
+        "Charting a New Frontier in Neurology with Artificial Intelligence",
+        "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+        "Machine learning and clinical neurophysiology."
+      ],
+      "expected_sources": [
+        "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+        "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review"
+      ]
+    }
+  ],
+  "limitations": "Development set; only designated supporting sources are labeled. No claim of exhaustive relevance judgments.",
+  "embedding_model": "sentence-transformers/multi-qa-mpnet-base-cos-v1",
+  "index_fingerprint": "a6b35df3d2bce674af2fb22d2ab7ba909467b457e724dc1ed2ec0abc5ae8435f",
+  "indexed_abstracts": 510
+}

@@ -1,0 +1,676 @@
+[
+  {
+    "title": "Neuroscience-Inspired Artificial Intelligence.",
+    "abstract": "The fields of neuroscience and artificial intelligence (AI) have a long and intertwined history. In more recent times, however, communication and collaboration between the two fields has become less commonplace. In this article, we argue that better understanding biological brains could play a vital role in building intelligent machines. We survey historical interactions between the AI and neuroscience fields and emphasize current advances in AI that have been inspired by the study of neural computation in humans and other animals. We conclude by highlighting shared themes that may be key for advancing future research in both fields.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28728020/",
+    "published": "2017",
+    "authors": [
+      "Hassabis D",
+      "Kumaran D",
+      "Summerfield C",
+      "Botvinick M"
+    ],
+    "pmid": "28728020"
+  },
+  {
+    "title": "A multi-modal parcellation of human cerebral cortex.",
+    "abstract": "Understanding the amazingly complex human cerebral cortex requires a map (or parcellation) of its major subdivisions, known as cortical areas. Making an accurate areal map has been a century-old objective in neuroscience. Using multi-modal magnetic resonance images from the Human Connectome Project (HCP) and an objective semi-automated neuroanatomical approach, we delineated 180 areas per hemisphere bounded by sharp changes in cortical architecture, function, connectivity, and/or topography in a precisely aligned group average of 210 healthy young adults. We characterized 97 new areas and 83 areas previously reported using post-mortem microscopy or other specialized study-specific approaches. To enable automated delineation and identification of these areas in new HCP subjects and in future studies, we trained a machine-learning classifier to recognize the multi-modal 'fingerprint' of each cortical area. This classifier detected the presence of 96.6% of the cortical areas in new subjects, replicated the group parcellation, and could correctly locate areas in individuals with atypical parcellations. The freely available parcellation and classifier will enable substantially improved neuroanatomical precision for studies of the structural and functional organization of human cerebral cortex and its variation across individuals and in development, aging, and disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27437579/",
+    "published": "2016",
+    "authors": [
+      "Glasser MF",
+      "Coalson TS",
+      "Robinson EC",
+      "Hacker CD",
+      "Harwell J",
+      "Yacoub E",
+      "Ugurbil K",
+      "Andersson J",
+      "Beckmann CF",
+      "Jenkinson M",
+      "Smith SM",
+      "Van Essen DC"
+    ],
+    "pmid": "27437579"
+  },
+  {
+    "title": "Implementation of artificial intelligence and machine learning-based methods in brain-computer interaction.",
+    "abstract": "Brain-computer interfaces are used for direct two-way communication between the human brain and the computer. Brain signals contain valuable information about the mental state and brain activity of the examined subject. However, due to their non-stationarity and susceptibility to various types of interference, their processing, analysis and interpretation are challenging. For these reasons, the research in the field of brain-computer interfaces is focused on the implementation of artificial intelligence, especially in five main areas: calibration, noise suppression, communication, mental condition estimation, and motor imagery. The use of algorithms based on artificial intelligence and machine learning has proven to be very promising in these application domains, especially due to their ability to predict and learn from previous experience. Therefore, their implementation within medical technologies can contribute to more accurate information about the mental state of subjects, alleviate the consequences of serious diseases or improve the quality of life of disabled patients.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37329623/",
+    "published": "2023",
+    "authors": [
+      "Barnova K",
+      "Mikolasova M",
+      "Kahankova RV",
+      "Jaros R",
+      "Kawala-Sterniuk A",
+      "Snasel V",
+      "Mirjalili S",
+      "Pelc M",
+      "Martinek R"
+    ],
+    "pmid": "37329623"
+  },
+  {
+    "title": "Neural decoding of visual imagery during sleep.",
+    "abstract": "Visual imagery during sleep has long been a topic of persistent speculation, but its private nature has hampered objective analysis. Here we present a neural decoding approach in which machine-learning models predict the contents of visual imagery during the sleep-onset period, given measured brain activity, by discovering links between human functional magnetic resonance imaging patterns and verbal reports with the assistance of lexical and image databases. Decoding models trained on stimulus-induced brain activity in visual cortical areas showed accurate classification, detection, and identification of contents. Our findings demonstrate that specific visual experience during sleep is represented by brain activity patterns shared by stimulus perception, providing a means to uncover subjective contents of dreaming using objective neural measurement.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23558170/",
+    "published": "2013",
+    "authors": [
+      "Horikawa T",
+      "Tamaki M",
+      "Miyawaki Y",
+      "Kamitani Y"
+    ],
+    "pmid": "23558170"
+  },
+  {
+    "title": "Editorial.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26481043/",
+    "published": "2015",
+    "authors": [
+      "Hennig M",
+      "Sernagor E"
+    ],
+    "pmid": "26481043"
+  },
+  {
+    "title": "Editorial overview: Machine learning, big data, and neuroscience.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31160002/",
+    "published": "2019",
+    "authors": [
+      "Jonathan Pillow",
+      "Sahani M"
+    ],
+    "pmid": "31160002"
+  },
+  {
+    "title": "[Brain and Artificial Intelligence].",
+    "abstract": "The brain is an information machine equipped with mind and consciousness, acquired through a long history of evolution. Artificial intelligence (AI) aims at the development of intelligent functions in computers. We show mechanisms of deep learning in AI, and compare them with brain functions. In particular, we consider the function of consciousness in the brain, and its relation to AI. Mathematical neuroscience provides a powerful method to both AI and brain science. We conclude by emphasizing that further interactions are important for both AI and brain science.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31787624/",
+    "published": "2019",
+    "authors": [
+      "Amari SI"
+    ],
+    "pmid": "31787624"
+  },
+  {
+    "title": "The Neuroscience of Human and Artificial Intelligence Presence.",
+    "abstract": "Two decades of social neuroscience and neuroeconomics research illustrate the brain mechanisms that are engaged when people consider human beings, often in comparison to considering artificial intelligence (AI) as a nonhuman control. AI as an experimental control preserves agency and facilitates social interactions but lacks a human presence, providing insight into brain mechanisms that are engaged by human presence and the presence of AI. Here, I review this literature to determine how the brain instantiates human and AI presence across social perception and decision-making paradigms commonly used to realize a social context. People behave toward humans differently than they do toward AI. Moreover, brain regions more engaged by humans compared to AI extend beyond the social cognition brain network to all parts of the brain, and the brain sometimes is engaged more by AI than by humans. Finally, I discuss gaps in the literature, limitations in current neuroscience approaches, and how an understanding of the brain correlates of human and AI presence can inform social science in the wild.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37906951/",
+    "published": "2024",
+    "authors": [
+      "Harris LT"
+    ],
+    "pmid": "37906951"
+  },
+  {
+    "title": "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges.",
+    "abstract": "Clinical neuroscience is increasingly relying on the collection of large volumes of differently structured data and the use of intelligent algorithms for data analytics. In parallel, the ubiquitous collection of unconventional data sources (e.g. mobile health, digital phenotyping, consumer neurotechnology) is increasing the variety of data points. Big data analytics and approaches to Artificial Intelligence (AI) such as advanced machine learning are showing great potential to make sense of these larger and heterogeneous data flows. AI provides great opportunities for making new discoveries about the brain, improving current preventative and diagnostic models in both neurology and psychiatry and developing more effective assistive neurotechnologies. Concurrently, it raises many new methodological and ethical challenges. Given their transformative nature, it is still largely unclear how AI-driven approaches to the study of the human brain will meet adequate standards of scientific validity and affect normative instruments in neuroethics and research ethics. This manuscript provides an overview of current AI-driven approaches to clinical neuroscience and an assessment of the associated key methodological and ethical challenges. In particular, it will discuss what ethical principles are primarily affected by AI approaches to human neuroscience, and what normative safeguards should be enforced in this domain.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32228387/",
+    "published": "2020",
+    "authors": [
+      "Ienca M",
+      "Ignatiadis K"
+    ],
+    "pmid": "32228387"
+  },
+  {
+    "title": "Brain and vision.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18687239/",
+    "published": "2008",
+    "authors": [
+      "Di Maio V",
+      "Musio C"
+    ],
+    "pmid": "18687239"
+  },
+  {
+    "title": "Applications of artificial intelligence-machine learning for detection of stress: a critical overview.",
+    "abstract": "Psychological distress is a major contributor to human physiology and pathophysiology, and it has been linked to several conditions, such as auto-immune diseases, metabolic syndrome, sleep disorders, and suicidal thoughts and inclination. Therefore, early detection and management of chronic stress is crucial for the prevention of several diseases. Artificial intelligence (AI) and Machine Learning (ML) have promoted a paradigm shift in several areas of biomedicine including diagnosis, monitoring, and prognosis of disease. Here, our review aims to present some of the AI and ML applications for solving biomedical issues related to psychological stress. We provide several lines of evidence from previous studies highlighting that AI and ML have been able to predict stress and detect the brain normal states vs. abnormal states (notably, in post-traumatic stress disorder (PTSD)) with accuracy around 90%. Of note, AI/ML-driven technology applied to identify ubiquitously present stress exposure may not reach its full potential, unless future analytics focus on detecting prolonged distress through such technology instead of merely assessing stress exposure. Moving forward, we propose that a new subcategory of AI methods called Swarm Intelligence (SI) can be used towards detecting stress and PTSD. SI involves ensemble learning techniques to efficiently solve a complex problem, such as stress detection, and it offers particular strength in clinical settings, such as privacy preservation. We posit that AI and ML approaches will be beneficial for the medical and patient community when applied to predict and assess stress levels. Last, we encourage additional research to bring AI and ML into the standard clinical practice for diagnostics in the not-too-distant future.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37020048/",
+    "published": "2024",
+    "authors": [
+      "Mentis AA",
+      "Lee D",
+      "Roussos P"
+    ],
+    "pmid": "37020048"
+  },
+  {
+    "title": "Predictive Coding Light.",
+    "abstract": "Current machine learning systems consume vastly more energy than biological brains. Neuromorphic systems aim to overcome this difference by mimicking the brain's information coding via discrete voltage spikes. However, it remains unclear how both artificial and natural networks of spiking neurons can learn energy-efficient information processing strategies. Here we propose Predictive Coding Light (PCL), a recurrent hierarchical spiking neural network for unsupervised representation learning. In contrast to previous predictive coding approaches, PCL does not transmit prediction errors to higher processing stages. Instead it suppresses the most predictable spikes and transmits a compressed representation of the input. Using only biologically plausible spike-timing based learning rules, PCL reproduces a wealth of findings on information processing in visual cortex and permits strong performance in downstream classification tasks. Overall, PCL offers a new approach to predictive coding and its implementation in natural and artificial spiking neural networks.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41053084/",
+    "published": "2025",
+    "authors": [
+      "N'dri AW",
+      "Barbier T",
+      "Teulière C",
+      "Triesch J"
+    ],
+    "pmid": "41053084"
+  },
+  {
+    "title": "Deep neural networks in psychiatry.",
+    "abstract": "Machine and deep learning methods, today's core of artificial intelligence, have been applied with increasing success and impact in many commercial and research settings. They are powerful tools for large scale data analysis, prediction and classification, especially in very data-rich environments (\"big data\"), and have started to find their way into medical applications. Here we will first give an overview of machine learning methods, with a focus on deep and recurrent neural networks, their relation to statistics, and the core principles behind them. We will then discuss and review directions along which (deep) neural networks can be, or already have been, applied in the context of psychiatry, and will try to delineate their future potential in this area. We will also comment on an emerging area that so far has been much less well explored: by embedding semantically interpretable computational models of brain dynamics or behavior into a statistical machine learning context, insights into dysfunction beyond mere prediction and classification may be gained. Especially this marriage of computational models with statistical inference may offer insights into neural and behavioral mechanisms that could open completely novel avenues for psychiatric treatment.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30770893/",
+    "published": "2019",
+    "authors": [
+      "Durstewitz D",
+      "Koppe G",
+      "Meyer-Lindenberg A"
+    ],
+    "pmid": "30770893"
+  },
+  {
+    "title": "Danilo Bzdok.",
+    "abstract": "In this interview with Neuron, Danilo Bzdok argues that artificial intelligence and big data herald a paradigm shift in neuroscience. Leveraging large language models, researchers can overcome traditional, intuition-driven taxonomies, bridge disciplinary silos, and reconcile today's fragmented knowledge into a unified vision of brain function.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42235489/",
+    "published": "2026",
+    "authors": [
+      "Bzdok D"
+    ],
+    "pmid": "42235489"
+  },
+  {
+    "title": "Brain imaging-based machine learning in autism spectrum disorder: methods and applications.",
+    "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental condition with early childhood onset and high heterogeneity. As the pathogenesis is still elusive, ASD diagnosis is comprised of a constellation of behavioral symptoms. Non-invasive brain imaging techniques, such as magnetic resonance imaging (MRI), provide a valuable objective measurement of the brain. Many efforts have been devoted to developing imaging-based diagnostic tools for ASD based on machine learning (ML) technologies. In this survey, we review recent advances that utilize machine learning approaches to classify individuals with and without ASD. First, we provide a brief overview of neuroimaging-based ASD classification studies, including the analysis of publications and general classification pipeline. Next, representative studies are highlighted and discussed in detail regarding different imaging modalities, methods and sample sizes. Finally, we highlight several common challenges and provide recommendations on future directions. In summary, identifying discriminative biomarkers for ASD diagnosis is challenging, and further establishing more comprehensive datasets and dissecting the individual and group heterogeneity will be critical to achieve better ADS diagnosis performance. Machine learning methods will continue to be developed and are poised to help advance the field in this regard.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34174282/",
+    "published": "2021",
+    "authors": [
+      "Xu M",
+      "Calhoun V",
+      "Jiang R",
+      "Yan W",
+      "Sui J"
+    ],
+    "pmid": "34174282"
+  },
+  {
+    "title": "Artificial intelligence and machine learning driven nanorobotics for targeted brain delivery: Redefining blood-brain barrier navigation.",
+    "abstract": "The blood-brain barrier (BBB) plays a central role in preserving central nervous system (CNS) homeostasis, and its dysfunction is implicated in various neurological disorders and brain malignancies. To emulate the complex architecture and signaling environment of the BBB, researchers have developed advanced in vitro models incorporating three-dimensional (3D) cell cultures, organoid technologies, and microfluidic platforms. These innovations have significantly expanded the scope of neuropharmacological research, particularly in understanding BBB transport mechanisms and enhancing drug delivery strategies. The following review highlights the integration of biomolecular tools and nanomaterial-based engineering approaches to facilitate the targeted delivery of theranostic agents across the BBB. Specifically, it discusses the emerging role of nanorobots and nanosystems in mediating cellular interactions that enable precise modulation and penetration of the barrier. Case studies addressing therapeutic applications in brain tumors and cognitive dysfunctions are also evaluated. Moreover, the review explores the intersection of artificial intelligence (AI), machine learning (ML), and robotics, which together offer transformative potential in designing intelligent nanorobots capable of efficient and safe BBB traversal. Collectively, this work serves as a consolidated resource for clinicians, biomedical scientists, and technologists aiming to develop innovative strategies for BBB-targeted therapies and biopharmaceutical applications.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41577040/",
+    "published": "2026",
+    "authors": [
+      "Kumar S",
+      "Malviya R",
+      "Sridhar SB",
+      "Wadhwa T",
+      "Shareef J"
+    ],
+    "pmid": "41577040"
+  },
+  {
+    "title": "Information seeking criteria: artificial intelligence, economics, psychology, and neuroscience.",
+    "abstract": "There has been an enormous amount of interest in how the brain seeks information. The study of this issue is a rapidly growing field in neuroscience. Information seeking is to make informative choices among multiple alternatives. A central issue in information seeking is how the value of information is assessed in order to choose informative alternatives. This issue has been studied in psychology, economics, and artificial intelligence. The present review is focused on information assessment and summarizes the psychological and computational criteria with which humans and computers assess information. Based on the summary, neurophysiological findings are discussed. In addition, a computational view of the relationships between these criteria is presented.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33855841/",
+    "published": "2022",
+    "authors": [
+      "Nakamura K"
+    ],
+    "pmid": "33855841"
+  },
+  {
+    "title": "Rehabilitation, neuroplasticity, and machine learning: Approaching artificial intelligence for equitable health systems.",
+    "abstract": "Recently, technology has evolved significantly in the rehabilitation process for neurological disorders and neurodegenerative diseases, focusing on neuroplasticity. Neuroplasticity, as a fundamental base of brain rehabilitation, is the change in the output of neural circuits in response to the stimulus of the input activity. The physiological and anatomical changes that occur following a brain insult compel the brain to rewire for the sake of reacquiring lost functions or behaviors in a driven form of neural plasticity called neurorehabilitation. One of the main challenges in neuroscience research is the accurate visualization of the brain structure and brain connectivity related to behaviors and memory. Building machine learning predictive models for brain disorders associated with neural circuits and brain plasticity defects is a promising early detection tool for some mental health disorders. Machine learning is becoming more impactful in neuroimaging because it can discern intricate patterns in multidimensional and multimodal data. This technology may then be utilized to generate data-driven classifications and predictions for specific patients. In this review, we discuss main ideologies of neuroplasticity concepts as well as the concept of neuroplasticity induction and neural circuit defects associated with neurodegenerative disorders, in addition to discussing some applications of artificial intelligence of machine learning (ML) models for the future vision of early mental health detection in low- and middle-income countries. This review considers how the health system stratifies rehabilitation and utilizes large data sets for strengthening health systems.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41038377/",
+    "published": "2025",
+    "authors": [
+      "Qansuwa EM",
+      "Atalah HN",
+      "Salama MM"
+    ],
+    "pmid": "41038377"
+  },
+  {
+    "title": "Machine Learning-Based Radiomics in Neuro-Oncology.",
+    "abstract": "In the last decades, modern medicine has evolved into a data-centered discipline, generating massive amounts of granular high-dimensional data exceeding human comprehension. With improved computational methods, machine learning and artificial intelligence (AI) as tools for data processing and analysis are becoming more and more important. At the forefront of neuro-oncology and AI-research, the field of radiomics has emerged. Non-invasive assessments of quantitative radiological biomarkers mined from complex imaging characteristics across various applications are used to predict survival, discriminate between primary and secondary tumors, as well as between progression and pseudo-progression. In particular, the application of molecular phenotyping, envisioned in the field of radiogenomics, has gained popularity for both primary and secondary brain tumors. Although promising results have been obtained thus far, the lack of workflow standardization and availability of multicenter data remains challenging. The objective of this review is to provide an overview of novel applications of machine learning- and deep learning-based radiomics in primary and secondary brain tumors and their implications for future research in the field.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34862538/",
+    "published": "2022",
+    "authors": [
+      "Ehret F",
+      "Kaul D",
+      "Clusmann H",
+      "Delev D",
+      "Kernbach JM"
+    ],
+    "pmid": "34862538"
+  },
+  {
+    "title": "Engineering a Less Artificial Intelligence.",
+    "abstract": "Despite enormous progress in machine learning, artificial neural networks still lag behind brains in their ability to generalize to new situations. Given identical training data, differences in generalization are caused by many defining features of a learning algorithm, such as network architecture and learning rule. Their joint effect, called \"inductive bias,\" determines how well any learning algorithm-or brain-generalizes: robust generalization needs good inductive biases. Artificial networks use rather nonspecific biases and often latch onto patterns that are only informative about the statistics of the training data but may not generalize to different scenarios. Brains, on the other hand, generalize across comparatively drastic changes in the sensory input all the time. We highlight some shortcomings of state-of-the-art learning algorithms compared to biological brains and discuss several ideas about how neuroscience can guide the quest for better inductive biases by providing useful constraints on representations and network architecture.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31557461/",
+    "published": "2019",
+    "authors": [
+      "Sinz FH",
+      "Pitkow X",
+      "Reimer J",
+      "Bethge M",
+      "Tolias AS"
+    ],
+    "pmid": "31557461"
+  },
+  {
+    "title": "Neuroinformatics Applications of Data Science and Artificial Intelligence.",
+    "abstract": "Leveraging vast neuroimaging and electrophysiological datasets, AI algorithms are uncovering patterns that offer unprecedented insights into brain structure and function. Neuroinformatics, the fusion of neuroscience and AI, is advancing technologies like brain-computer interfaces, AI-driven cognitive enhancement, and personalized neuromodulation for treating neurological disorders. These developments hold potential to improve cognitive functions, restore motor abilities, and create human-machine collaborative systems. Looking ahead, the convergence of neuroscience and AI is set to transform cognitive modeling, decision-making, and mental health interventions. This fusion mirrors the quest for nuclear fusion energy, both driven by the need to unlock profound sources of understanding. As STEM disciplines continue to drive core developments of foundational models of the brain, neuroinformatics promises to lead innovations in augmented intelligence, personalized healthcare, and effective decision-making systems.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39316274/",
+    "published": "2024",
+    "authors": [
+      "Dinov ID"
+    ],
+    "pmid": "39316274"
+  },
+  {
+    "title": "Machine learning applications in epilepsy.",
+    "abstract": "Machine learning leverages statistical and computer science principles to develop algorithms capable of improving performance through interpretation of data rather than through explicit instructions. Alongside widespread use in image recognition, language processing, and data mining, machine learning techniques have received increasing attention in medical applications, ranging from automated imaging analysis to disease forecasting. This review examines the parallel progress made in epilepsy, highlighting applications in automated seizure detection from electroencephalography (EEG), video, and kinetic data, automated imaging analysis and pre-surgical planning, prediction of medication response, and prediction of medical and surgical outcomes using a wide variety of data sources. A brief overview of commonly used machine learning approaches, as well as challenges in further application of machine learning techniques in epilepsy, is also presented. With increasing computational capabilities, availability of effective machine learning algorithms, and accumulation of larger datasets, clinicians and researchers will increasingly benefit from familiarity with these techniques and the significant progress already made in their application in epilepsy.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31478577/",
+    "published": "2019",
+    "authors": [
+      "Abbasi B",
+      "Goldenholz DM"
+    ],
+    "pmid": "31478577"
+  },
+  {
+    "title": "Machine learning and clinical neurophysiology.",
+    "abstract": "Clinical neurophysiology constructs a wealth of dynamic information pertaining to the integrity and function of both central and peripheral nervous systems. As with many technological fields, there has been an explosion of data in neurophysiology over recent years, and this requires considerable analysis by experts. Computational algorithms and especially advances in machine learning (ML) have the ability to assist with this task and potentially reveal hidden insights. In this update article, we will provide a brief overview where such technology is being applied in clinical neurophysiology and possible future directions.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35907045/",
+    "published": "2022",
+    "authors": [
+      "Ray J",
+      "Wijesekera L",
+      "Cirstea S"
+    ],
+    "pmid": "35907045"
+  },
+  {
+    "title": "Forms of explanation and understanding for neuroscience and artificial intelligence.",
+    "abstract": "Much of the controversy evoked by the use of deep neural networks as models of biological neural systems amount to debates over what constitutes scientific progress in neuroscience. To discuss what constitutes scientific progress, one must have a goal in mind (progress toward what?). One such long-term goal is to produce scientific explanations of intelligent capacities (e.g., object recognition, relational reasoning). I argue that the most pressing philosophical questions at the intersection of neuroscience and artificial intelligence are ultimately concerned with defining the phenomena to be explained and with what constitute valid explanations of such phenomena. I propose that a foundation in the philosophy of scientific explanation and understanding can scaffold future discussions about how an integrated science of intelligence might progress. Toward this vision, I review relevant theories of scientific explanation and discuss strategies for unifying the scientific goals of neuroscience and AI.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34644128/",
+    "published": "2021",
+    "authors": [
+      "Thompson JAF"
+    ],
+    "pmid": "34644128"
+  },
+  {
+    "title": "Spotlight on Neurotechnology: Reading Networks.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33058761/",
+    "published": "2020",
+    "authors": [
+      "Babayan BM",
+      "Sarnaik R",
+      "Zirlinger M"
+    ],
+    "pmid": "33058761"
+  },
+  {
+    "title": "Quantitative assessment of brain structural abnormalities in children with autism spectrum disorder based on artificial intelligence automatic brain segmentation technology and machine learning methods.",
+    "abstract": "RATIONALE AND OBJECTIVES: To explore the characteristics of brain structure in Chinese children with autism spectrum disorder (ASD) using artificial intelligence automatic brain segmentation technique, and to diagnose children with ASD using machine learning (ML) methods in combination with structural magnetic resonance imaging (sMRI) features.\nMETHODS: A total of 60 ASD children and 48 age- and sex-matched typically developing (TD) children were prospectively enrolled from January 2023 to April 2024. All subjects were scanned using 3D-T1 sequences. Automated brain segmentation techniques were utilized to obtain the standardized volume of each brain structure (the ratio of the absolute volume of brain structure to the whole brain volume). The standardized volumes of each brain structure in the two groups were statistically compared, and the volume data of brain areas with significant differences were combined with ML methods to diagnose and predict ASD patients.\nRESULTS: Compared with the TD group, the volumes of the right lateral orbitofrontal cortex, right medial orbitofrontal cortex, right pars opercularis, right pars triangularis, left hippocampus, bilateral parahippocampal gyrus, left fusiform gyrus, right superior temporal gyrus, bilateral insula, bilateral inferior parietal cortex, right precuneus cortex, bilateral putamen, left pallidum, and right thalamus were significantly increased in the ASD group (P< 0.05). Among six ML algorithms, support vector machine (SVM) and adaboost (AB) had better performance in differentiating subjects with ASD from those TD children, with their average area under curve (AUC) reaching 0.91 and 0.92, respectively.\nCONCLUSION: Automatic brain segmentation technology based on artificial intelligence can rapidly and directly measure and display the volume of brain structures in children with autism spectrum disorder and typically developing children. Children with ASD show abnormalities in multiple brain structures, and when paired with sMRI features, ML algorithms perform well in the diagnosis of ASD.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39307122/",
+    "published": "2024",
+    "authors": [
+      "Xu X",
+      "Li Y",
+      "Ding N",
+      "Zang Y",
+      "Sun S",
+      "Shen G",
+      "Song X"
+    ],
+    "pmid": "39307122"
+  },
+  {
+    "title": "Yulong Li.",
+    "abstract": "In an interview with Neuron, Yulong Li discusses optical tool development and next steps to interrogate the whole brain. He further shares the importance of interdisciplinarity; how new tools for neural imaging, perturbation, and artificial intelligence are revolutionizing neuroscience; and his inspirations from science fiction and a powerhouse scientific family.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34735783/",
+    "published": "2021",
+    "authors": [],
+    "pmid": "34735783"
+  },
+  {
+    "title": "[Artificial Intelligence and Brain Science: the Present and the Future].",
+    "abstract": "Artificial intelligence and brain science have kept a swinging relationship with opposing views: \"Artificial realization of intelligence should be free from biological constraints\" and \"We should reverse-engineer the best existing implementation of intelligence.\" In this article, we first review today's achievements of artificial intelligence and its impacts on brain and life sciences. We then discuss how progresses in brain science can contribute to future developments in artificial intelligence.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31289239/",
+    "published": "2019",
+    "authors": [
+      "Doya K",
+      "Matsuo Y"
+    ],
+    "pmid": "31289239"
+  },
+  {
+    "title": "[Deep Learning and AlphaGo].",
+    "abstract": "When the Information Processing Society of Japan (IPSJ) declared the end of the challenge to the Japanese Shogi Association in 2015, the belief was that it would take more than 20 years for computers to catch up with human professional Go players, as Go is far more complex than shogi from a combinatorial perspective. However, AlphaGo, whose paper was just published the same year, beat the Go world champion in all three games in 2017. In this paper, we describe the artificial intelligence methods adopted by AlphaGo, especially deep learning, and consider their relationship with neuroscience.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31289242/",
+    "published": "2019",
+    "authors": [
+      "Yoshida H"
+    ],
+    "pmid": "31289242"
+  },
+  {
+    "title": "Digital neuropathology of neurodegenerative disorders: Foundations, research advances, and future directions.",
+    "abstract": "A neuropathology examination after death remains the gold standard for differentiating between Alzheimer disease (AD) and AD and related dementias (ADRD). Increasing interest and familiarity with digital imaging highlights recent shifts to modernize pathology workflows by leveraging technology that automates imaging and analysis. This review provides an overview of digital pathology technologies and their associated infrastructure, available open-source and proprietary digital pathology software, relevant background on neurodegenerative histopathological features, and computational research. It further examines recent developments in digital pathology in neurodegenerative disease research with an emphasis on machine learning. We discuss evidence supporting how recently developed technologies and methodologies can enhance our understanding of histopathologic features of neurodegeneration and correlations of histopathologic features with cognitive performance and age at death. Finally, we review potential directions for neurodegenerative disease digital pathology research given trends in technological infrastructure development and other digital pathology research. HIGHLIGHTS: Provides a historical summary of digital pathology with respect to neuropathology. Examines key digital pathology technologies. Explores digital pathology applications in neurodegenerative disease and their contribution to research. Discusses the future of digital neuropathology.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41200792/",
+    "published": "2025",
+    "authors": [
+      "Rosado AM",
+      "Vizcarra JC",
+      "Sharma SRR",
+      "Keene CD",
+      "White CL",
+      "Kim A",
+      "Forrest SL",
+      "Kovacs GG",
+      "Chuah CN",
+      "Flanagan ME",
+      "Pearce TM",
+      "Dugger BN",
+      "Gutman DA"
+    ],
+    "pmid": "41200792"
+  },
+  {
+    "title": "Artificial Intelligence Networks Combining Histopathology and Machine Learning Can Extract Axon Pathology in Autism Spectrum Disorder.",
+    "abstract": "Axon features that underlie the structural and functional organization of cortical pathways have distinct patterns in the brains of neurotypical controls (CTR) compared to individuals with Autism Spectrum Disorder (ASD). However, detailed axon study demands labor-intensive surveys and time-consuming analysis of microscopic sections from postmortem human brain tissue, making it challenging to systematically examine large regions of the brain. To address these challenges, we developed an approach that uses machine learning to automatically classify microscopic sections from ASD and CTR brains, while also considering different white matter regions: superficial white matter (SWM), which contains a majority of axons that connect nearby cortical areas, and deep white matter (DWM), which is comprised exclusively of axons that participate in long-range pathways. The result was a deep neural network that can successfully classify the white matter below the anterior cingulate cortex (ACC) of ASD and CTR groups with 98% accuracy, while also distinguishing between DWM and SWM pathway composition with high average accuracy, up to 80%. Examination of image regions important for network classification and misclassification, through sensitivity maps, along with multidimensional scaling analysis, helped identify key pathological markers of ASD and highlighted the spectrum of ASD heterogeneity and overlaps with neurotypical characteristics. Large datasets that can be used to expand training, validation, and testing of this network have the potential to automate high-resolution microscopic analysis of postmortem brain tissue, so that it can be used to systematically study white matter across brain regions in health and disease.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/41178535/",
+    "published": "2025",
+    "authors": [
+      "Yazdanbakhsh A",
+      "Dang KTM",
+      "Kuang K",
+      "Lian T",
+      "Liu X",
+      "Xie S",
+      "Zikopoulos B"
+    ],
+    "pmid": "41178535"
+  },
+  {
+    "title": "Reducing Gadolinium Contrast With Artificial Intelligence.",
+    "abstract": "Gadolinium contrast is an important agent in magnetic resonance imaging (MRI), particularly in neuroimaging where it can help identify blood-brain barrier breakdown from an inflammatory, infectious, or neoplastic process. However, gadolinium contrast has several drawbacks, including nephrogenic systemic fibrosis, gadolinium deposition in the brain and bones, and allergic-like reactions. As computer hardware and technology continues to evolve, machine learning has become a possible solution for eliminating or reducing the dose of gadolinium contrast. This review summarizes the clinical uses of gadolinium contrast, the risks of gadolinium contrast, and state-of-the-art machine learning methods that have been applied to reduce or eliminate gadolinium contrast administration, as well as their current limitations, with a focus on neuroimaging applications. EVIDENCE LEVEL: 3 TECHNICAL EFFICACY: Stage 1.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/37905681/",
+    "published": "2024",
+    "authors": [
+      "Tsui B",
+      "Calabrese E",
+      "Zaharchuk G",
+      "Rauschecker AM"
+    ],
+    "pmid": "37905681"
+  },
+  {
+    "title": "Identification of four biotypes in temporal lobe epilepsy via machine learning on brain images.",
+    "abstract": "Artificial intelligence provides an opportunity to try to redefine disease subtypes based on similar pathobiology. Using a machine-learning algorithm (Subtype and Stage Inference) with cross-sectional MRI from 296 individuals with focal epilepsy originating from the temporal lobe (TLE) and 91 healthy controls, we show phenotypic heterogeneity in the pathophysiological progression of TLE. This study was registered in the Chinese Clinical Trials Registry (number: ChiCTR2200062562). We identify two hippocampus-predominant phenotypes, characterized by atrophy beginning in the left or right hippocampus; a third cortex-predominant phenotype, characterized by hippocampus atrophy after the neocortex; and a fourth phenotype without atrophy but amygdala enlargement. These four subtypes are replicated in the independent validation cohort (109 individuals). These subtypes show differences in neuroanatomical signature, disease progression and epilepsy characteristics. Five-year follow-up observations of these individuals reveal differential seizure outcomes among subtypes, indicating that specific subtypes may benefit from temporal surgery or pharmacological treatment. These findings suggest a diverse pathobiological basis underlying focal epilepsy that potentially yields to stratification and prognostication - a necessary step for precise medicine.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38472252/",
+    "published": "2024",
+    "authors": [
+      "Jiang Y",
+      "Li W",
+      "Li J",
+      "Li X",
+      "Zhang H",
+      "Sima X",
+      "Li L",
+      "Wang K",
+      "Li Q",
+      "Fang J",
+      "Jin L",
+      "Gong Q",
+      "Yao D",
+      "Zhou D",
+      "Luo C",
+      "An D"
+    ],
+    "pmid": "38472252"
+  },
+  {
+    "title": "Machine learning and deep learning for classifying the justification of brain CT referrals.",
+    "abstract": "OBJECTIVES: To train the machine and deep learning models to automate the justification analysis of radiology referrals in accordance with iGuide categorisation, and to determine if prediction models can generalise across multiple clinical sites and outperform human experts.\nMETHODS: Adult brain computed tomography (CT) referrals from scans performed in three CT centres in Ireland in 2020 and 2021 were retrospectively collected. Two radiographers analysed the justification of 3000 randomly selected referrals using iGuide, with two consultant radiologists analysing the referrals with disagreement. Insufficient or duplicate referrals were discarded. The inter-rater agreement among radiographers and consultants was computed. A random split (4:1) was performed to apply machine learning (ML) and deep learning (DL) techniques to unstructured clinical indications to automate retrospective justification auditing with multi-class classification. The accuracy and macro-averaged F1 score of the best-performing classifier of each type on the training set were computed on the test set.\nRESULTS: 42 referrals were ignored. 1909 (64.5%) referrals were justified, 811 (27.4%) were potentially justified, and 238 (8.1%) were unjustified. The agreement between radiographers (κ = 0.268) was lower than radiologists (κ = 0.460). The best-performing ML model was the bag-of-words-based gradient-boosting classifier achieving a 94.4% accuracy and a macro F1 of 0.94. DL models were inferior, with bi-directional long short-term memory achieving 92.3% accuracy, a macro F1 of 0.92, and outperforming multilayer perceptrons.\nCONCLUSION: Interpreting unstructured clinical indications is challenging necessitating clinical decision support. ML and DL can generalise across multiple clinical sites, outperform human experts, and be used as an artificial intelligence-based iGuide interpreter when retrospectively vetting radiology referrals.\nCLINICAL RELEVANCE STATEMENT: Healthcare vendors and clinical sites should consider developing and utilising artificial intelligence-enabled systems for justifying medical exposures. This would enable better implementation of imaging referral guidelines in clinical practices and reduce population dose burden, CT waiting lists, and wasteful use of resources.\nKEY POINTS: Significant variations exist among human experts in interpreting unstructured clinical indications/patient presentations. Machine and deep learning can automate the justification analysis of radiology referrals according to iGuide categorisation. Machine and deep learning can improve retrospective and prospective justification auditing for better implementation of imaging referral guidelines.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38913244/",
+    "published": "2024",
+    "authors": [
+      "Potočnik J",
+      "Thomas E",
+      "Lawlor A",
+      "Kearney D",
+      "Heffernan EJ",
+      "Killeen RP",
+      "Foley SJ"
+    ],
+    "pmid": "38913244"
+  },
+  {
+    "title": "Emulating future neurotechnology using magic.",
+    "abstract": "Recent developments in neuroscience and artificial intelligence have allowed machines to decode mental processes with growing accuracy. Neuroethicists have speculated that perfecting these technologies may result in reactions ranging from an invasion of privacy to an increase in self-understanding. Yet, evaluating these predictions is difficult given that people are poor at forecasting their reactions. To address this, we developed a paradigm using elements of performance magic to emulate future neurotechnologies. We led 59 participants to believe that a (sham) neurotechnological machine could infer their preferences, detect their errors, and reveal their deep-seated attitudes. The machine gave participants randomly assigned positive or negative feedback about their brain's supposed attitudes towards charity. Around 80% of participants in both groups provided rationalisations for this feedback, which shifted their attitudes in the manipulated direction but did not influence donation behaviour. Our paradigm reveals how people may respond to prospective neurotechnologies, which may inform neuroethical frameworks.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36566673/",
+    "published": "2023",
+    "authors": [
+      "Olson JA",
+      "Cyr M",
+      "Artenie DZ",
+      "Strandberg T",
+      "Hall L",
+      "Tompkins ML",
+      "Raz A",
+      "Johansson P"
+    ],
+    "pmid": "36566673"
+  },
+  {
+    "title": "Computational neuroanatomy using brain deformations: From brain parcellation to multivariate pattern analysis and machine learning.",
+    "abstract": "The past 20 years have seen a mushrooming growth of the field of computational neuroanatomy. Much of this work has been enabled by the development and refinement of powerful, high-dimensional image warping methods, which have enabled detailed brain parcellation, voxel-based morphometric analyses, and multivariate pattern analyses using machine learning approaches. The evolution of these 3 types of analyses over the years has overcome many challenges. We present the evolution of our work in these 3 directions, which largely follows the evolution of this field. We discuss the progression from single-atlas, single-registration brain parcellation work to current ensemble-based parcellation; from relatively basic mass-univariate t-tests to optimized regional pattern analyses combining deformations and residuals; and from basic application of support vector machines to generative-discriminative formulations of multivariate pattern analyses, and to methods dealing with heterogeneity of neuroanatomical patterns. We conclude with discussion of some of the future directions and challenges.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27514582/",
+    "published": "2016",
+    "authors": [
+      "Davatzikos C"
+    ],
+    "pmid": "27514582"
+  },
+  {
+    "title": "Introduction.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/30563385/",
+    "published": "2019",
+    "authors": [
+      "Ferrández JM",
+      "Andina D",
+      "Fernández E"
+    ],
+    "pmid": "30563385"
+  },
+  {
+    "title": "An East Coast Perspective on Artificial Intelligence and Machine Learning: Part 2: Ischemic Stroke Imaging and Triage.",
+    "abstract": "Acute ischemic stroke constitutes approximately 85% of strokes. Most strokes occur in community settings; thus, automatic algorithms techniques are attractive for managing these cases. This article reviews the use of deep learning convolutional neural networks in the management of ischemic stroke. Artificial intelligence-based algorithms may be used in patient triage to detect and sound the alarm based on early imaging, alert care teams, and assist in treatment selection. This article reviews algorithms for artificial intelligence techniques that may be used to detect and localize acute ischemic stroke. We describe artificial intelligence algorithms for these tasks and illustrate them with examples.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/33038997/",
+    "published": "2020",
+    "authors": [
+      "Gupta R",
+      "Krishnam SP",
+      "Schaefer PW",
+      "Lev MH",
+      "Gonzalez RG"
+    ],
+    "pmid": "33038997"
+  },
+  {
+    "title": "The hardware is the software.",
+    "abstract": "Human brains and bodies are not hardware running software: the hardware is the software. We reason that because the physics of artificial intelligence hardware and of human biological \"hardware\" is distinct, neuromorphic engineers need to be selective in the inspiration we take from neuroscience.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38086371/",
+    "published": "2024",
+    "authors": [
+      "Laydevant J",
+      "Wright LG",
+      "Wang T",
+      "McMahon PL"
+    ],
+    "pmid": "38086371"
+  },
+  {
+    "title": "Critical intelligence: Computing defensive behaviour.",
+    "abstract": "Characterising the mechanisms underlying naturalistic defensive behavior remains a significant challenge. While substantial progress has been made in unravelling the neural basis of tightly constrained behaviors, a critical gap persists in our comprehension of the circuits that implement algorithms capable of generating the diverse defensive responses observed outside experimental restrictions. Recent advancements in neuroscience technology now allow for an unprecedented examination of naturalistic behaviour. To help provide a theoretical grounding for this nascent experimental programme, we summarise the main computational and statistical challenges of defensive decision making, encapsulated in the concept of critical intelligence. Next, drawing from an extensive literature in biology, machine learning, and decision theory, we explore a range of candidate solutions to these challenges. While the proposed solutions offer insights into potential adaptive strategies, they also present inherent trade-offs and limitations in their applicability across different biological contexts. Ultimately, we propose series of experiments designed to differentiate between these candidate solutions, providing a roadmap for future investigations into the fundamental defensive algorithms utilized by biological agents and their neural implementation. Thus, our work aims to provide a roadmap towards broader understanding of how complex defensive behaviors are orchestrated in the brain, with implications for both neuroscience research and the development of more sophisticated artificial intelligence systems.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40381896/",
+    "published": "2025",
+    "authors": [
+      "Brochard J",
+      "Dayan P",
+      "Bach DR"
+    ],
+    "pmid": "40381896"
+  },
+  {
+    "title": "Computational Intelligence and Neuroscience in Neurorobotics.",
+    "abstract": null,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31354801/",
+    "published": "2019",
+    "authors": [
+      "Kaitwanidvilai S",
+      "Seeboonruang U",
+      "Aoyama H",
+      "Emrith K"
+    ],
+    "pmid": "31354801"
+  },
+  {
+    "title": "Artificial intelligence for brain disease diagnosis using electroencephalogram signals.",
+    "abstract": "Brain signals refer to electrical signals or metabolic changes that occur as a consequence of brain cell activity. Among the various non-invasive measurement methods, electroencephalogram (EEG) stands out as a widely employed technique, providing valuable insights into brain patterns. The deviations observed in EEG reading serve as indicators of abnormal brain activity, which is associated with neurological diseases. Brain‒computer interface (BCI) systems enable the direct extraction and transmission of information from the human brain, facilitating interaction with external devices. Notably, the emergence of artificial intelligence (AI) has had a profound impact on the enhancement of precision and accuracy in BCI technology, thereby broadening the scope of research in this field. AI techniques, encompassing machine learning (ML) and deep learning (DL) models, have demonstrated remarkable success in classifying and predicting various brain diseases. This comprehensive review investigates the application of AI in EEG-based brain disease diagnosis, highlighting advancements in AI algorithms.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39420525/",
+    "published": "2024",
+    "authors": [
+      "Shang S",
+      "Shi Y",
+      "Zhang Y",
+      "Liu M",
+      "Zhang H",
+      "Wang P",
+      "Zhuang L"
+    ],
+    "pmid": "39420525"
+  },
+  {
+    "title": "The mutual inspirations of machine learning and neuroscience.",
+    "abstract": "Neuroscientists are generating data sets of enormous size, which are matching the complexity of real-world classification tasks. Machine learning has helped data analysis enormously but is often not as accurate as human data analysis. Here, Helmstaedter discusses the challenges and promises of neuroscience-inspired machine learning that lie ahead.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25856482/",
+    "published": "2015",
+    "authors": [
+      "Helmstaedter M"
+    ],
+    "pmid": "25856482"
+  },
+  {
+    "title": "Computational Neuroethology: A Call to Action.",
+    "abstract": "The brain is worthy of study because it is in charge of behavior. A flurry of recent technical advances in measuring and quantifying naturalistic behaviors provide an important opportunity for advancing brain science. However, the problem of understanding unrestrained behavior in the context of neural recordings and manipulations remains unsolved, and developing approaches to addressing this challenge is critical. Here we discuss considerations in computational neuroethology-the science of quantifying naturalistic behaviors for understanding the brain-and propose strategies to evaluate progress. We point to open questions that require resolution and call upon the broader systems neuroscience community to further develop and leverage measures of naturalistic, unrestrained behavior, which will enable us to more effectively probe the richness and complexity of the brain.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31600508/",
+    "published": "2019",
+    "authors": [
+      "Datta SR",
+      "Anderson DJ",
+      "Branson K",
+      "Perona P",
+      "Leifer A"
+    ],
+    "pmid": "31600508"
+  },
+  {
+    "title": "Four attributes of intelligence, a thousand questions.",
+    "abstract": "Jeff Hawkins is one of those rare individuals who speaks the languages of both AI and neuroscience. In his recent book, \"A Thousand Brains: A New Theory of Intelligence\", Hawkins proposes that current learning algorithms lack four attributes which will be necessary for true machine intelligence. Here we demonstrate that a minimal learning system which satisfies all four points can be constructed using only simple, classical machine learning techniques. We illustrate that such a system falls short of biological intelligence in some important ways. We suggest that Hawkins' list is a useful model, but the \"recipe\" for true intelligence-if there is one-may not be so easily defined.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38059989/",
+    "published": "2023",
+    "authors": [
+      "Bardal M",
+      "Chalmers E"
+    ],
+    "pmid": "38059989"
+  },
+  {
+    "title": "Meta-control: From psychology to computational neuroscience.",
+    "abstract": "Research in the past decades shed light on the different mechanisms that underlie our capacity for cognitive control. However, the meta-level processes that regulate cognitive control itself remain poorly understood. Following the terminology from artificial intelligence, meta-control can be defined as a collection of mechanisms that (a) monitor the progress of controlled processing and (b) regulate the underlying control parameters in the service of current task goals and in response to internal or external constraints. From a psychological perspective, meta-control is an important concept because it may help explain and predict how and when human agents select different types of behavioral strategies. From a cognitive neuroscience viewpoint, meta-control is a useful concept for understanding the complex networks in the prefrontal cortex that guide higher-level behavior as well as their interactions with neuromodulatory systems (such as the dopamine or norepinephrine system). The purpose of the special issue is to integrate hitherto segregated strands of research across three different perspectives: 1) a psychological perspective that specifies meta-control processes on a functional level and aims to operationalize them in experimental tasks; 2) a computational perspective that builds on ideas from artificial intelligence to formalize normative solutions to meta-control problems; and 3) a cognitive neuroscience perspective that identifies neural correlates of and mechanisms underlying meta-control.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34081267/",
+    "published": "2021",
+    "authors": [
+      "Eppinger B",
+      "Goschke T",
+      "Musslick S"
+    ],
+    "pmid": "34081267"
+  },
+  {
+    "title": "Continual task learning in natural and artificial agents.",
+    "abstract": "How do humans and other animals learn new tasks? A wave of brain recording studies has investigated how neural representations change during task learning, with a focus on how tasks can be acquired and coded in ways that minimise mutual interference. We review recent work that has explored the geometry and dimensionality of neural task representations in neocortex, and computational models that have exploited these findings to understand how the brain may partition knowledge between tasks. We discuss how ideas from machine learning, including those that combine supervised and unsupervised learning, are helping neuroscientists understand how natural tasks are learned and coded in biological brains.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36682991/",
+    "published": "2023",
+    "authors": [
+      "Flesch T",
+      "Saxe A",
+      "Summerfield C"
+    ],
+    "pmid": "36682991"
+  },
+  {
+    "title": "Generalized attention-weighted reinforcement learning.",
+    "abstract": "In neuroscience, attention has been shown to bidirectionally interact with reinforcement learning (RL) to reduce the dimensionality of task representations, restricting computations to relevant features. In machine learning, despite their popularity, attention mechanisms have seldom been administered to decision-making problems. Here, we leverage a theoretical model from computational neuroscience - the attention-weighted RL (AWRL), defining how humans identify task-relevant features (i.e., that allow value predictions) - to design an applied deep RL paradigm. We formally demonstrate that the conjunction of the self-attention mechanism, widely employed in machine learning, with value function approximation is a general formulation of the AWRL model. To evaluate our agent, we train it on three Atari tasks at different complexity levels, incorporating both task-relevant and irrelevant features. Because the model uses semantic observations, we can uncover not only which features the agent elects to base decisions on, but also how it chooses to compile more complex, relational features from simpler ones. We first show that performance depends in large part on the ability to compile new compound features, rather than mere focus on individual features. In line with neuroscience predictions, self-attention leads to high resiliency to noise (irrelevant features) compared to other benchmark models. Finally, we highlight the importance and separate contributions of both bottom-up and top-down attention in the learning process. Together, these results demonstrate the broader validity of the AWRL framework in complex task scenarios, and illustrate the benefits of a deeper integration between neuroscience-derived models and RL for decision making in machine learning.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34710787/",
+    "published": "2022",
+    "authors": [
+      "Bramlage L",
+      "Cortese A"
+    ],
+    "pmid": "34710787"
+  },
+  {
+    "title": "Brain-computer Interaction in the Smart Era.",
+    "abstract": "The brain-computer interface (BCI) system serves as a critical link between external output devices and the human brain. A monitored object's mental state, sensory cognition, and even higher cognition are reflected in its electroencephalography (EEG) signal. Nevertheless, unprocessed EEG signals are frequently contaminated with a variety of artifacts, rendering the analysis and elimination of impurities from the collected EEG data exceedingly challenging, not to mention the manual adjustment thereof. Over the last few decades, the rapid advancement of artificial intelligence (AI) technology has contributed to the development of BCI technology. Algorithms derived from AI and machine learning have significantly enhanced the ability to analyze and process EEG electrical signals, thereby expanding the range of potential interactions between the human brain and computers. As a result, the present BCI technology with the help of AI can assist physicians in gaining a more comprehensive understanding of their patients' physical and psychological status, thereby contributing to improvements in their health and quality of life.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39347924/",
+    "published": "2024",
+    "authors": [
+      "Yan ZN",
+      "Liu PR",
+      "Zhou H",
+      "Zhang JY",
+      "Liu SX",
+      "Xie Y",
+      "Wang HL",
+      "Yu JB",
+      "Zhou Y",
+      "Ni CM",
+      "Huang L",
+      "Ye ZW"
+    ],
+    "pmid": "39347924"
+  },
+  {
+    "title": "How Machine Learning is Powering Neuroimaging to Improve Brain Health.",
+    "abstract": "This report presents an overview of how machine learning is rapidly advancing clinical translational imaging in ways that will aid in the early detection, prediction, and treatment of diseases that threaten brain health. Towards this goal, we aresharing the information presented at a symposium, \"Neuroimaging Indicators of Brain Structure and Function - Closing the Gap Between Research and Clinical Application\", co-hosted by the McCance Center for Brain Health at Mass General Hospital and the MIT HST Neuroimaging Training Program on February 12, 2021. The symposium focused on the potential for machine learning approaches, applied to increasingly large-scale neuroimaging datasets, to transform healthcare delivery and change the trajectory of brain health by addressing brain care earlier in the lifespan. While not exhaustive, this overview uniquely addresses many of the technical challenges from image formation, to analysis and visualization, to synthesis and incorporation into the clinical workflow. Some of the ethical challenges inherent to this work are also explored, as are some of the regulatory requirements for implementation. We seek to educate, motivate, and inspire graduate students, postdoctoral fellows, and early career investigators to contribute to a future where neuroimaging meaningfully contributes to the maintenance of brain health.",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35347570/",
+    "published": "2022",
+    "authors": [
+      "Singh NM",
+      "Harrod JB",
+      "Subramanian S",
+      "Robinson M",
+      "Chang K",
+      "Cetin-Karayumak S",
+      "Dalca AV",
+      "Eickhoff S",
+      "Fox M",
+      "Franke L",
+      "Golland P",
+      "Haehn D",
+      "Iglesias JE",
+      "O'Donnell LJ",
+      "Ou Y",
+      "Rathi Y",
+      "Siddiqi SH",
+      "Sun H",
+      "Westover MB",
+      "Whitfield-Gabrieli S",
+      "Gollub RL"
+    ],
+    "pmid": "35347570"
+  }
+]

@@ -3,7 +3,7 @@ Neuroscience Rag built by Jesus Castro current UTCS student(2030)
 Retrieval Augmented Generation System that is able to be easily changed to get all relevant data in a certain field. Ex: In mine I wanted to know about neuroscience and AI's combination of work. But you can change the prompts I use to 
 get research papers over the most recent research papers involving Cybersecurity. 
 
-If you do plan to use this or expand on it you have to get API keys from Groq, Semantic scholar, and Arxiv. Which isn't too hard you request and give them a valid reason and you'll be fine. 
+Set `GROQ_API_KEY` in a local `.env` file for answer generation and evaluation. The Semantic Scholar fetcher also accepts `SAPI_KEY`. The arXiv fetcher in this project does not use an API key. Keep credentials out of Git.
 
 Recommended Version of Python: 3.12.14
 Recommended Specs: Any modern computer will be fine. Not intensive to run on most computers.
@@ -20,4 +20,18 @@ torch
 sentence-transformers
 langchain-groq
 
-How Do I run this project? Just start from top to bottom and then you will be asked to input a prompt into the AI, Ex: How can Neuroscience advance AI? Then the Model will start answering you inquiry. 
+Install the tested direct dependencies with `python -m pip install -r requirements.txt`. The completed run used Python 3.14.7; the pinned dependencies have not been validated on the recommended Python version above.
+
+Run `rag.ipynb` in order to prepare the saved abstract corpus and index. Set `REFRESH_PAPERS=True` only when collecting additional papers. Each fetched record is committed to a local archive, and earlier paper versions are retained. To start an interactive question session after setup, call `talk_to_openai()` manually; enter `bye` to exit.
+
+The evaluation block generates and grades the questions in `evaluation.json`. It makes Groq API calls and saves progress after each answer and judgment. Rerunning resumes matching results. You can also run:
+
+```text
+python run_rag_evaluation.py
+python run_rag_evaluation.py --retrieval-only
+python -m unittest test_paper_archive test_rag_eval
+```
+
+The command-line runner uses Hugging Face offline mode. On a fresh machine, first load the embedding model from the notebook with network access to populate the model cache. The local Chroma index and embedding cache are rebuilt from the committed paper snapshots.
+
+[rag_architecture.json](rag_architecture.json) describes the storage, embeddings, retrieval, generation, evaluation sequence, configuration, and limitations. [evaluation_report.json](evaluation_report.json) contains all 38 completed answers, their retrieved evidence and grades, and explanations of the metrics. These are development results with automated grading; answer generation uses the top five abstracts. Top-ten retrieval has been measured, but top-ten answer quality still needs evaluation.

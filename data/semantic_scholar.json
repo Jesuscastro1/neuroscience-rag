@@ -1,0 +1,2025 @@
+[
+  {
+    "paperId": "401a9172d5db79b59501b164afe993449bcf9b89",
+    "externalIds": {
+      "PubMedCentral": "11877006",
+      "DOI": "10.3389/fneur.2025.1474484",
+      "CorpusId": 275983710,
+      "PubMed": "40040909"
+    },
+    "url": "https://www.semanticscholar.org/paper/401a9172d5db79b59501b164afe993449bcf9b89",
+    "title": "A bibliometric analysis of studies on artificial intelligence in neuroscience",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3389/fneur.2025.1474484",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11877006, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-01-27",
+    "authors": [
+      {
+        "authorId": "2095383855",
+        "name": "Uğur Tekin"
+      },
+      {
+        "authorId": "2970700",
+        "name": "Murat Dener"
+      }
+    ],
+    "abstract": "The incorporation of artificial intelligence (AI) into neuroscience has the potential to significantly enhance our comprehension of brain function and facilitate more effective diagnosis and treatment of neurological disorders. Artificial intelligence (AI) techniques, particularly deep learning and machine learning, offer transformative solutions by improving the analysis of complex neural data, facilitating early diagnosis, and enabling personalized treatment approaches. A bibliometric analysis is a method that employs quantitative techniques for the examination of scientific literature, with the objective of identifying trends in research, evaluating the impact of influential studies, and mapping the networks of collaboration. In light of the accelerated growth and interdisciplinary scope of AI applications in neuroscience, a bibliometric analysis is vital for mapping the landscape, identifying pivotal contributions, and underscoring emerging areas of interest. This study aims to address this need by examining 1,208 studies published between 1983 and 2024 from the Web of Science database. The analysis reveals a notable surge in publications since the mid-2010s, with substantial advancements in neurological imaging, brain-computer interfaces (BCI), and the diagnosis and treatment of neurological diseases. The analysis underscores the pioneering role of countries such as the United States, China, and the United Kingdom in this field and highlights the prevalence of international collaboration. This study offers a comprehensive overview of the current state and future directions of AI applications in neuroscience, as well as an examination of the transformative potential of AI in advancing neurological research and healthcare. It is recommended that future research address the ethical issues, data privacy concerns, and interpretability of AI models in order to fully capitalize on the benefits of AI in neuroscience."
+  },
+  {
+    "paperId": "2372e3f683ec9927daf4e89ef9555de08376f68e",
+    "externalIds": {
+      "DOI": "10.1089/ains.2024.0001",
+      "CorpusId": 276828644
+    },
+    "url": "https://www.semanticscholar.org/paper/2372e3f683ec9927daf4e89ef9555de08376f68e",
+    "title": "Bird’s Eye View of Artificial Intelligence in Neuroscience",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1089/ains.2024.0001?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1089/ains.2024.0001, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-03-01",
+    "authors": [
+      {
+        "authorId": "2339318396",
+        "name": "Minerva H. Zhou"
+      },
+      {
+        "authorId": "47299836",
+        "name": "E. Lin"
+      },
+      {
+        "authorId": "2265898381",
+        "name": "Allen Q. Ye"
+      },
+      {
+        "authorId": "2277587587",
+        "name": "Pratik Mukherjee"
+      },
+      {
+        "authorId": "2324265212",
+        "name": "Esther L. Yuh"
+      }
+    ],
+    "abstract": "This review used a common bibliometric technique to identify areas of application of artificial intelligence (AI) in neuroscience research by analyzing citation patterns. Networks of related publications were constructed using bibliographic coupling, focusing on peer-reviewed research articles and review articles that included elements of both AI and neuroscience. The use of AI in neuroscience has experienced significant growth, with a doubling time of 4 to 5 years for AI-related neuroscience publications in the past decade. Convolutional neural networks (CNNs) and transformer-based large language models have been applied across an increasing range of neuroscience subdisciplines, with profound impact on cognitive, computational, systems, and clinical neuroscience."
+  },
+  {
+    "paperId": "2e019fbc4c979424d28745d9031e625605fa625e",
+    "externalIds": {
+      "DOI": "10.1016/j.bbi.2023.11.005",
+      "CorpusId": 265876009,
+      "PubMed": "37972877"
+    },
+    "url": "https://www.semanticscholar.org/paper/2e019fbc4c979424d28745d9031e625605fa625e",
+    "title": "Machine learning and artificial intelligence in neuroscience: A primer for researchers.",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1016/j.bbi.2023.11.005",
+      "status": "HYBRID",
+      "license": "CCBYNC",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.bbi.2023.11.005?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.bbi.2023.11.005, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-11-14",
+    "authors": [
+      {
+        "authorId": "1418518007",
+        "name": "F. Badrulhisham"
+      },
+      {
+        "authorId": "1397298524",
+        "name": "E. Pogatzki-Zahn"
+      },
+      {
+        "authorId": "3409451",
+        "name": "Daniel Segelcke"
+      },
+      {
+        "authorId": "49561962",
+        "name": "T. Spisák"
+      },
+      {
+        "authorId": "145446705",
+        "name": "J. Vollert"
+      }
+    ],
+    "abstract": "Artificial intelligence (AI) is often used to describe the automation of complex tasks that we would attribute intelligence to. Machine learning (ML) is commonly understood as a set of methods used to develop an AI. Both have seen a recent boom in usage, both in scientific and commercial fields. For the scientific community, ML can solve bottle necks created by complex, multi-dimensional data generated, for example, by functional brain imaging or *omics approaches. ML can here identify patterns that could not have been found using traditional statistic approaches. However, ML comes with serious limitations that need to be kept in mind: their tendency to optimise solutions for the input data means it is of crucial importance to externally validate any findings before considering them more than a hypothesis. Their black-box nature implies that their decisions usually cannot be understood, which renders their use in medical decision making problematic and can lead to ethical issues. Here, we present an introduction for the curious to the field of ML/AI. We explain the principles as commonly used methods as well as recent methodological advancements before we discuss risks and what we see as future directions of the field. Finally, we show practical examples of neuroscience to illustrate the use and limitations of ML."
+  },
+  {
+    "paperId": "3813deab1d3cdfe24fc0daeda81f0df5dda9f7bc",
+    "externalIds": {
+      "PubMedCentral": "11852728",
+      "DOI": "10.3390/brainsci15020203",
+      "CorpusId": 276442341,
+      "PubMed": "40002535"
+    },
+    "url": "https://www.semanticscholar.org/paper/3813deab1d3cdfe24fc0daeda81f0df5dda9f7bc",
+    "title": "Challenging Cognitive Load Theory: The Role of Educational Neuroscience and Artificial Intelligence in Redefining Learning Efficacy",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2076-3425/15/2/203/pdf?version=1739623250",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11852728, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-02-01",
+    "authors": [
+      {
+        "authorId": "8546742",
+        "name": "E. Gkintoni"
+      },
+      {
+        "authorId": "2141747938",
+        "name": "H. Antonopoulou"
+      },
+      {
+        "authorId": "3889688",
+        "name": "Andrew Sortwell"
+      },
+      {
+        "authorId": "2515164",
+        "name": "C. Halkiopoulos"
+      }
+    ],
+    "abstract": "Background/Objectives: This systematic review integrates Cognitive Load Theory (CLT), Educational Neuroscience (EdNeuro), Artificial Intelligence (AI), and Machine Learning (ML) to examine their combined impact on optimizing learning environments. It explores how AI-driven adaptive learning systems, informed by neurophysiological insights, enhance personalized education for K-12 students and adult learners. This study emphasizes the role of Electroencephalography (EEG), Functional Near-Infrared Spectroscopy (fNIRS), and other neurophysiological tools in assessing cognitive states and guiding AI-powered interventions to refine instructional strategies dynamically. Methods: This study reviews n = 103 papers related to the integration of principles of CLT with AI and ML in educational settings. It evaluates the progress made in neuroadaptive learning technologies, especially the real-time management of cognitive load, personalized feedback systems, and the multimodal applications of AI. Besides that, this research examines key hurdles such as data privacy, ethical concerns, algorithmic bias, and scalability issues while pinpointing best practices for robust and effective implementation. Results: The results show that AI and ML significantly improve Learning Efficacy due to managing cognitive load automatically, providing personalized instruction, and adapting learning pathways dynamically based on real-time neurophysiological data. Deep Learning models such as Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Support Vector Machines (SVMs) improve classification accuracy, making AI-powered adaptive learning systems more efficient and scalable. Multimodal approaches enhance system robustness by mitigating signal variability and noise-related limitations by combining EEG with fMRI, Electrocardiography (ECG), and Galvanic Skin Response (GSR). Despite these advances, practical implementation challenges remain, including ethical considerations, data security risks, and accessibility disparities across learner demographics. Conclusions: AI and ML are epitomes of redefinition potentials that solid ethical frameworks, inclusive design, and scalable methodologies must inform. Future studies will be necessary for refining pre-processing techniques, expanding the variety of datasets, and advancing multimodal neuroadaptive learning for developing high-accuracy, affordable, and ethically responsible AI-driven educational systems. The future of AI-enhanced education should be inclusive, equitable, and effective across various learning populations that would surmount technological limitations and ethical dilemmas."
+  },
+  {
+    "paperId": "679d899e28dec0a6378e44e8111e2aea66407dcd",
+    "externalIds": {
+      "DOI": "10.20473/ydk.v38i3.46104",
+      "CorpusId": 266215192
+    },
+    "url": "https://www.semanticscholar.org/paper/679d899e28dec0a6378e44e8111e2aea66407dcd",
+    "title": "The Role of Neuroprediction and Artificial Intelligence in the Future of Criminal Procedure Support Science: A New Era in Neuroscience and Criminal Justice",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://e-journal.unair.ac.id/YDK/article/download/46104/27221",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.20473/ydk.v38i3.46104?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.20473/ydk.v38i3.46104, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-09-01",
+    "authors": [
+      {
+        "authorId": "2077583616",
+        "name": "Z. Fernando"
+      },
+      {
+        "authorId": null,
+        "name": "Rosmanila"
+      },
+      {
+        "authorId": "2282882734",
+        "name": "Laily Ratna"
+      },
+      {
+        "authorId": "2274803897",
+        "name": "Achmad Cholidin"
+      },
+      {
+        "authorId": "133716455",
+        "name": "B. P. Nunna"
+      }
+    ],
+    "abstract": "Recent developments in the field of neuroimaging in the world of neuroscience, when combined with artificial intelligence and, more specifically, with the use of mechanical engineering, have resulted in the creation of brain reading technology that may soon be widely used in scientific fields in the world including detecting, for example, criminal lies. When used in forensic psychiatry, this approach can increase the precision of risk assessment and help determine areas where intervention can be most effective. Neuro prediction with artificial intelligence can be called AI. This neuroprotection is a method of predicting criminal behaviour by finding biomarkers of brain function that can indicate that someone is committing crimes in the future. Normative legal research or library legal research (library research), with a statute, conceptual, comparative, historical, or futuristic approach. The nature of the research used in this research is descriptive-prescriptive and uses content analysis. The result of this research is to dissect the development of AI Neuroprediction in forensic psychiatry and criminal justice with attention to this technology's legal and ethical implications and potential applications. In the future, AI neuroprediction may play an important role in integrating forensic psychology into the criminal justice system. Through in-depth analysis of neurological data, AI neuroprediction could assist in identifying behavioral patterns or tendencies that might influence a person's criminal propensity, thus enriching traditional forensic psychological evaluations. It may also contribute to creating more precise and personalized intervention strategies to prevent repeat crimes."
+  },
+  {
+    "paperId": "f0e8333ee943dad97d16b5a2508f9bd07d676f75",
+    "externalIds": {
+      "DOI": "10.24002/jarina.v3i2.9119",
+      "CorpusId": 272135615
+    },
+    "url": "https://www.semanticscholar.org/paper/f0e8333ee943dad97d16b5a2508f9bd07d676f75",
+    "title": "Role of Neuroscience and Artificial Intelligence in Biophilic Architectural Design Based on the Principle of Symbiosis",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "http://dx.doi.org/10.24002/jarina.v3i2.9119",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.24002/jarina.v3i2.9119?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.24002/jarina.v3i2.9119, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-08-24",
+    "authors": [
+      {
+        "authorId": "2078162200",
+        "name": "A. Adityo"
+      }
+    ],
+    "abstract": "Biophilic architecture aims to create an environment that enhances connectivity between humans and nature to improve physical, mental, and emotional well-being. This review analyses 25 recent scientific journals on the application of neuroscience and artificial intelligence (AI) to optimise biophilic architectural design based on the principle of symbiosis. Results show that neuroscience provides valuable insights into human psychophysiological responses to various biophilic elements, while AI enables complex data processing, predictive modelling, and real-time design adaptation. The collaboration of neuroscience and AI can help produce a more effective, responsive to human needs, and sustainable biophilic environment. On the other hand, flexibility is demonstrated by the breadth of the architectural design process phases that can be reached through this collaboration. However, methodological and ethical challenges must be addressed to ensure responsible application."
+  },
+  {
+    "paperId": "1b0a679460d43d67d16597bd4314fe5415d679fe",
+    "externalIds": {
+      "PubMedCentral": "11766073",
+      "DOI": "10.3390/jcm14020550",
+      "CorpusId": 275596990,
+      "PubMed": "39860555"
+    },
+    "url": "https://www.semanticscholar.org/paper/1b0a679460d43d67d16597bd4314fe5415d679fe",
+    "title": "Artificial Intelligence and Neuroscience: Transformative Synergies in Brain Research and Clinical Applications",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2077-0383/14/2/550/pdf?version=1737025777",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11766073, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-01-01",
+    "authors": [
+      {
+        "authorId": "52309769",
+        "name": "R. Onciul"
+      },
+      {
+        "authorId": "2261533432",
+        "name": "Catalina-Ioana Tataru"
+      },
+      {
+        "authorId": "2241894810",
+        "name": "A. Dumitru"
+      },
+      {
+        "authorId": "2327829754",
+        "name": "Carla Crivoi"
+      },
+      {
+        "authorId": "2274501823",
+        "name": "Matei Șerban"
+      },
+      {
+        "authorId": "2139760546",
+        "name": "Razvan-Adrian Covache-Busuioc"
+      },
+      {
+        "authorId": "34887558",
+        "name": "M. Radoi"
+      },
+      {
+        "authorId": "2241875725",
+        "name": "C. Toader"
+      }
+    ],
+    "abstract": "The convergence of Artificial Intelligence (AI) and neuroscience is redefining our understanding of the brain, unlocking new possibilities in research, diagnosis, and therapy. This review explores how AI’s cutting-edge algorithms—ranging from deep learning to neuromorphic computing—are revolutionizing neuroscience by enabling the analysis of complex neural datasets, from neuroimaging and electrophysiology to genomic profiling. These advancements are transforming the early detection of neurological disorders, enhancing brain–computer interfaces, and driving personalized medicine, paving the way for more precise and adaptive treatments. Beyond applications, neuroscience itself has inspired AI innovations, with neural architectures and brain-like processes shaping advances in learning algorithms and explainable models. This bidirectional exchange has fueled breakthroughs such as dynamic connectivity mapping, real-time neural decoding, and closed-loop brain–computer systems that adaptively respond to neural states. However, challenges persist, including issues of data integration, ethical considerations, and the “black-box” nature of many AI systems, underscoring the need for transparent, equitable, and interdisciplinary approaches. By synthesizing the latest breakthroughs and identifying future opportunities, this review charts a path forward for the integration of AI and neuroscience. From harnessing multimodal data to enabling cognitive augmentation, the fusion of these fields is not just transforming brain science, it is reimagining human potential. This partnership promises a future where the mysteries of the brain are unlocked, offering unprecedented advancements in healthcare, technology, and beyond."
+  },
+  {
+    "paperId": "62fc7c3301ef3d3e24993280c2a2fef1382eccdb",
+    "externalIds": {
+      "DOI": "10.1055/a-2142-9325",
+      "CorpusId": 261278817,
+      "PubMed": "37643732"
+    },
+    "url": "https://www.semanticscholar.org/paper/62fc7c3301ef3d3e24993280c2a2fef1382eccdb",
+    "title": "Challenges and Ethical Considerations to Successfully Implement Artificial Intelligence in Clinical Medicine and Neuroscience: a Narrative Review",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "http://www.thieme-connect.de/products/ejournals/pdf/10.1055/a-2142-9325.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1055/a-2142-9325?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1055/a-2142-9325, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-04-25",
+    "authors": [
+      {
+        "authorId": "38776380",
+        "name": "S. Monteith"
+      },
+      {
+        "authorId": "144207443",
+        "name": "T. Glenn"
+      },
+      {
+        "authorId": "2483762",
+        "name": "J. Geddes"
+      },
+      {
+        "authorId": "2293785024",
+        "name": "E. Achtyes"
+      },
+      {
+        "authorId": "5274946",
+        "name": "P. Whybrow"
+      },
+      {
+        "authorId": "2072884592",
+        "name": "M. Bauer"
+      }
+    ],
+    "abstract": "Abstract This narrative review discusses how the safe and effective use of clinical artificial intelligence (AI) prediction tools requires recognition of the importance of human intelligence. Human intelligence, creativity, situational awareness, and professional knowledge, are required for successful implementation. The implementation of clinical AI prediction tools may change the workflow in medical practice resulting in new challenges and safety implications. Human understanding of how a clinical AI prediction tool performs in routine and exceptional situations is fundamental to successful implementation. Physicians must be involved in all aspects of the selection, implementation, and ongoing product monitoring of clinical AI prediction tools."
+  },
+  {
+    "paperId": "8aa48b6b3c59cbf17a6bb7de222323947562b312",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2507-10722",
+      "ArXiv": "2507.10722",
+      "DOI": "10.48550/arXiv.2507.10722",
+      "CorpusId": 280295188
+    },
+    "url": "https://www.semanticscholar.org/paper/8aa48b6b3c59cbf17a6bb7de222323947562b312",
+    "title": "Bridging Brains and Machines: A Unified Frontier in Neuroscience, Artificial Intelligence, and Neuromorphic Systems",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2507.10722, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-07-14",
+    "authors": [
+      {
+        "authorId": "2264725376",
+        "name": "S. Shankar"
+      },
+      {
+        "authorId": "2364948477",
+        "name": "Yi Pan"
+      },
+      {
+        "authorId": "2273631049",
+        "name": "Han-Qi Jiang"
+      },
+      {
+        "authorId": "2145977326",
+        "name": "Zheng Liu"
+      },
+      {
+        "authorId": "2313078302",
+        "name": "M. R. Darbandi"
+      },
+      {
+        "authorId": "2373450334",
+        "name": "A. Lorenzo"
+      },
+      {
+        "authorId": "2325897685",
+        "name": "Jun-Hao Chen"
+      },
+      {
+        "authorId": "2393393093",
+        "name": "Md Mehedi Hasan"
+      },
+      {
+        "authorId": "2323376202",
+        "name": "Arif Hassan Zidan"
+      },
+      {
+        "authorId": "2373445114",
+        "name": "Eliana Gelman"
+      },
+      {
+        "authorId": "2373448884",
+        "name": "Joshua A. Konfrst"
+      },
+      {
+        "authorId": "2264576713",
+        "name": "J. Russell"
+      },
+      {
+        "authorId": "2373358404",
+        "name": "K. Fernandes"
+      },
+      {
+        "authorId": "2263682353",
+        "name": "Tian-Ze Yang"
+      },
+      {
+        "authorId": "2257102397",
+        "name": "Yi-Wei Li"
+      },
+      {
+        "authorId": "2276747984",
+        "name": "Hua-Qin Zhao"
+      },
+      {
+        "authorId": "2294180165",
+        "name": "Afrar Jahin"
+      },
+      {
+        "authorId": "2356463647",
+        "name": "T. Ganguly"
+      },
+      {
+        "authorId": "2373445355",
+        "name": "Shair Dinesha"
+      },
+      {
+        "authorId": "2325891087",
+        "name": "Yi-Fan Zhou"
+      },
+      {
+        "authorId": "2263593041",
+        "name": "Zihao Wu"
+      },
+      {
+        "authorId": "2370953977",
+        "name": "Xin-Liang Li"
+      },
+      {
+        "authorId": "2373448873",
+        "name": "Lokesh D. Adusumilli"
+      },
+      {
+        "authorId": "2143902",
+        "name": "Aziza I. Hussein"
+      },
+      {
+        "authorId": "2373450162",
+        "name": "Sagar Nookarapu"
+      },
+      {
+        "authorId": "2220613635",
+        "name": "Ji-Xin Hou"
+      },
+      {
+        "authorId": "2387343075",
+        "name": "Kun Jiang"
+      },
+      {
+        "authorId": "2345285512",
+        "name": "Jiaxi Li"
+      },
+      {
+        "authorId": "2373450156",
+        "name": "Brenden Heinel"
+      },
+      {
+        "authorId": "2373465338",
+        "name": "Xi Xia"
+      },
+      {
+        "authorId": "2373445420",
+        "name": "H. Hubbard"
+      },
+      {
+        "authorId": "2405127828",
+        "name": "Zayna Khan"
+      },
+      {
+        "authorId": "2334908054",
+        "name": "Lee Whitaker"
+      },
+      {
+        "authorId": "2373450181",
+        "name": "Ivan Cao"
+      },
+      {
+        "authorId": "2373446652",
+        "name": "Max Allgaier"
+      },
+      {
+        "authorId": "2377082440",
+        "name": "Andrew Darby"
+      },
+      {
+        "authorId": "2374916748",
+        "name": "Lin Zhao"
+      },
+      {
+        "authorId": "2256287764",
+        "name": "Lu Zhang"
+      },
+      {
+        "authorId": "2319401146",
+        "name": "Xiaoqiao Wang"
+      },
+      {
+        "authorId": "2324811229",
+        "name": "Xiang Li"
+      },
+      {
+        "authorId": "2322347361",
+        "name": "Wei Zhang"
+      },
+      {
+        "authorId": "2139760758",
+        "name": "Xiaowei Yu"
+      },
+      {
+        "authorId": "2256392231",
+        "name": "Dajiang Zhu"
+      },
+      {
+        "authorId": "6442175",
+        "name": "Y. Abate"
+      },
+      {
+        "authorId": "2254792886",
+        "name": "Tian-Ming Liu"
+      }
+    ],
+    "abstract": "This position and survey paper identifies the emerging convergence of neuroscience, artificial general intelligence (AGI), and neuromorphic computing toward a unified research paradigm. Using a framework grounded in brain physiology, we highlight how synaptic plasticity, sparse spike-based communication, and multimodal association provide design principles for next-generation AGI systems that potentially combine both human and machine intelligences. The review traces this evolution from early connectionist models to state-of-the-art large language models, demonstrating how key innovations like transformer attention, foundation-model pre-training, and multi-agent architectures mirror neurobiological processes like cortical mechanisms, working memory, and episodic consolidation. We then discuss emerging physical substrates capable of breaking the von Neumann bottleneck to achieve brain-scale efficiency in silicon: memristive crossbars, in-memory compute arrays, and emerging quantum and photonic devices. There are four critical challenges at this intersection: 1) integrating spiking dynamics with foundation models, 2) maintaining lifelong plasticity without catastrophic forgetting, 3) unifying language with sensorimotor learning in embodied agents, and 4) enforcing ethical safeguards in advanced neuromorphic autonomous systems. This combined perspective across neuroscience, computation, and hardware offers an integrative agenda for in each of these fields."
+  },
+  {
+    "paperId": "a0268a44d5c0a1c33e5fc2bcc8e23ac7d8b884e4",
+    "externalIds": {
+      "DOI": "10.1038/s41583-025-00954-x",
+      "CorpusId": 280548703,
+      "PubMed": "40775557"
+    },
+    "url": "https://www.semanticscholar.org/paper/a0268a44d5c0a1c33e5fc2bcc8e23ac7d8b884e4",
+    "title": "The emergence of NeuroAI: bridging neuroscience and artificial intelligence",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41583-025-00954-x?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41583-025-00954-x, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-08-07",
+    "authors": [
+      {
+        "authorId": "2860545",
+        "name": "S. Sadeh"
+      },
+      {
+        "authorId": "2388737",
+        "name": "C. Clopath"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "18538c717d5b102acc152dfdfe40e1b8c37c4498",
+    "externalIds": {
+      "DOI": "10.1109/IC2SDT62152.2024.10696499",
+      "CorpusId": 273103146
+    },
+    "url": "https://www.semanticscholar.org/paper/18538c717d5b102acc152dfdfe40e1b8c37c4498",
+    "title": "NeuroAI: Emerging Artificial Intelligence and Image Processing Techniques in Neuroscience for Enhanced Medical Diagnosis of Brain Tumor",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/IC2SDT62152.2024.10696499?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/IC2SDT62152.2024.10696499, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-08-02",
+    "authors": [
+      {
+        "authorId": "2261958145",
+        "name": "Stuti Bhatt"
+      },
+      {
+        "authorId": "2295956135",
+        "name": "Sachin Sharma"
+      },
+      {
+        "authorId": "73108187",
+        "name": "Shuchi Bhadula"
+      }
+    ],
+    "abstract": "The combination of Artificial Intelligence (AI) and Neuroscience speaks to an advantageous relationship with significant suggestions. AI, a multidisciplinary field in CS which points to imitate insights in machines, whereas Neuroscience explores the brain's structure and cognitive capacities. The union of these disciplines has driven to shared headways. Neuroscience has altogether affected AI, motivating profound neural systems based on natural neural systems. AI exceeds expectations in assignments such as NLP, object detection, and speech recognition. AI, drawing from neuroscience, utilizes support learning standards watched in people and creatures to create autonomous algorithms. AI's capacity to analyze complex information and reveal unapparent design is important for interpreting neuroscience information. AI interfaces can extricate neural signals from the human brain and interpret them into commands for gadgets like automated arms, supporting those with versatility impediments. AI moreover contributes to restorative areas, analyzing neuroimaging information and supporting early discovery of neurological disarranges. This paper conducts a comprehensive audit and usage of the AI and neuroscience cooperative energy, particularly brain tumor, emphasizing their merging for untimely revelation and forecast of neurological clutters. This paper primarily centers on early identifying and localizing the brain tumor locale utilizing division of patient's MRI pictures."
+  },
+  {
+    "paperId": "7f0de05daef47a444d86a2c8b45c772ea1375f65",
+    "externalIds": {
+      "MAG": "3013165801",
+      "DOI": "10.1080/21507740.2020.1740352",
+      "CorpusId": 214751378,
+      "PubMed": "32228387"
+    },
+    "url": "https://www.semanticscholar.org/paper/7f0de05daef47a444d86a2c8b45c772ea1375f65",
+    "title": "Artificial Intelligence in Clinical Neuroscience: Methodological and Ethical Challenges",
+    "year": 2020,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1080/21507740.2020.1740352?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1080/21507740.2020.1740352, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2020-03-31",
+    "authors": [
+      {
+        "authorId": "3453968",
+        "name": "M. Ienca"
+      },
+      {
+        "authorId": "2307107437",
+        "name": "Karolina Ignatiadis"
+      }
+    ],
+    "abstract": "Abstract Clinical neuroscience is increasingly relying on the collection of large volumes of differently structured data and the use of intelligent algorithms for data analytics. In parallel, the ubiquitous collection of unconventional data sources (e.g. mobile health, digital phenotyping, consumer neurotechnology) is increasing the variety of data points. Big data analytics and approaches to Artificial Intelligence (AI) such as advanced machine learning are showing great potential to make sense of these larger and heterogeneous data flows. AI provides great opportunities for making new discoveries about the brain, improving current preventative and diagnostic models in both neurology and psychiatry and developing more effective assistive neurotechnologies. Concurrently, it raises many new methodological and ethical challenges. Given their transformative nature, it is still largely unclear how AI-driven approaches to the study of the human brain will meet adequate standards of scientific validity and affect normative instruments in neuroethics and research ethics. This manuscript provides an overview of current AI-driven approaches to clinical neuroscience and an assessment of the associated key methodological and ethical challenges. In particular, it will discuss what ethical principles are primarily affected by AI approaches to human neuroscience, and what normative safeguards should be enforced in this domain."
+  },
+  {
+    "paperId": "9c452b2164ab16a08595c2a1bcfb1a4d27fb8119",
+    "externalIds": {
+      "DOI": "10.1016/j.jneumeth.2025.110377",
+      "CorpusId": 275994745,
+      "PubMed": "39894256"
+    },
+    "url": "https://www.semanticscholar.org/paper/9c452b2164ab16a08595c2a1bcfb1a4d27fb8119",
+    "title": "Integrating neuroscience and artificial intelligence: EEG analysis using ensemble learning for diagnosis Alzheimer's disease and frontotemporal dementia.",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.jneumeth.2025.110377?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.jneumeth.2025.110377, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-01-01",
+    "authors": [
+      {
+        "authorId": "2343004187",
+        "name": "Amir Hossein Hachamnia"
+      },
+      {
+        "authorId": "2342999842",
+        "name": "Ali Mehri"
+      },
+      {
+        "authorId": "48154414",
+        "name": "Maryam Jamaati"
+      }
+    ],
+    "abstract": "BACKGROUND\nAlzheimer's disease (AD) and frontotemporal dementia (FTD) are both progressive neurological disorders that affect the elderly. Distinguishing between individuals suffering from these two diseases in the early stages can be quite challenging, and due to their different treatments, it has become an important problem. Machine learning (ML) algorithms can be helpful in this matter due to their high ability to manage large data and deliver high-quality diagnostic results.\n\n\nNEW METHOD\nIn this research, we integrate multiple ML algorithms into 10 ensemble learning techniques, utilizing 7 distinct features: 3 from the time domain and 4 from the frequency domain.\n\n\nRESULTS\nThey are used to achieve a higher diagnostic accuracy level in binary and multiclass classification of samples from electroencephalography (EEG) signals of elderly patients with AD, FTD, and healthy age-matching controls (CN), during the eye resting state.\n\n\nCOMPARISON WITH EXISTING METHODS\nThe best results in carrying out binary AD/CN, FTD/CN, and AD/FTD classifications with significant accuracy>95% have been obtained with the help of the light gradient boosting machine (LGBM) method applying the wavelet transform feature.\n\n\nCONCLUSION\nThis combination (LGBM&wavelet) also displays the best performance in the AD/FTD/CN multiclass classification process with accuracy>93%."
+  },
+  {
+    "paperId": "ebfad07badd30acd1bf35a3247a693da270a0fcf",
+    "externalIds": {
+      "PubMedCentral": "13247413",
+      "DOI": "10.1002/btm2.70123",
+      "CorpusId": 276618508,
+      "PubMed": "42272957"
+    },
+    "url": "https://www.semanticscholar.org/paper/ebfad07badd30acd1bf35a3247a693da270a0fcf",
+    "title": "BrAIn: A comprehensive artificial intelligence‐based morphology analysis system for brain organoids and neuroscience",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1002/btm2.70123",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13247413, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-02-24",
+    "authors": [
+      {
+        "authorId": "2174348462",
+        "name": "Burak Kahveci"
+      },
+      {
+        "authorId": "1447112353",
+        "name": "Elifsu Polatlı"
+      },
+      {
+        "authorId": "2192863944",
+        "name": "Ali Eren Evranos"
+      },
+      {
+        "authorId": "2491018451",
+        "name": "Hüseyin Güner"
+      },
+      {
+        "authorId": "2297851366",
+        "name": "Yalın Baştanlar"
+      },
+      {
+        "authorId": "2103802",
+        "name": "G. Karakülah"
+      },
+      {
+        "authorId": "117014179",
+        "name": "Sinan Güven"
+      }
+    ],
+    "abstract": "Human-induced pluripotent stem cells (iPSCs) offer transformative potential for biomedical research, with iPSC-derived organoids providing more physiologically relevant models than traditional 2D cell cultures. Among these, brain organoids are particularly valuable for drug screening, disease modeling, and investigations into molecular pathways. Accurate representation of brain morphology is critical, as more complex organoid structures better mimic the human brain. Deep learning (DL) and machine learning (ML) approaches have become integral to analyzing organoid morphology, yet tools for comprehensive, time-resolved assessments are scarce. Here, we introduce BrAIn, a DL-based application for analyzing the developmental progression of brain organoids. BrAIn tracks their evolution from embryoid bodies and quantifies parameters including area, Feret diameter, perimeter, roundness, and circularity. It also classifies budding and abnormal morphologies of 3D organoids and detects monolayer neural rosette structures, key features of neuronal differentiation. Designed with accessibility in mind, BrAIn provides a no-code interface, enabling researchers of all technical backgrounds to conduct advanced morphological analyses with ease. Our study demonstrates the application of BrAIn to evaluate the effects of different growth conditions - static, orbital shaker, and microfluidic chip-based - on brain organoid development. Orbital shaker cultures resulted in the largest organoids, while chip-based systems achieved more homogeneous growth. Both conditions produced organoids with greater morphological complexity compared to static culture. BrAIn emerges as a robust, user-friendly tool to quantify brain organoid development and explore how versatile growth conditions influence their morphology and maturation."
+  },
+  {
+    "paperId": "d01c8e8242afb6916b54f602b7274f1772688379",
+    "externalIds": {
+      "PubMedCentral": "12113789",
+      "DOI": "10.3390/mi16050557",
+      "CorpusId": 278359112,
+      "PubMed": "40428683"
+    },
+    "url": "https://www.semanticscholar.org/paper/d01c8e8242afb6916b54f602b7274f1772688379",
+    "title": "Wireless Optogenetic Microsystems Accelerate Artificial Intelligence–Neuroscience Coevolution Through Embedded Closed-Loop System",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2072-666X/16/5/557/pdf?version=1746261287",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12113789, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-05-01",
+    "authors": [
+      {
+        "authorId": "2283613067",
+        "name": "Sungcheol Hong"
+      }
+    ],
+    "abstract": "Brain-inspired models in artificial intelligence (AI) originated from foundational insights in neuroscience. In recent years, this relationship has been moving toward a mutually reinforcing feedback loop. Currently, AI is significantly contributing to advancing our understanding of neuroscience. In particular, when combined with wireless optogenetics, AI enables experiments without physical constraints. Furthermore, AI-driven real-time analysis facilitates closed-loop control, allowing experimental setups across a diverse range of scenarios. And a deeper understanding of these neural networks may, in turn, contribute to future advances in AI. This work demonstrates the synergy between AI and miniaturized neural technology, particularly through wireless optogenetic systems designed for closed-loop neural control. We highlight how AI is now revolutionizing neuroscience experiments from decoding complex neural signals and quantifying behavior, to enabling closed-loop interventions and high-throughput phenotyping in freely moving subjects. Notably, AI-integrated wireless implants can monitor and modulate biological processes with unprecedented precision. We then recount how neuroscience insights derived from AI-integrated neuroscience experiments can potentially inspire the next generation of machine intelligence. Insights gained from these technologies loop back to inspire more efficient and robust AI systems. We discuss future directions in this positive feedback loop between AI and neuroscience, arguing that the coevolution of the two fields, grounded in technologies like wireless optogenetics and guided by reciprocal insight, will accelerate progress in both, while raising new challenges and opportunities for interdisciplinary collaboration."
+  },
+  {
+    "paperId": "378c59359f151a0e68bd6b749abc1f14d886766d",
+    "externalIds": {
+      "DOI": "10.1007/s44436-025-00004-4",
+      "CorpusId": 276950906
+    },
+    "url": "https://www.semanticscholar.org/paper/378c59359f151a0e68bd6b749abc1f14d886766d",
+    "title": "AI, Brain, and Child: navigating the intersection of artificial intelligence, neuroscience, and child development",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1007/s44436-025-00004-4",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s44436-025-00004-4?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s44436-025-00004-4, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-03-11",
+    "authors": [
+      {
+        "authorId": "2157767577",
+        "name": "P. Li"
+      },
+      {
+        "authorId": "2297140721",
+        "name": "J. C. Lee"
+      }
+    ],
+    "abstract": "In an era marked by rapid advancements in artificial intelligence (AI) and cognitive neuroscience, the intersection of these fields holds transformative potential for child development and educational practices. This launch editorial introduces AI, Brain and Child (ABC), an open-access journal dedicated to exploring the dynamic interplay between AI, neuroscience, and child education. By fostering an interdisciplinary dialogue among educators, researchers, clinicians, and policymakers, ABC aims to examine the multifaceted roles of AI and neuroscience in shaping cognitive, social, and emotional growth among children. The journal seeks to democratize access to high-quality research, addressing both the beneficial applications and ethical challenges posed by AI and neuroscience technologies. Through this platform, ABC aspires to promote evidence-based practices, enhance educational outcomes, and tackle pressing developmental and educational issues. By welcoming diverse contributions—from empirical research to policy analysis—ABC endeavors to bridge the gaps between theory and practice, equipping stakeholders with the insights needed to navigate the complexities of educating children within a technologically enriched landscape. This new scholarly endeavor marks a new era of global community to partake in the crucial conversation surrounding the opportunities and responsibilities inherent in integrating AI and neuroscience into education."
+  },
+  {
+    "paperId": "488aceba35645ac3a3bb29e7246af03d88a73e9a",
+    "externalIds": {
+      "DBLP": "journals/ais/MontagAD25",
+      "DOI": "10.1007/s00146-023-01841-8",
+      "CorpusId": 267323882
+    },
+    "url": "https://www.semanticscholar.org/paper/488aceba35645ac3a3bb29e7246af03d88a73e9a",
+    "title": "Affective neuroscience theory and attitudes towards artificial intelligence",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://link.springer.com/content/pdf/10.1007/s00146-023-01841-8.pdf",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s00146-023-01841-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s00146-023-01841-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-01-28",
+    "authors": [
+      {
+        "authorId": "2240610522",
+        "name": "C. Montag"
+      },
+      {
+        "authorId": "2242590123",
+        "name": "R. Ali"
+      },
+      {
+        "authorId": "144418116",
+        "name": "K. Davis"
+      }
+    ],
+    "abstract": "Artificial intelligence represents a key technology being inbuilt into evermore products. Research investigating attitudes towards artificial intelligence surprisingly is still scarce, although it becomes apparent that artificial intelligence will shape societies around the globe. To better understand individual differences in attitudes towards artificial intelligence, the present study investigated in n = 351 participants associations between the Affective Neuroscience Personality Scales (ANPS) and the Attitudes towards Artificial Intelligence framework (ATAI). It could be observed that in particular higher levels of SADNESS were associated with higher negative attitudes towards AI (fearing AI). The findings are discussed in this work from an evolutionary perspective because primary emotional systems—according to Affective Neuroscience Theory—represent tools for survival, which have been homologously conserved across mammalian species including homo sapiens."
+  },
+  {
+    "paperId": "1a49711d1a6abc5044758866a6f0122c41270f6e",
+    "externalIds": {
+      "DOI": "10.22214/ijraset.2025.66411",
+      "CorpusId": 275452216
+    },
+    "url": "https://www.semanticscholar.org/paper/1a49711d1a6abc5044758866a6f0122c41270f6e",
+    "title": "Advancements and Challenges in Neuromorphic Computing: Bridging Neuroscience and Artificial Intelligence",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.22214/ijraset.2025.66411",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.22214/ijraset.2025.66411?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.22214/ijraset.2025.66411, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-01-31",
+    "authors": [
+      {
+        "authorId": "2339609688",
+        "name": "Melad Mohamed Salim Elfighi"
+      }
+    ],
+    "abstract": "Neuromorphic computing represents a paradigm shift in computational design, aiming to emulate the neural\nstructures and functionalities of the human brain. This approach seeks to enhance efficiency and adaptability in artificial\nintelligence (AI) systems. This paper provides a comprehensive review of recent advancements in neuromorphic hardware and\nsoftware, highlighting their potential to revolutionize AI by enabling real-time processing and energy-efficient computations.\nAdditionally, it examines the challenges inherent in replicating complex neural processes, including issues related to scalability,\nmaterial limitations, and the integration of neuromorphic systems with existing technologies. By bridging the disciplines of\nneuroscience and AI, neuromorphic computing offers promising avenues for the development of intelligent systems that closely\nmirror human cognitive functions."
+  },
+  {
+    "paperId": "139e90776bde3e2657497d5bb759f2514da1b53f",
+    "externalIds": {
+      "DOI": "10.1038/s41593-021-00962-x",
+      "CorpusId": 245262002,
+      "PubMed": "34916659"
+    },
+    "url": "https://www.semanticscholar.org/paper/139e90776bde3e2657497d5bb759f2514da1b53f",
+    "title": "A massive 7T fMRI dataset to bridge cognitive neuroscience and artificial intelligence",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/22/2021.02.22.432340.full.pdf",
+      "status": "GREEN",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41593-021-00962-x?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41593-021-00962-x, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2021-12-16",
+    "authors": [
+      {
+        "authorId": "32092718",
+        "name": "Emily J. Allen"
+      },
+      {
+        "authorId": "1398424649",
+        "name": "Ghislain St-Yves"
+      },
+      {
+        "authorId": "2115665267",
+        "name": "Yihan Wu"
+      },
+      {
+        "authorId": "2119508",
+        "name": "Jesse Breedlove"
+      },
+      {
+        "authorId": "144937473",
+        "name": "Jacob S. Prince"
+      },
+      {
+        "authorId": "3922347",
+        "name": "Logan T Dowdle"
+      },
+      {
+        "authorId": "1891681",
+        "name": "Matthias Nau"
+      },
+      {
+        "authorId": "120330242",
+        "name": "B. Caron"
+      },
+      {
+        "authorId": "2712614",
+        "name": "F. Pestilli"
+      },
+      {
+        "authorId": "48704346",
+        "name": "I. Charest"
+      },
+      {
+        "authorId": "49945926",
+        "name": "J. B. Hutchinson"
+      },
+      {
+        "authorId": "2689972",
+        "name": "Thomas Naselaris"
+      },
+      {
+        "authorId": "1912661",
+        "name": "Kendrick Norris Kay"
+      }
+    ],
+    "abstract": "Extensive sampling of neural activity during rich cognitive phenomena is critical for robust understanding of brain function. Here we present the Natural Scenes Dataset (NSD), in which high-resolution functional magnetic resonance imaging responses to tens of thousands of richly annotated natural scenes were measured while participants performed a continuous recognition task. To optimize data quality, we developed and applied novel estimation and denoising techniques. Simple visual inspections of the NSD data reveal clear representational transformations along the ventral visual pathway. Further exemplifying the inferential power of the dataset, we used NSD to build and train deep neural network models that predict brain activity more accurately than state-of-the-art models from computer vision. NSD also includes substantial resting-state and diffusion data, enabling network neuroscience perspectives to constrain and enhance models of perception and memory. Given its unprecedented scale, quality and breadth, NSD opens new avenues of inquiry in cognitive neuroscience and artificial intelligence. The authors measured high-resolution fMRI activity from eight individuals who saw and memorized thousands of annotated natural images over 1 year. This massive dataset enables new paths of inquiry in cognitive neuroscience and artificial intelligence."
+  },
+  {
+    "paperId": "50ebca279ab07007240c60fd09cbe9e92e2aa0ba",
+    "externalIds": {
+      "DBLP": "journals/ncs/HeXHLTWWZHTXL24",
+      "DOI": "10.1038/s43588-024-00674-9",
+      "CorpusId": 271889818,
+      "PubMed": "39152312"
+    },
+    "url": "https://www.semanticscholar.org/paper/50ebca279ab07007240c60fd09cbe9e92e2aa0ba",
+    "title": "Network model with internal complexity bridges artificial intelligence and neuroscience",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.5281/zenodo.12531888",
+      "status": "GREEN",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s43588-024-00674-9?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s43588-024-00674-9, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-08-01",
+    "authors": [
+      {
+        "authorId": "2352930773",
+        "name": "Linxuan He"
+      },
+      {
+        "authorId": "2213641821",
+        "name": "Yunhui Xu"
+      },
+      {
+        "authorId": "2153233107",
+        "name": "Weihua He"
+      },
+      {
+        "authorId": "2303858887",
+        "name": "Yi-Han Lin"
+      },
+      {
+        "authorId": "2115469584",
+        "name": "Yang Tian"
+      },
+      {
+        "authorId": "2317125182",
+        "name": "Yujie Wu"
+      },
+      {
+        "authorId": "2303716934",
+        "name": "Wenhui Wang"
+      },
+      {
+        "authorId": "2316409913",
+        "name": "Ziyang Zhang"
+      },
+      {
+        "authorId": "2146356257",
+        "name": "Junwei Han"
+      },
+      {
+        "authorId": "2275270707",
+        "name": "Yong-Hong Tian"
+      },
+      {
+        "authorId": "2149657803",
+        "name": "Bo Xu"
+      },
+      {
+        "authorId": "2243952733",
+        "name": "Guo-Qi Li"
+      }
+    ],
+    "abstract": "Artificial intelligence (AI) researchers currently believe that the main approach to building more general model problems is the big AI model, where existing neural networks are becoming deeper, larger and wider. We term this the big model with external complexity approach. In this work we argue that there is another approach called small model with internal complexity, which can be used to find a suitable path of incorporating rich properties into neurons to construct larger and more efficient AI models. We uncover that one has to increase the scale of the network externally to stimulate the same dynamical properties. To illustrate this, we build a Hodgkin–Huxley (HH) network with rich internal complexity, where each neuron is an HH model, and prove that the dynamical properties and performance of the HH network can be equivalent to a bigger leaky integrate-and-fire (LIF) network, where each neuron is a LIF neuron with simple internal complexity. This study shows that by enhancing internal complexity of neurons in a Hodgkin–Huxley network, similar performance to larger, simpler networks can be achieved, suggesting an alternative path for powerful AI systems by focusing on neuron complexity."
+  },
+  {
+    "paperId": "909bbadf16179485ac6cb63db33b3dfa31ea03b3",
+    "externalIds": {
+      "PubMedCentral": "11850306",
+      "DOI": "10.3389/fnins.2025.1565811",
+      "CorpusId": 276293681,
+      "PubMed": "40008302"
+    },
+    "url": "https://www.semanticscholar.org/paper/909bbadf16179485ac6cb63db33b3dfa31ea03b3",
+    "title": "Editorial: Brain-inspired computing: from neuroscience to neuromorphic electronics for new forms of artificial intelligence",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3389/fnins.2025.1565811",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11850306, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-02-11",
+    "authors": [
+      {
+        "authorId": "35972843",
+        "name": "Daniela Gandolfi"
+      },
+      {
+        "authorId": "3950221",
+        "name": "J. Mapelli"
+      },
+      {
+        "authorId": "35863251",
+        "name": "F. Puglisi"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "6a7d1edb4642bf6dd21a40d2408b685190a059af",
+    "externalIds": {
+      "MAG": "2016612723",
+      "DOI": "10.4028/www.scientific.net/AMR.718-720.2068",
+      "CorpusId": 58268351
+    },
+    "url": "https://www.semanticscholar.org/paper/6a7d1edb4642bf6dd21a40d2408b685190a059af",
+    "title": "The Development and Research Trends of Artificial Intelligence in Neuroscience: A Scientometric Analysis in CiteSpace",
+    "year": 2013,
+    "openAccessPdf": {
+      "url": "",
+      "status": "CLOSED",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.4028/www.scientific.net/AMR.718-720.2068?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4028/www.scientific.net/AMR.718-720.2068, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2013-07-01",
+    "authors": [
+      {
+        "authorId": "2495313331",
+        "name": "Gan-Ping Ma"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "e30a33208458b5c28ab48a73c110c5a80d8eeb77",
+    "externalIds": {
+      "PubMedCentral": "10995351",
+      "DOI": "10.3389/fnhum.2024.1305164",
+      "CorpusId": 268664450,
+      "PubMed": "38584851"
+    },
+    "url": "https://www.semanticscholar.org/paper/e30a33208458b5c28ab48a73c110c5a80d8eeb77",
+    "title": "Explainable artificial intelligence (xAI) in neuromarketing/consumer neuroscience: an fMRI study on brand perception",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://www.frontiersin.org/articles/10.3389/fnhum.2024.1305164/pdf?isPublishedV2=False",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10995351, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-03-22",
+    "authors": [
+      {
+        "authorId": "2117488114",
+        "name": "José Paulo Marques dos Santos"
+      },
+      {
+        "authorId": "2295282878",
+        "name": "José Diogo Marques dos Santos"
+      }
+    ],
+    "abstract": "Introduction The research in consumer neuroscience has identified computational methods, particularly artificial intelligence (AI) and machine learning, as a significant frontier for advancement. Previously, we utilized functional magnetic resonance imaging (fMRI) and artificial neural networks (ANNs) to model brain processes related to brand preferences in a paradigm exempted from motor actions. In the current study, we revisit this data, introducing recent advancements in explainable artificial intelligence (xAI) to gain insights into this domain. By integrating fMRI data analysis, machine learning, and xAI, our study aims to search for functional brain networks that support brand perception and, ultimately, search for brain networks that disentangle between preferred and indifferent brands, focusing on the early processing stages. Methods We applied independent component analysis (ICA) to overcome the expected fMRI data’s high dimensionality, which raises hurdles in AI applications. We extracted pertinent features from the returned ICs. An ANN is then trained on this data, followed by pruning and retraining processes. We then apply explanation techniques, based on path-weights and Shapley values, to make the network more transparent, explainable, and interpretable, and to obtain insights into the underlying brain processes. Results The fully connected ANN model obtained an accuracy of 54.6%, which dropped to 50.4% after pruning. However, the retraining process allowed it to surpass the fully connected network, achieving an accuracy of 55.9%. The path-weights and Shapley-based analysis concludes that, regarding brand perception, the expected initial participation of the primary visual system is followed. Other brain areas participate in early processing and discriminate between preferred and indifferent brands, such as the cuneal and the lateral occipital cortices. Discussion The most important finding is that a split between processing brands|preferred from brands|indifferent may occur during early processing stages, still in the visual system. However, we found no evidence of a “decision pipeline” that would yield if a brand is preferred or indifferent. The results suggest the existence of a “tagging”-like process in parallel flows in the extrastriate. Network training dynamics aggregate specific processes within the hidden nodes by analyzing the model’s hidden layer. This yielded that some nodes contribute to both global brand appraisal and specific brand category classification, shedding light on the neural substrates of decision-making in response to brand stimuli."
+  },
+  {
+    "paperId": "103927e80ce7d9e04727f81d44da48cedeeedf96",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2411-15234",
+      "ArXiv": "2411.15234",
+      "DOI": "10.1038/s41593-025-02169-w",
+      "CorpusId": 274235054,
+      "PubMed": "41469445"
+    },
+    "url": "https://www.semanticscholar.org/paper/103927e80ce7d9e04727f81d44da48cedeeedf96",
+    "title": "Leveraging insights from neuroscience to build adaptive artificial intelligence",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://arxiv.org/pdf/2411.15234",
+      "status": "GREEN",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2411.15234, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-11-21",
+    "authors": [
+      {
+        "authorId": "4058359",
+        "name": "Mackenzie W. Mathis"
+      }
+    ],
+    "abstract": "Biological intelligence is inherently adaptive—animals continually adjust their actions in response to environmental feedback. However, creating adaptive artificial intelligence (AI) remains a major challenge. The next frontier is to go beyond traditional AI to develop ‘adaptive intelligence’, defined here as harnessing insights from biological intelligence to build agents that can learn online, generalize and rapidly adapt to changes in their environment. Recent advances in neuroscience offer inspiration through studies that increasingly focus on how animals naturally learn and adapt their models of the world. This Perspective reviews the behavioral and neural foundations of adaptive biological intelligence, examines parallel progress in AI, and explores brain-inspired approaches for building more adaptive algorithms. Adaptive intelligence envisions AI that, like animals, learns online, generalizes and adapts quickly. This Perspective reviews biological foundations, progress in AI and brain-inspired strategies for building flexible and adaptive AI algorithms."
+  },
+  {
+    "paperId": "e95983d89e2731df95ae67d85a59c68d0eafb4e3",
+    "externalIds": {
+      "MAG": "2971569172",
+      "DOI": "10.1515/nf-2019-0018",
+      "CorpusId": 203056933
+    },
+    "url": "https://www.semanticscholar.org/paper/e95983d89e2731df95ae67d85a59c68d0eafb4e3",
+    "title": "Artificial Intelligence in Basic and Clinical Neuroscience: Opportunities and Ethical Challenges",
+    "year": 2019,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1515/nf-2019-0018",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1515/nf-2019-0018?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1515/nf-2019-0018, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2019-11-01",
+    "authors": [
+      {
+        "authorId": "2126833",
+        "name": "Philipp Kellmeyer"
+      }
+    ],
+    "abstract": "Abstract The analysis of large amounts of personal data with artificial neural networks for deep learning is the driving technology behind new artificial intelligence (AI) systems for all areas in science and technology. These AI methods have evolved from applications in computer vision, the automated analysis of images, and now include frameworks and methods for analyzing multimodal datasets that combine data from many different source, including biomedical devices, smartphones and common user behavior in cyberspace. For neuroscience, these widening streams of personal data and machine learning methods provide many opportunities for basic data-driven research as well as for developing new tools for diagnostic, predictive and therapeutic applications for disorders of the nervous system. The increasing automation and autonomy of AI systems, however, also creates substantial ethical challenges for basic research and medical applications. Here, scientific and medical opportunities as well ethical challenges are summarized and discussed."
+  },
+  {
+    "paperId": "dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+    "externalIds": {
+      "PubMedCentral": "11075265",
+      "DOI": "10.1186/s12868-024-00869-w",
+      "CorpusId": 269612962,
+      "PubMed": "38711047"
+    },
+    "url": "https://www.semanticscholar.org/paper/dbbe08e09c430bf0b7b011b0454ec1e51d427afd",
+    "title": "A new era in cognitive neuroscience: the tidal wave of artificial intelligence (AI)",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://bmcneurosci.biomedcentral.com/counter/pdf/10.1186/s12868-024-00869-w",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11075265, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-05-06",
+    "authors": [
+      {
+        "authorId": "2187504750",
+        "name": "Zhiyi Chen"
+      },
+      {
+        "authorId": "3393845",
+        "name": "A. Yadollahpour"
+      }
+    ],
+    "abstract": "Translating artificial intelligence techniques into the realm of cognitive neuroscience holds promise for significant breakthroughs in our ability to probe the intrinsic mechanisms of the brain. The recent unprecedented development of robust AI models is changing how and what we understand about the brain. In this Editorial, we invite contributions for a BMC Neuroscience Collection on “AI and Cognitive Neuroscience”."
+  },
+  {
+    "paperId": "5e511e23227215fa2d6c41d8a23c4ece949c6bce",
+    "externalIds": {
+      "PubMedCentral": "12327369",
+      "DOI": "10.3389/fneur.2025.1607924",
+      "CorpusId": 280541949,
+      "PubMed": "40771972"
+    },
+    "url": "https://www.semanticscholar.org/paper/5e511e23227215fa2d6c41d8a23c4ece949c6bce",
+    "title": "Artificial intelligence in neurodegenerative diseases research: a bibliometric analysis since 2000",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3389/fneur.2025.1607924",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12327369, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-07-16",
+    "authors": [
+      {
+        "authorId": "2373407351",
+        "name": "Yabin Zhang"
+      },
+      {
+        "authorId": "2237392493",
+        "name": "Lei Yu"
+      },
+      {
+        "authorId": "2375307821",
+        "name": "Yu-Ting Lv"
+      },
+      {
+        "authorId": "2373559165",
+        "name": "Tian-Tian Yang"
+      },
+      {
+        "authorId": "2374418768",
+        "name": "Qi Guo"
+      }
+    ],
+    "abstract": "This bibliometric review examines the evolving landscape of artificial intelligence (AI) in neurodegenerative diseases research from 2000 to March 16, 2025, utilizing data from 1,402 publications (1,159 articles, 243 reviews) indexed in the Web of Science Core Collection. Through advanced tools - VOSviewer, CiteSpace, and Bibliometrix R - the study maps collaboration networks, keyword trends, and knowledge trajectories. Results reveal exponential growth post-2017, driven by advancements in deep learning and multimodal data integration. The United States (25.96%) and China (24.11%) dominate publication volume, while the UK exhibits the highest collaboration centrality (0.24) and average citations per publication (31.68). Core journals like Scientific Reports and Frontiers in Aging Neuroscience published the most articles in this field. Highly cited publications and burst references highlight important milestones in the development history. High-frequency keywords include “alzheimer’s disease,” “parkinson’s disease,” “magnetic resonance imaging,” “convolutional neural network,” “biomarkers,” “dementia,” “classification,” “mild cognitive impairment,” “neuroimaging,” and “feature extraction.” Key hotspots include intelligent neuroimaging analysis, machine learning methodological iterations, molecular mechanisms and drug discovery, and clinical decision support systems for early diagnosis. Future priorities encompass advanced deep learning architectures, multi-omics integration, explainable AI systems, digital biomarker-based early detection, and transformative technologies including transformers and telemedicine. This analysis delineates AI’s transformative role in optimizing diagnostics and accelerating therapeutic innovation, while advocating for enhanced interdisciplinary collaboration to bridge computational advances with clinical translation."
+  },
+  {
+    "paperId": "251fc8cafbcda7f23c615471672b54642bfe9a23",
+    "externalIds": {
+      "DBLP": "journals/phat/EslavaZapataSC24",
+      "DOI": "10.4108/eetpht.10.5456",
+      "CorpusId": 268529022
+    },
+    "url": "https://www.semanticscholar.org/paper/251fc8cafbcda7f23c615471672b54642bfe9a23",
+    "title": "Interaction between neuroscience and happiness: assessment from Artificial Intelligence advances",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://publications.eai.eu/index.php/phat/article/download/5456/3022",
+      "status": "GOLD",
+      "license": "CCBYNCSA",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.4108/eetpht.10.5456?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.4108/eetpht.10.5456, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-03-18",
+    "authors": [
+      {
+        "authorId": "2287161421",
+        "name": "Rolando Eslava-Zapata"
+      },
+      {
+        "authorId": "2239817557",
+        "name": "Verenice Sánchez-Castillo"
+      },
+      {
+        "authorId": "2269655256",
+        "name": "Edixon Chacón-Guerrero"
+      }
+    ],
+    "abstract": "INTRODUCTION: In recent years, there has been a convergence between Artificial Intelligence and neuroscience, particularly in studying the brain and developing treatments for neurological disorders. Artificial neural networks and deep learning provide valuable insights into neural processing and brain functioning. Recent research tries to explain how neural processes influence an individual's happiness. \nOBJECTIVES: To evaluate the interaction between neuroscience and happiness based on the advances in Artificial Intelligence. \nMETHODS: A bibliometric analysis was performed with articles from the Scopus database in 2013-2023; likewise, the VOSviewer was used for information processing. \nRESULTS A total of 603 articles were obtained, and it is evident that the most significant scientific production is centered in the United States (184), United Kingdom (74), and China (73). Three clusters are generated from the Co-occurrence - Author Keywords analysis. The first cluster, red, is related to Artificial Intelligence applications for predicting happiness; the second cluster, green, is associated with Artificial Intelligence tools in neuroscience; and the third cluster, blue, is related to neuroscience in psychology. \nCONCLUSION: Neuroscience research has made significant leaps in understanding mental processes such as emotions and consciousness. Neuroscience has encountered happiness and is opening up to an approach that seeks evidence to understand people's well-being supported by Artificial Intelligence."
+  },
+  {
+    "paperId": "1acda87b65a4321cc499ccec7bf61cf41f6253cc",
+    "externalIds": {
+      "DBLP": "journals/sensors/SurianarayananLCPH23a",
+      "PubMedCentral": "10053494",
+      "DOI": "10.3390/s23063062",
+      "CorpusId": 257517660,
+      "PubMed": "36991773"
+    },
+    "url": "https://www.semanticscholar.org/paper/1acda87b65a4321cc499ccec7bf61cf41f6253cc",
+    "title": "Convergence of Artificial Intelligence and Neuroscience towards the Diagnosis of Neurological Disorders—A Scoping Review",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/1424-8220/23/6/3062/pdf?version=1678687650",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10053494, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-03-01",
+    "authors": [
+      {
+        "authorId": "1930214",
+        "name": "Chellammal Surianarayanan"
+      },
+      {
+        "authorId": "2202492825",
+        "name": "J. Lawrence"
+      },
+      {
+        "authorId": "2939136",
+        "name": "P. Chelliah"
+      },
+      {
+        "authorId": "1705901",
+        "name": "E. Prakash"
+      },
+      {
+        "authorId": "1505722696",
+        "name": "C. Hewage"
+      }
+    ],
+    "abstract": "Artificial intelligence (AI) is a field of computer science that deals with the simulation of human intelligence using machines so that such machines gain problem-solving and decision-making capabilities similar to that of the human brain. Neuroscience is the scientific study of the struczture and cognitive functions of the brain. Neuroscience and AI are mutually interrelated. These two fields help each other in their advancements. The theory of neuroscience has brought many distinct improvisations into the AI field. The biological neural network has led to the realization of complex deep neural network architectures that are used to develop versatile applications, such as text processing, speech recognition, object detection, etc. Additionally, neuroscience helps to validate the existing AI-based models. Reinforcement learning in humans and animals has inspired computer scientists to develop algorithms for reinforcement learning in artificial systems, which enables those systems to learn complex strategies without explicit instruction. Such learning helps in building complex applications, like robot-based surgery, autonomous vehicles, gaming applications, etc. In turn, with its ability to intelligently analyze complex data and extract hidden patterns, AI fits as a perfect choice for analyzing neuroscience data that are very complex. Large-scale AI-based simulations help neuroscientists test their hypotheses. Through an interface with the brain, an AI-based system can extract the brain signals and commands that are generated according to the signals. These commands are fed into devices, such as a robotic arm, which helps in the movement of paralyzed muscles or other human parts. AI has several use cases in analyzing neuroimaging data and reducing the workload of radiologists. The study of neuroscience helps in the early detection and diagnosis of neurological disorders. In the same way, AI can effectively be applied to the prediction and detection of neurological disorders. Thus, in this paper, a scoping review has been carried out on the mutual relationship between AI and neuroscience, emphasizing the convergence between AI and neuroscience in order to detect and predict various neurological disorders."
+  },
+  {
+    "paperId": "3cad718babd2fd198f1fc9d781554de3c7dfa3bf",
+    "externalIds": {
+      "DOI": "10.1146/annurev-psych-013123-123421",
+      "CorpusId": 264846136,
+      "PubMed": "37906951"
+    },
+    "url": "https://www.semanticscholar.org/paper/3cad718babd2fd198f1fc9d781554de3c7dfa3bf",
+    "title": "The Neuroscience of Human and Artificial Intelligence Presence.",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-psych-013123-123421",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1146/annurev-psych-013123-123421?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1146/annurev-psych-013123-123421, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-10-31",
+    "authors": [
+      {
+        "authorId": "2243985770",
+        "name": "Lasana T. Harris"
+      }
+    ],
+    "abstract": "Two decades of social neuroscience and neuroeconomics research illustrate the brain mechanisms that are engaged when people consider human beings, often in comparison to considering artificial intelligence (AI) as a nonhuman control. AI as an experimental control preserves agency and facilitates social interactions but lacks a human presence, providing insight into brain mechanisms that are engaged by human presence and the presence of AI. Here, I review this literature to determine how the brain instantiates human and AI presence across social perception and decision-making paradigms commonly used to realize a social context. People behave toward humans differently than they do toward AI. Moreover, brain regions more engaged by humans compared to AI extend beyond the social cognition brain network to all parts of the brain, and the brain sometimes is engaged more by AI than by humans. Finally, I discuss gaps in the literature, limitations in current neuroscience approaches, and how an understanding of the brain correlates of human and AI presence can inform social science in the wild. Expected final online publication date for the Annual Review of Psychology, Volume 75 is January 2024. Please see http://www.annualreviews.org/page/journal/pubdates for revised estimates."
+  },
+  {
+    "paperId": "cd504dda4dc661cd84554754fb49aef564251f8b",
+    "externalIds": {
+      "DOI": "10.1016/j.conb.2023.102835",
+      "CorpusId": 266766326,
+      "PubMed": "38183889"
+    },
+    "url": "https://www.semanticscholar.org/paper/cd504dda4dc661cd84554754fb49aef564251f8b",
+    "title": "Editorial overview: Computational neuroscience as a bridge between artificial intelligence, modeling and data.",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.conb.2023.102835?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.conb.2023.102835, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-01-05",
+    "authors": [
+      {
+        "authorId": "77998143",
+        "name": "Pietro Verzelli"
+      },
+      {
+        "authorId": "2260329",
+        "name": "T. Tchumatchenko"
+      },
+      {
+        "authorId": "2882428",
+        "name": "J. Kotaleski"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "d9df15ca7de173965094a911f697a725059a4f85",
+    "externalIds": {
+      "ArXiv": "2504.16940",
+      "DBLP": "journals/corr/abs-2504-16940",
+      "DOI": "10.48550/arXiv.2504.16940",
+      "CorpusId": 278033593,
+      "PubMed": "41444024"
+    },
+    "url": "https://www.semanticscholar.org/paper/d9df15ca7de173965094a911f697a725059a4f85",
+    "title": "Better artificial intelligence does not mean better models of biology",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2504.16940, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-04-08",
+    "authors": [
+      {
+        "authorId": "46500310",
+        "name": "Drew A. Linsley"
+      },
+      {
+        "authorId": "2051871217",
+        "name": "Pin-Yuan Feng"
+      },
+      {
+        "authorId": "1981539",
+        "name": "Thomas Serre"
+      }
+    ],
+    "abstract": "Deep neural networks (DNNs) once showed increasing alignment with primate perception as they improved on vision benchmarks, raising hopes that advances in artificial intelligence (AI) would naturally yield better models of biological vision. However, we present accumulating evidence that this alignment is now plateauing - and in some cases worsening - as DNNs scale to human or even superhuman accuracy. This divergence between artificial and biological perception may reflect the acquisition of visual strategies distinct from those of primates, and these findings challenge the view that advances in AI will naturally translate to progress in neuroscience. We argue that vision science must chart its own course, developing algorithms grounded in biological visual systems rather than optimizing for internet data."
+  },
+  {
+    "paperId": "6878e74abebf90b2dc6c8cdf99c3946ad3ee1574",
+    "externalIds": {
+      "DOI": "10.1016/j.tjnut.2025.08.007",
+      "CorpusId": 280661756,
+      "PubMed": "40812476"
+    },
+    "url": "https://www.semanticscholar.org/paper/6878e74abebf90b2dc6c8cdf99c3946ad3ee1574",
+    "title": "Harnessing Artificial Intelligence and Precision Diets for Brain Health and Cognitive Resilience.",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.tjnut.2025.08.007?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.tjnut.2025.08.007, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-08-01",
+    "authors": [
+      {
+        "authorId": "2291552363",
+        "name": "M. N. I. Bhuiyan"
+      },
+      {
+        "authorId": "2245783753",
+        "name": "B. Saha"
+      },
+      {
+        "authorId": "143886001",
+        "name": "M. Satter"
+      }
+    ],
+    "abstract": "Smart neuro-nutrition represents an emerging interdisciplinary field at the intersection of nutritional science, neuroscience, and artificial intelligence (AI), to enhance cognitive resilience, mental well-being, and healthy brain aging through precision dietary strategies. This review critically examined the current body of evidence on the impact of dietary patterns and nutrients on neurobiological processes involved in cognitive decline, such as oxidative stress, mitochondrial dysfunction, neuroinflammation, neurotransmitter imbalance, and gut-brain axis dysregulation. Neuroprotective dietary approaches, including the Mediterranean, MIND, DASH, and ketogenic diets, are highlighted for their anti-inflammatory effects, alongside specific nutrients-omega-3 fatty acids, B-complex vitamins, polyphenols, and microbiota-directed fibers-that have demonstrated benefits for memory, executive function, and emotional stability. Recent advancements in AI are driving the development of personalized nutrition tools that integrate multimodal data sources, including wearable biosensors, image-based dietary tracking, and machine learning models predicting cognitive trajectories. These technologies enable real-time nutrient monitoring, individualized dietary planning, and early identification of neurodegenerative risks. However, challenges remain in the validation, scalability, and generalizability of AI models, especially across diverse populations. Ethical concerns such as data privacy, algorithmic bias, and transparency further emphasize the need for careful regulation and interdisciplinary collaboration. This review offers a comprehensive synthesis of smart neuro-nutrition, aligning biological mechanisms with digital innovations, and proposes future research priorities. These include the development of explainable AI systems, integration of microbiome and omics data, and implementation of standardized frameworks for clinical applications. By bridging neuroscience, nutrition, and AI, smart neuro-nutrition has the potential to revolutionize cognitive healthcare, offering scalable, precise, and equitable strategies to combat the rising global burden of neurodegenerative disorders."
+  },
+  {
+    "paperId": "2254ddfd5e302e0a5e5f674b956ea59160d7f6e2",
+    "externalIds": {
+      "DOI": "10.1186/s43093-025-00591-x",
+      "CorpusId": 280165839
+    },
+    "url": "https://www.semanticscholar.org/paper/2254ddfd5e302e0a5e5f674b956ea59160d7f6e2",
+    "title": "The synergy of neuromarketing and artificial intelligence: A comprehensive literature review in the last decade",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://fbj.springeropen.com/counter/pdf/10.1186/s43093-025-00591-x",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1186/s43093-025-00591-x?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1186/s43093-025-00591-x, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-07-21",
+    "authors": [
+      {
+        "authorId": "2078203766",
+        "name": "Ahmed H. Alsharif"
+      },
+      {
+        "authorId": "2336100858",
+        "name": "Junhai Wang"
+      },
+      {
+        "authorId": "94894144",
+        "name": "S. Isa"
+      },
+      {
+        "authorId": "2309719313",
+        "name": "Nor Zafir Md Salleh"
+      },
+      {
+        "authorId": "2373083742",
+        "name": "Husam Azzawi Dawas"
+      },
+      {
+        "authorId": "1878276",
+        "name": "Mohammed H. Alsharif"
+      }
+    ],
+    "abstract": "This paper conducts a systematic literature analysis on \"artificial intelligence, ethical artificial intelligence, neuromarketing, consumer neuroscience, neuroethics, and neurotechnology.\" This study followed the systematic literature review methodology to select and extract the relevant documents from the Scopus database (2013–2023). The findings revealed the valuable transformative impact of integrating artificial intelligence (AI) into neuromarketing (NM) and consumer neuroscience (Cons-Neuro), redefining the understanding and influence of consumer behavior. Emotion, attention, and memory have become vital in NM and AI studies. AI algorithms analyze vast neural and physiological datasets, offering marketers insights into the emotional impact of campaigns, granular insights into consumer focus, and optimizing content for maximum impact. Furthermore, memory plays a vital role in increasing brand recall and fostering lasting relationships. In addition, integrating brain-computer interfaces (BCI) into consumer neuroscience provides direct insights, with AI interpreting BCI data for real-time adjustments. The synergy of NM and AI offers insights into consumer behavior's cognitive and emotional aspects. While enabling targeted campaigns and improved customer experiences, this integration raises ethical concerns necessitating transparency and responsible neural data use. This paper offers valuable insights into the intersection of AI and NM, exploring innovative applications and ethical considerations in these evolving fields."
+  },
+  {
+    "paperId": "9c406826a484e03141547ee9a7b6585e51c1da16",
+    "externalIds": {
+      "DOI": "10.47772/ijriss.2025.90300011",
+      "CorpusId": 277358068
+    },
+    "url": "https://www.semanticscholar.org/paper/9c406826a484e03141547ee9a7b6585e51c1da16",
+    "title": "A Systematic Review of the Impact of Artificial Intelligence, Digital Technology, and Social Media on Cognitive Functions",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.47772/ijriss.2025.90300011?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.47772/ijriss.2025.90300011, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2352316598",
+        "name": "D. Deckker"
+      },
+      {
+        "authorId": "2352329025",
+        "name": "S. Sumanasekara"
+      }
+    ],
+    "abstract": "The rapid evolution of artificial intelligence (AI), digital technology, and social media has significantly reshaped cognitive functions, influencing memory, attention, decision-making, and social cognition. This systematic review examines the impact of these digital forces on human cognition, integrating insights from psychology, neuroscience, and information technology. Key findings highlight the phenomenon of digital amnesia, where increased reliance on AI for information retrieval may reduce long-term memory retention, and the growing issue of attentional fragmentation caused by algorithmic content curation. Social cognition is also undergoing transformation, as digital interactions influence empathy, social skills, and interpersonal relationships. The review applies theoretical models such as Cognitive Load Theory and the Technology Acceptance Model to interpret these cognitive shifts, emphasizing the balance between technological convenience and cognitive well-being. Ethical considerations surrounding AI bias, cognitive autonomy, and data privacy are also discussed. Future research must prioritize longitudinal studies and intervention strategies to mitigate risks while maximizing cognitive benefits. A multidisciplinary approach is essential in ensuring that AI and digital technology enhance, rather than hinder, cognitive resilience and human decision-making in the digital era."
+  },
+  {
+    "paperId": "1b0896afccd8016f4d1fc5c2483600f2955b1206",
+    "externalIds": {
+      "DBLP": "journals/advai/BerrarSS10a",
+      "MAG": "2055206134",
+      "DOI": "10.1155/2010/578309",
+      "CorpusId": 32506072
+    },
+    "url": "https://www.semanticscholar.org/paper/1b0896afccd8016f4d1fc5c2483600f2955b1206",
+    "title": "Artificial Intelligence in Neuroscience and Systems Biology: Lessons Learnt, Open Problems, and the Road Ahead",
+    "year": 2010,
+    "openAccessPdf": {
+      "url": "https://downloads.hindawi.com/archive/2010/578309.pdf",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1155/2010/578309?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1155/2010/578309, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "4090906",
+        "name": "D. Berrar"
+      },
+      {
+        "authorId": "50011874",
+        "name": "N. Sato"
+      },
+      {
+        "authorId": "145475379",
+        "name": "A. Schuster"
+      }
+    ],
+    "abstract": "1 Systems Biology Research Group, Centre for Molecular Biosciences, School of Biomedical Sciences, University of Ulster, Cromore Road, BT52 1SA, Coleraine, Northern Ireland 2 Systems Biology Department, Cancer Institute, Japanese Foundation for Cancer Research, Tokyo, Japan 3Department of Complex Systems, Future University Hakodate, 116-2 Kamedanakano-cho, Hakodate, Hokkaido 041-8655, Japan 4School of Computing and Mathematics, Faculty of Computing and Engineering, University of Ulster, Shore Road, New-Townabbey, Co. Antrim, BT37 0QB, Northern Ireland 5Laboratory for Dynamics of Emergent Intelligence, RIKEN Brain Science Institute, Wako-shi, Saitama 351-0198, Japan"
+  },
+  {
+    "paperId": "5870d0edaaa0f28bbe657238febaaf1181e81378",
+    "externalIds": {
+      "MAG": "2738724892",
+      "DOI": "10.1016/j.neuron.2017.06.011",
+      "CorpusId": 4511529,
+      "PubMed": "28728020"
+    },
+    "url": "https://www.semanticscholar.org/paper/5870d0edaaa0f28bbe657238febaaf1181e81378",
+    "title": "Neuroscience-Inspired Artificial Intelligence.",
+    "year": 2017,
+    "openAccessPdf": {
+      "url": "http://www.cell.com/article/S0896627317305093/pdf",
+      "status": "BRONZE",
+      "license": "publisher-specific-oa",
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.neuron.2017.06.011?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.neuron.2017.06.011, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2017-07-19",
+    "authors": [
+      {
+        "authorId": "48987704",
+        "name": "D. Hassabis"
+      },
+      {
+        "authorId": "2106164",
+        "name": "D. Kumaran"
+      },
+      {
+        "authorId": "2372244",
+        "name": "C. Summerfield"
+      },
+      {
+        "authorId": "46378362",
+        "name": "M. Botvinick"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "ec5377f3100373ea8006a4574ce89ee905ef7746",
+    "externalIds": {
+      "PubMedCentral": "13155415",
+      "DOI": "10.3390/app152111316",
+      "CorpusId": 282357504,
+      "PubMed": "42112453"
+    },
+    "url": "https://www.semanticscholar.org/paper/ec5377f3100373ea8006a4574ce89ee905ef7746",
+    "title": "Neuroengineering Frontiers: A Selective Review of Neural Interfaces, Brain–Machine Interactions, and Artificial Intelligence in Neurodegenerative Diseases",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://www.mdpi.com/2076-3417/15/21/11316/pdf",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC13155415, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-10-22",
+    "authors": [
+      {
+        "authorId": "2379442446",
+        "name": "Mutiyat Usman"
+      },
+      {
+        "authorId": "2376016674",
+        "name": "Simachew Ashebir"
+      },
+      {
+        "authorId": "1582786130",
+        "name": "Chioma Okey-Mbata"
+      },
+      {
+        "authorId": "2260621162",
+        "name": "Yeoheung Yun"
+      },
+      {
+        "authorId": "2376444299",
+        "name": "Seongtae Kim"
+      }
+    ],
+    "abstract": "Neurodegenerative diseases, including Alzheimer’s disease (AD) and Parkinson’s disease (PD), present a growing public health challenge globally. Recent advancements in neurotechnology and neuroengineering have significantly enhanced brain–computer interfaces, artificial intelligence, and organoid technologies, making them pivotal instruments for diagnosis, monitoring, disease modeling, treatment development, and rehabilitation of various diseases. Nonetheless, the majority of neural interface platforms focus on unidirectional control paradigms, neglecting the need for co-adaptive systems where both the human user and the interface continually learn and adapt. This selected review consolidates information from neuroscience, artificial intelligence, and organoid engineering to identify the conceptual underpinnings of co-adaptive and symbiotic human–machine interaction. We emphasize significant shortcomings in the advancement of long-term AI-facilitated co-adaptation, which permits individualized diagnostics and progression tracking in Alzheimer’s disease and Parkinson’s disease. We concentrate on incorporating deep learning for adaptive decoding, reinforcement learning for bidirectional feedback, and hybrid organoid–brain–computer interface platforms to mimic disease dynamics and expedite therapy discoveries. This study outlines the trends and limitations of the topics at hand, proposing a research framework for next-generation AI-enhanced neural interfaces targeting neurodegenerative diseases and neurological disorders that are both technologically sophisticated and clinically viable, while adhering to ethical standards."
+  },
+  {
+    "paperId": "54c1edaa02d26d2d00799a6d2c43f97a12b3107c",
+    "externalIds": {
+      "PubMedCentral": "12018397",
+      "DOI": "10.3389/fnhum.2025.1577585",
+      "CorpusId": 277693950,
+      "PubMed": "40276113"
+    },
+    "url": "https://www.semanticscholar.org/paper/54c1edaa02d26d2d00799a6d2c43f97a12b3107c",
+    "title": "Artificial intelligence in ADHD: a global perspective on research hotspots, trends and clinical applications",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3389/fnhum.2025.1577585",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12018397, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-04-10",
+    "authors": [
+      {
+        "authorId": "2272001771",
+        "name": "Xiaofang Wang"
+      },
+      {
+        "authorId": "2271576255",
+        "name": "Qianfang Jia"
+      },
+      {
+        "authorId": "2357439604",
+        "name": "Lvyuan Liang"
+      },
+      {
+        "authorId": "2471068107",
+        "name": "Wei-Wei Zhou"
+      },
+      {
+        "authorId": "2294922529",
+        "name": "Wei-Hua Yang"
+      },
+      {
+        "authorId": "2004931358",
+        "name": "Jing-Feng Mu"
+      }
+    ],
+    "abstract": "Background Artificial Intelligence (AI), has garnered attention in research on attention deficit hyperactivity disorder (ADHD). In the future, AI may have clinical applications in ADHD, particularly in facilitating the objective diagnosis and classification of ADHD. This study aimed to comprehensively analyze the current status and research frontiers of AI applications in ADHD, identifying hotspots and trends to guide future research directions and promote clinical advancements in this field. Methods Articles in the field of AI applications in ADHD were from the Web of Science Core Collection (WoSCC) database. Analysis was conducted using CiteSpace 6.3.R.1. Additionally, high-impact articles were analyzed. Results A total of 342 articles from 50 countries and regions were included. The United States led with 103 articles, having the highest H-index of 21, followed by China with 69 articles, and England with 34 articles. The State University of New York System produced the most articles (11), and Frontiers in Psychiatry had the most articles (12). Burst keywords in 2022–2024 included “diagnosis,” “network,” “attention deficit hyperactivity disorder” and “artificial intelligence.” Conclusion AI technologies have become a prominent topic in ADHD research, with the United States, China, and England leading in articles and influence. The State University of New York System was the most influential institution, while Frontiers in Psychiatry stood out as the key journal. Utilizing networks and other AI technologies for diagnosing ADHD represents current hotspots and future trends, potentially offering objective indicators for ADHD."
+  },
+  {
+    "paperId": "0e4772e0085e4902b134d55ec144b0e65e1f5e98",
+    "externalIds": {
+      "PubMedCentral": "11224934",
+      "DOI": "10.7759/cureus.61706",
+      "CorpusId": 270296700,
+      "PubMed": "38975469"
+    },
+    "url": "https://www.semanticscholar.org/paper/0e4772e0085e4902b134d55ec144b0e65e1f5e98",
+    "title": "Revolutionizing Neurology: The Role of Artificial Intelligence in Advancing Diagnosis and Treatment",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.7759/cureus.61706",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11224934, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-06-01",
+    "authors": [
+      {
+        "authorId": "2182361852",
+        "name": "Meetali Kalani"
+      },
+      {
+        "authorId": "79614282",
+        "name": "Ashish P Anjankar"
+      }
+    ],
+    "abstract": "Artificial intelligence (AI) has emerged as a powerful tool in the field of neurology, significantly impacting the diagnosis and treatment of neurological disorders. Recent technological breakthroughs have given us access to a plethora of information relevant to many aspects of neurology. Neuroscience and AI share a long history of collaboration. Along with great potential, we encounter obstacles relating to data quality, ethics, and inherent difficulty in applying data science in healthcare. Neurological disorders pose intricate challenges due to their complex manifestations and variability. Automating image interpretation tasks, AI algorithms accurately identify brain structures and detect abnormalities. This accelerates diagnosis and reduces the workload on medical professionals. Treatment optimization benefits from AI simulations that model different scenarios and predict outcomes. These AI systems can currently perform many of the sophisticated perceptual and cognitive capacities of biological systems, such as object identification and decision making. Furthermore, AI is rapidly being used as a tool in neuroscience research, altering our understanding of brain functioning. It has the ability to revolutionize healthcare as we know it into a system in which humans and robots collaborate to deliver better care for our patients. Image analysis activities such as recognizing particular brain regions, calculating changes in brain volume over time, and detecting abnormalities in brain scans can be automated by AI systems. This lessens the strain on radiologists and neurologists while improving diagnostic accuracy and efficiency. It is now obvious that cutting-edge artificial intelligence models combined with high-quality clinical data will lead to enhanced prognostic and diagnostic models in neurological illness, permitting expert-level clinical decision aids across healthcare settings. In conclusion, AI's integration into neurology has revolutionized diagnosis, treatment, and research. As AI technologies advance, they promise to unravel the complexities of neurological disorders further, leading to improved patient care and quality of life. The symbiosis of AI and neurology offers a glimpse into a future where innovation and compassion converge to reshape neurological healthcare. This abstract provides a concise overview of the role of AI in neurology and its transformative potential."
+  },
+  {
+    "paperId": "bdb3a405c9148662f118c0c72bf78a5f1f4b31a7",
+    "externalIds": {
+      "PubMedCentral": "11631923",
+      "DOI": "10.3389/fpubh.2024.1428396",
+      "CorpusId": 274344442,
+      "PubMed": "39664534"
+    },
+    "url": "https://www.semanticscholar.org/paper/bdb3a405c9148662f118c0c72bf78a5f1f4b31a7",
+    "title": "Physicians’ ethical concerns about artificial intelligence in medicine: a qualitative study: “The final decision should rest with a human”",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11631923, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-11-27",
+    "authors": [
+      {
+        "authorId": "2083659271",
+        "name": "F. Kahraman"
+      },
+      {
+        "authorId": "2279456787",
+        "name": "Aysenur Aktas"
+      },
+      {
+        "authorId": "2307425651",
+        "name": "S. Bayrakçeken"
+      },
+      {
+        "authorId": "2332773767",
+        "name": "Tuna Cakar"
+      },
+      {
+        "authorId": "2332779114",
+        "name": "Hande Serim Tarcan"
+      },
+      {
+        "authorId": "2332776000",
+        "name": "B. Bayram"
+      },
+      {
+        "authorId": "3275031",
+        "name": "Berke O. A. Durak"
+      },
+      {
+        "authorId": "2937483",
+        "name": "Y. Ulman"
+      }
+    ],
+    "abstract": "Background/aim Artificial Intelligence (AI) is the capability of computational systems to perform tasks that require human-like cognitive functions, such as reasoning, learning, and decision-making. Unlike human intelligence, AI does not involve sentience or consciousness but focuses on data processing, pattern recognition, and prediction through algorithms and learned experiences. In healthcare including neuroscience, AI is valuable for improving prevention, diagnosis, prognosis, and surveillance. Methods This qualitative study aimed to investigate the acceptability of AI in Medicine (AIIM) and to elucidate any technical and scientific, as well as social and ethical issues involved. Twenty-five doctors from various specialties were carefully interviewed regarding their views, experience, knowledge, and attitude toward AI in healthcare. Results Content analysis confirmed the key ethical principles involved: confidentiality, beneficence, and non-maleficence. Honesty was the least invoked principle. A thematic analysis established four salient topic areas, i.e., advantages, risks, restrictions, and precautions. Alongside the advantages, there were many limitations and risks. The study revealed a perceived need for precautions to be embedded in healthcare policies to counter the risks discussed. These precautions need to be multi-dimensional. Conclusion The authors conclude that AI should be rationally guided, function transparently, and produce impartial results. It should assist human healthcare professionals collaboratively. This kind of AI will permit fairer, more innovative healthcare which benefits patients and society whilst preserving human dignity. It can foster accuracy and precision in medical practice and reduce the workload by assisting physicians during clinical tasks. AIIM that functions transparently and respects the public interest can be an inspiring scientific innovation for humanity."
+  },
+  {
+    "paperId": "c64c9f07a7344ca212ce9e65bfe5e4ff02f95445",
+    "externalIds": {
+      "DBLP": "journals/aiethics/Cortiz23",
+      "MAG": "3195298120",
+      "DOI": "10.1007/s43681-022-00203-2",
+      "CorpusId": 238797458
+    },
+    "url": "https://www.semanticscholar.org/paper/c64c9f07a7344ca212ce9e65bfe5e4ff02f95445",
+    "title": "A narrative review of fairness and morality in neuroscience: insights to artificial intelligence",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://link.springer.com/content/pdf/10.1007/s43681-022-00203-2.pdf",
+      "status": "BRONZE",
+      "license": null,
+      "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s43681-022-00203-2?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s43681-022-00203-2, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2021-08-04",
+    "authors": [
+      {
+        "authorId": "2265756696",
+        "name": "Diogo Cortiz"
+      }
+    ],
+    "abstract": null
+  },
+  {
+    "paperId": "2664898b285e4f071cf5827e33bd7d6f041a3e81",
+    "externalIds": {
+      "DBLP": "conf/isaims/WangLJ23",
+      "DOI": "10.1145/3644116.3644288",
+      "CorpusId": 268977211
+    },
+    "url": "https://www.semanticscholar.org/paper/2664898b285e4f071cf5827e33bd7d6f041a3e81",
+    "title": "Synergizing Optogenetics and Artificial Intelligence: A Novel Paradigm for Advanced Neuroscience InvestigationsAI and Optogenetics: Advancing Neuroscience",
+    "year": 2023,
+    "openAccessPdf": {
+      "url": "https://dl.acm.org/doi/pdf/10.1145/3644116.3644288",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1145/3644116.3644288?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1145/3644116.3644288, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2023-10-20",
+    "authors": [
+      {
+        "authorId": "2205012109",
+        "name": "Xue-Ru Wang"
+      },
+      {
+        "authorId": "2295734196",
+        "name": "Shanshan Li"
+      },
+      {
+        "authorId": "2149170798",
+        "name": "Xin Jin"
+      }
+    ],
+    "abstract": "Over the past decade, the application of artificial intelligence (AI) and optogenetics has significantly advanced our understanding of neural circuits, shedding light on their implications in both normal behavior and pathological states. This review presents a comprehensive overview of the application of these groundbreaking technologies, emphasizing their contributions and potential trajectories in biomedical research. Optogenetics, employing light to regulate cellular activities within live tissues, has emerged as a powerful tool in neuroscience, offering an unprecedented level of precision in modulating neuronal activity. AI, equipped with its advanced data analysis and predictive capabilities, has established itself as an essential tool for interpreting complex neural datasets. The combined use of these two technologies heralds a new era in the landscape of brain research."
+  },
+  {
+    "paperId": "5d47b8a502d8bd776fc52a2b9785c03fa1c8f080",
+    "externalIds": {
+      "ArXiv": "2206.03951",
+      "DBLP": "journals/natmi/KarKF22",
+      "DOI": "10.1038/s42256-022-00592-3",
+      "CorpusId": 249461938
+    },
+    "url": "https://www.semanticscholar.org/paper/5d47b8a502d8bd776fc52a2b9785c03fa1c8f080",
+    "title": "Interpretability of artificial neural network models in artificial intelligence versus neuroscience",
+    "year": 2022,
+    "openAccessPdf": {
+      "url": "https://arxiv.org/pdf/2206.03951",
+      "status": "GREEN",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2206.03951, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2022-06-07",
+    "authors": [
+      {
+        "authorId": "4852564",
+        "name": "Kohitij Kar"
+      },
+      {
+        "authorId": "40464924",
+        "name": "Simon Kornblith"
+      },
+      {
+        "authorId": "144733430",
+        "name": "Evelina Fedorenko"
+      }
+    ],
+    "abstract": "Computationally explicit hypotheses of brain function derived from machine learning (ML)-based models have recently revolutionized neuroscience. Despite the unprecedented ability of these artificial neural networks (ANNs) to capture responses in biological neural networks (brains), and our full access to all internal model components (unlike the brain), ANNs are often referred to as black-boxes with limited interpretability. Interpretability, however, is a multi-faceted construct that is used differently across fields. In particular, interpretability, or explainability, efforts in Artificial Intelligence (AI) focus on understanding how different model components contribute to its output (i.e., decision making). In contrast, the neuroscientific interpretability of ANNs requires explicit alignment between model components and neuroscientific constructs (e.g., different brain areas or phenomena, like recurrence or top-down feedback). Given the widespread calls to improve the interpretability of AI systems, we here highlight these different notions of interpretability and argue that the neuroscientific interpretability of ANNs can be pursued in parallel with, but independently from, the ongoing efforts in AI. Certain ML techniques (e.g., deep dream) can be leveraged in both fields, to ask what stimulus optimally activates the specific model features (feature visualization by optimization), or how different features contribute to the model's output (feature attribution). However, without appropriate brain alignment, certain features will remain uninterpretable to neuroscientists."
+  },
+  {
+    "paperId": "14909e6dd163a98687cd29042c26e34c2f78de4e",
+    "externalIds": {
+      "DBLP": "journals/corr/abs-2401-10904",
+      "ArXiv": "2401.10904",
+      "DOI": "10.48550/arXiv.2401.10904",
+      "CorpusId": 267068839
+    },
+    "url": "https://www.semanticscholar.org/paper/14909e6dd163a98687cd29042c26e34c2f78de4e",
+    "title": "A Review of Findings from Neuroscience and Cognitive Psychology as Possible Inspiration for the Path to Artificial General Intelligence",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "",
+      "status": null,
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2401.10904, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-01-03",
+    "authors": [
+      {
+        "authorId": "2325949134",
+        "name": "Florin Leon"
+      }
+    ],
+    "abstract": "This review aims to contribute to the quest for artificial general intelligence by examining neuroscience and cognitive psychology methods for potential inspiration. Despite the impressive advancements achieved by deep learning models in various domains, they still have shortcomings in abstract reasoning and causal understanding. Such capabilities should be ultimately integrated into artificial intelligence systems in order to surpass data-driven limitations and support decision making in a way more similar to human intelligence. This work is a vertical review that attempts a wide-ranging exploration of brain function, spanning from lower-level biological neurons, spiking neural networks, and neuronal ensembles to higher-level concepts such as brain anatomy, vector symbolic architectures, cognitive and categorization models, and cognitive architectures. The hope is that these concepts may offer insights for solutions in artificial general intelligence."
+  },
+  {
+    "paperId": "eb8f2e31651a102733782ac715fbb57c542ab7d2",
+    "externalIds": {
+      "DBLP": "journals/nn/MacphersonCSDKT21",
+      "DOI": "10.1016/j.neunet.2021.09.018",
+      "CorpusId": 238991379,
+      "PubMed": "34649035"
+    },
+    "url": "https://www.semanticscholar.org/paper/eb8f2e31651a102733782ac715fbb57c542ab7d2",
+    "title": "Natural and Artificial Intelligence: A brief introduction to the interplay between AI and neuroscience research",
+    "year": 2021,
+    "openAccessPdf": {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608021003683/pdf",
+      "status": "HYBRID",
+      "license": "CCBYNCND",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.neunet.2021.09.018?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.neunet.2021.09.018, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2021-09-28",
+    "authors": [
+      {
+        "authorId": "47671148",
+        "name": "Tom Macpherson"
+      },
+      {
+        "authorId": "3786556",
+        "name": "A. Churchland"
+      },
+      {
+        "authorId": "117454631",
+        "name": "T. Sejnowski"
+      },
+      {
+        "authorId": "2310279792",
+        "name": "J. DiCarlo"
+      },
+      {
+        "authorId": "2350433",
+        "name": "Y. Kamitani"
+      },
+      {
+        "authorId": "7137747",
+        "name": "Hidehiko Takahashi"
+      },
+      {
+        "authorId": "38299555",
+        "name": "T. Hikida"
+      }
+    ],
+    "abstract": "Neuroscience and artificial intelligence (AI) share a long history of collaboration. Advances in neuroscience, alongside huge leaps in computer processing power over the last few decades, have given rise to a new generation of in silico neural networks inspired by the architecture of the brain. These AI systems are now capable of many of the advanced perceptual and cognitive abilities of biological systems, including object recognition and decision making. Moreover, AI is now increasingly being employed as a tool for neuroscience research and is transforming our understanding of brain functions. In particular, deep learning has been used to model how convolutional layers and recurrent connections in the brain's cerebral cortex control important functions, including visual processing, memory, and motor control. Excitingly, the use of neuroscience-inspired AI also holds great promise for understanding how changes in brain networks result in psychopathologies, and could even be utilized in treatment regimes. Here we discuss recent advancements in four areas in which the relationship between neuroscience and AI has led to major advancements in the field; (1) AI models of working memory, (2) AI visual processing, (3) AI analysis of big neuroscience datasets, and (4) computational psychiatry."
+  },
+  {
+    "paperId": "3c2dd9c64438af0dbeeefcc2b351e4374a8cf478",
+    "externalIds": {
+      "PubMedCentral": "11422388",
+      "DOI": "10.3389/fnins.2024.1411538",
+      "CorpusId": 272621775,
+      "PubMed": "39323917"
+    },
+    "url": "https://www.semanticscholar.org/paper/3c2dd9c64438af0dbeeefcc2b351e4374a8cf478",
+    "title": "Bibliometric and visualized analysis of the application of artificial intelligence in stroke",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.3389/fnins.2024.1411538",
+      "status": "GOLD",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11422388, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-09-11",
+    "authors": [
+      {
+        "authorId": "2261731800",
+        "name": "Fang-Yuan Xu"
+      },
+      {
+        "authorId": "2261638935",
+        "name": "Ziliang Dai"
+      },
+      {
+        "authorId": "2310815494",
+        "name": "Yu Ye"
+      },
+      {
+        "authorId": "2307912308",
+        "name": "Pei-Jia Hu"
+      },
+      {
+        "authorId": "2304981397",
+        "name": "Hong-Liang Cheng"
+      }
+    ],
+    "abstract": "Background Stroke stands as a prominent cause of mortality and disability worldwide, posing a major public health concern. Recent years have witnessed rapid advancements in artificial intelligence (AI). Studies have explored the utilization of AI in imaging analysis, assistive rehabilitation, treatment, clinical decision-making, and outcome and risk prediction concerning stroke. However, there is still a lack of systematic bibliometric analysis to discern the current research status, hotspots, and possible future development trends of AI applications in stroke. Methods The publications on the application of AI in stroke were retrieved from the Web of Science Core Collection, spanning 2004–2024. Only articles or reviews published in English were included in this study. Subsequently, a manual screening process was employed to eliminate literature not pertinent to the topic. Visualization diagrams for comprehensive and in-depth analysis of the included literature were generated using CiteSpace, VOSviewer, and Charticulator. Results This bibliometric analysis included a total of 2,447 papers, and the annual publication volume shows a notable upward trajectory. The most prolific authors, countries, and institutions are Dukelow, Sean P., China, and the University of Calgary, respectively, making significant contributions to the advancement of this field. Notably, stable collaborative networks among authors and institutions have formed. Through clustering and citation burst analysis of keywords and references, the current research hotspots have been identified, including machine learning, deep learning, and AI applications in stroke rehabilitation and imaging for early diagnosis. Moreover, emerging research trends focus on machine learning as well as stroke outcomes and risk prediction. Conclusion This study provides a comprehensive and in-depth analysis of the literature regarding AI in stroke, facilitating a rapid comprehension of the development status, cooperative networks, and research priorities within the field. Furthermore, our analysis may provide a certain reference and guidance for future research endeavors."
+  },
+  {
+    "paperId": "f710896031d29efc4aaa2abe302db3c6f8332248",
+    "externalIds": {
+      "DBLP": "journals/tlt/KongY24",
+      "DOI": "10.1109/TLT.2024.3392830",
+      "CorpusId": 269343653
+    },
+    "url": "https://www.semanticscholar.org/paper/f710896031d29efc4aaa2abe302db3c6f8332248",
+    "title": "A Human-Centered Learning and Teaching Framework Using Generative Artificial Intelligence for Self-Regulated Learning Development Through Domain Knowledge Learning in K–12 Settings",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.1109/tlt.2024.3392830",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1109/TLT.2024.3392830?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1109/TLT.2024.3392830, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": null,
+    "authors": [
+      {
+        "authorId": "2248594888",
+        "name": "Siu-Cheung Kong"
+      },
+      {
+        "authorId": "2044482583",
+        "name": "Yin Yang"
+      }
+    ],
+    "abstract": "The advent of generative artificial intelligence (AI) has ignited an increase in discussions about generative AI tools in education. In this study, a human-centered learning and teaching framework that uses generative AI tools for self-regulated learning development through domain knowledge learning was proposed to catalyze changes in educational practices. The framework illustrates how generative AI tools can revolutionize educational practices and transform the processes of teaching and learning to become human-centered. It emphasizes the evolving roles of teachers, who increasingly become skillful facilitators and humanistic storytellers who craft differentiated instructions and attempt to develop students’ individualized learning. Drawing upon insights from neuroscience, the framework guides students to employ generative AI tools to augment their attentiveness, stimulate active engagement in learning, receive immediate feedback, and encourage self-reflection. The pedagogical approach is also reimagined; teachers equipped with generative AI tools and AI literacy can refine their teaching strategies to better equip students to meet future challenges. The practical application of the framework is demonstrated in a case study involving the development of Chinese language writing ability among primary students within a K–12 educational context. This article also reports the results of a 60-h development programme for teachers. Specifically, providing in-service teachers with cases involving uses of the proposed framework helped them to better understand the generative AI concepts and integrate them into their teaching and learning and increased their perceived ability to design AI-integrated courses that would enhance students’ attention, engagement, confidence, and satisfaction."
+  },
+  {
+    "paperId": "d805b940affe9b22005ffeba957c3091acedba00",
+    "externalIds": {
+      "PubMedCentral": "11566355",
+      "DOI": "10.7759/cureus.71625",
+      "CorpusId": 273423469,
+      "PubMed": "39553101"
+    },
+    "url": "https://www.semanticscholar.org/paper/d805b940affe9b22005ffeba957c3091acedba00",
+    "title": "The Potential of Artificial Intelligence in Unveiling Healthcare's Future",
+    "year": 2024,
+    "openAccessPdf": {
+      "url": "https://doi.org/10.7759/cureus.71625",
+      "status": "GOLD",
+      "license": null,
+      "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11566355, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2024-10-01",
+    "authors": [
+      {
+        "authorId": "2186323518",
+        "name": "Mousumi Khanam"
+      },
+      {
+        "authorId": "2294246625",
+        "name": "Sume Akther"
+      },
+      {
+        "authorId": "2326415976",
+        "name": "I. Mizan"
+      },
+      {
+        "authorId": "2345168065",
+        "name": "Fakhrul Islam"
+      },
+      {
+        "authorId": "2326382925",
+        "name": "Samsul Chowdhury"
+      },
+      {
+        "authorId": "2326382364",
+        "name": "Nayla Mehereen Ahsan"
+      },
+      {
+        "authorId": "2357861793",
+        "name": "D. Barua"
+      },
+      {
+        "authorId": "2346979388",
+        "name": "S. Hasan"
+      }
+    ],
+    "abstract": "This article examines the transformative potential of artificial intelligence (AI) in shaping the future of healthcare. It highlights AI's capacity to revolutionize various medical fields, including diagnostics, personalized treatment, drug discovery, telemedicine, and patient care management. Key areas explored include AI's roles in cancer screening, reproductive health, cardiology, outpatient care, laboratory diagnosis, language translation, neuroscience, robotic surgery, radiology, personal healthcare, patient engagement, AI-assisted rehabilitation with exoskeleton robots, and administrative efficiency. The article also addresses challenges to AI adoption, such as privacy concerns, ethical issues, cost barriers, and decision-making authority in patient care. By overcoming these challenges and building trust, AI is positioned to become a critical driver in advancing healthcare, improving outcomes, and meeting the future needs of patients and providers."
+  },
+  {
+    "paperId": "6b8243444c05e1b92441b76733a04d0c71e9db96",
+    "externalIds": {
+      "DOI": "10.1007/s42154-025-00361-z",
+      "CorpusId": 280777071
+    },
+    "url": "https://www.semanticscholar.org/paper/6b8243444c05e1b92441b76733a04d0c71e9db96",
+    "title": "A Survey of Human Intelligence Augmented Artificial Intelligence: An Autonomous Driving Perspective",
+    "year": 2025,
+    "openAccessPdf": {
+      "url": "https://link.springer.com/content/pdf/10.1007/s42154-025-00361-z.pdf",
+      "status": "HYBRID",
+      "license": "CCBY",
+      "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1007/s42154-025-00361-z?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1007/s42154-025-00361-z, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+    },
+    "publicationDate": "2025-08-01",
+    "authors": [
+      {
+        "authorId": "2284273358",
+        "name": "Shangwen Li"
+      },
+      {
+        "authorId": "2057747983",
+        "name": "Kang Yuan"
+      },
+      {
+        "authorId": "2340941731",
+        "name": "Zihao Tang"
+      },
+      {
+        "authorId": "2000305854",
+        "name": "Yuanjian Zhang"
+      },
+      {
+        "authorId": "144870536",
+        "name": "P. Ji"
+      },
+      {
+        "authorId": "2366714427",
+        "name": "Quanbo Ge"
+      },
+      {
+        "authorId": "2266774331",
+        "name": "Shaoyi Du"
+      },
+      {
+        "authorId": "2145433186",
+        "name": "Yan-Jun Huang"
+      },
+      {
+        "authorId": "2186736571",
+        "name": "Hong Chen"
+      }
+    ],
+    "abstract": "The primary goal of artificial intelligence (AI) is to learn, mimic, and ultimately surpass human intelligence. Connectionist AI draws inspiration from human neuroscience and biological mechanisms and has made significant progress in many fields like autonomous driving (AD). However, the performance of AD systems in open, complex, and dynamic environments is still limited. Integrating robust and high-level human intelligence into AI remains a critical trend for its ongoing development and evolution. Inspired by this, this paper reviews Human Intelligence Augmented Artificial Intelligence (HIA-AI) from an AD perspective and offers a taxonomy of related methods, including learning from human demonstrations, tuning from human feedback, integrating from human mechanisms, and abstracting from human knowledge. It discusses current applications and innovations of related methods. Furthermore, this paper examines the characteristics, advantages, and disadvantages of various HIA-AI methods and points out potential future research directions."
+  }
+]

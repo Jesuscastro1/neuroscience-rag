@@ -5,3 +5,10 @@
 __pycache__/
 .ipynb_checkpoints/
 my_chroma_db/
+
+# Local environment and rebuildable runtime artifacts.
+.conda/
+data/embedding_cache.json
+data/paper_archive.sqlite3*
+data/evaluation_history/
+evaluation_run.log
